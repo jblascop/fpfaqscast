@@ -1,0 +1,930 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>4 PEC04 | FAQ Laboratorio de Fundamentos de Programación</title>
+  <meta name="description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="4 PEC04 | FAQ Laboratorio de Fundamentos de Programación" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="4 PEC04 | FAQ Laboratorio de Fundamentos de Programación" />
+  
+  <meta name="twitter:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  
+
+<meta name="author" content="Jordi Blasco Planesas" />
+
+
+<meta name="date" content="2020-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pec03.html"/>
+<link rel="next" href="pec05.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168821881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168821881-1');
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="./img/uoc.png" width="100"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="pec01.html"><a href="pec01.html"><i class="fa fa-check"></i><b>1</b> PEC01</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.1</b> Lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.2" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.2</b> Lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.3" data-path="pec01.html"><a href="pec01.html#equivalencias-lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.3</b> Equivalencias lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.4" data-path="pec01.html"><a href="pec01.html#impresión-de-valores-incorrecta"><i class="fa fa-check"></i><b>1.4</b> Impresión de valores incorrecta</a></li>
+<li class="chapter" data-level="1.5" data-path="pec01.html"><a href="pec01.html#cómo-definir-un-enumerativo"><i class="fa fa-check"></i><b>1.5</b> Cómo definir un enumerativo</a></li>
+<li class="chapter" data-level="1.6" data-path="pec01.html"><a href="pec01.html#cómo-utilizar-un-enumerativo"><i class="fa fa-check"></i><b>1.6</b> Cómo utilizar un enumerativo</a></li>
+<li class="chapter" data-level="1.7" data-path="pec01.html"><a href="pec01.html#especificador-de-un-enumerativo"><i class="fa fa-check"></i><b>1.7</b> Especificador de un enumerativo</a></li>
+<li class="chapter" data-level="1.8" data-path="pec01.html"><a href="pec01.html#lectura-de-caracteres-en-c"><i class="fa fa-check"></i><b>1.8</b> Lectura de caracteres en C</a></li>
+<li class="chapter" data-level="1.9" data-path="pec01.html"><a href="pec01.html#lectura-de-float-en-c"><i class="fa fa-check"></i><b>1.9</b> Lectura de float en C</a></li>
+<li class="chapter" data-level="1.10" data-path="pec01.html"><a href="pec01.html#frequently-made-mistakes"><i class="fa fa-check"></i><b>1.10</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="pec01.html"><a href="pec01.html#definición-de-tipos-tipo-booleano"><i class="fa fa-check"></i><b>1.10.1</b> Definición de tipos: tipo booleano</a></li>
+<li class="chapter" data-level="1.10.2" data-path="pec01.html"><a href="pec01.html#estilo-y-formato-ausencia-de-estilo-y-formato-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.10.2</b> Estilo y formato: ausencia de estilo y formato en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.10.3" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-identificadores-no-permitidos"><i class="fa fa-check"></i><b>1.10.3</b> Declaración de variables: identificadores no permitidos</a></li>
+<li class="chapter" data-level="1.10.4" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-operador-de-declaración"><i class="fa fa-check"></i><b>1.10.4</b> Declaración de variables: operador de declaración</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pec02.html"><a href="pec02.html"><i class="fa fa-check"></i><b>2</b> PEC02</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pec02.html"><a href="pec02.html#booleanos-en-c"><i class="fa fa-check"></i><b>2.1</b> Booleanos en C</a></li>
+<li class="chapter" data-level="2.2" data-path="pec02.html"><a href="pec02.html#booleanos-definidos-como-enumerativos"><i class="fa fa-check"></i><b>2.2</b> Booleanos definidos como enumerativos</a></li>
+<li class="chapter" data-level="2.3" data-path="pec02.html"><a href="pec02.html#constantes-define-vs-const"><i class="fa fa-check"></i><b>2.3</b> Constantes: define vs const</a></li>
+<li class="chapter" data-level="2.4" data-path="pec02.html"><a href="pec02.html#cómo-mostrar-el-valor-de-una-constante"><i class="fa fa-check"></i><b>2.4</b> Cómo mostrar el valor de una constante</a></li>
+<li class="chapter" data-level="2.5" data-path="pec02.html"><a href="pec02.html#precisión-en-variables-float"><i class="fa fa-check"></i><b>2.5</b> Precisión en variables float</a></li>
+<li class="chapter" data-level="2.6" data-path="pec02.html"><a href="pec02.html#semántica-de-una-expresión"><i class="fa fa-check"></i><b>2.6</b> Semántica de una expresión</a></li>
+<li class="chapter" data-level="2.7" data-path="pec02.html"><a href="pec02.html#ejemplos-de-expresiones"><i class="fa fa-check"></i><b>2.7</b> Ejemplos de expresiones</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="pec02.html"><a href="pec02.html#ejemplo-1-espar"><i class="fa fa-check"></i><b>2.7.1</b> Ejemplo 1: esPar</a></li>
+<li class="chapter" data-level="2.7.2" data-path="pec02.html"><a href="pec02.html#ejemplo-2-findesemana"><i class="fa fa-check"></i><b>2.7.2</b> Ejemplo 2: finDeSemana</a></li>
+<li class="chapter" data-level="2.7.3" data-path="pec02.html"><a href="pec02.html#ejemplo-3-esvocal"><i class="fa fa-check"></i><b>2.7.3</b> Ejemplo 3: esVocal</a></li>
+<li class="chapter" data-level="2.7.4" data-path="pec02.html"><a href="pec02.html#ejemplo-4-votaciones"><i class="fa fa-check"></i><b>2.7.4</b> Ejemplo 4: votaciones</a></li>
+<li class="chapter" data-level="2.7.5" data-path="pec02.html"><a href="pec02.html#ejemplo-5-gintonicpreparation"><i class="fa fa-check"></i><b>2.7.5</b> Ejemplo 5: ginTonicPreparation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="pec02.html"><a href="pec02.html#ejemplo-6-gintonicfreeml"><i class="fa fa-check"></i><b>2.7.6</b> Ejemplo 6: ginTonicFreeMl</a></li>
+<li class="chapter" data-level="2.7.7" data-path="pec02.html"><a href="pec02.html#ejemplo-7-scoutingbasquet"><i class="fa fa-check"></i><b>2.7.7</b> Ejemplo 7: scoutingBasquet</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="pec02.html"><a href="pec02.html#frequently-made-mistakes-1"><i class="fa fa-check"></i><b>2.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="pec02.html"><a href="pec02.html#interfaz-de-usuario-ausencia-de-textos-informativos"><i class="fa fa-check"></i><b>2.8.1</b> Interfaz de usuario: ausencia de textos informativos</a></li>
+<li class="chapter" data-level="2.8.2" data-path="pec02.html"><a href="pec02.html#caracteres-uso-de-comillas-simples"><i class="fa fa-check"></i><b>2.8.2</b> Caracteres: uso de comillas simples</a></li>
+<li class="chapter" data-level="2.8.3" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-funciones-de-lectura-escritura"><i class="fa fa-check"></i><b>2.8.3</b> Sintaxis propia de C: funciones de lectura / escritura</a></li>
+<li class="chapter" data-level="2.8.4" data-path="pec02.html"><a href="pec02.html#conversión-de-tipos-funciones-inexistentes"><i class="fa fa-check"></i><b>2.8.4</b> Conversión de tipos: funciones inexistentes</a></li>
+<li class="chapter" data-level="2.8.5" data-path="pec02.html"><a href="pec02.html#expresiones-variables-intermedias"><i class="fa fa-check"></i><b>2.8.5</b> Expresiones: variables intermedias</a></li>
+<li class="chapter" data-level="2.8.6" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-bloque-central-de-código"><i class="fa fa-check"></i><b>2.8.6</b> Declaración de variables: declaración mal ubicada (bloque central de código)</a></li>
+<li class="chapter" data-level="2.8.7" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-variables-globales"><i class="fa fa-check"></i><b>2.8.7</b> Declaración de variables: declaración mal ubicada (variables globales)</a></li>
+<li class="chapter" data-level="2.8.8" data-path="pec02.html"><a href="pec02.html#tipo-booleano-valores-numéricos"><i class="fa fa-check"></i><b>2.8.8</b> Tipo booleano: valores numéricos</a></li>
+<li class="chapter" data-level="2.8.9" data-path="pec02.html"><a href="pec02.html#tipo-booleano-cadenas-de-caracteres"><i class="fa fa-check"></i><b>2.8.9</b> Tipo booleano: cadenas de caracteres</a></li>
+<li class="chapter" data-level="2.8.10" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-operadores"><i class="fa fa-check"></i><b>2.8.10</b> Sintaxis propia de C: operadores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="pec03.html"><a href="pec03.html"><i class="fa fa-check"></i><b>3</b> PEC03</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="pec03.html"><a href="pec03.html#cómo-declarar-un-vector-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.1</b> Cómo declarar un vector en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.2" data-path="pec03.html"><a href="pec03.html#significado-de-los-argumentos-del-main"><i class="fa fa-check"></i><b>3.2</b> Significado de los argumentos del main</a></li>
+<li class="chapter" data-level="3.3" data-path="pec03.html"><a href="pec03.html#asignar-valores-a-un-vector"><i class="fa fa-check"></i><b>3.3</b> Asignar valores a un vector</a></li>
+<li class="chapter" data-level="3.4" data-path="pec03.html"><a href="pec03.html#stack-smashing-detected"><i class="fa fa-check"></i><b>3.4</b> Stack smashing detected</a></li>
+<li class="chapter" data-level="3.5" data-path="pec03.html"><a href="pec03.html#concatenación-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.5</b> Concatenación en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.6" data-path="pec03.html"><a href="pec03.html#importancia-de-los-tipos-utilizados-en-lenguaje-c"><i class="fa fa-check"></i><b>3.6</b> Importancia de los tipos utilizados en lenguaje C</a></li>
+<li class="chapter" data-level="3.7" data-path="pec03.html"><a href="pec03.html#ejemplo-notafinal"><i class="fa fa-check"></i><b>3.7</b> Ejemplo: notaFinal</a></li>
+<li class="chapter" data-level="3.8" data-path="pec03.html"><a href="pec03.html#frequently-made-mistakes-2"><i class="fa fa-check"></i><b>3.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="pec03.html"><a href="pec03.html#strings-declaración-como-vectores-de-caracteres-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.8.1</b> Strings: declaración como vectores de caracteres en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.8.2" data-path="pec03.html"><a href="pec03.html#sintaxis-propia-de-c-funciones-complejas"><i class="fa fa-check"></i><b>3.8.2</b> Sintaxis propia de C: funciones complejas</a></li>
+<li class="chapter" data-level="3.8.3" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-consecutivos"><i class="fa fa-check"></i><b>3.8.3</b> Estructura alternativa: if s consecutivos</a></li>
+<li class="chapter" data-level="3.8.4" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-vacíos"><i class="fa fa-check"></i><b>3.8.4</b> Estructura alternativa: if s vacíos</a></li>
+<li class="chapter" data-level="3.8.5" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-i"><i class="fa fa-check"></i><b>3.8.5</b> Estructura alternativa: interrumpir un algoritmo (I)</a></li>
+<li class="chapter" data-level="3.8.6" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-ii"><i class="fa fa-check"></i><b>3.8.6</b> Estructura alternativa: interrumpir un algoritmo (II)</a></li>
+<li class="chapter" data-level="3.8.7" data-path="pec03.html"><a href="pec03.html#constantes-y-números-valores-numéricos-al-código-hardcode"><i class="fa fa-check"></i><b>3.8.7</b> Constantes y números: Valores numéricos al código (hardcode)</a></li>
+<li class="chapter" data-level="3.8.8" data-path="pec03.html"><a href="pec03.html#constantes-declaración-de-constantes-mal-ubicada"><i class="fa fa-check"></i><b>3.8.8</b> Constantes: declaración de constantes mal ubicada</a></li>
+<li class="chapter" data-level="3.8.9" data-path="pec03.html"><a href="pec03.html#strings-comparación-directa"><i class="fa fa-check"></i><b>3.8.9</b> Strings: comparación directa</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="pec04.html"><a href="pec04.html"><i class="fa fa-check"></i><b>4</b> PEC04</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="pec04.html"><a href="pec04.html#como-tratar-elementos-de-un-vector-con-un-bucle"><i class="fa fa-check"></i><b>4.1</b> Como tratar elementos de un vector con un bucle</a></li>
+<li class="chapter" data-level="4.2" data-path="pec04.html"><a href="pec04.html#entrada-continua-de-valores-con-un-bucle"><i class="fa fa-check"></i><b>4.2</b> Entrada continua de valores con un bucle</a></li>
+<li class="chapter" data-level="4.3" data-path="pec04.html"><a href="pec04.html#como-tratar-valores-en-múltiples-vectores"><i class="fa fa-check"></i><b>4.3</b> Como tratar valores en múltiples vectores</a></li>
+<li class="chapter" data-level="4.4" data-path="pec04.html"><a href="pec04.html#definición-chars-vs-strings"><i class="fa fa-check"></i><b>4.4</b> Definición chars vs strings</a></li>
+<li class="chapter" data-level="4.5" data-path="pec04.html"><a href="pec04.html#ejemplo-pesopromedio"><i class="fa fa-check"></i><b>4.5</b> Ejemplo: pesoPromedio</a></li>
+<li class="chapter" data-level="4.6" data-path="pec04.html"><a href="pec04.html#frequently-made-mistakes-3"><i class="fa fa-check"></i><b>4.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="pec04.html"><a href="pec04.html#estructura-iterativa-for-vs-while"><i class="fa fa-check"></i><b>4.6.1</b> Estructura iterativa: for vs while</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pec05.html"><a href="pec05.html"><i class="fa fa-check"></i><b>5</b> PEC05</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="pec05.html"><a href="pec05.html#strcmp"><i class="fa fa-check"></i><b>5.1</b> strcmp()</a></li>
+<li class="chapter" data-level="5.2" data-path="pec05.html"><a href="pec05.html#scanf"><i class="fa fa-check"></i><b>5.2</b> scanf()</a></li>
+<li class="chapter" data-level="5.3" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strcmp"><i class="fa fa-check"></i><b>5.3</b> El finalizador ‘\0’ y strcmp()</a></li>
+<li class="chapter" data-level="5.4" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strlen"><i class="fa fa-check"></i><b>5.4</b> El finalizador ‘\0’ y strlen()</a></li>
+<li class="chapter" data-level="5.5" data-path="pec05.html"><a href="pec05.html#ejemplo-comparacionstrings"><i class="fa fa-check"></i><b>5.5</b> Ejemplo: comparacionStrings</a></li>
+<li class="chapter" data-level="5.6" data-path="pec05.html"><a href="pec05.html#ejemplo-nóminas"><i class="fa fa-check"></i><b>5.6</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="5.7" data-path="pec05.html"><a href="pec05.html#ejemplo-brisca"><i class="fa fa-check"></i><b>5.7</b> Ejemplo: brisca</a></li>
+<li class="chapter" data-level="5.8" data-path="pec05.html"><a href="pec05.html#frequently-made-mistakes-4"><i class="fa fa-check"></i><b>5.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-de-tuplas-mal-ubicada"><i class="fa fa-check"></i><b>5.8.1</b> Definición de tipo: definición de tuplas mal ubicada</a></li>
+<li class="chapter" data-level="5.8.2" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-mal-ubicada"><i class="fa fa-check"></i><b>5.8.2</b> Definición de tipo: definición mal ubicada</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="pec06.html"><a href="pec06.html"><i class="fa fa-check"></i><b>6</b> PEC06</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="pec06.html"><a href="pec06.html#diferencias-entre-funciones-y-acciones"><i class="fa fa-check"></i><b>6.1</b> Diferencias entre funciones y acciones</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="pec06.html"><a href="pec06.html#parámetros-de-entrada-in"><i class="fa fa-check"></i><b>6.1.1</b> Parámetros de entrada (in)</a></li>
+<li class="chapter" data-level="6.1.2" data-path="pec06.html"><a href="pec06.html#parámetros-de-salida-out"><i class="fa fa-check"></i><b>6.1.2</b> Parámetros de salida (out)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="pec06.html"><a href="pec06.html#parámetros-de-entradasalida-inout"><i class="fa fa-check"></i><b>6.1.3</b> Parámetros de entrada/salida (inout)</a></li>
+<li class="chapter" data-level="6.1.4" data-path="pec06.html"><a href="pec06.html#tuplas-como-parámetros"><i class="fa fa-check"></i><b>6.1.4</b> Tuplas como parámetros</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-acciones"><i class="fa fa-check"></i><b>6.2</b> Ejemplo: uso de acciones</a></li>
+<li class="chapter" data-level="6.3" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-funciones"><i class="fa fa-check"></i><b>6.3</b> Ejemplo: uso de funciones</a></li>
+<li class="chapter" data-level="6.4" data-path="pec06.html"><a href="pec06.html#ejemplo-nóminas-1"><i class="fa fa-check"></i><b>6.4</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="6.5" data-path="pec06.html"><a href="pec06.html#pivoteDefensiva"><i class="fa fa-check"></i><b>6.5</b> Ejemplo: pivoteDefensiva</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="pec06.html"><a href="pec06.html#explicación-sobre-la-acción-copiarjugadora"><i class="fa fa-check"></i><b>6.5.1</b> Explicación sobre la acción copiarJugadora()</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="pec06.html"><a href="pec06.html#frequently-made-mistakes-5"><i class="fa fa-check"></i><b>6.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-noms-de-paràmetres"><i class="fa fa-check"></i><b>6.6.1</b> Definició d’accions/funcions: noms de paràmetres</a></li>
+<li class="chapter" data-level="6.6.2" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-tipus-de-paràmetres"><i class="fa fa-check"></i><b>6.6.2</b> Definició d’accions/funcions: tipus de paràmetres</a></li>
+<li class="chapter" data-level="6.6.3" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-tipos-de-datos-de-regreso"><i class="fa fa-check"></i><b>6.6.3</b> Definición de funciones: tipos de datos de regreso</a></li>
+<li class="chapter" data-level="6.6.4" data-path="pec06.html"><a href="pec06.html#definición-de-acciones-retorno-de-valor"><i class="fa fa-check"></i><b>6.6.4</b> Definición de acciones: retorno de valor</a></li>
+<li class="chapter" data-level="6.6.5" data-path="pec06.html"><a href="pec06.html#definición-de-accionesfunciones-acciones-abiertas"><i class="fa fa-check"></i><b>6.6.5</b> Definición de acciones/funciones: acciones abiertas</a></li>
+<li class="chapter" data-level="6.6.6" data-path="pec06.html"><a href="pec06.html#llamada-a-funcionesacciones-tipos-de-parámetros"><i class="fa fa-check"></i><b>6.6.6</b> Llamada a funciones/acciones: tipos de parámetros</a></li>
+<li class="chapter" data-level="6.6.7" data-path="pec06.html"><a href="pec06.html#llamada-a-accionesfunciones-palabras-reservadas"><i class="fa fa-check"></i><b>6.6.7</b> Llamada a acciones/funciones: palabras reservadas</a></li>
+<li class="chapter" data-level="6.6.8" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-llamada-vacía"><i class="fa fa-check"></i><b>6.6.8</b> Llamada a funciones: llamada vacía</a></li>
+<li class="chapter" data-level="6.6.9" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-ausencia-de-parámetros"><i class="fa fa-check"></i><b>6.6.9</b> Llamada a funciones: ausencia de parámetros</a></li>
+<li class="chapter" data-level="6.6.10" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-errores-de-sintaxis-múltiples"><i class="fa fa-check"></i><b>6.6.10</b> Llamada a funciones: errores de sintaxis múltiples</a></li>
+<li class="chapter" data-level="6.6.11" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-funciones-dentro-del-main"><i class="fa fa-check"></i><b>6.6.11</b> Definición de funciones: funciones dentro del main</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pec07.html"><a href="pec07.html"><i class="fa fa-check"></i><b>7</b> PEC07</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pec07.html"><a href="pec07.html#cuándo-utilizar-dentro-de-funcionesacciones"><i class="fa fa-check"></i><b>7.1</b> Cuándo utilizar &amp; dentro de funciones/acciones</a></li>
+<li class="chapter" data-level="7.2" data-path="pec07.html"><a href="pec07.html#ejemplo-cómo-modular-un-programa-con-codelite"><i class="fa fa-check"></i><b>7.2</b> Ejemplo: cómo modular un programa con CodeLite</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="pec07.html"><a href="pec07.html#funcionamiento-por-defecto-de-un-proyecto-a-codelite"><i class="fa fa-check"></i><b>7.2.1</b> Funcionamiento por defecto de un proyecto a CodeLite:</a></li>
+<li class="chapter" data-level="7.2.2" data-path="pec07.html"><a href="pec07.html#ejecutable-dentro-de-bin."><i class="fa fa-check"></i><b>7.2.2</b> Ejecutable dentro de /bin.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="pec07.html"><a href="pec07.html#modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones."><i class="fa fa-check"></i><b>7.2.3</b> Modularización del programa en un archivo de cabeceras y uno de funciones.</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="pec07.html"><a href="pec07.html#tipo-de-parámetros-en-acciones-y-funciones"><i class="fa fa-check"></i><b>7.3</b> Tipo de parámetros en acciones y funciones</a></li>
+<li class="chapter" data-level="7.4" data-path="pec07.html"><a href="pec07.html#scanf-acción-o-función"><i class="fa fa-check"></i><b>7.4</b> scanf(): acción o función?</a></li>
+<li class="chapter" data-level="7.5" data-path="pec07.html"><a href="pec07.html#paso-por-valor-vs-paso-por-referencia"><i class="fa fa-check"></i><b>7.5</b> Paso por valor vs paso por referencia</a></li>
+<li class="chapter" data-level="7.6" data-path="pec07.html"><a href="pec07.html#ejemplo-invertirpalabra"><i class="fa fa-check"></i><b>7.6</b> Ejemplo: invertirPalabra</a></li>
+<li class="chapter" data-level="7.7" data-path="pec07.html"><a href="pec07.html#ejemplo-ispar"><i class="fa fa-check"></i><b>7.7</b> Ejemplo: isPar</a></li>
+<li class="chapter" data-level="7.8" data-path="pec07.html"><a href="pec07.html#ejemplo-pivotedefensivatiroslibres"><i class="fa fa-check"></i><b>7.8</b> Ejemplo: pivoteDefensivaTirosLibres</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pec08.html"><a href="pec08.html"><i class="fa fa-check"></i><b>8</b> PEC08</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="pec08.html"><a href="pec08.html#cómo-inicializar-una-tabla"><i class="fa fa-check"></i><b>8.1</b> Cómo inicializar una tabla</a></li>
+<li class="chapter" data-level="8.2" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota"><i class="fa fa-check"></i><b>8.2</b> Ejemplo: calcularNota</a></li>
+<li class="chapter" data-level="8.3" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota-con-introducción-iterativa"><i class="fa fa-check"></i><b>8.3</b> Ejemplo: calcularNota con introducción iterativa</a></li>
+<li class="chapter" data-level="8.4" data-path="pec08.html"><a href="pec08.html#ejemplo-recorrido-vs-búsqueda"><i class="fa fa-check"></i><b>8.4</b> Ejemplo: recorrido vs búsqueda</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="pec09.html"><a href="pec09.html"><i class="fa fa-check"></i><b>9</b> PEC09</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="pec09.html"><a href="pec09.html#ejemplo-listacartas"><i class="fa fa-check"></i><b>9.1</b> Ejemplo: listaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="pec10.html"><a href="pec10.html"><i class="fa fa-check"></i><b>10</b> PEC10</a></li>
+<li class="chapter" data-level="11" data-path="pr1.html"><a href="pr1.html"><i class="fa fa-check"></i><b>11</b> PR1</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pr1.html"><a href="pr1.html#modo-menu-vs-modo-test"><i class="fa fa-check"></i><b>11.1</b> Modo menu vs modo test</a></li>
+<li class="chapter" data-level="11.2" data-path="pr1.html"><a href="pr1.html#ejemplo-tupla-dentro-de-tupla"><i class="fa fa-check"></i><b>11.2</b> Ejemplo: tupla dentro de tupla</a></li>
+<li class="chapter" data-level="11.3" data-path="pr1.html"><a href="pr1.html#desplazamiento-de-elementos-en-un-vector"><i class="fa fa-check"></i><b>11.3</b> Desplazamiento de elementos en un vector</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="pr1.html"><a href="pr1.html#añadir-un-elemento"><i class="fa fa-check"></i><b>11.3.1</b> Añadir un elemento</a></li>
+<li class="chapter" data-level="11.3.2" data-path="pr1.html"><a href="pr1.html#borrar-un-elemento"><i class="fa fa-check"></i><b>11.3.2</b> Borrar un elemento</a></li>
+<li class="chapter" data-level="11.3.3" data-path="pr1.html"><a href="pr1.html#ejemplo-diassemana"><i class="fa fa-check"></i><b>11.3.3</b> Ejemplo: diasSemana</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="pr2.html"><a href="pr2.html"><i class="fa fa-check"></i><b>12</b> PR2</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="pr2.html"><a href="pr2.html#ejemplo-pilacartas"><i class="fa fa-check"></i><b>12.1</b> Ejemplo: pilaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html"><i class="fa fa-check"></i><b>13</b> VMWare y CodeLite</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#por-qué-una-máquina-virtual"><i class="fa fa-check"></i><b>13.1</b> ¿Por qué una máquina virtual?</a></li>
+<li class="chapter" data-level="13.2" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#virtualbox-y-requerimientos-de-virtualización"><i class="fa fa-check"></i><b>13.2</b> VirtualBox y requerimientos de virtualización</a></li>
+<li class="chapter" data-level="13.3" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-instalar-las-guest-additions"><i class="fa fa-check"></i><b>13.3</b> Cómo instalar las Guest Additions</a></li>
+<li class="chapter" data-level="13.4" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#primeros-pasos-con-codelite"><i class="fa fa-check"></i><b>13.4</b> Primeros pasos con CodeLite</a></li>
+<li class="chapter" data-level="13.5" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-activar-un-proyecto"><i class="fa fa-check"></i><b>13.5</b> Cómo activar un proyecto</a></li>
+<li class="chapter" data-level="13.6" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cambiar-idioma-del-teclado"><i class="fa fa-check"></i><b>13.6</b> Cambiar idioma del teclado</a></li>
+<li class="chapter" data-level="13.7" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#programa-por-defecto-al-crear-un-proyecto"><i class="fa fa-check"></i><b>13.7</b> Programa por defecto al crear un proyecto</a></li>
+<li class="chapter" data-level="13.8" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-fijar-el-kernel-de-inicio-con-lubuntu"><i class="fa fa-check"></i><b>13.8</b> Cómo fijar el kernel de inicio con Lubuntu</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="otros.html"><a href="otros.html"><i class="fa fa-check"></i><b>14</b> Otros</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="otros.html"><a href="otros.html#bibliografía"><i class="fa fa-check"></i><b>14.1</b> Bibliografía</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://www.uoc.edu" target="blank">www.uoc.edu</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAQ Laboratorio de Fundamentos de Programación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pec04" class="section level1" number="4">
+<h1 number="4"><span class="header-section-number">4</span> PEC04</h1>
+<div id="como-tratar-elementos-de-un-vector-con-un-bucle" class="section level2" number="4.1">
+<h2 number="4.1"><span class="header-section-number">4.1</span> Como tratar elementos de un vector con un bucle</h2>
+<p>Imaginemos que nos piden un programa que realice dos acciones:</p>
+<ol style="list-style-type: decimal">
+<li>Leer desde el canal estándar de entrada (teclado) 5 números e introducirlos en un vector de enteros.</li>
+<li>Mostrar por el canal estándar de salida (pantalla) los 5 números del vector de enteros del punto anterior.</li>
+</ol>
+<p>El algoritmo podría ser el siguiente:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>const
+   MAX_NUMS: integer = 5;
+end const
+
+algorithm vectorDeNumeros
+   var
+      i: integer;
+      vectorNumeros: vector[MAX_NUMS] of integer;
+   end var
+
+   { Asignar valor a cada posición del vector desde teclado }
+   for i := 1 to MAX_NUMS do
+      writeString(&quot;Introduce número : &quot;);
+      vectorNumeros[i] := readInteger();
+   end for
+
+   { Mostrar por pantalla qué valor hay en cada posición del vector: }
+   { se podría haber usado un bucle for, pero lo implementamos con un while }
+   { para que se vea que también es posible hacerlo con este bucle }
+   i := 1;
+
+   while i ≤ MAX_NUMS do
+      writeString(&quot;La posición &quot;);
+      writeInteger(i);
+      writeString(&quot; del vector contiene el número &quot;);
+      writeInteger(vectorNumeros[i]);
+
+      { En un bucle while es muy importante incrementar la variable usada como índice }
+      { antes de finalizar el bloque de instrucciones que ejecuta, ya que en caso contrario }
+      { su valor sempre sería i == 1 }
+      i := i+1;
+   end while
+
+end algorithm</code></pre>
+<p>Como se puede ver, con el fin de insertar/leer los elementos de un vector aprovechamos la iteración de un bucle para recorrerlos todos, uno a uno, mediante una variable que utilizamos de índice (en estos casos, la variable <code>i</code>).</p>
+<p>La traducción a C del algoritmo podría ser así:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb114"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb114-1"><a href="pec04.html#cb114-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb114-2"><a href="pec04.html#cb114-2"></a><span class="pp">#define MAX_NUMS 5</span></span>
+<span id="cb114-3"><a href="pec04.html#cb114-3"></a></span>
+<span id="cb114-4"><a href="pec04.html#cb114-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb114-5"><a href="pec04.html#cb114-5"></a>    <span class="dt">int</span> vectorNumeros [MAX_NUMS];</span>
+<span id="cb114-6"><a href="pec04.html#cb114-6"></a>    <span class="dt">int</span> i;</span>
+<span id="cb114-7"><a href="pec04.html#cb114-7"></a></span>
+<span id="cb114-8"><a href="pec04.html#cb114-8"></a>    <span class="co">/* Asignar valor a cada posición del vector desde teclado */</span></span>
+<span id="cb114-9"><a href="pec04.html#cb114-9"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; i &lt; MAX_NUMS; i++) {</span>
+<span id="cb114-10"><a href="pec04.html#cb114-10"></a>        printf(<span class="st">&quot;Introduce número : &quot;</span>);</span>
+<span id="cb114-11"><a href="pec04.html#cb114-11"></a>        scanf(<span class="st">&quot;%d&quot;</span>, &amp;vectorNumeros[i]);</span>
+<span id="cb114-12"><a href="pec04.html#cb114-12"></a>    }</span>
+<span id="cb114-13"><a href="pec04.html#cb114-13"></a></span>
+<span id="cb114-14"><a href="pec04.html#cb114-14"></a>    <span class="co">/* Mostrar por pantalla qué valor hay en cada posición del vector:</span></span>
+<span id="cb114-15"><a href="pec04.html#cb114-15"></a><span class="co">     * se podría haber usado un bucle for, pero lo implementamos con un while</span></span>
+<span id="cb114-16"><a href="pec04.html#cb114-16"></a><span class="co">     * para que se vea que también es posible hacerlo con este bucle</span></span>
+<span id="cb114-17"><a href="pec04.html#cb114-17"></a><span class="co">     */</span></span>
+<span id="cb114-18"><a href="pec04.html#cb114-18"></a>    i = <span class="dv">0</span>;</span>
+<span id="cb114-19"><a href="pec04.html#cb114-19"></a></span>
+<span id="cb114-20"><a href="pec04.html#cb114-20"></a>    <span class="cf">while</span> (i &lt; MAX_NUMS) {</span>
+<span id="cb114-21"><a href="pec04.html#cb114-21"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">La posició %d del vector conté el número %d&quot;</span>, i, vectorNumeros[i]);</span>
+<span id="cb114-22"><a href="pec04.html#cb114-22"></a>        <span class="co">/* En un bucle while es muy importante incrementar la variable usada como índice</span></span>
+<span id="cb114-23"><a href="pec04.html#cb114-23"></a><span class="co">         * antes de finalizar el bloque de instrucciones que ejecuta, ya que en caso contrario</span></span>
+<span id="cb114-24"><a href="pec04.html#cb114-24"></a><span class="co">         * su valor sempre sería i == 1</span></span>
+<span id="cb114-25"><a href="pec04.html#cb114-25"></a><span class="co">         */</span></span>
+<span id="cb114-26"><a href="pec04.html#cb114-26"></a>        i = i+<span class="dv">1</span>;</span>
+<span id="cb114-27"><a href="pec04.html#cb114-27"></a>    }</span>
+<span id="cb114-28"><a href="pec04.html#cb114-28"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb114-29"><a href="pec04.html#cb114-29"></a>}</span></code></pre></div>
+</div>
+<div id="entrada-continua-de-valores-con-un-bucle" class="section level2" number="4.2">
+<h2 number="4.2"><span class="header-section-number">4.2</span> Entrada continua de valores con un bucle</h2>
+<p>Imaginemos que tenemos que hacer un programa que vaya pidiendo números indefinidamente y que finalice únicamente en el caso de que el número ingresado sea par.</p>
+<p>Una posible forma de hacerlo usando un único <code>while</code> sería la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb115"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb115-1"><a href="pec04.html#cb115-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb115-2"><a href="pec04.html#cb115-2"></a></span>
+<span id="cb115-3"><a href="pec04.html#cb115-3"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb115-4"><a href="pec04.html#cb115-4"></a>    <span class="dt">int</span> numero;</span>
+<span id="cb115-5"><a href="pec04.html#cb115-5"></a></span>
+<span id="cb115-6"><a href="pec04.html#cb115-6"></a>    <span class="co">/* Pedimos una primera vez el número validar</span></span>
+<span id="cb115-7"><a href="pec04.html#cb115-7"></a><span class="co">     * justo antes de entrar en el bucle</span></span>
+<span id="cb115-8"><a href="pec04.html#cb115-8"></a><span class="co">     */</span></span>
+<span id="cb115-9"><a href="pec04.html#cb115-9"></a>    printf(<span class="st">&quot;Teclea un número par : &quot;</span>);</span>
+<span id="cb115-10"><a href="pec04.html#cb115-10"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;numero);</span>
+<span id="cb115-11"><a href="pec04.html#cb115-11"></a></span>
+<span id="cb115-12"><a href="pec04.html#cb115-12"></a>    <span class="cf">while</span> ((numero % <span class="dv">2</span>) != <span class="dv">0</span>) {</span>
+<span id="cb115-13"><a href="pec04.html#cb115-13"></a>        <span class="co">/* Entra en el bucle en el caso de que el</span></span>
+<span id="cb115-14"><a href="pec04.html#cb115-14"></a><span class="co">         * resto de la división por 2 sea</span></span>
+<span id="cb115-15"><a href="pec04.html#cb115-15"></a><span class="co">         * diferente de 0 (equivale a no ser par)</span></span>
+<span id="cb115-16"><a href="pec04.html#cb115-16"></a><span class="co">         */</span></span>
+<span id="cb115-17"><a href="pec04.html#cb115-17"></a>        printf(<span class="st">&quot;El número %d no es par !!</span><span class="sc">\n</span><span class="st">&quot;</span>, numero);</span>
+<span id="cb115-18"><a href="pec04.html#cb115-18"></a> </span>
+<span id="cb115-19"><a href="pec04.html#cb115-19"></a>        <span class="co">/* Volvemos a pedir un número, ahora ya</span></span>
+<span id="cb115-20"><a href="pec04.html#cb115-20"></a><span class="co">         * dentro del bucle</span></span>
+<span id="cb115-21"><a href="pec04.html#cb115-21"></a><span class="co">         */</span></span>
+<span id="cb115-22"><a href="pec04.html#cb115-22"></a>        printf(<span class="st">&quot;Teclea un número par : &quot;</span>);</span>
+<span id="cb115-23"><a href="pec04.html#cb115-23"></a>        scanf(<span class="st">&quot;%d&quot;</span>, &amp;numero);</span>
+<span id="cb115-24"><a href="pec04.html#cb115-24"></a>    }</span>
+<span id="cb115-25"><a href="pec04.html#cb115-25"></a></span>
+<span id="cb115-26"><a href="pec04.html#cb115-26"></a>    printf(<span class="st">&quot;El número %d és par</span><span class="sc">\n</span><span class="st">&quot;</span>, numero);</span>
+<span id="cb115-27"><a href="pec04.html#cb115-27"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb115-28"><a href="pec04.html#cb115-28"></a>}</span></code></pre></div>
+<p>Antes de entrar en el bucle pedimos el valor de la variable <code>numero</code>. A continuación se utiliza la condición de bucle para validar si se trata de un número par o impar:</p>
+<ul>
+<li>Si el número es par, no se entra al bucle.</li>
+<li>Si el número es impar se cumple la condición del bucle y se entra; dentro del bucle se vuelve a pedir un valor para la variable numero y se vuelve a actuar igual que antes:
+<ul>
+<li>Si es impar, no se sale del bucle.</li>
+<li>En caso contrario, se sale del bucle.</li>
+</ul></li>
+</ul>
+<p>Finalmente se muestra por pantalla el mensaje <em>“El número X es par”</em>.</p>
+</div>
+<div id="como-tratar-valores-en-múltiples-vectores" class="section level2" number="4.3">
+<h2 number="4.3"><span class="header-section-number">4.3</span> Como tratar valores en múltiples vectores</h2>
+<p>Imaginemos que queremos introducir por teclado una serie de datos de los trabajadores de nuestra empresa: DNI, días de antigüedad y sueldo bruto anual. Estos datos los introduciremos en tres vectores diferentes: uno para los DNI, el otro por la antigüedad y el último por el sueldo bruto anual. El valor del sueldo neto menual se calculará a partir del bruto y se guardará también en un vector.</p>
+<p>El programa debe pedir por teclado los datos de 5 empleados, y al finalizar mostrará los valores por pantalla de la siguiente forma:</p>
+<p>
+<img src="img/play.png" style="float:left; padding:10px" />
+</p>
+<pre><code>&gt;&gt; empleado: 39284019x
+   antigüedad (días): 784
+   bruto anual (€): 36874.78
+   neto mensual (€): 1659.36
+
+&gt;&gt; empleado: 31214557m
+   antigüedad (días): 128
+   bruto anual (€): 20015.30
+   neto mensual (€): 1086.54</code></pre>
+<p>El sueldo neto mensual se calcula aplicando la siguiente retención y posteriormente dividiendo por 14 pagas:</p>
+<table>
+<thead>
+<tr class="header">
+<th align="center">sueldo bruto</th>
+<th align="center">retención</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="center">sueldo &lt; 12450.0€</td>
+<td align="center">19.0%</td>
+</tr>
+<tr class="even">
+<td align="center">12450.0€ &lt;= sueldo &lt; 20200.0€</td>
+<td align="center">24.0%</td>
+</tr>
+<tr class="odd">
+<td align="center">20200.0€ &lt;= sueldo &lt; 35200.0€</td>
+<td align="center">30.0%</td>
+</tr>
+<tr class="even">
+<td align="center">35200.0€ &lt;= sueldo &lt; 60000.0€</td>
+<td align="center">37.0%</td>
+</tr>
+<tr class="odd">
+<td align="center">sueldo &gt; 60000.0€</td>
+<td align="center">45.0%</td>
+</tr>
+</tbody>
+</table>
+<p>El algoritmo podría ser el siguiente:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>const
+    MAX_ELEMS: integer = 5;
+    TRAMO1: float = 12450.0;
+    RETENCION1: float = 19.0;
+    TRAMO2: float = 20200.0;
+    RETENCION2: float = 24.0;
+    TRAMO3: float = 35200.0;
+    RETENCION3: float = 30.0;
+    TRAMO4: float = 60000.0;
+    RETENCION4: float = 37.0;
+    RETENCION5: float = 45.0;
+    NUM_PAGAS: integer = 14;
+end const
+
+algorithm datosSueldos
+    var
+        vDni: vector[MAX_ELEMS] of string;
+        vAntiguedad: vector[MAX_ELEMS] of integer;
+        vBrutoAnual: vector[MAX_ELEMS] of real;
+        vNetoMensual: vector[MAX_ELEMS] of real;
+        i: integer;
+    end var
+
+    { Lectura de datos desde el canal de entrada }
+    { Se usa un único índice, &#39;i&#39;, para recorrer todos los vectores }
+    for i := 1 to MAX_ELEMS do
+        writeString(&quot;datos empleado num. &quot;);
+        writeInteger(i);
+        writeString(&quot;:&quot;);
+        writeString(&quot;&gt;&gt; dni : &quot;);
+        vDni[i] := readString();
+        writeString(&quot;&gt;&gt; antigüedad : &quot;);
+        vAntiguedad[i] := readInteger();
+        writeString(&quot;&gt;&gt; bruto anual : &quot;);
+        vBrutoAnual[i] := readReal();
+        
+        { Cálculo del sueldo neto mensual }
+        if (vBrutoAnual[i] &lt; TRAMO1) then
+            vNetoMensual[i] := (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION1/100)) / NUM_PAGAS;
+        else
+            if (vBrutoAnual[i] &lt; TRAMO2) then
+                vNetoMensual[i] := (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION2/100)) / NUM_PAGAS;
+            else
+                if (vBrutoAnual[i] &lt; TRAMO3) then
+                    vNetoMensual[i] := (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION3/100)) / NUM_PAGAS;
+                else
+                    if (vBrutoAnual[i] &lt; TRAMO4) then
+                        vNetoMensual[i] := (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION4/100)) / NUM_PAGAS;
+                    else
+                        vNetoMensual[i] := (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION5/100)) / NUM_PAGAS;
+                    end if
+                end if
+            end if
+        end if
+    end for
+   
+    { Se muestran los datos por el canal de salida }
+    { Se usa un único índice, &#39;i&#39;, para recorrer todos los vectores }
+    for i := 1 to MAX_ELEMS do
+        writeString(&quot;&gt;&gt; empleado: &quot;);
+        writeString(vDni[i]);
+        writeString(&quot;   antigüedad (días): &quot;);
+        writeInteger(vAntiguedad[i]);
+        writeString(&quot;   bruto anual (€): &quot;);
+        writeInteger(vBrutoAnual[i]);
+        writeString(&quot;   neto mensual (€): &quot;);
+        writeInteger(vNetoMensual[i]);
+    end for
+
+end algorithm</code></pre>
+<p>Como lo podemos implementar en C? Una posible solución sería la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb118"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb118-1"><a href="pec04.html#cb118-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb118-2"><a href="pec04.html#cb118-2"></a></span>
+<span id="cb118-3"><a href="pec04.html#cb118-3"></a><span class="pp">#define MAX_ELEMS 5</span></span>
+<span id="cb118-4"><a href="pec04.html#cb118-4"></a><span class="pp">#define TRAMO1 12450.0</span></span>
+<span id="cb118-5"><a href="pec04.html#cb118-5"></a><span class="pp">#define RETENCION1 19.0</span></span>
+<span id="cb118-6"><a href="pec04.html#cb118-6"></a><span class="pp">#define TRAMO2 20200.0</span></span>
+<span id="cb118-7"><a href="pec04.html#cb118-7"></a><span class="pp">#define RETENCION2 24.0</span></span>
+<span id="cb118-8"><a href="pec04.html#cb118-8"></a><span class="pp">#define TRAMO3 35200.0</span></span>
+<span id="cb118-9"><a href="pec04.html#cb118-9"></a><span class="pp">#define RETENCION3 30.0</span></span>
+<span id="cb118-10"><a href="pec04.html#cb118-10"></a><span class="pp">#define TRAMO4 60000.0</span></span>
+<span id="cb118-11"><a href="pec04.html#cb118-11"></a><span class="pp">#define RETENCION4 37.0</span></span>
+<span id="cb118-12"><a href="pec04.html#cb118-12"></a><span class="pp">#define RETENCION5 45.0</span></span>
+<span id="cb118-13"><a href="pec04.html#cb118-13"></a><span class="pp">#define NUM_PAGAS 14</span></span>
+<span id="cb118-14"><a href="pec04.html#cb118-14"></a><span class="pp">#define MAX_DNI 9+1</span></span>
+<span id="cb118-15"><a href="pec04.html#cb118-15"></a></span>
+<span id="cb118-16"><a href="pec04.html#cb118-16"></a><span class="kw">typedef</span> <span class="dt">char</span> tDni[MAX_DNI];</span>
+<span id="cb118-17"><a href="pec04.html#cb118-17"></a></span>
+<span id="cb118-18"><a href="pec04.html#cb118-18"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb118-19"><a href="pec04.html#cb118-19"></a>    tDni vDni[MAX_ELEMS];</span>
+<span id="cb118-20"><a href="pec04.html#cb118-20"></a>    <span class="dt">int</span> vAntiguedad[MAX_ELEMS];</span>
+<span id="cb118-21"><a href="pec04.html#cb118-21"></a>    <span class="dt">float</span> vBrutoAnual[MAX_ELEMS];</span>
+<span id="cb118-22"><a href="pec04.html#cb118-22"></a>    <span class="dt">float</span> vNetoMensual[MAX_ELEMS];</span>
+<span id="cb118-23"><a href="pec04.html#cb118-23"></a>    <span class="dt">int</span> i;</span>
+<span id="cb118-24"><a href="pec04.html#cb118-24"></a></span>
+<span id="cb118-25"><a href="pec04.html#cb118-25"></a>    <span class="co">/* Lectura de datos desde el canal de entrada.</span></span>
+<span id="cb118-26"><a href="pec04.html#cb118-26"></a><span class="co">       Se usa un único índice, &#39;i&#39;, para recorrer todos los vectores */</span></span>
+<span id="cb118-27"><a href="pec04.html#cb118-27"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; i &lt; MAX_ELEMS; i++) {</span>
+<span id="cb118-28"><a href="pec04.html#cb118-28"></a>        printf(<span class="st">&quot;datos empleado núm. %d : </span><span class="sc">\n</span><span class="st">&quot;</span>, i);</span>
+<span id="cb118-29"><a href="pec04.html#cb118-29"></a>        printf(<span class="st">&quot;&gt;&gt; dni : &quot;</span>);</span>
+<span id="cb118-30"><a href="pec04.html#cb118-30"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vDni[i]);</span>
+<span id="cb118-31"><a href="pec04.html#cb118-31"></a>        printf(<span class="st">&quot;&gt;&gt; antigüedad : &quot;</span>);</span>
+<span id="cb118-32"><a href="pec04.html#cb118-32"></a>        scanf(<span class="st">&quot;%d&quot;</span>, &amp;vAntiguedad[i]);</span>
+<span id="cb118-33"><a href="pec04.html#cb118-33"></a>        printf(<span class="st">&quot;&gt;&gt; brut anual : &quot;</span>);</span>
+<span id="cb118-34"><a href="pec04.html#cb118-34"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;vBrutoAnual[i]);</span>
+<span id="cb118-35"><a href="pec04.html#cb118-35"></a>        </span>
+<span id="cb118-36"><a href="pec04.html#cb118-36"></a>        <span class="co">/* Cálculo del sueldo neto mensual */</span></span>
+<span id="cb118-37"><a href="pec04.html#cb118-37"></a>        <span class="cf">if</span> (vBrutoAnual[i] &lt; TRAMO1) {</span>
+<span id="cb118-38"><a href="pec04.html#cb118-38"></a>            vNetoMensual[i] = (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION1/<span class="dv">100</span>)) / NUM_PAGAS;</span>
+<span id="cb118-39"><a href="pec04.html#cb118-39"></a>        } <span class="cf">else</span> {</span>
+<span id="cb118-40"><a href="pec04.html#cb118-40"></a>            <span class="cf">if</span> (vBrutoAnual[i] &lt; TRAMO2) {</span>
+<span id="cb118-41"><a href="pec04.html#cb118-41"></a>                vNetoMensual[i] = (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION2/<span class="dv">100</span>)) / NUM_PAGAS;</span>
+<span id="cb118-42"><a href="pec04.html#cb118-42"></a>            } <span class="cf">else</span> {</span>
+<span id="cb118-43"><a href="pec04.html#cb118-43"></a>                <span class="cf">if</span> (vBrutoAnual[i] &lt; TRAMO3) {</span>
+<span id="cb118-44"><a href="pec04.html#cb118-44"></a>                    vNetoMensual[i] = (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION3/<span class="dv">100</span>)) / NUM_PAGAS;</span>
+<span id="cb118-45"><a href="pec04.html#cb118-45"></a>                } <span class="cf">else</span> {</span>
+<span id="cb118-46"><a href="pec04.html#cb118-46"></a>                    <span class="cf">if</span> (vBrutoAnual[i] &lt; TRAMO4) {</span>
+<span id="cb118-47"><a href="pec04.html#cb118-47"></a>                        vNetoMensual[i] = (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION4/<span class="dv">100</span>)) / NUM_PAGAS;</span>
+<span id="cb118-48"><a href="pec04.html#cb118-48"></a>                    } <span class="cf">else</span> {</span>
+<span id="cb118-49"><a href="pec04.html#cb118-49"></a>                        vNetoMensual[i] = (vBrutoAnual[i] - (vBrutoAnual[i]*RETENCION5/<span class="dv">100</span>)) / NUM_PAGAS;</span>
+<span id="cb118-50"><a href="pec04.html#cb118-50"></a>                    }</span>
+<span id="cb118-51"><a href="pec04.html#cb118-51"></a>                }</span>
+<span id="cb118-52"><a href="pec04.html#cb118-52"></a>            }</span>
+<span id="cb118-53"><a href="pec04.html#cb118-53"></a>        }</span>
+<span id="cb118-54"><a href="pec04.html#cb118-54"></a>    }</span>
+<span id="cb118-55"><a href="pec04.html#cb118-55"></a>    </span>
+<span id="cb118-56"><a href="pec04.html#cb118-56"></a>    <span class="co">/* Se muestran los datos por el canal de salida.</span></span>
+<span id="cb118-57"><a href="pec04.html#cb118-57"></a><span class="co">       Se usa un único índice, &#39;i&#39;, para recorrer todos los vectores */</span></span>
+<span id="cb118-58"><a href="pec04.html#cb118-58"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; i &lt; MAX_ELEMS; i++) {</span>
+<span id="cb118-59"><a href="pec04.html#cb118-59"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">&gt;&gt; empleado: %s </span><span class="sc">\n</span><span class="st">&quot;</span>, vDni[i]);</span>
+<span id="cb118-60"><a href="pec04.html#cb118-60"></a>        printf(<span class="st">&quot;   antigüedad (días): %d </span><span class="sc">\n</span><span class="st">&quot;</span>, vAntiguedad[i]);</span>
+<span id="cb118-61"><a href="pec04.html#cb118-61"></a>        printf(<span class="st">&quot;   bruto anual (€): %.2f </span><span class="sc">\n</span><span class="st">&quot;</span>, vBrutoAnual[i]);</span>
+<span id="cb118-62"><a href="pec04.html#cb118-62"></a>        printf(<span class="st">&quot;   neto mensual (€): %.2f </span><span class="sc">\n</span><span class="st">&quot;</span>, vNetoMensual[i]);</span>
+<span id="cb118-63"><a href="pec04.html#cb118-63"></a>    }</span>
+<span id="cb118-64"><a href="pec04.html#cb118-64"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb118-65"><a href="pec04.html#cb118-65"></a>}</span></code></pre></div>
+<p>Dentro del bucle utilizamos la variable <code>i</code> como índice para ir recorriendo todos los vectores a la vez.</p>
+<p>En ambos casos la inserción de los valores en los vectores la hacemos de la misma forma: utilizamos el índice <code>i</code> para determinar la posición del vector donde ubicaremos los valores:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb119"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb119-1"><a href="pec04.html#cb119-1"></a><span class="co">/* ... */</span></span>
+<span id="cb119-2"><a href="pec04.html#cb119-2"></a>scanf(<span class="st">&quot;%s&quot;</span>, vDni[i]);</span>
+<span id="cb119-3"><a href="pec04.html#cb119-3"></a><span class="co">/* ... */</span></span>
+<span id="cb119-4"><a href="pec04.html#cb119-4"></a>scanf(<span class="st">&quot;%d&quot;</span>, &amp;vAntiguedad[i]);</span>
+<span id="cb119-5"><a href="pec04.html#cb119-5"></a><span class="co">/* ... */</span></span>
+<span id="cb119-6"><a href="pec04.html#cb119-6"></a>scanf(<span class="st">&quot;%f&quot;</span>, &amp;vBrutoAnual[i]);</span></code></pre></div>
+<p>Al final del ejemplo mostramos todos los empleados introducidos mediante un segundo bucle, mostrando todos los datos introducidos anteriormente y las calculadas.</p>
+</div>
+<div id="definición-chars-vs-strings" class="section level2" number="4.4">
+<h2 number="4.4"><span class="header-section-number">4.4</span> Definición chars vs strings</h2>
+<p>En el lenguaje C, los caracteres se definen siempre con comilla simple <code>'</code>, mientras que por los string se utiliza la comilla doble <code>"</code>.</p>
+<p>Ejemplo:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb120"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb120-1"><a href="pec04.html#cb120-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb120-2"><a href="pec04.html#cb120-2"></a></span>
+<span id="cb120-3"><a href="pec04.html#cb120-3"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb120-4"><a href="pec04.html#cb120-4"></a>    </span>
+<span id="cb120-5"><a href="pec04.html#cb120-5"></a>    <span class="co">/* Asignación de valor a un string con comilla doble */</span></span>
+<span id="cb120-6"><a href="pec04.html#cb120-6"></a>    <span class="dt">char</span> salutacion[]= <span class="st">&quot;Hi World&quot;</span>;</span>
+<span id="cb120-7"><a href="pec04.html#cb120-7"></a>    <span class="co">/* Asignación de valor a un char con comilla simple */</span></span>
+<span id="cb120-8"><a href="pec04.html#cb120-8"></a>    <span class="dt">char</span> exclamacion = <span class="ch">&#39;!&#39;</span>;</span>
+<span id="cb120-9"><a href="pec04.html#cb120-9"></a>    </span>
+<span id="cb120-10"><a href="pec04.html#cb120-10"></a>    printf(<span class="st">&quot;%s %c</span><span class="sc">\n</span><span class="st">&quot;</span>, salutacion, exclamacion);</span>
+<span id="cb120-11"><a href="pec04.html#cb120-11"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb120-12"><a href="pec04.html#cb120-12"></a>}</span></code></pre></div>
+</div>
+<div id="ejemplo-pesopromedio" class="section level2" number="4.5">
+<h2 number="4.5"><span class="header-section-number">4.5</span> Ejemplo: pesoPromedio</h2>
+<p>Imaginemos que queremos hacer un programa que nos ayude a calcular nuestro peso promedio semanal. Añadiremos por teclado las lecturas diarias de nuestro peso en el programa y, en caso de encontrar algún valor incoherente la obviará y lo volverá a pedir.</p>
+<p>En lenguaje algorítmico lo podemos implementar de la siguiente forma:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>const
+    NUM_DIAS: integer = 7;
+    PESO_MIN: real = 50.0;
+    PESO_MAX: real = 110.0;
+end const
+
+algorithm pesoPromedio
+
+    var
+        y: integer;   { Contador que utilizará nuestro programa }
+        aux: real;   { Variable auxiliar para la lectura de pesos }
+        vectorPesos: vector[NUM_DIAS] of real;   { Peso en Kg: 79.5, ... }
+        sumaPesos: real;
+    end var
+
+    y := 1;
+    sumaPesos := 0;
+
+    { Se lee desde teclado los pesos diarios, uno a uno }
+    while y ≤ NUM_DIAS do
+
+        { Leemos un valor desde el canal standard de entrada }
+        writeString( &quot;Introduce peso (Kg.):&quot;);
+        aux: = readReal();
+
+        { A continuación hay que revisar que este valor sea coherente. Tomamos como valores
+        &quot;posibles&quot; aquellos que estén entre PESO_MIN y PESO_MAX. Fijaros que la lectura
+        se guarda temporalmente en la variable aux: cuando hayamos validado que contenga un valor
+        válido, lo añadiremos dentro del vector de pesos }
+
+        if (PES_MIN ≤ aux) and (aux ≤ PES_MAX) then
+            { En este punto, la variable aux contiene un valor correcto, con lo que ya lo podemos
+            añadir al vector de pesos }
+            vectorPesos[i] := aux;
+
+            { El siguiente punto es muy importante: como ya hemos añadido el peso correcto,
+            incrementaremos la variable &#39;i&#39;, la cual nos sirve para acceder a una nueva posición
+            del vector a la siguiente iteración del bucle }
+            i = i + 1;
+
+        else
+            { En caso contrario, el peso es incorrecto con el que se muestra el correspondiente 
+            mensaje de error }
+            writeString(&quot;Peso incorrecto!&quot;);
+
+            { Importante: aquí no incrementamos la variable &#39;i&#39;, ya que el valor no es correcto; queremos
+            que en la siguiente iteración del bucle, se continúe intentando añadir el valor leído dentro
+            de la posición &#39;i&#39; del bucle}
+
+        end if
+
+        { En este punto tenemos el vectorPesos que tiene 7 (=NUM_DIES) pesos válidos }
+
+        { Ahora utilizaremos un segundo bucle para recorrer todos los valores del vector y hacer el cálculo
+        pedido: la media de todos ellos. Si hubiéramos querido, habríamos podido hacer todo
+        en un único bucle, pero he preferido separarlo para que quede más claro que se hace
+        dentro de cada uno de los dos bucles}
+
+        for i := 1 to NUM_DIAS do
+
+            { Dentro de la variable sumaPesos vamos sumando cada uno de los pesos
+            de las posiciones del vector }
+            sumaPesos: = sumaPesos + vectorPesos[i];
+       
+        end for
+
+        { Para calcular la media, únicamente nos falta dividir el valor sumaPesos por
+        número total de pesos introducidos o, lo que es lo mismo, NUM_DIAS }
+        writeString( &quot;El peso promedio semanal es:&quot;);
+        writeReal(sumaPesos / NUM_DIAS);
+
+end algorithm</code></pre>
+<p>Una posible implementación en lenguaje C de este algoritmo puede ser la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb122"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb122-1"><a href="pec04.html#cb122-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb122-2"><a href="pec04.html#cb122-2"></a></span>
+<span id="cb122-3"><a href="pec04.html#cb122-3"></a><span class="pp">#define NUM_DIAS 7</span></span>
+<span id="cb122-4"><a href="pec04.html#cb122-4"></a><span class="pp">#define PESO_MIN 50.0</span></span>
+<span id="cb122-5"><a href="pec04.html#cb122-5"></a><span class="pp">#define PESO_MAX 110.0</span></span>
+<span id="cb122-6"><a href="pec04.html#cb122-6"></a></span>
+<span id="cb122-7"><a href="pec04.html#cb122-7"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb122-8"><a href="pec04.html#cb122-8"></a>    <span class="dt">float</span> vectorPesos[NUM_DIAS];</span>
+<span id="cb122-9"><a href="pec04.html#cb122-9"></a>    <span class="dt">int</span> i;</span>
+<span id="cb122-10"><a href="pec04.html#cb122-10"></a>    <span class="dt">float</span> aux;</span>
+<span id="cb122-11"><a href="pec04.html#cb122-11"></a>    <span class="dt">float</span> sumaPesos;</span>
+<span id="cb122-12"><a href="pec04.html#cb122-12"></a></span>
+<span id="cb122-13"><a href="pec04.html#cb122-13"></a>    i = <span class="dv">0</span>; <span class="co">/* Importante! en lenguaje C los vectores empiezan por 0 */</span></span>
+<span id="cb122-14"><a href="pec04.html#cb122-14"></a>    sumaPesos = <span class="dv">0</span>;</span>
+<span id="cb122-15"><a href="pec04.html#cb122-15"></a></span>
+<span id="cb122-16"><a href="pec04.html#cb122-16"></a>    <span class="co">/* Primer bucle: introducción y validación de datos */</span></span>
+<span id="cb122-17"><a href="pec04.html#cb122-17"></a>    <span class="cf">while</span> (i&lt;NUM_DIAS) {</span>
+<span id="cb122-18"><a href="pec04.html#cb122-18"></a></span>
+<span id="cb122-19"><a href="pec04.html#cb122-19"></a>        printf(<span class="st">&quot;Introduce peso (Kg.) : &quot;</span>);</span>
+<span id="cb122-20"><a href="pec04.html#cb122-20"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;aux);</span>
+<span id="cb122-21"><a href="pec04.html#cb122-21"></a></span>
+<span id="cb122-22"><a href="pec04.html#cb122-22"></a>        <span class="cf">if</span> (PESO_MIN &lt;= aux &amp;&amp; aux &lt;= PESO_MAX) {</span>
+<span id="cb122-23"><a href="pec04.html#cb122-23"></a>            vectorPesos[i] = aux;</span>
+<span id="cb122-24"><a href="pec04.html#cb122-24"></a>            i = i+<span class="dv">1</span>;</span>
+<span id="cb122-25"><a href="pec04.html#cb122-25"></a>        } <span class="cf">else</span> {</span>
+<span id="cb122-26"><a href="pec04.html#cb122-26"></a>            printf(<span class="st">&quot;Peso incorrecto!</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb122-27"><a href="pec04.html#cb122-27"></a>        }</span>
+<span id="cb122-28"><a href="pec04.html#cb122-28"></a>    }</span>
+<span id="cb122-29"><a href="pec04.html#cb122-29"></a></span>
+<span id="cb122-30"><a href="pec04.html#cb122-30"></a>    <span class="co">/* Segundo bucle: cálculo intermedio para el promedio de pesos */</span></span>
+<span id="cb122-31"><a href="pec04.html#cb122-31"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;NUM_DIAS; i++) {</span>
+<span id="cb122-32"><a href="pec04.html#cb122-32"></a>        sumaPesos = sumaPesos + vectorPesos[i];</span>
+<span id="cb122-33"><a href="pec04.html#cb122-33"></a>    }</span>
+<span id="cb122-34"><a href="pec04.html#cb122-34"></a>    printf(<span class="st">&quot;El peso promedio semanal es : %.2f&quot;</span>, sumaPesos/NUM_DIAS);</span>
+<span id="cb122-35"><a href="pec04.html#cb122-35"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb122-36"><a href="pec04.html#cb122-36"></a>}</span></code></pre></div>
+</div>
+<div id="frequently-made-mistakes-3" class="section level2" number="4.6">
+<h2 number="4.6"><span class="header-section-number">4.6</span> Frequently Made Mistakes</h2>
+<div id="estructura-iterativa-for-vs-while" class="section level3" number="4.6.1">
+<h3 number="4.6.1"><span class="header-section-number">4.6.1</span> Estructura iterativa: for vs while</h3>
+<p>Este no es un error sintáctico o semántico, sino un error de diseño frecuente.</p>
+<p>Código incorrecto:</p>
+<p>
+<img src="img/c_err.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb123"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb123-1"><a href="pec04.html#cb123-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb123-2"><a href="pec04.html#cb123-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb123-3"><a href="pec04.html#cb123-3"></a><span class="pp">#define NUM 10</span></span>
+<span id="cb123-4"><a href="pec04.html#cb123-4"></a></span>
+<span id="cb123-5"><a href="pec04.html#cb123-5"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb123-6"><a href="pec04.html#cb123-6"></a>    <span class="dt">int</span> i;</span>
+<span id="cb123-7"><a href="pec04.html#cb123-7"></a>    <span class="dt">char</span> password[NUM] = {<span class="ch">&#39;a&#39;</span>, <span class="ch">&#39;1&#39;</span>, <span class="ch">&#39;h&#39;</span>, <span class="ch">&#39;\0&#39;</span>};</span>
+<span id="cb123-8"><a href="pec04.html#cb123-8"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; password[i] != <span class="ch">&#39;\0&#39;</span>; i++){</span>
+<span id="cb123-9"><a href="pec04.html#cb123-9"></a>        <span class="co">/* ... */</span></span>
+<span id="cb123-10"><a href="pec04.html#cb123-10"></a>    }</span>
+<span id="cb123-11"><a href="pec04.html#cb123-11"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb123-12"><a href="pec04.html#cb123-12"></a>}</span></code></pre></div>
+<p>En el código anterior, parece que queremos recorrer un vector de caracteres elemento a elemento, para ejecutar alguna acción. Para ello, decidimos utilizar un bucle y una condición final: las iteraciones se detendrán en el momento en que nos encontramos con el carácter especial <code>'\0'</code>, indicador de fin de cadena de caracteres.</p>
+<p>El problema es que el bucle <code>for</code> no es la estructura más indicada para resolver este algoritmo, ya que está pensado para repetir un bloque de código un número de veces predeterminado, basado casi siempre en un índice (<code>i</code>) que se ha de incrementar/decrementar desde un valor inicial a uno final. En este caso, la condición final no tiene nada que ver con el valor numérico del índice, por lo tanto es mucho mejor utilizar el bucle <code>while</code>.</p>
+<p>Código correcto:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb124"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb124-1"><a href="pec04.html#cb124-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb124-2"><a href="pec04.html#cb124-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb124-3"><a href="pec04.html#cb124-3"></a><span class="pp">#define NUM 10</span></span>
+<span id="cb124-4"><a href="pec04.html#cb124-4"></a></span>
+<span id="cb124-5"><a href="pec04.html#cb124-5"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb124-6"><a href="pec04.html#cb124-6"></a>    <span class="dt">int</span> i;</span>
+<span id="cb124-7"><a href="pec04.html#cb124-7"></a>    <span class="dt">char</span> password[NUM] = {<span class="ch">&#39;a&#39;</span>, <span class="ch">&#39;1&#39;</span>, <span class="ch">&#39;h&#39;</span>, <span class="ch">&#39;\0&#39;</span>};</span>
+<span id="cb124-8"><a href="pec04.html#cb124-8"></a>    i = <span class="dv">0</span>;</span>
+<span id="cb124-9"><a href="pec04.html#cb124-9"></a>    <span class="cf">while</span> (password[i] != <span class="ch">&#39;\0&#39;</span>){</span>
+<span id="cb124-10"><a href="pec04.html#cb124-10"></a>        <span class="co">/* ... */</span></span>
+<span id="cb124-11"><a href="pec04.html#cb124-11"></a>    i++;</span>
+<span id="cb124-12"><a href="pec04.html#cb124-12"></a>    }</span>
+<span id="cb124-13"><a href="pec04.html#cb124-13"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb124-14"><a href="pec04.html#cb124-14"></a>}</span></code></pre></div>
+<p>Es importante recordar que en el caso de la estructura <code>while</code>, el índice <code>i</code> <strong>no se actualiza automáticamente</strong>: se debe hacer manualmente antes de cerrar el bloque.</p>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pec03.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pec05.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/04-PEC04.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["FAQ_Laboratorio_FP.pdf", "FAQ_Laboratorio_FP.epub"],
+"toc": {
+"collapse": "section",
+"toc": true,
+"toc_float": true,
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

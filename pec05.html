@@ -1,0 +1,1036 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>5 PEC05 | FAQ Laboratorio de Fundamentos de Programación</title>
+  <meta name="description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="5 PEC05 | FAQ Laboratorio de Fundamentos de Programación" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="5 PEC05 | FAQ Laboratorio de Fundamentos de Programación" />
+  
+  <meta name="twitter:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  
+
+<meta name="author" content="Jordi Blasco Planesas" />
+
+
+<meta name="date" content="2020-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pec04.html"/>
+<link rel="next" href="pec06.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168821881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168821881-1');
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="./img/uoc.png" width="100"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="pec01.html"><a href="pec01.html"><i class="fa fa-check"></i><b>1</b> PEC01</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.1</b> Lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.2" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.2</b> Lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.3" data-path="pec01.html"><a href="pec01.html#equivalencias-lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.3</b> Equivalencias lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.4" data-path="pec01.html"><a href="pec01.html#impresión-de-valores-incorrecta"><i class="fa fa-check"></i><b>1.4</b> Impresión de valores incorrecta</a></li>
+<li class="chapter" data-level="1.5" data-path="pec01.html"><a href="pec01.html#cómo-definir-un-enumerativo"><i class="fa fa-check"></i><b>1.5</b> Cómo definir un enumerativo</a></li>
+<li class="chapter" data-level="1.6" data-path="pec01.html"><a href="pec01.html#cómo-utilizar-un-enumerativo"><i class="fa fa-check"></i><b>1.6</b> Cómo utilizar un enumerativo</a></li>
+<li class="chapter" data-level="1.7" data-path="pec01.html"><a href="pec01.html#especificador-de-un-enumerativo"><i class="fa fa-check"></i><b>1.7</b> Especificador de un enumerativo</a></li>
+<li class="chapter" data-level="1.8" data-path="pec01.html"><a href="pec01.html#lectura-de-caracteres-en-c"><i class="fa fa-check"></i><b>1.8</b> Lectura de caracteres en C</a></li>
+<li class="chapter" data-level="1.9" data-path="pec01.html"><a href="pec01.html#lectura-de-float-en-c"><i class="fa fa-check"></i><b>1.9</b> Lectura de float en C</a></li>
+<li class="chapter" data-level="1.10" data-path="pec01.html"><a href="pec01.html#frequently-made-mistakes"><i class="fa fa-check"></i><b>1.10</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="pec01.html"><a href="pec01.html#definición-de-tipos-tipo-booleano"><i class="fa fa-check"></i><b>1.10.1</b> Definición de tipos: tipo booleano</a></li>
+<li class="chapter" data-level="1.10.2" data-path="pec01.html"><a href="pec01.html#estilo-y-formato-ausencia-de-estilo-y-formato-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.10.2</b> Estilo y formato: ausencia de estilo y formato en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.10.3" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-identificadores-no-permitidos"><i class="fa fa-check"></i><b>1.10.3</b> Declaración de variables: identificadores no permitidos</a></li>
+<li class="chapter" data-level="1.10.4" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-operador-de-declaración"><i class="fa fa-check"></i><b>1.10.4</b> Declaración de variables: operador de declaración</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pec02.html"><a href="pec02.html"><i class="fa fa-check"></i><b>2</b> PEC02</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pec02.html"><a href="pec02.html#booleanos-en-c"><i class="fa fa-check"></i><b>2.1</b> Booleanos en C</a></li>
+<li class="chapter" data-level="2.2" data-path="pec02.html"><a href="pec02.html#booleanos-definidos-como-enumerativos"><i class="fa fa-check"></i><b>2.2</b> Booleanos definidos como enumerativos</a></li>
+<li class="chapter" data-level="2.3" data-path="pec02.html"><a href="pec02.html#constantes-define-vs-const"><i class="fa fa-check"></i><b>2.3</b> Constantes: define vs const</a></li>
+<li class="chapter" data-level="2.4" data-path="pec02.html"><a href="pec02.html#cómo-mostrar-el-valor-de-una-constante"><i class="fa fa-check"></i><b>2.4</b> Cómo mostrar el valor de una constante</a></li>
+<li class="chapter" data-level="2.5" data-path="pec02.html"><a href="pec02.html#precisión-en-variables-float"><i class="fa fa-check"></i><b>2.5</b> Precisión en variables float</a></li>
+<li class="chapter" data-level="2.6" data-path="pec02.html"><a href="pec02.html#semántica-de-una-expresión"><i class="fa fa-check"></i><b>2.6</b> Semántica de una expresión</a></li>
+<li class="chapter" data-level="2.7" data-path="pec02.html"><a href="pec02.html#ejemplos-de-expresiones"><i class="fa fa-check"></i><b>2.7</b> Ejemplos de expresiones</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="pec02.html"><a href="pec02.html#ejemplo-1-espar"><i class="fa fa-check"></i><b>2.7.1</b> Ejemplo 1: esPar</a></li>
+<li class="chapter" data-level="2.7.2" data-path="pec02.html"><a href="pec02.html#ejemplo-2-findesemana"><i class="fa fa-check"></i><b>2.7.2</b> Ejemplo 2: finDeSemana</a></li>
+<li class="chapter" data-level="2.7.3" data-path="pec02.html"><a href="pec02.html#ejemplo-3-esvocal"><i class="fa fa-check"></i><b>2.7.3</b> Ejemplo 3: esVocal</a></li>
+<li class="chapter" data-level="2.7.4" data-path="pec02.html"><a href="pec02.html#ejemplo-4-votaciones"><i class="fa fa-check"></i><b>2.7.4</b> Ejemplo 4: votaciones</a></li>
+<li class="chapter" data-level="2.7.5" data-path="pec02.html"><a href="pec02.html#ejemplo-5-gintonicpreparation"><i class="fa fa-check"></i><b>2.7.5</b> Ejemplo 5: ginTonicPreparation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="pec02.html"><a href="pec02.html#ejemplo-6-gintonicfreeml"><i class="fa fa-check"></i><b>2.7.6</b> Ejemplo 6: ginTonicFreeMl</a></li>
+<li class="chapter" data-level="2.7.7" data-path="pec02.html"><a href="pec02.html#ejemplo-7-scoutingbasquet"><i class="fa fa-check"></i><b>2.7.7</b> Ejemplo 7: scoutingBasquet</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="pec02.html"><a href="pec02.html#frequently-made-mistakes-1"><i class="fa fa-check"></i><b>2.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="pec02.html"><a href="pec02.html#interfaz-de-usuario-ausencia-de-textos-informativos"><i class="fa fa-check"></i><b>2.8.1</b> Interfaz de usuario: ausencia de textos informativos</a></li>
+<li class="chapter" data-level="2.8.2" data-path="pec02.html"><a href="pec02.html#caracteres-uso-de-comillas-simples"><i class="fa fa-check"></i><b>2.8.2</b> Caracteres: uso de comillas simples</a></li>
+<li class="chapter" data-level="2.8.3" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-funciones-de-lectura-escritura"><i class="fa fa-check"></i><b>2.8.3</b> Sintaxis propia de C: funciones de lectura / escritura</a></li>
+<li class="chapter" data-level="2.8.4" data-path="pec02.html"><a href="pec02.html#conversión-de-tipos-funciones-inexistentes"><i class="fa fa-check"></i><b>2.8.4</b> Conversión de tipos: funciones inexistentes</a></li>
+<li class="chapter" data-level="2.8.5" data-path="pec02.html"><a href="pec02.html#expresiones-variables-intermedias"><i class="fa fa-check"></i><b>2.8.5</b> Expresiones: variables intermedias</a></li>
+<li class="chapter" data-level="2.8.6" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-bloque-central-de-código"><i class="fa fa-check"></i><b>2.8.6</b> Declaración de variables: declaración mal ubicada (bloque central de código)</a></li>
+<li class="chapter" data-level="2.8.7" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-variables-globales"><i class="fa fa-check"></i><b>2.8.7</b> Declaración de variables: declaración mal ubicada (variables globales)</a></li>
+<li class="chapter" data-level="2.8.8" data-path="pec02.html"><a href="pec02.html#tipo-booleano-valores-numéricos"><i class="fa fa-check"></i><b>2.8.8</b> Tipo booleano: valores numéricos</a></li>
+<li class="chapter" data-level="2.8.9" data-path="pec02.html"><a href="pec02.html#tipo-booleano-cadenas-de-caracteres"><i class="fa fa-check"></i><b>2.8.9</b> Tipo booleano: cadenas de caracteres</a></li>
+<li class="chapter" data-level="2.8.10" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-operadores"><i class="fa fa-check"></i><b>2.8.10</b> Sintaxis propia de C: operadores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="pec03.html"><a href="pec03.html"><i class="fa fa-check"></i><b>3</b> PEC03</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="pec03.html"><a href="pec03.html#cómo-declarar-un-vector-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.1</b> Cómo declarar un vector en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.2" data-path="pec03.html"><a href="pec03.html#significado-de-los-argumentos-del-main"><i class="fa fa-check"></i><b>3.2</b> Significado de los argumentos del main</a></li>
+<li class="chapter" data-level="3.3" data-path="pec03.html"><a href="pec03.html#asignar-valores-a-un-vector"><i class="fa fa-check"></i><b>3.3</b> Asignar valores a un vector</a></li>
+<li class="chapter" data-level="3.4" data-path="pec03.html"><a href="pec03.html#stack-smashing-detected"><i class="fa fa-check"></i><b>3.4</b> Stack smashing detected</a></li>
+<li class="chapter" data-level="3.5" data-path="pec03.html"><a href="pec03.html#concatenación-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.5</b> Concatenación en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.6" data-path="pec03.html"><a href="pec03.html#importancia-de-los-tipos-utilizados-en-lenguaje-c"><i class="fa fa-check"></i><b>3.6</b> Importancia de los tipos utilizados en lenguaje C</a></li>
+<li class="chapter" data-level="3.7" data-path="pec03.html"><a href="pec03.html#ejemplo-notafinal"><i class="fa fa-check"></i><b>3.7</b> Ejemplo: notaFinal</a></li>
+<li class="chapter" data-level="3.8" data-path="pec03.html"><a href="pec03.html#frequently-made-mistakes-2"><i class="fa fa-check"></i><b>3.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="pec03.html"><a href="pec03.html#strings-declaración-como-vectores-de-caracteres-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.8.1</b> Strings: declaración como vectores de caracteres en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.8.2" data-path="pec03.html"><a href="pec03.html#sintaxis-propia-de-c-funciones-complejas"><i class="fa fa-check"></i><b>3.8.2</b> Sintaxis propia de C: funciones complejas</a></li>
+<li class="chapter" data-level="3.8.3" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-consecutivos"><i class="fa fa-check"></i><b>3.8.3</b> Estructura alternativa: if s consecutivos</a></li>
+<li class="chapter" data-level="3.8.4" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-vacíos"><i class="fa fa-check"></i><b>3.8.4</b> Estructura alternativa: if s vacíos</a></li>
+<li class="chapter" data-level="3.8.5" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-i"><i class="fa fa-check"></i><b>3.8.5</b> Estructura alternativa: interrumpir un algoritmo (I)</a></li>
+<li class="chapter" data-level="3.8.6" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-ii"><i class="fa fa-check"></i><b>3.8.6</b> Estructura alternativa: interrumpir un algoritmo (II)</a></li>
+<li class="chapter" data-level="3.8.7" data-path="pec03.html"><a href="pec03.html#constantes-y-números-valores-numéricos-al-código-hardcode"><i class="fa fa-check"></i><b>3.8.7</b> Constantes y números: Valores numéricos al código (hardcode)</a></li>
+<li class="chapter" data-level="3.8.8" data-path="pec03.html"><a href="pec03.html#constantes-declaración-de-constantes-mal-ubicada"><i class="fa fa-check"></i><b>3.8.8</b> Constantes: declaración de constantes mal ubicada</a></li>
+<li class="chapter" data-level="3.8.9" data-path="pec03.html"><a href="pec03.html#strings-comparación-directa"><i class="fa fa-check"></i><b>3.8.9</b> Strings: comparación directa</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="pec04.html"><a href="pec04.html"><i class="fa fa-check"></i><b>4</b> PEC04</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="pec04.html"><a href="pec04.html#como-tratar-elementos-de-un-vector-con-un-bucle"><i class="fa fa-check"></i><b>4.1</b> Como tratar elementos de un vector con un bucle</a></li>
+<li class="chapter" data-level="4.2" data-path="pec04.html"><a href="pec04.html#entrada-continua-de-valores-con-un-bucle"><i class="fa fa-check"></i><b>4.2</b> Entrada continua de valores con un bucle</a></li>
+<li class="chapter" data-level="4.3" data-path="pec04.html"><a href="pec04.html#como-tratar-valores-en-múltiples-vectores"><i class="fa fa-check"></i><b>4.3</b> Como tratar valores en múltiples vectores</a></li>
+<li class="chapter" data-level="4.4" data-path="pec04.html"><a href="pec04.html#definición-chars-vs-strings"><i class="fa fa-check"></i><b>4.4</b> Definición chars vs strings</a></li>
+<li class="chapter" data-level="4.5" data-path="pec04.html"><a href="pec04.html#ejemplo-pesopromedio"><i class="fa fa-check"></i><b>4.5</b> Ejemplo: pesoPromedio</a></li>
+<li class="chapter" data-level="4.6" data-path="pec04.html"><a href="pec04.html#frequently-made-mistakes-3"><i class="fa fa-check"></i><b>4.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="pec04.html"><a href="pec04.html#estructura-iterativa-for-vs-while"><i class="fa fa-check"></i><b>4.6.1</b> Estructura iterativa: for vs while</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pec05.html"><a href="pec05.html"><i class="fa fa-check"></i><b>5</b> PEC05</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="pec05.html"><a href="pec05.html#strcmp"><i class="fa fa-check"></i><b>5.1</b> strcmp()</a></li>
+<li class="chapter" data-level="5.2" data-path="pec05.html"><a href="pec05.html#scanf"><i class="fa fa-check"></i><b>5.2</b> scanf()</a></li>
+<li class="chapter" data-level="5.3" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strcmp"><i class="fa fa-check"></i><b>5.3</b> El finalizador ‘\0’ y strcmp()</a></li>
+<li class="chapter" data-level="5.4" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strlen"><i class="fa fa-check"></i><b>5.4</b> El finalizador ‘\0’ y strlen()</a></li>
+<li class="chapter" data-level="5.5" data-path="pec05.html"><a href="pec05.html#ejemplo-comparacionstrings"><i class="fa fa-check"></i><b>5.5</b> Ejemplo: comparacionStrings</a></li>
+<li class="chapter" data-level="5.6" data-path="pec05.html"><a href="pec05.html#ejemplo-nóminas"><i class="fa fa-check"></i><b>5.6</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="5.7" data-path="pec05.html"><a href="pec05.html#ejemplo-brisca"><i class="fa fa-check"></i><b>5.7</b> Ejemplo: brisca</a></li>
+<li class="chapter" data-level="5.8" data-path="pec05.html"><a href="pec05.html#frequently-made-mistakes-4"><i class="fa fa-check"></i><b>5.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-de-tuplas-mal-ubicada"><i class="fa fa-check"></i><b>5.8.1</b> Definición de tipo: definición de tuplas mal ubicada</a></li>
+<li class="chapter" data-level="5.8.2" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-mal-ubicada"><i class="fa fa-check"></i><b>5.8.2</b> Definición de tipo: definición mal ubicada</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="pec06.html"><a href="pec06.html"><i class="fa fa-check"></i><b>6</b> PEC06</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="pec06.html"><a href="pec06.html#diferencias-entre-funciones-y-acciones"><i class="fa fa-check"></i><b>6.1</b> Diferencias entre funciones y acciones</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="pec06.html"><a href="pec06.html#parámetros-de-entrada-in"><i class="fa fa-check"></i><b>6.1.1</b> Parámetros de entrada (in)</a></li>
+<li class="chapter" data-level="6.1.2" data-path="pec06.html"><a href="pec06.html#parámetros-de-salida-out"><i class="fa fa-check"></i><b>6.1.2</b> Parámetros de salida (out)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="pec06.html"><a href="pec06.html#parámetros-de-entradasalida-inout"><i class="fa fa-check"></i><b>6.1.3</b> Parámetros de entrada/salida (inout)</a></li>
+<li class="chapter" data-level="6.1.4" data-path="pec06.html"><a href="pec06.html#tuplas-como-parámetros"><i class="fa fa-check"></i><b>6.1.4</b> Tuplas como parámetros</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-acciones"><i class="fa fa-check"></i><b>6.2</b> Ejemplo: uso de acciones</a></li>
+<li class="chapter" data-level="6.3" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-funciones"><i class="fa fa-check"></i><b>6.3</b> Ejemplo: uso de funciones</a></li>
+<li class="chapter" data-level="6.4" data-path="pec06.html"><a href="pec06.html#ejemplo-nóminas-1"><i class="fa fa-check"></i><b>6.4</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="6.5" data-path="pec06.html"><a href="pec06.html#pivoteDefensiva"><i class="fa fa-check"></i><b>6.5</b> Ejemplo: pivoteDefensiva</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="pec06.html"><a href="pec06.html#explicación-sobre-la-acción-copiarjugadora"><i class="fa fa-check"></i><b>6.5.1</b> Explicación sobre la acción copiarJugadora()</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="pec06.html"><a href="pec06.html#frequently-made-mistakes-5"><i class="fa fa-check"></i><b>6.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-noms-de-paràmetres"><i class="fa fa-check"></i><b>6.6.1</b> Definició d’accions/funcions: noms de paràmetres</a></li>
+<li class="chapter" data-level="6.6.2" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-tipus-de-paràmetres"><i class="fa fa-check"></i><b>6.6.2</b> Definició d’accions/funcions: tipus de paràmetres</a></li>
+<li class="chapter" data-level="6.6.3" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-tipos-de-datos-de-regreso"><i class="fa fa-check"></i><b>6.6.3</b> Definición de funciones: tipos de datos de regreso</a></li>
+<li class="chapter" data-level="6.6.4" data-path="pec06.html"><a href="pec06.html#definición-de-acciones-retorno-de-valor"><i class="fa fa-check"></i><b>6.6.4</b> Definición de acciones: retorno de valor</a></li>
+<li class="chapter" data-level="6.6.5" data-path="pec06.html"><a href="pec06.html#definición-de-accionesfunciones-acciones-abiertas"><i class="fa fa-check"></i><b>6.6.5</b> Definición de acciones/funciones: acciones abiertas</a></li>
+<li class="chapter" data-level="6.6.6" data-path="pec06.html"><a href="pec06.html#llamada-a-funcionesacciones-tipos-de-parámetros"><i class="fa fa-check"></i><b>6.6.6</b> Llamada a funciones/acciones: tipos de parámetros</a></li>
+<li class="chapter" data-level="6.6.7" data-path="pec06.html"><a href="pec06.html#llamada-a-accionesfunciones-palabras-reservadas"><i class="fa fa-check"></i><b>6.6.7</b> Llamada a acciones/funciones: palabras reservadas</a></li>
+<li class="chapter" data-level="6.6.8" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-llamada-vacía"><i class="fa fa-check"></i><b>6.6.8</b> Llamada a funciones: llamada vacía</a></li>
+<li class="chapter" data-level="6.6.9" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-ausencia-de-parámetros"><i class="fa fa-check"></i><b>6.6.9</b> Llamada a funciones: ausencia de parámetros</a></li>
+<li class="chapter" data-level="6.6.10" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-errores-de-sintaxis-múltiples"><i class="fa fa-check"></i><b>6.6.10</b> Llamada a funciones: errores de sintaxis múltiples</a></li>
+<li class="chapter" data-level="6.6.11" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-funciones-dentro-del-main"><i class="fa fa-check"></i><b>6.6.11</b> Definición de funciones: funciones dentro del main</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pec07.html"><a href="pec07.html"><i class="fa fa-check"></i><b>7</b> PEC07</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pec07.html"><a href="pec07.html#cuándo-utilizar-dentro-de-funcionesacciones"><i class="fa fa-check"></i><b>7.1</b> Cuándo utilizar &amp; dentro de funciones/acciones</a></li>
+<li class="chapter" data-level="7.2" data-path="pec07.html"><a href="pec07.html#ejemplo-cómo-modular-un-programa-con-codelite"><i class="fa fa-check"></i><b>7.2</b> Ejemplo: cómo modular un programa con CodeLite</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="pec07.html"><a href="pec07.html#funcionamiento-por-defecto-de-un-proyecto-a-codelite"><i class="fa fa-check"></i><b>7.2.1</b> Funcionamiento por defecto de un proyecto a CodeLite:</a></li>
+<li class="chapter" data-level="7.2.2" data-path="pec07.html"><a href="pec07.html#ejecutable-dentro-de-bin."><i class="fa fa-check"></i><b>7.2.2</b> Ejecutable dentro de /bin.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="pec07.html"><a href="pec07.html#modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones."><i class="fa fa-check"></i><b>7.2.3</b> Modularización del programa en un archivo de cabeceras y uno de funciones.</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="pec07.html"><a href="pec07.html#tipo-de-parámetros-en-acciones-y-funciones"><i class="fa fa-check"></i><b>7.3</b> Tipo de parámetros en acciones y funciones</a></li>
+<li class="chapter" data-level="7.4" data-path="pec07.html"><a href="pec07.html#scanf-acción-o-función"><i class="fa fa-check"></i><b>7.4</b> scanf(): acción o función?</a></li>
+<li class="chapter" data-level="7.5" data-path="pec07.html"><a href="pec07.html#paso-por-valor-vs-paso-por-referencia"><i class="fa fa-check"></i><b>7.5</b> Paso por valor vs paso por referencia</a></li>
+<li class="chapter" data-level="7.6" data-path="pec07.html"><a href="pec07.html#ejemplo-invertirpalabra"><i class="fa fa-check"></i><b>7.6</b> Ejemplo: invertirPalabra</a></li>
+<li class="chapter" data-level="7.7" data-path="pec07.html"><a href="pec07.html#ejemplo-ispar"><i class="fa fa-check"></i><b>7.7</b> Ejemplo: isPar</a></li>
+<li class="chapter" data-level="7.8" data-path="pec07.html"><a href="pec07.html#ejemplo-pivotedefensivatiroslibres"><i class="fa fa-check"></i><b>7.8</b> Ejemplo: pivoteDefensivaTirosLibres</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pec08.html"><a href="pec08.html"><i class="fa fa-check"></i><b>8</b> PEC08</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="pec08.html"><a href="pec08.html#cómo-inicializar-una-tabla"><i class="fa fa-check"></i><b>8.1</b> Cómo inicializar una tabla</a></li>
+<li class="chapter" data-level="8.2" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota"><i class="fa fa-check"></i><b>8.2</b> Ejemplo: calcularNota</a></li>
+<li class="chapter" data-level="8.3" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota-con-introducción-iterativa"><i class="fa fa-check"></i><b>8.3</b> Ejemplo: calcularNota con introducción iterativa</a></li>
+<li class="chapter" data-level="8.4" data-path="pec08.html"><a href="pec08.html#ejemplo-recorrido-vs-búsqueda"><i class="fa fa-check"></i><b>8.4</b> Ejemplo: recorrido vs búsqueda</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="pec09.html"><a href="pec09.html"><i class="fa fa-check"></i><b>9</b> PEC09</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="pec09.html"><a href="pec09.html#ejemplo-listacartas"><i class="fa fa-check"></i><b>9.1</b> Ejemplo: listaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="pec10.html"><a href="pec10.html"><i class="fa fa-check"></i><b>10</b> PEC10</a></li>
+<li class="chapter" data-level="11" data-path="pr1.html"><a href="pr1.html"><i class="fa fa-check"></i><b>11</b> PR1</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pr1.html"><a href="pr1.html#modo-menu-vs-modo-test"><i class="fa fa-check"></i><b>11.1</b> Modo menu vs modo test</a></li>
+<li class="chapter" data-level="11.2" data-path="pr1.html"><a href="pr1.html#ejemplo-tupla-dentro-de-tupla"><i class="fa fa-check"></i><b>11.2</b> Ejemplo: tupla dentro de tupla</a></li>
+<li class="chapter" data-level="11.3" data-path="pr1.html"><a href="pr1.html#desplazamiento-de-elementos-en-un-vector"><i class="fa fa-check"></i><b>11.3</b> Desplazamiento de elementos en un vector</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="pr1.html"><a href="pr1.html#añadir-un-elemento"><i class="fa fa-check"></i><b>11.3.1</b> Añadir un elemento</a></li>
+<li class="chapter" data-level="11.3.2" data-path="pr1.html"><a href="pr1.html#borrar-un-elemento"><i class="fa fa-check"></i><b>11.3.2</b> Borrar un elemento</a></li>
+<li class="chapter" data-level="11.3.3" data-path="pr1.html"><a href="pr1.html#ejemplo-diassemana"><i class="fa fa-check"></i><b>11.3.3</b> Ejemplo: diasSemana</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="pr2.html"><a href="pr2.html"><i class="fa fa-check"></i><b>12</b> PR2</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="pr2.html"><a href="pr2.html#ejemplo-pilacartas"><i class="fa fa-check"></i><b>12.1</b> Ejemplo: pilaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html"><i class="fa fa-check"></i><b>13</b> VMWare y CodeLite</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#por-qué-una-máquina-virtual"><i class="fa fa-check"></i><b>13.1</b> ¿Por qué una máquina virtual?</a></li>
+<li class="chapter" data-level="13.2" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#virtualbox-y-requerimientos-de-virtualización"><i class="fa fa-check"></i><b>13.2</b> VirtualBox y requerimientos de virtualización</a></li>
+<li class="chapter" data-level="13.3" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-instalar-las-guest-additions"><i class="fa fa-check"></i><b>13.3</b> Cómo instalar las Guest Additions</a></li>
+<li class="chapter" data-level="13.4" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#primeros-pasos-con-codelite"><i class="fa fa-check"></i><b>13.4</b> Primeros pasos con CodeLite</a></li>
+<li class="chapter" data-level="13.5" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-activar-un-proyecto"><i class="fa fa-check"></i><b>13.5</b> Cómo activar un proyecto</a></li>
+<li class="chapter" data-level="13.6" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cambiar-idioma-del-teclado"><i class="fa fa-check"></i><b>13.6</b> Cambiar idioma del teclado</a></li>
+<li class="chapter" data-level="13.7" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#programa-por-defecto-al-crear-un-proyecto"><i class="fa fa-check"></i><b>13.7</b> Programa por defecto al crear un proyecto</a></li>
+<li class="chapter" data-level="13.8" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-fijar-el-kernel-de-inicio-con-lubuntu"><i class="fa fa-check"></i><b>13.8</b> Cómo fijar el kernel de inicio con Lubuntu</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="otros.html"><a href="otros.html"><i class="fa fa-check"></i><b>14</b> Otros</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="otros.html"><a href="otros.html#bibliografía"><i class="fa fa-check"></i><b>14.1</b> Bibliografía</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://www.uoc.edu" target="blank">www.uoc.edu</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAQ Laboratorio de Fundamentos de Programación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pec05" class="section level1" number="5">
+<h1 number="5"><span class="header-section-number">5</span> PEC05</h1>
+<div id="strcmp" class="section level2" number="5.1">
+<h2 number="5.1"><span class="header-section-number">5.1</span> strcmp()</h2>
+<p>¿En qué se basa <code>strcmp()</code> para decidir que, por ejemplo, la letra <code>'O'</code> es mayor que la letra <code>'A'</code>?</p>
+<p>La respuesta la tenemos en el código ASCII (numérico) que tiene asociado cada carácter. Por este motivo es normal que interprete diferente una <code>'A'</code> y una <code>'a'</code>, ya que son caracteres diferentes; de hecho según los valores ASCII, tenemos que <code>'A'</code> &lt; <code>'a'</code>.</p>
+<p>Por si queremos consultar la tabla ASCII por internet, la podemos generar nosotros mismos de la siguiente forma:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb125"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb125-1"><a href="pec05.html#cb125-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb125-2"><a href="pec05.html#cb125-2"></a></span>
+<span id="cb125-3"><a href="pec05.html#cb125-3"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb125-4"><a href="pec05.html#cb125-4"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb125-5"><a href="pec05.html#cb125-5"></a>    <span class="co">/* Relación de caracteres ASCII (únicamente se trata de un subconjunto!)</span></span>
+<span id="cb125-6"><a href="pec05.html#cb125-6"></a><span class="co">       ordenados de menor a mayor */</span></span>
+<span id="cb125-7"><a href="pec05.html#cb125-7"></a>    <span class="cf">for</span> (i=<span class="dv">33</span>; i&lt;=<span class="dv">126</span>; i++) {</span>
+<span id="cb125-8"><a href="pec05.html#cb125-8"></a>        printf(<span class="st">&quot;%d : %c</span><span class="sc">\n</span><span class="st">&quot;</span>, i, i);</span>
+<span id="cb125-9"><a href="pec05.html#cb125-9"></a>    }</span>
+<span id="cb125-10"><a href="pec05.html#cb125-10"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb125-11"><a href="pec05.html#cb125-11"></a>}</span></code></pre></div>
+</div>
+<div id="scanf" class="section level2" number="5.2">
+<h2 number="5.2"><span class="header-section-number">5.2</span> scanf()</h2>
+<p>Cuando utilizamos <code>scanf()</code> hasta ahora siempre le hemos pasado el nombre de la variable precedido por <code>&amp;</code>. Este carácter significa que le estamos pasando <strong>la posición de la memoria</strong> donde reside la variable facilitada.</p>
+<p>Así, por ejemplo, cuando hacemos la siguiente operación <code>scanf("%d", &amp;numero);</code> estamos pasando el valor que introducimos por teclado directamente a la posición de memoria donde tenemos guardada la variable <code>numero</code>. De ahí utilizar <code>&amp;numero</code> en vez de <code>numero</code>. El mismo comportamiento tenemos los tipos primitivos <code>char</code>,<code>float</code>, etc.</p>
+<p>Los vectores de caracteres en lenguaje C tienen una característica: el nombre del array contiene la dirección de memoria donde se guarda la primera posición del array.</p>
+<p>Por ejemplo, cuando ejecutamos <code>scanf("%s", cadena);</code> el valor de cadena es la dirección de memoria inicial donde está ubicado el array. Dicho de otro modo, cadena contiene el mismo valor que <code>&amp;cadena[0]</code> (es otra forma que tenemos para referirnos a la posición inicial en memoria del array).</p>
+<p>A continuación se adjunta un ejemplo con todos estos conceptos:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb126"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb126-1"><a href="pec05.html#cb126-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb126-2"><a href="pec05.html#cb126-2"></a><span class="pp">#define MAXIMO 10</span></span>
+<span id="cb126-3"><a href="pec05.html#cb126-3"></a></span>
+<span id="cb126-4"><a href="pec05.html#cb126-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb126-5"><a href="pec05.html#cb126-5"></a>    <span class="dt">char</span> cadena[MAXIMO];</span>
+<span id="cb126-6"><a href="pec05.html#cb126-6"></a>    <span class="dt">int</span> numero;</span>
+<span id="cb126-7"><a href="pec05.html#cb126-7"></a></span>
+<span id="cb126-8"><a href="pec05.html#cb126-8"></a>    printf(<span class="st">&quot;Reservada la posición de memoria %p para la variable numero</span><span class="sc">\n</span><span class="st">&quot;</span>, &amp;numero);</span>
+<span id="cb126-9"><a href="pec05.html#cb126-9"></a>    printf(<span class="st">&quot;Reservada la posición de memoria %p para la variable cadena</span><span class="sc">\n</span><span class="st">&quot;</span>, cadena);</span>
+<span id="cb126-10"><a href="pec05.html#cb126-10"></a>    printf(<span class="st">&quot;Reservada la posición de memoria %p para la variable cadena</span><span class="sc">\n</span><span class="st">&quot;</span>, &amp;cadena[<span class="dv">0</span>]);</span>
+<span id="cb126-11"><a href="pec05.html#cb126-11"></a></span>
+<span id="cb126-12"><a href="pec05.html#cb126-12"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Introduce un número entero: &quot;</span>);</span>
+<span id="cb126-13"><a href="pec05.html#cb126-13"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;numero);</span>
+<span id="cb126-14"><a href="pec05.html#cb126-14"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Introduce una cadena: &quot;</span>);</span>
+<span id="cb126-15"><a href="pec05.html#cb126-15"></a>    scanf(<span class="st">&quot;%s&quot;</span>,cadena);</span>
+<span id="cb126-16"><a href="pec05.html#cb126-16"></a></span>
+<span id="cb126-17"><a href="pec05.html#cb126-17"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Has asignado los siguientes valores :</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb126-18"><a href="pec05.html#cb126-18"></a>    printf(<span class="st">&quot;numero = %d </span><span class="sc">\n</span><span class="st">&quot;</span>, numero);</span>
+<span id="cb126-19"><a href="pec05.html#cb126-19"></a>    printf(<span class="st">&quot;cadena = %s </span><span class="sc">\n</span><span class="st">&quot;</span>, cadena);</span>
+<span id="cb126-20"><a href="pec05.html#cb126-20"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb126-21"><a href="pec05.html#cb126-21"></a>}</span></code></pre></div>
+</div>
+<div id="el-finalizador-0-y-strcmp" class="section level2" number="5.3">
+<h2 number="5.3"><span class="header-section-number">5.3</span> El finalizador ‘\0’ y strcmp()</h2>
+<p>Como se vio en el módulo <strong>Cadenas de caracteres en C</strong> de la XWiki, <em>“una cadena de caracteres o string es una secuencia de caracteres finalizada por el carácter ‘\0’”</em>. Por lo tanto tenemos que tener en cuenta que el finalizador <code>'\0'</code> quepa en nuestra variable, ya que ésta es la forma que tiene C de saber dónde termina un string en memoria.</p>
+<p>Imaginemos que tenemos tres cadenas, con el mismo contenido pero de tamaño diferente (podemos tener posiciones vacías). ¿Qué pasa si las comparamos? Y si comparamos con una cadena de mismo contenido pero sin finalizador <code>'\0'</code>?</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb127"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb127-1"><a href="pec05.html#cb127-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb127-2"><a href="pec05.html#cb127-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb127-3"><a href="pec05.html#cb127-3"></a></span>
+<span id="cb127-4"><a href="pec05.html#cb127-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb127-5"><a href="pec05.html#cb127-5"></a>    <span class="dt">char</span> ciudad1[<span class="dv">7</span>] = <span class="st">&quot;Girona&quot;</span>;</span>
+<span id="cb127-6"><a href="pec05.html#cb127-6"></a>    <span class="dt">char</span> ciudad2[<span class="dv">8</span>] = <span class="st">&quot;Girona&quot;</span>;</span>
+<span id="cb127-7"><a href="pec05.html#cb127-7"></a>    <span class="dt">char</span> ciudad3[<span class="dv">6</span>] = <span class="st">&quot;Girona&quot;</span>; <span class="co">/* no contiene el &#39;\0&#39; final */</span></span>
+<span id="cb127-8"><a href="pec05.html#cb127-8"></a></span>
+<span id="cb127-9"><a href="pec05.html#cb127-9"></a>    <span class="co">/* si strcmp devuelve 0 significa que las dos cadenas son iguales */</span></span>
+<span id="cb127-10"><a href="pec05.html#cb127-10"></a>    printf (<span class="st">&quot;¿Las variables ciudad1 y ciudad2 son iguales? %d</span><span class="sc">\n</span><span class="st">&quot;</span>, strcmp(ciudad1, ciudad2));</span>
+<span id="cb127-11"><a href="pec05.html#cb127-11"></a>    printf (<span class="st">&quot;¿Las variables ciudad1 y ciudad3 són iguales? %d</span><span class="sc">\n</span><span class="st">&quot;</span>, strcmp(ciudad1, ciudad3));</span>
+<span id="cb127-12"><a href="pec05.html#cb127-12"></a>}</span></code></pre></div>
+<p>La forma que tenemos para forzar que una cadena no contenga el finalizador es limitando su tamaño a los caracteres que contendrá, sin tener en cuenta reservar uno por <code>'\0'</code>. En este caso lo hacemos con char <code>ciudad3[6] = "Girona"</code>.</p>
+<p>La salida generada es la siguiente:</p>
+<p>
+<img src="img/play.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb128"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb128-1"><a href="pec05.html#cb128-1"></a>¿Las variables ciudad1 y ciudad2 son iguales? <span class="dv">0</span></span>
+<span id="cb128-2"><a href="pec05.html#cb128-2"></a>¿Las variables ciudad1 y ciudad3 són iguales? -<span class="dv">1</span></span></code></pre></div>
+<p>De ahí la importancia del finalizador de cadenas de caracteres. Por lo tanto, si por ejemplo tenemos una variable <code>x</code> de tipo string y de tamaño máximo 15, realmente en nuestro programa la definiremos con longitud <strong>15+1</strong>, para que quepa el finalizador <code>'\0'</code> en caso de que se ocupen los 15 caracteres anteriores.</p>
+</div>
+<div id="el-finalizador-0-y-strlen" class="section level2" number="5.4">
+<h2 number="5.4"><span class="header-section-number">5.4</span> El finalizador ‘\0’ y strlen()</h2>
+<p>A continuación se expone un ejemplo en el que se muestra la importancia del finalizador <code>'\0'</code> en la función <code>strlen()</code> de C, la que nos devuelve el tamaño de una cadena de caracteres:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb129"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb129-1"><a href="pec05.html#cb129-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb129-2"><a href="pec05.html#cb129-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb129-3"><a href="pec05.html#cb129-3"></a></span>
+<span id="cb129-4"><a href="pec05.html#cb129-4"></a><span class="pp">#define MAX_LETRAS 8+1</span></span>
+<span id="cb129-5"><a href="pec05.html#cb129-5"></a></span>
+<span id="cb129-6"><a href="pec05.html#cb129-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb129-7"><a href="pec05.html#cb129-7"></a>    <span class="dt">char</span> nombre[MAX_LETRAS];</span>
+<span id="cb129-8"><a href="pec05.html#cb129-8"></a>    <span class="dt">int</span> numLetras;</span>
+<span id="cb129-9"><a href="pec05.html#cb129-9"></a></span>
+<span id="cb129-10"><a href="pec05.html#cb129-10"></a>    printf(<span class="st">&quot;Introduce un nombre: &quot;</span>);</span>
+<span id="cb129-11"><a href="pec05.html#cb129-11"></a>    scanf(<span class="st">&quot;%s&quot;</span>, nombre);</span>
+<span id="cb129-12"><a href="pec05.html#cb129-12"></a></span>
+<span id="cb129-13"><a href="pec05.html#cb129-13"></a>    <span class="co">/* Ejemplo: si en este punto hemos introducido el</span></span>
+<span id="cb129-14"><a href="pec05.html#cb129-14"></a><span class="co">     * nombre Quim, dentro de la cadena de caracteres nombre[]</span></span>
+<span id="cb129-15"><a href="pec05.html#cb129-15"></a><span class="co">     * tendremos los siguientes datos:</span></span>
+<span id="cb129-16"><a href="pec05.html#cb129-16"></a><span class="co">     *</span></span>
+<span id="cb129-17"><a href="pec05.html#cb129-17"></a><span class="co">     * nombre[0] = &#39;Q&#39;</span></span>
+<span id="cb129-18"><a href="pec05.html#cb129-18"></a><span class="co">     * nombre[1] = &#39;u&#39;</span></span>
+<span id="cb129-19"><a href="pec05.html#cb129-19"></a><span class="co">     * nombre[2] = &#39;i&#39;</span></span>
+<span id="cb129-20"><a href="pec05.html#cb129-20"></a><span class="co">     * nombre[3] = &#39;m&#39;</span></span>
+<span id="cb129-21"><a href="pec05.html#cb129-21"></a><span class="co">     * nombre[4] = &#39;\0&#39; (finalizador del string)</span></span>
+<span id="cb129-22"><a href="pec05.html#cb129-22"></a><span class="co">     * nombre[5] = valor aleatorio</span></span>
+<span id="cb129-23"><a href="pec05.html#cb129-23"></a><span class="co">     * nombre[6] = valor aleatorio</span></span>
+<span id="cb129-24"><a href="pec05.html#cb129-24"></a><span class="co">     * nombre[7] = valor aleatorio</span></span>
+<span id="cb129-25"><a href="pec05.html#cb129-25"></a><span class="co">     * nombre[8] = valor aleatorio</span></span>
+<span id="cb129-26"><a href="pec05.html#cb129-26"></a><span class="co">     *</span></span>
+<span id="cb129-27"><a href="pec05.html#cb129-27"></a><span class="co">     * El finalizador &#39;\0&#39; se añade automáticamente</span></span>
+<span id="cb129-28"><a href="pec05.html#cb129-28"></a><span class="co">     * al leer un string desde teclado mendiante scanf.</span></span>
+<span id="cb129-29"><a href="pec05.html#cb129-29"></a><span class="co">     * </span></span>
+<span id="cb129-30"><a href="pec05.html#cb129-30"></a><span class="co">     * El comando strlen(...) recorre el string posición</span></span>
+<span id="cb129-31"><a href="pec05.html#cb129-31"></a><span class="co">     * a posición para conocer su longitud. ¿Cuando finaliza</span></span>
+<span id="cb129-32"><a href="pec05.html#cb129-32"></a><span class="co">     * este recorrido? hay dos posibles opciones:</span></span>
+<span id="cb129-33"><a href="pec05.html#cb129-33"></a><span class="co">     *</span></span>
+<span id="cb129-34"><a href="pec05.html#cb129-34"></a><span class="co">     * - cuando encuentra el finalizador &#39;\0&#39;</span></span>
+<span id="cb129-35"><a href="pec05.html#cb129-35"></a><span class="co">     * - cuando llega a la última posición del string</span></span>
+<span id="cb129-36"><a href="pec05.html#cb129-36"></a><span class="co">     *</span></span>
+<span id="cb129-37"><a href="pec05.html#cb129-37"></a><span class="co">     * Por lo tanto, si hemos introducido Quim, el valor que </span></span>
+<span id="cb129-38"><a href="pec05.html#cb129-38"></a><span class="co">     * devolverá strlen(...) será 4.</span></span>
+<span id="cb129-39"><a href="pec05.html#cb129-39"></a><span class="co">     */</span></span>
+<span id="cb129-40"><a href="pec05.html#cb129-40"></a></span>
+<span id="cb129-41"><a href="pec05.html#cb129-41"></a>    numLetras = strlen(nombre);</span>
+<span id="cb129-42"><a href="pec05.html#cb129-42"></a></span>
+<span id="cb129-43"><a href="pec05.html#cb129-43"></a>    printf(<span class="st">&quot;El nombre </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> tiene %d letras</span><span class="sc">\n</span><span class="st">&quot;</span>, nombre, numLetras);</span>
+<span id="cb129-44"><a href="pec05.html#cb129-44"></a></span>
+<span id="cb129-45"><a href="pec05.html#cb129-45"></a>    <span class="co">/* ¿Qué pasa si sobrescribimos el finalizador &#39;\0&#39; con</span></span>
+<span id="cb129-46"><a href="pec05.html#cb129-46"></a><span class="co">     * caracter cualquiera? por ejemplo &#39;X&#39;</span></span>
+<span id="cb129-47"><a href="pec05.html#cb129-47"></a><span class="co">     */</span></span>
+<span id="cb129-48"><a href="pec05.html#cb129-48"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Sobrescribimos el finalizador &#39;</span><span class="sc">\0</span><span class="st">&#39;.&quot;</span>);</span>
+<span id="cb129-49"><a href="pec05.html#cb129-49"></a>    nombre[numLetras] = <span class="ch">&#39;X&#39;</span>;</span>
+<span id="cb129-50"><a href="pec05.html#cb129-50"></a></span>
+<span id="cb129-51"><a href="pec05.html#cb129-51"></a>    <span class="co">/* Volvemos a calcular la longitud del string */</span></span>
+<span id="cb129-52"><a href="pec05.html#cb129-52"></a>    numLetras = strlen(nombre);</span>
+<span id="cb129-53"><a href="pec05.html#cb129-53"></a></span>
+<span id="cb129-54"><a href="pec05.html#cb129-54"></a>    <span class="co">/* ¿Por qué motivo ahora ha cambiado la longitud de la</span></span>
+<span id="cb129-55"><a href="pec05.html#cb129-55"></a><span class="co">     * variable nombre, si no la hemos vuelto a definir?</span></span>
+<span id="cb129-56"><a href="pec05.html#cb129-56"></a><span class="co">     */</span></span>
+<span id="cb129-57"><a href="pec05.html#cb129-57"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Ahora el nombre </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> tiene %d letras</span><span class="sc">\n</span><span class="st">&quot;</span>, nombre, numLetras);</span>
+<span id="cb129-58"><a href="pec05.html#cb129-58"></a></span>
+<span id="cb129-59"><a href="pec05.html#cb129-59"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb129-60"><a href="pec05.html#cb129-60"></a>}</span></code></pre></div>
+<p>Si se ejecuta el programa, la salida obtenida será similar a la siguiente:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb130"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb130-1"><a href="pec05.html#cb130-1"></a>Introduce un nombre: Quim</span>
+<span id="cb130-2"><a href="pec05.html#cb130-2"></a>El nombre <span class="st">&quot;Quim&quot;</span> tiene <span class="dv">4</span> letras</span>
+<span id="cb130-3"><a href="pec05.html#cb130-3"></a></span>
+<span id="cb130-4"><a href="pec05.html#cb130-4"></a>Sobrescribimos el finalizador <span class="ch">&#39;\0&#39;</span>.</span>
+<span id="cb130-5"><a href="pec05.html#cb130-5"></a>Ahora el nombre <span class="st">&quot;QuimX�!��&quot;</span> tiene <span class="dv">9</span> letras</span></code></pre></div>
+</div>
+<div id="ejemplo-comparacionstrings" class="section level2" number="5.5">
+<h2 number="5.5"><span class="header-section-number">5.5</span> Ejemplo: comparacionStrings</h2>
+<p>La forma como comparamos strings en lenguaje algorítmico es diferente que la usada en lenguaje C:</p>
+<ul>
+<li>Lenguaje algorítmico: la comparación entre strings se hace con <code>=</code>.</li>
+<li>Lenguaje C: la comparación entre strings se hace con la función <code>strcmp()</code>, la cual realiza una comparación carácter a carácter de las dos cadenas y como resultado:
+<ul>
+<li>Devuelve <code>0</code>: si ambas cadenas son <strong>iguales</strong>.</li>
+<li>Devuelve <code>-1</code>: si la primera cadena <strong>&lt;</strong> segunda cadena.</li>
+<li>Devuelve <code>1</code>: si la primera cadena <strong>&gt;</strong> segunda cadena.</li>
+</ul></li>
+</ul>
+<p>Un ejemplo donde realiza una comparación de dos strings puede ser el siguiente:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>algorithm comparacioStrings
+
+    var
+        cadena1: string;
+        cadena2: string;
+    end var
+
+    cadena1:= &quot;UOC&quot;;
+    cadena2:= &quot;UAB&quot;;
+
+    if (cadena1 = cadena2) then
+        writeString(cadena1);
+        writeString(&quot; = &quot;);
+        writeString(cadena2);
+    else
+        if (cadena1 &gt; cadena2) then
+            writeString(cadena1);
+            writeString(&quot; &gt; &quot;);
+            writeString(cadena2);
+        else
+            writeString(cadena1);
+            writeString(&quot; &lt; &quot;);
+            writeString(cadena2);
+        end if
+    end if
+
+end algorithm</code></pre>
+<p>En lenguaje C, la comparación carácter a carácter entre los string <code>"UOC"</code> y <code>"UAB"</code> que realiza la función <code>strcmp()</code> es la siguiente:</p>
+<ul>
+<li>Caracteres de la posición 0 de los dos string: <strong>U</strong>OC vs <strong>U</strong>AB. Son iguales, con lo que pasa a comparar el siguiente carácter.</li>
+<li>Caracteres de la posición 1 de los dos string: U<strong>O</strong>C vs U<strong>A</strong>B. Son diferentes (<code>'O'</code> &gt; <code>'A'</code>), finaliza la comparación y la función <code>strcmp()</code> devuelve el valor 1.</li>
+</ul>
+<p>************* continuar a partir de este punto</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb132"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb132-1"><a href="pec05.html#cb132-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb132-2"><a href="pec05.html#cb132-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb132-3"><a href="pec05.html#cb132-3"></a></span>
+<span id="cb132-4"><a href="pec05.html#cb132-4"></a><span class="pp">#define MAX_STRING 3+1</span></span>
+<span id="cb132-5"><a href="pec05.html#cb132-5"></a></span>
+<span id="cb132-6"><a href="pec05.html#cb132-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb132-7"><a href="pec05.html#cb132-7"></a>    <span class="dt">char</span> cadena1[MAX_STRING] = <span class="st">&quot;UOC&quot;</span>;</span>
+<span id="cb132-8"><a href="pec05.html#cb132-8"></a>    <span class="dt">char</span> cadena2[MAX_STRING] = <span class="st">&quot;UAB&quot;</span>;</span>
+<span id="cb132-9"><a href="pec05.html#cb132-9"></a>      <span class="dt">int</span> resultadoComparacion = <span class="dv">0</span>;</span>
+<span id="cb132-10"><a href="pec05.html#cb132-10"></a>    </span>
+<span id="cb132-11"><a href="pec05.html#cb132-11"></a>      resultadoComparacion = strcmp(cadena1, cadena2);</span>
+<span id="cb132-12"><a href="pec05.html#cb132-12"></a>    </span>
+<span id="cb132-13"><a href="pec05.html#cb132-13"></a>      printf(<span class="st">&quot;Comparación strings </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> y </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, cadena1, cadena2, resultadoComparacion);</span>
+<span id="cb132-14"><a href="pec05.html#cb132-14"></a>    </span>
+<span id="cb132-15"><a href="pec05.html#cb132-15"></a>      <span class="cf">if</span> (resultadoComparacion == <span class="dv">0</span>) {</span>
+<span id="cb132-16"><a href="pec05.html#cb132-16"></a>            printf(<span class="st">&quot;El resultado %d significa que el string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> == string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;\n</span><span class="st">&quot;</span>, resultadoComparacion, cadena1, cadena2);</span>
+<span id="cb132-17"><a href="pec05.html#cb132-17"></a>      } <span class="cf">else</span> <span class="cf">if</span> (resultadoComparacion == -<span class="dv">1</span>) {</span>
+<span id="cb132-18"><a href="pec05.html#cb132-18"></a>            printf(<span class="st">&quot;El resultado %d significa que el string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> &lt; string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;\n</span><span class="st">&quot;</span>, resultadoComparacion, cadena1, cadena2);</span>
+<span id="cb132-19"><a href="pec05.html#cb132-19"></a>      } <span class="cf">else</span> <span class="cf">if</span> (resultadoComparacion == <span class="dv">1</span>) {</span>
+<span id="cb132-20"><a href="pec05.html#cb132-20"></a>            printf(<span class="st">&quot;El resultado %d significa que el string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;</span><span class="st"> &gt; string </span><span class="sc">\&quot;</span><span class="st">%s</span><span class="sc">\&quot;\n</span><span class="st">&quot;</span>, resultadoComparacion, cadena1, cadena2);     </span>
+<span id="cb132-21"><a href="pec05.html#cb132-21"></a>      }</span>
+<span id="cb132-22"><a href="pec05.html#cb132-22"></a>      <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb132-23"><a href="pec05.html#cb132-23"></a>}</span></code></pre></div>
+<p>La salida de la ejecución del programa C es:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb133"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb133-1"><a href="pec05.html#cb133-1"></a>Comparación strings <span class="st">&quot;UOC&quot;</span> y <span class="st">&quot;UAB&quot;</span> = <span class="dv">1</span></span>
+<span id="cb133-2"><a href="pec05.html#cb133-2"></a>El resultado <span class="dv">1</span> significa que el string <span class="st">&quot;UOC&quot;</span> &gt; string <span class="st">&quot;UAB&quot;</span></span></code></pre></div>
+</div>
+<div id="ejemplo-nóminas" class="section level2" number="5.6">
+<h2 number="5.6"><span class="header-section-number">5.6</span> Ejemplo: nóminas</h2>
+<p>Imaginemos que queremos un programa que nos permita entrar las nóminas de todos los empleados de nuestra empresa. Un empleado lo definimos como nombre (cadena de caracteres) + nómina (real). El programa debe mostrar al final de todo la relación de nóminas de todos los empleados, la media de todas las nóminas de la empresa, y quien cobra más y menos en la empresa.</p>
+<p>Una posible forma de programa esto sería la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb134"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb134-1"><a href="pec05.html#cb134-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb134-2"><a href="pec05.html#cb134-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb134-3"><a href="pec05.html#cb134-3"></a></span>
+<span id="cb134-4"><a href="pec05.html#cb134-4"></a><span class="pp">#define MAX_EMPLEADOS 5</span></span>
+<span id="cb134-5"><a href="pec05.html#cb134-5"></a><span class="pp">#define MAX_NOMBRE 20+1</span></span>
+<span id="cb134-6"><a href="pec05.html#cb134-6"></a></span>
+<span id="cb134-7"><a href="pec05.html#cb134-7"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb134-8"><a href="pec05.html#cb134-8"></a>    <span class="dt">char</span> nom[MAX_NOMBRE];</span>
+<span id="cb134-9"><a href="pec05.html#cb134-9"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb134-10"><a href="pec05.html#cb134-10"></a>} tEmpleado;</span>
+<span id="cb134-11"><a href="pec05.html#cb134-11"></a></span>
+<span id="cb134-12"><a href="pec05.html#cb134-12"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb134-13"><a href="pec05.html#cb134-13"></a>    tEmpleado vEmpleados[MAX_EMPLEADOS];</span>
+<span id="cb134-14"><a href="pec05.html#cb134-14"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb134-15"><a href="pec05.html#cb134-15"></a>    <span class="dt">int</span> maxNomina = <span class="dv">0</span>;</span>
+<span id="cb134-16"><a href="pec05.html#cb134-16"></a>    <span class="dt">int</span> minNomina = <span class="dv">0</span>;</span>
+<span id="cb134-17"><a href="pec05.html#cb134-17"></a>    <span class="dt">float</span> sumaNominas = <span class="dv">0</span>;</span>
+<span id="cb134-18"><a href="pec05.html#cb134-18"></a></span>
+<span id="cb134-19"><a href="pec05.html#cb134-19"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb134-20"><a href="pec05.html#cb134-20"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nombre empleado : &quot;</span>);</span>
+<span id="cb134-21"><a href="pec05.html#cb134-21"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].nom);</span>
+<span id="cb134-22"><a href="pec05.html#cb134-22"></a>        printf(<span class="st">&quot;Nómina : &quot;</span>);</span>
+<span id="cb134-23"><a href="pec05.html#cb134-23"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;vEmpleados[i].nomina);</span>
+<span id="cb134-24"><a href="pec05.html#cb134-24"></a>    }</span>
+<span id="cb134-25"><a href="pec05.html#cb134-25"></a></span>
+<span id="cb134-26"><a href="pec05.html#cb134-26"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Listado de nóminas de empleados : </span><span class="sc">\n\n</span><span class="st">&quot;</span>);</span>
+<span id="cb134-27"><a href="pec05.html#cb134-27"></a></span>
+<span id="cb134-28"><a href="pec05.html#cb134-28"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb134-29"><a href="pec05.html#cb134-29"></a>        sumaNominas = sumaNominas + vEmpleados[i].nomina;</span>
+<span id="cb134-30"><a href="pec05.html#cb134-30"></a>        <span class="cf">if</span> (vEmpleados[i].nomina &gt; vEmpleados[maxNomina].nomina) {</span>
+<span id="cb134-31"><a href="pec05.html#cb134-31"></a>            maxNomina = i;</span>
+<span id="cb134-32"><a href="pec05.html#cb134-32"></a>        }</span>
+<span id="cb134-33"><a href="pec05.html#cb134-33"></a>        <span class="cf">if</span> (vEmpleados[i].nomina &lt; vEmpleados[minNomina].nomina) {</span>
+<span id="cb134-34"><a href="pec05.html#cb134-34"></a>            minNomina = i;</span>
+<span id="cb134-35"><a href="pec05.html#cb134-35"></a>        }</span>
+<span id="cb134-36"><a href="pec05.html#cb134-36"></a>        printf(<span class="st">&quot;%s --&gt; %.2f €</span><span class="sc">\n</span><span class="st">&quot;</span>, vEmpleados[i].nom, vEmpleados[i].nomina);</span>
+<span id="cb134-37"><a href="pec05.html#cb134-37"></a>    }</span>
+<span id="cb134-38"><a href="pec05.html#cb134-38"></a></span>
+<span id="cb134-39"><a href="pec05.html#cb134-39"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Promedio nóminas : %.2f €&quot;</span>, sumaNominas/MAX_EMPLEADOS);</span>
+<span id="cb134-40"><a href="pec05.html#cb134-40"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nómina mayor : %.2f € (%s)&quot;</span>, vEmpleados[maxNomina].nomina, vEmpleados[maxNomina].nom);</span>
+<span id="cb134-41"><a href="pec05.html#cb134-41"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nómina menor : %.2f € (%s)&quot;</span>, vEmpleados[minNomina].nomina, vEmpleados[minNomina].nom);</span>
+<span id="cb134-42"><a href="pec05.html#cb134-42"></a>}</span></code></pre></div>
+<p>Como se puede ver, se utiliza un vector de <code>tEmpleat</code> de manera que, dada una longitud máxima del vector, iremos introduciendo los <code>tEmpleat</code> uno a uno dentro de él. Una vez hecho, volvemos a recorrer el vector de <code>tEmpleat</code> y realizar todos los cálculos que nos piden, así como mostrar por pantalla las nóminas de todos los empleados.</p>
+<p>En este ejemplo la variable y hace de índice para recorrer el vector, y las variables <code>maxNomina</code> y <code>minNomina</code> también son índices: indican en qué posición están los empleados con la nómina más alta y más baja respectivamente.</p>
+</div>
+<div id="ejemplo-brisca" class="section level2" number="5.7">
+<h2 number="5.7"><span class="header-section-number">5.7</span> Ejemplo: brisca</h2>
+<p>Ejemplo con diferentes recorridos realizado sobre tuplas guardadas en un vector, utilizando el juego de cartas de la brisca. Para explicar mejor el planteamiento de cada implementación, se han añadido comentarios detallados dentro del código.</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb135"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb135-1"><a href="pec05.html#cb135-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb135-2"><a href="pec05.html#cb135-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb135-3"><a href="pec05.html#cb135-3"></a></span>
+<span id="cb135-4"><a href="pec05.html#cb135-4"></a><span class="co">/* Punto de partida: sabemos jugar perfectamente</span></span>
+<span id="cb135-5"><a href="pec05.html#cb135-5"></a><span class="co"> * a la brisca (https://es.wikipedia.org/wiki/Brisca),</span></span>
+<span id="cb135-6"><a href="pec05.html#cb135-6"></a><span class="co"> * pero en cambio somos un desastre contando</span></span>
+<span id="cb135-7"><a href="pec05.html#cb135-7"></a><span class="co"> * la puntuación de todas las cartas ganadas. Por</span></span>
+<span id="cb135-8"><a href="pec05.html#cb135-8"></a><span class="co"> * este motivo queremos hacer un programa que nos ayude</span></span>
+<span id="cb135-9"><a href="pec05.html#cb135-9"></a><span class="co"> * en esta tarea (y también para practicar diferentes</span></span>
+<span id="cb135-10"><a href="pec05.html#cb135-10"></a><span class="co"> * iteraciones con bucles). El programa pedirá por</span></span>
+<span id="cb135-11"><a href="pec05.html#cb135-11"></a><span class="co"> * teclado carta a carta y finalizará cuando se introduzca</span></span>
+<span id="cb135-12"><a href="pec05.html#cb135-12"></a><span class="co"> * un tipo de palo distinto de los definidos.</span></span>
+<span id="cb135-13"><a href="pec05.html#cb135-13"></a><span class="co"> * Deberá generar las siguientes salidas:</span></span>
+<span id="cb135-14"><a href="pec05.html#cb135-14"></a><span class="co"> * 1. Listar todas las cartas introducidas.</span></span>
+<span id="cb135-15"><a href="pec05.html#cb135-15"></a><span class="co"> * 2. Mostrar la carta con una puntuación más alta.</span></span>
+<span id="cb135-16"><a href="pec05.html#cb135-16"></a><span class="co"> * 3. Mostrar la puntuación total alcanzada.</span></span>
+<span id="cb135-17"><a href="pec05.html#cb135-17"></a><span class="co"> * 4. Comparar parejas de cartas (1a vs 2a, 2a vs 3a,</span></span>
+<span id="cb135-18"><a href="pec05.html#cb135-18"></a><span class="co"> * 3a vs 4a, ...) e indicar si son del mismo palo.</span></span>
+<span id="cb135-19"><a href="pec05.html#cb135-19"></a><span class="co"> */</span></span>
+<span id="cb135-20"><a href="pec05.html#cb135-20"></a></span>
+<span id="cb135-21"><a href="pec05.html#cb135-21"></a><span class="pp">#define MAX_NUM_CARTAS 48</span></span>
+<span id="cb135-22"><a href="pec05.html#cb135-22"></a><span class="pp">#define NUM_VALORES 13</span></span>
+<span id="cb135-23"><a href="pec05.html#cb135-23"></a><span class="pp">#define MAX_NUM_PALOS 4</span></span>
+<span id="cb135-24"><a href="pec05.html#cb135-24"></a></span>
+<span id="cb135-25"><a href="pec05.html#cb135-25"></a><span class="kw">typedef</span> <span class="kw">enum</span> {OROS, COPAS, BASTOS, ESPADAS, FINALIZAR} tPalo;</span>
+<span id="cb135-26"><a href="pec05.html#cb135-26"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb135-27"><a href="pec05.html#cb135-27"></a>    tPalo palo;</span>
+<span id="cb135-28"><a href="pec05.html#cb135-28"></a>    <span class="dt">int</span> numero;</span>
+<span id="cb135-29"><a href="pec05.html#cb135-29"></a>    <span class="dt">int</span> valor;</span>
+<span id="cb135-30"><a href="pec05.html#cb135-30"></a>} tCarta;</span>
+<span id="cb135-31"><a href="pec05.html#cb135-31"></a></span>
+<span id="cb135-32"><a href="pec05.html#cb135-32"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb135-33"><a href="pec05.html#cb135-33"></a>    tCarta cartaAux;</span>
+<span id="cb135-34"><a href="pec05.html#cb135-34"></a>    tCarta cartaDeMayorValor;</span>
+<span id="cb135-35"><a href="pec05.html#cb135-35"></a>    tCarta vCartas[MAX_NUM_CARTAS];</span>
+<span id="cb135-36"><a href="pec05.html#cb135-36"></a>    <span class="dt">bool</span> isFinalizado;</span>
+<span id="cb135-37"><a href="pec05.html#cb135-37"></a>    <span class="dt">int</span> puntuacion;</span>
+<span id="cb135-38"><a href="pec05.html#cb135-38"></a>    <span class="dt">int</span> i, j;</span>
+<span id="cb135-39"><a href="pec05.html#cb135-39"></a>    <span class="dt">bool</span> isMismoPalo;</span>
+<span id="cb135-40"><a href="pec05.html#cb135-40"></a>    </span>
+<span id="cb135-41"><a href="pec05.html#cb135-41"></a>    <span class="co">/* Se inicializa el vector vValores con las</span></span>
+<span id="cb135-42"><a href="pec05.html#cb135-42"></a><span class="co">     * puntuaciones de todas las cartas. El nombre</span></span>
+<span id="cb135-43"><a href="pec05.html#cb135-43"></a><span class="co">     * de la carta hace de índice del vector, y el</span></span>
+<span id="cb135-44"><a href="pec05.html#cb135-44"></a><span class="co">     * valor guardado en aquella posición es su</span></span>
+<span id="cb135-45"><a href="pec05.html#cb135-45"></a><span class="co">     * puntuación. Ejemplo:</span></span>
+<span id="cb135-46"><a href="pec05.html#cb135-46"></a><span class="co">     * - una carta con un 1 devolverá 11 puntos,</span></span>
+<span id="cb135-47"><a href="pec05.html#cb135-47"></a><span class="co">     * correspondientes al valor de la posición 1.</span></span>
+<span id="cb135-48"><a href="pec05.html#cb135-48"></a><span class="co">     * - una carta con un 5 devolverá 0 puntos,</span></span>
+<span id="cb135-49"><a href="pec05.html#cb135-49"></a><span class="co">     * correspondientes al valor de la posición 5.</span></span>
+<span id="cb135-50"><a href="pec05.html#cb135-50"></a><span class="co">     */</span></span>
+<span id="cb135-51"><a href="pec05.html#cb135-51"></a>    <span class="dt">int</span> vValores[NUM_VALORES] = {<span class="dv">0</span>, <span class="dv">11</span>, <span class="dv">0</span>, <span class="dv">10</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">0</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>};</span>
+<span id="cb135-52"><a href="pec05.html#cb135-52"></a></span>
+<span id="cb135-53"><a href="pec05.html#cb135-53"></a>    <span class="co">/* El siguiente vector nos ayudará a mostrar</span></span>
+<span id="cb135-54"><a href="pec05.html#cb135-54"></a><span class="co">     * por pantalla de forma automática la descripción</span></span>
+<span id="cb135-55"><a href="pec05.html#cb135-55"></a><span class="co">     * asociada a cada uno de los valores definidos en</span></span>
+<span id="cb135-56"><a href="pec05.html#cb135-56"></a><span class="co">     * el enumerativo tPalo</span></span>
+<span id="cb135-57"><a href="pec05.html#cb135-57"></a><span class="co">     */</span></span>
+<span id="cb135-58"><a href="pec05.html#cb135-58"></a>    <span class="dt">char</span>* vNombres[MAX_NUM_PALOS] = {<span class="st">&quot;Oros&quot;</span>, <span class="st">&quot;Copas&quot;</span>, <span class="st">&quot;Bastos&quot;</span>, <span class="st">&quot;Espadas&quot;</span>};</span>
+<span id="cb135-59"><a href="pec05.html#cb135-59"></a></span>
+<span id="cb135-60"><a href="pec05.html#cb135-60"></a>    <span class="co">/* La variable booleana se utilizará para</span></span>
+<span id="cb135-61"><a href="pec05.html#cb135-61"></a><span class="co">     * finalizar el primer bucle de introducción</span></span>
+<span id="cb135-62"><a href="pec05.html#cb135-62"></a><span class="co">     * de cartas desde teclado</span></span>
+<span id="cb135-63"><a href="pec05.html#cb135-63"></a><span class="co">     */</span></span>
+<span id="cb135-64"><a href="pec05.html#cb135-64"></a>    isFinalizado = false;</span>
+<span id="cb135-65"><a href="pec05.html#cb135-65"></a>    </span>
+<span id="cb135-66"><a href="pec05.html#cb135-66"></a>    i = <span class="dv">0</span>;</span>
+<span id="cb135-67"><a href="pec05.html#cb135-67"></a>    j = <span class="dv">0</span>;</span>
+<span id="cb135-68"><a href="pec05.html#cb135-68"></a>    puntuacion = <span class="dv">0</span>;</span>
+<span id="cb135-69"><a href="pec05.html#cb135-69"></a>    </span>
+<span id="cb135-70"><a href="pec05.html#cb135-70"></a>    printf(<span class="st">&quot;Tipo de carta: 0=OROS, 1=COPAS, 2=BASTOS, 3=ESPADAS</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-71"><a href="pec05.html#cb135-71"></a></span>
+<span id="cb135-72"><a href="pec05.html#cb135-72"></a>    <span class="cf">while</span> (!isFinalizado) {</span>
+<span id="cb135-73"><a href="pec05.html#cb135-73"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Introduce tipo de carta: &quot;</span>);</span>
+<span id="cb135-74"><a href="pec05.html#cb135-74"></a>        scanf(<span class="st">&quot;%u&quot;</span>, &amp;cartaAux.palo);</span>
+<span id="cb135-75"><a href="pec05.html#cb135-75"></a>        </span>
+<span id="cb135-76"><a href="pec05.html#cb135-76"></a>        <span class="co">/* Si el palo introducido no corresponde a ninguno de los</span></span>
+<span id="cb135-77"><a href="pec05.html#cb135-77"></a><span class="co">         * cuatro definidos, significa que no se quiere</span></span>
+<span id="cb135-78"><a href="pec05.html#cb135-78"></a><span class="co">         * entrar otra carta desde teclado</span></span>
+<span id="cb135-79"><a href="pec05.html#cb135-79"></a><span class="co">         */</span></span>
+<span id="cb135-80"><a href="pec05.html#cb135-80"></a>        <span class="cf">if</span> (cartaAux.palo != OROS &amp;&amp; cartaAux.palo != COPAS</span>
+<span id="cb135-81"><a href="pec05.html#cb135-81"></a>            &amp;&amp; cartaAux.palo != BASTOS &amp;&amp; cartaAux.palo != ESPADAS) {</span>
+<span id="cb135-82"><a href="pec05.html#cb135-82"></a>            isFinalizado = true;</span>
+<span id="cb135-83"><a href="pec05.html#cb135-83"></a></span>
+<span id="cb135-84"><a href="pec05.html#cb135-84"></a>        } <span class="cf">else</span> {</span>
+<span id="cb135-85"><a href="pec05.html#cb135-85"></a>            printf(<span class="st">&quot;Introduce número de carta: &quot;</span>);</span>
+<span id="cb135-86"><a href="pec05.html#cb135-86"></a>            scanf(<span class="st">&quot;%d&quot;</span>, &amp;cartaAux.numero);</span>
+<span id="cb135-87"><a href="pec05.html#cb135-87"></a>            </span>
+<span id="cb135-88"><a href="pec05.html#cb135-88"></a>            <span class="co">/* Se valida que el número de la carta</span></span>
+<span id="cb135-89"><a href="pec05.html#cb135-89"></a><span class="co">             * introducida sea válido: valor comprendido</span></span>
+<span id="cb135-90"><a href="pec05.html#cb135-90"></a><span class="co">             * entre 1 y 12</span></span>
+<span id="cb135-91"><a href="pec05.html#cb135-91"></a><span class="co">             */</span></span>
+<span id="cb135-92"><a href="pec05.html#cb135-92"></a>            <span class="cf">if</span> (cartaAux.numero &lt; <span class="dv">1</span> || cartaAux.numero &gt; <span class="dv">12</span>) {</span>
+<span id="cb135-93"><a href="pec05.html#cb135-93"></a>                printf(<span class="st">&quot;Error: número de la carta incorrecto!</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-94"><a href="pec05.html#cb135-94"></a>                </span>
+<span id="cb135-95"><a href="pec05.html#cb135-95"></a>            } <span class="cf">else</span> {</span>
+<span id="cb135-96"><a href="pec05.html#cb135-96"></a>                <span class="co">/* Se calcula el valor de la carta y</span></span>
+<span id="cb135-97"><a href="pec05.html#cb135-97"></a><span class="co">                 * asigna al campo valor de la tupla</span></span>
+<span id="cb135-98"><a href="pec05.html#cb135-98"></a><span class="co">                 * cartaAux (de tipo tCarta)</span></span>
+<span id="cb135-99"><a href="pec05.html#cb135-99"></a><span class="co">                 */</span></span>
+<span id="cb135-100"><a href="pec05.html#cb135-100"></a>                cartaAux.valor = vValores[cartaAux.numero];</span>
+<span id="cb135-101"><a href="pec05.html#cb135-101"></a>                vCartas[i] = cartaAux;</span>
+<span id="cb135-102"><a href="pec05.html#cb135-102"></a>                </span>
+<span id="cb135-103"><a href="pec05.html#cb135-103"></a>                <span class="co">/* La variable &#39;i&#39; contendrá el número</span></span>
+<span id="cb135-104"><a href="pec05.html#cb135-104"></a><span class="co">                 * de cartas válidas introducidas por</span></span>
+<span id="cb135-105"><a href="pec05.html#cb135-105"></a><span class="co">                 * teclado.</span></span>
+<span id="cb135-106"><a href="pec05.html#cb135-106"></a><span class="co">                 */</span></span>
+<span id="cb135-107"><a href="pec05.html#cb135-107"></a>                i = i + <span class="dv">1</span>;</span>
+<span id="cb135-108"><a href="pec05.html#cb135-108"></a>            }</span>
+<span id="cb135-109"><a href="pec05.html#cb135-109"></a>        }</span>
+<span id="cb135-110"><a href="pec05.html#cb135-110"></a>    }</span>
+<span id="cb135-111"><a href="pec05.html#cb135-111"></a>    </span>
+<span id="cb135-112"><a href="pec05.html#cb135-112"></a>    <span class="co">/* Salida 1:</span></span>
+<span id="cb135-113"><a href="pec05.html#cb135-113"></a><span class="co">     * Recorremos el vector de cartas para mostrar</span></span>
+<span id="cb135-114"><a href="pec05.html#cb135-114"></a><span class="co">     * por pantalla todos los elementos (cartas)</span></span>
+<span id="cb135-115"><a href="pec05.html#cb135-115"></a><span class="co">     * que contiene.</span></span>
+<span id="cb135-116"><a href="pec05.html#cb135-116"></a><span class="co">     */</span></span>
+<span id="cb135-117"><a href="pec05.html#cb135-117"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Relación de cartas introducidas: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-118"><a href="pec05.html#cb135-118"></a>    <span class="cf">for</span> (j = <span class="dv">0</span>; j &lt; i; j++) {</span>
+<span id="cb135-119"><a href="pec05.html#cb135-119"></a>        printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">%d de %s (%d puntos) </span><span class="sc">\n</span><span class="st">&quot;</span>, vCartas[j].numero, vNombres[vCartas[j].palo], vCartas[j].valor);</span>
+<span id="cb135-120"><a href="pec05.html#cb135-120"></a>    }</span>
+<span id="cb135-121"><a href="pec05.html#cb135-121"></a>    </span>
+<span id="cb135-122"><a href="pec05.html#cb135-122"></a>    <span class="co">/* Salida 2:</span></span>
+<span id="cb135-123"><a href="pec05.html#cb135-123"></a><span class="co">     * Recorremos el vector de cartas y buscamos</span></span>
+<span id="cb135-124"><a href="pec05.html#cb135-124"></a><span class="co">     * la que tiene una mayor puntuación. En caso</span></span>
+<span id="cb135-125"><a href="pec05.html#cb135-125"></a><span class="co">     * de empate, mostramos la última introducida.</span></span>
+<span id="cb135-126"><a href="pec05.html#cb135-126"></a><span class="co">     */</span></span>
+<span id="cb135-127"><a href="pec05.html#cb135-127"></a></span>
+<span id="cb135-128"><a href="pec05.html#cb135-128"></a>    <span class="co">/* Inicializamos el valor de cartaDeMayorValor</span></span>
+<span id="cb135-129"><a href="pec05.html#cb135-129"></a><span class="co">     * a valor = 0</span></span>
+<span id="cb135-130"><a href="pec05.html#cb135-130"></a><span class="co">     */</span></span>
+<span id="cb135-131"><a href="pec05.html#cb135-131"></a>    cartaDeMayorValor.valor = <span class="dv">0</span>;</span>
+<span id="cb135-132"><a href="pec05.html#cb135-132"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Carta de mayor puntuación: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-133"><a href="pec05.html#cb135-133"></a>    <span class="cf">for</span> (j = <span class="dv">0</span>; j &lt; i; j++) {</span>
+<span id="cb135-134"><a href="pec05.html#cb135-134"></a>        <span class="co">/* En cada iteració del bucle ens assegurem</span></span>
+<span id="cb135-135"><a href="pec05.html#cb135-135"></a><span class="co">         * que cartaDeMajorValor sigui la carta</span></span>
+<span id="cb135-136"><a href="pec05.html#cb135-136"></a><span class="co">         * amb un valor més gran. Comparem la carta</span></span>
+<span id="cb135-137"><a href="pec05.html#cb135-137"></a><span class="co">         * que estem tractant actualment amb la carta</span></span>
+<span id="cb135-138"><a href="pec05.html#cb135-138"></a><span class="co">         * que fins ara hem trobat de major valor.</span></span>
+<span id="cb135-139"><a href="pec05.html#cb135-139"></a><span class="co">         */</span></span>
+<span id="cb135-140"><a href="pec05.html#cb135-140"></a>        <span class="cf">if</span> (vCartas[j].valor &gt;= cartaDeMayorValor.valor) {</span>
+<span id="cb135-141"><a href="pec05.html#cb135-141"></a>            cartaDeMayorValor.palo = vCartas[j].palo;</span>
+<span id="cb135-142"><a href="pec05.html#cb135-142"></a>            cartaDeMayorValor.numero = vCartas[j].numero;</span>
+<span id="cb135-143"><a href="pec05.html#cb135-143"></a>            cartaDeMayorValor.valor = vCartas[j].valor;</span>
+<span id="cb135-144"><a href="pec05.html#cb135-144"></a>        }</span>
+<span id="cb135-145"><a href="pec05.html#cb135-145"></a>    }</span>
+<span id="cb135-146"><a href="pec05.html#cb135-146"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">%d de %s (%d puntos) </span><span class="sc">\n</span><span class="st">&quot;</span>, cartaDeMayorValor.numero, vNombres[cartaDeMayorValor.palo], cartaDeMayorValor.valor);</span>
+<span id="cb135-147"><a href="pec05.html#cb135-147"></a></span>
+<span id="cb135-148"><a href="pec05.html#cb135-148"></a>    <span class="co">/* Salida 3:</span></span>
+<span id="cb135-149"><a href="pec05.html#cb135-149"></a><span class="co">     * Recorremos el vector de cartas y vamos sumando</span></span>
+<span id="cb135-150"><a href="pec05.html#cb135-150"></a><span class="co">     * todos los valores, a fin de obtener la</span></span>
+<span id="cb135-151"><a href="pec05.html#cb135-151"></a><span class="co">     * puntuación total.</span></span>
+<span id="cb135-152"><a href="pec05.html#cb135-152"></a><span class="co">     */</span></span>
+<span id="cb135-153"><a href="pec05.html#cb135-153"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Puntuación total: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-154"><a href="pec05.html#cb135-154"></a>    <span class="cf">for</span> (j = <span class="dv">0</span>; j &lt; i; j++) {</span>
+<span id="cb135-155"><a href="pec05.html#cb135-155"></a>        puntuacion = puntuacion + vCartas[j].valor;</span>
+<span id="cb135-156"><a href="pec05.html#cb135-156"></a>    }</span>
+<span id="cb135-157"><a href="pec05.html#cb135-157"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">%d puntos </span><span class="sc">\n</span><span class="st">&quot;</span>, puntuacion);</span>
+<span id="cb135-158"><a href="pec05.html#cb135-158"></a>    </span>
+<span id="cb135-159"><a href="pec05.html#cb135-159"></a>    <span class="co">/* Salida 4:</span></span>
+<span id="cb135-160"><a href="pec05.html#cb135-160"></a><span class="co">     * Recorremos el vector de cartas y vamos comparando</span></span>
+<span id="cb135-161"><a href="pec05.html#cb135-161"></a><span class="co">     * parejas de carta: la que estamos tratando con</span></span>
+<span id="cb135-162"><a href="pec05.html#cb135-162"></a><span class="co">     * la que viene a continuación. Mostramos por pantalla</span></span>
+<span id="cb135-163"><a href="pec05.html#cb135-163"></a><span class="co">     * si son del mismo palo o no.</span></span>
+<span id="cb135-164"><a href="pec05.html#cb135-164"></a><span class="co">     */</span></span>
+<span id="cb135-165"><a href="pec05.html#cb135-165"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Comparación de cartas: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-166"><a href="pec05.html#cb135-166"></a>    </span>
+<span id="cb135-167"><a href="pec05.html#cb135-167"></a>    <span class="co">/* Importante: en este recorrido del vector</span></span>
+<span id="cb135-168"><a href="pec05.html#cb135-168"></a><span class="co">     * de cartas vamos comparando la carta de la</span></span>
+<span id="cb135-169"><a href="pec05.html#cb135-169"></a><span class="co">     * posición actual j con la carta que está</span></span>
+<span id="cb135-170"><a href="pec05.html#cb135-170"></a><span class="co">     * en la siguiente posición j+1. Esto significa</span></span>
+<span id="cb135-171"><a href="pec05.html#cb135-171"></a><span class="co">     * que el límite de las iteraciones del</span></span>
+<span id="cb135-172"><a href="pec05.html#cb135-172"></a><span class="co">     * bucle pasa a ser i-1 (un elemento antes</span></span>
+<span id="cb135-173"><a href="pec05.html#cb135-173"></a><span class="co">     * del final), ya que cuando tratamos este</span></span>
+<span id="cb135-174"><a href="pec05.html#cb135-174"></a><span class="co">     * elemento lo compararemos con el siguiente,</span></span>
+<span id="cb135-175"><a href="pec05.html#cb135-175"></a><span class="co">     * que es el último del vector. Si en vez</span></span>
+<span id="cb135-176"><a href="pec05.html#cb135-176"></a><span class="co">     * tener i-1 tuviéramos sólo i, en</span></span>
+<span id="cb135-177"><a href="pec05.html#cb135-177"></a><span class="co">     * la última iteración daría error, ya</span></span>
+<span id="cb135-178"><a href="pec05.html#cb135-178"></a><span class="co">     * que se estaría accediendo a una posición</span></span>
+<span id="cb135-179"><a href="pec05.html#cb135-179"></a><span class="co">     * incorrecta del vector de cartas (i+1).</span></span>
+<span id="cb135-180"><a href="pec05.html#cb135-180"></a><span class="co">     */</span></span>
+<span id="cb135-181"><a href="pec05.html#cb135-181"></a>    <span class="cf">for</span> (j = <span class="dv">0</span>; j &lt; i-<span class="dv">1</span>; j++) {</span>
+<span id="cb135-182"><a href="pec05.html#cb135-182"></a>        </span>
+<span id="cb135-183"><a href="pec05.html#cb135-183"></a>        <span class="co">/* Para comparar la carta de la posición actual</span></span>
+<span id="cb135-184"><a href="pec05.html#cb135-184"></a><span class="co">         * con la que hay en la siguiente posición,</span></span>
+<span id="cb135-185"><a href="pec05.html#cb135-185"></a><span class="co">         * utilizamos los índices j y j+1 respectivamente.</span></span>
+<span id="cb135-186"><a href="pec05.html#cb135-186"></a><span class="co">         */</span></span>
+<span id="cb135-187"><a href="pec05.html#cb135-187"></a>        isMismoPalo = (vCartas[j].palo == vCartas[j+<span class="dv">1</span>].palo);</span>
+<span id="cb135-188"><a href="pec05.html#cb135-188"></a>        printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">%d de %s vs %d de %s: &quot;</span>, vCartas[j].numero, vNombres[vCartas[j].palo], vCartas[j+<span class="dv">1</span>].numero, vNombres[vCartas[j+<span class="dv">1</span>].palo]);</span>
+<span id="cb135-189"><a href="pec05.html#cb135-189"></a>        <span class="cf">if</span> (isMismoPalo) {</span>
+<span id="cb135-190"><a href="pec05.html#cb135-190"></a>            printf(<span class="st">&quot;son del mismo palo!</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-191"><a href="pec05.html#cb135-191"></a>        } <span class="cf">else</span> {</span>
+<span id="cb135-192"><a href="pec05.html#cb135-192"></a>            printf(<span class="st">&quot;son de palos distintos!</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb135-193"><a href="pec05.html#cb135-193"></a>        }</span>
+<span id="cb135-194"><a href="pec05.html#cb135-194"></a>    }</span>
+<span id="cb135-195"><a href="pec05.html#cb135-195"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb135-196"><a href="pec05.html#cb135-196"></a>}</span></code></pre></div>
+<p>Un ejemplo de ejecución sería:</p>
+<p>
+<img src="img/play.png" style="float:left; padding:10px" />
+</p>
+<pre><code>Tipo de carta: 0=OROS, 1=COPAS, 2=BASTOS, 3=ESPADAS
+
+Introduce tipo de carta: 0  
+Introduce número de carta: 1
+
+Introduce tipo de carta: 0
+Introduce número de carta: 10
+
+Introduce tipo de carta: 0
+Introduce número de carta: 5
+
+Introduce tipo de carta: 2 
+Introduce número de carta: 10
+
+Introduce tipo de carta: 2
+Introduce número de carta: 1
+
+Introduce tipo de carta: 3
+Introduce número de carta: 4
+
+Introduce tipo de carta: 9
+
+Relación de cartas introducidas: 
+    1 de Oros (11 puntos) 
+    10 de Oros (2 puntos) 
+    5 de Oros (0 puntos) 
+    10 de Bastos (2 puntos) 
+    1 de Bastos (11 puntos) 
+    4 de Espadas (0 puntos) 
+
+Carta de mayor puntuación: 
+    1 de Bastos (11 puntos) 
+
+Puntuación total: 
+    26 puntos 
+
+Comparación de cartas: 
+    1 de Oros vs 10 de Oros: son del mismo palo!
+    10 de Oros vs 5 de Oros: son del mismo palo!
+    5 de Oros vs 10 de Bastos: son de palos distintos!
+    10 de Bastos vs 1 de Bastos: son del mismo palo!
+    1 de Bastos vs 4 de Espadas: son de palos distintos!</code></pre>
+</div>
+<div id="frequently-made-mistakes-4" class="section level2" number="5.8">
+<h2 number="5.8"><span class="header-section-number">5.8</span> Frequently Made Mistakes</h2>
+<div id="definición-de-tipo-definición-de-tuplas-mal-ubicada" class="section level3" number="5.8.1">
+<h3 number="5.8.1"><span class="header-section-number">5.8.1</span> Definición de tipo: definición de tuplas mal ubicada</h3>
+<p>Código incorrecto:</p>
+<p>
+<img src="img/c_err.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb137"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb137-1"><a href="pec05.html#cb137-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb137-2"><a href="pec05.html#cb137-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb137-3"><a href="pec05.html#cb137-3"></a></span>
+<span id="cb137-4"><a href="pec05.html#cb137-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb137-5"><a href="pec05.html#cb137-5"></a>    <span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb137-6"><a href="pec05.html#cb137-6"></a>        <span class="dt">int</span> id;</span>
+<span id="cb137-7"><a href="pec05.html#cb137-7"></a>        <span class="dt">char</span> brand[MAX_LEN];</span>
+<span id="cb137-8"><a href="pec05.html#cb137-8"></a>        <span class="dt">float</span> price;</span>
+<span id="cb137-9"><a href="pec05.html#cb137-9"></a>    } tHotel;</span>
+<span id="cb137-10"><a href="pec05.html#cb137-10"></a></span>
+<span id="cb137-11"><a href="pec05.html#cb137-11"></a>    tHotel myHotel;</span>
+<span id="cb137-12"><a href="pec05.html#cb137-12"></a>    <span class="co">/* ... */</span></span>
+<span id="cb137-13"><a href="pec05.html#cb137-13"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb137-14"><a href="pec05.html#cb137-14"></a>}</span></code></pre></div>
+<p>Los tipos de datos se declararán <strong>al principio del bloque de código</strong>, y fuera de cualquier función (sea el <code>main</code> u otra), ya que los tipos son globales en todo el programa, y las variables asociadas a los tipos se declaran posteriormente en cada una de las funciones que se necesitan.</p>
+<p>Las tuplas (<code>structs</code>) no son una excepción, y por tanto no es correcto abrir un bloque de definición de tuplas en un bloque central de código (y menos abrir varios bloques de definición de tuplas a medida que los necesitamos).</p>
+<p>Código correcto:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb138"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb138-1"><a href="pec05.html#cb138-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb138-2"><a href="pec05.html#cb138-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb138-3"><a href="pec05.html#cb138-3"></a></span>
+<span id="cb138-4"><a href="pec05.html#cb138-4"></a><span class="kw">typedef</span> <span class="kw">struct</span>{</span>
+<span id="cb138-5"><a href="pec05.html#cb138-5"></a>    <span class="dt">int</span> id;</span>
+<span id="cb138-6"><a href="pec05.html#cb138-6"></a>    <span class="dt">char</span> brand[MAX_LEN];</span>
+<span id="cb138-7"><a href="pec05.html#cb138-7"></a>    <span class="dt">float</span> price;</span>
+<span id="cb138-8"><a href="pec05.html#cb138-8"></a>} tHotel;</span>
+<span id="cb138-9"><a href="pec05.html#cb138-9"></a></span>
+<span id="cb138-10"><a href="pec05.html#cb138-10"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb138-11"><a href="pec05.html#cb138-11"></a>    tHotel myHotel;</span>
+<span id="cb138-12"><a href="pec05.html#cb138-12"></a>    <span class="co">/* ... */</span></span>
+<span id="cb138-13"><a href="pec05.html#cb138-13"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb138-14"><a href="pec05.html#cb138-14"></a>}</span></code></pre></div>
+</div>
+<div id="definición-de-tipo-definición-mal-ubicada" class="section level3" number="5.8.2">
+<h3 number="5.8.2"><span class="header-section-number">5.8.2</span> Definición de tipo: definición mal ubicada</h3>
+<p>Código incorrecto:</p>
+<p>
+<img src="img/c_err.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb139"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb139-1"><a href="pec05.html#cb139-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb139-2"><a href="pec05.html#cb139-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb139-3"><a href="pec05.html#cb139-3"></a></span>
+<span id="cb139-4"><a href="pec05.html#cb139-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb139-5"><a href="pec05.html#cb139-5"></a>    <span class="kw">typedef</span> <span class="kw">enum</span> {BUDGET, INN, RESORT} tTypeHotel;</span>
+<span id="cb139-6"><a href="pec05.html#cb139-6"></a>    <span class="kw">typedef</span> <span class="kw">enum</span> {STANDARD, SUITE} tTypeRoom;</span>
+<span id="cb139-7"><a href="pec05.html#cb139-7"></a></span>
+<span id="cb139-8"><a href="pec05.html#cb139-8"></a>    tTypeHotel myHotelType = BUDGET;</span>
+<span id="cb139-9"><a href="pec05.html#cb139-9"></a>    tTypeRoom myRoomType = STANDARD;</span>
+<span id="cb139-10"><a href="pec05.html#cb139-10"></a>    <span class="co">/* ... */</span></span>
+<span id="cb139-11"><a href="pec05.html#cb139-11"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb139-12"><a href="pec05.html#cb139-12"></a>}</span></code></pre></div>
+<p>Los tipos de datos se declararán <strong>al principio del bloque de código</strong>, y fuera de cualquier función (sea el <code>main</code> u otra), ya que los tipos son globales en todo el programa, y las variables asociadas a los tipos se declaran posteriormente en cada una de las funciones que se necesitan. No es correcto abrir un bloque de definición de tipo dentro de un bloque central de código (y menos abrir varios bloques de definición de tipo a medida que los necesitamos).</p>
+<p>Código correcto:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb140"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb140-1"><a href="pec05.html#cb140-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb140-2"><a href="pec05.html#cb140-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb140-3"><a href="pec05.html#cb140-3"></a></span>
+<span id="cb140-4"><a href="pec05.html#cb140-4"></a><span class="kw">typedef</span> <span class="kw">enum</span> {BUDGET, INN, RESORT} tTypeHotel;</span>
+<span id="cb140-5"><a href="pec05.html#cb140-5"></a><span class="kw">typedef</span> <span class="kw">enum</span> {STANDARD, SUITE} tTypeRoom;</span>
+<span id="cb140-6"><a href="pec05.html#cb140-6"></a></span>
+<span id="cb140-7"><a href="pec05.html#cb140-7"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb140-8"><a href="pec05.html#cb140-8"></a>    tTypeHotel myHotelType = BUDGET;</span>
+<span id="cb140-9"><a href="pec05.html#cb140-9"></a>    tTypeRoom myRoomType = STANDARD;</span>
+<span id="cb140-10"><a href="pec05.html#cb140-10"></a>    <span class="co">/* ... */</span></span>
+<span id="cb140-11"><a href="pec05.html#cb140-11"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb140-12"><a href="pec05.html#cb140-12"></a>}</span></code></pre></div>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pec04.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pec06.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/05-PEC05.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["FAQ_Laboratorio_FP.pdf", "FAQ_Laboratorio_FP.epub"],
+"toc": {
+"collapse": "section",
+"toc": true,
+"toc_float": true,
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

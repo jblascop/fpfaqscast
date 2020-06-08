@@ -1,0 +1,1587 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>6 PEC06 | FAQ Laboratorio de Fundamentos de Programación</title>
+  <meta name="description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="6 PEC06 | FAQ Laboratorio de Fundamentos de Programación" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="6 PEC06 | FAQ Laboratorio de Fundamentos de Programación" />
+  
+  <meta name="twitter:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  
+
+<meta name="author" content="Jordi Blasco Planesas" />
+
+
+<meta name="date" content="2020-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pec05.html"/>
+<link rel="next" href="pec07.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168821881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168821881-1');
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="./img/uoc.png" width="100"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="pec01.html"><a href="pec01.html"><i class="fa fa-check"></i><b>1</b> PEC01</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.1</b> Lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.2" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.2</b> Lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.3" data-path="pec01.html"><a href="pec01.html#equivalencias-lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.3</b> Equivalencias lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.4" data-path="pec01.html"><a href="pec01.html#impresión-de-valores-incorrecta"><i class="fa fa-check"></i><b>1.4</b> Impresión de valores incorrecta</a></li>
+<li class="chapter" data-level="1.5" data-path="pec01.html"><a href="pec01.html#cómo-definir-un-enumerativo"><i class="fa fa-check"></i><b>1.5</b> Cómo definir un enumerativo</a></li>
+<li class="chapter" data-level="1.6" data-path="pec01.html"><a href="pec01.html#cómo-utilizar-un-enumerativo"><i class="fa fa-check"></i><b>1.6</b> Cómo utilizar un enumerativo</a></li>
+<li class="chapter" data-level="1.7" data-path="pec01.html"><a href="pec01.html#especificador-de-un-enumerativo"><i class="fa fa-check"></i><b>1.7</b> Especificador de un enumerativo</a></li>
+<li class="chapter" data-level="1.8" data-path="pec01.html"><a href="pec01.html#lectura-de-caracteres-en-c"><i class="fa fa-check"></i><b>1.8</b> Lectura de caracteres en C</a></li>
+<li class="chapter" data-level="1.9" data-path="pec01.html"><a href="pec01.html#lectura-de-float-en-c"><i class="fa fa-check"></i><b>1.9</b> Lectura de float en C</a></li>
+<li class="chapter" data-level="1.10" data-path="pec01.html"><a href="pec01.html#frequently-made-mistakes"><i class="fa fa-check"></i><b>1.10</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="pec01.html"><a href="pec01.html#definición-de-tipos-tipo-booleano"><i class="fa fa-check"></i><b>1.10.1</b> Definición de tipos: tipo booleano</a></li>
+<li class="chapter" data-level="1.10.2" data-path="pec01.html"><a href="pec01.html#estilo-y-formato-ausencia-de-estilo-y-formato-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.10.2</b> Estilo y formato: ausencia de estilo y formato en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.10.3" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-identificadores-no-permitidos"><i class="fa fa-check"></i><b>1.10.3</b> Declaración de variables: identificadores no permitidos</a></li>
+<li class="chapter" data-level="1.10.4" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-operador-de-declaración"><i class="fa fa-check"></i><b>1.10.4</b> Declaración de variables: operador de declaración</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pec02.html"><a href="pec02.html"><i class="fa fa-check"></i><b>2</b> PEC02</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pec02.html"><a href="pec02.html#booleanos-en-c"><i class="fa fa-check"></i><b>2.1</b> Booleanos en C</a></li>
+<li class="chapter" data-level="2.2" data-path="pec02.html"><a href="pec02.html#booleanos-definidos-como-enumerativos"><i class="fa fa-check"></i><b>2.2</b> Booleanos definidos como enumerativos</a></li>
+<li class="chapter" data-level="2.3" data-path="pec02.html"><a href="pec02.html#constantes-define-vs-const"><i class="fa fa-check"></i><b>2.3</b> Constantes: define vs const</a></li>
+<li class="chapter" data-level="2.4" data-path="pec02.html"><a href="pec02.html#cómo-mostrar-el-valor-de-una-constante"><i class="fa fa-check"></i><b>2.4</b> Cómo mostrar el valor de una constante</a></li>
+<li class="chapter" data-level="2.5" data-path="pec02.html"><a href="pec02.html#precisión-en-variables-float"><i class="fa fa-check"></i><b>2.5</b> Precisión en variables float</a></li>
+<li class="chapter" data-level="2.6" data-path="pec02.html"><a href="pec02.html#semántica-de-una-expresión"><i class="fa fa-check"></i><b>2.6</b> Semántica de una expresión</a></li>
+<li class="chapter" data-level="2.7" data-path="pec02.html"><a href="pec02.html#ejemplos-de-expresiones"><i class="fa fa-check"></i><b>2.7</b> Ejemplos de expresiones</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="pec02.html"><a href="pec02.html#ejemplo-1-espar"><i class="fa fa-check"></i><b>2.7.1</b> Ejemplo 1: esPar</a></li>
+<li class="chapter" data-level="2.7.2" data-path="pec02.html"><a href="pec02.html#ejemplo-2-findesemana"><i class="fa fa-check"></i><b>2.7.2</b> Ejemplo 2: finDeSemana</a></li>
+<li class="chapter" data-level="2.7.3" data-path="pec02.html"><a href="pec02.html#ejemplo-3-esvocal"><i class="fa fa-check"></i><b>2.7.3</b> Ejemplo 3: esVocal</a></li>
+<li class="chapter" data-level="2.7.4" data-path="pec02.html"><a href="pec02.html#ejemplo-4-votaciones"><i class="fa fa-check"></i><b>2.7.4</b> Ejemplo 4: votaciones</a></li>
+<li class="chapter" data-level="2.7.5" data-path="pec02.html"><a href="pec02.html#ejemplo-5-gintonicpreparation"><i class="fa fa-check"></i><b>2.7.5</b> Ejemplo 5: ginTonicPreparation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="pec02.html"><a href="pec02.html#ejemplo-6-gintonicfreeml"><i class="fa fa-check"></i><b>2.7.6</b> Ejemplo 6: ginTonicFreeMl</a></li>
+<li class="chapter" data-level="2.7.7" data-path="pec02.html"><a href="pec02.html#ejemplo-7-scoutingbasquet"><i class="fa fa-check"></i><b>2.7.7</b> Ejemplo 7: scoutingBasquet</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="pec02.html"><a href="pec02.html#frequently-made-mistakes-1"><i class="fa fa-check"></i><b>2.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="pec02.html"><a href="pec02.html#interfaz-de-usuario-ausencia-de-textos-informativos"><i class="fa fa-check"></i><b>2.8.1</b> Interfaz de usuario: ausencia de textos informativos</a></li>
+<li class="chapter" data-level="2.8.2" data-path="pec02.html"><a href="pec02.html#caracteres-uso-de-comillas-simples"><i class="fa fa-check"></i><b>2.8.2</b> Caracteres: uso de comillas simples</a></li>
+<li class="chapter" data-level="2.8.3" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-funciones-de-lectura-escritura"><i class="fa fa-check"></i><b>2.8.3</b> Sintaxis propia de C: funciones de lectura / escritura</a></li>
+<li class="chapter" data-level="2.8.4" data-path="pec02.html"><a href="pec02.html#conversión-de-tipos-funciones-inexistentes"><i class="fa fa-check"></i><b>2.8.4</b> Conversión de tipos: funciones inexistentes</a></li>
+<li class="chapter" data-level="2.8.5" data-path="pec02.html"><a href="pec02.html#expresiones-variables-intermedias"><i class="fa fa-check"></i><b>2.8.5</b> Expresiones: variables intermedias</a></li>
+<li class="chapter" data-level="2.8.6" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-bloque-central-de-código"><i class="fa fa-check"></i><b>2.8.6</b> Declaración de variables: declaración mal ubicada (bloque central de código)</a></li>
+<li class="chapter" data-level="2.8.7" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-variables-globales"><i class="fa fa-check"></i><b>2.8.7</b> Declaración de variables: declaración mal ubicada (variables globales)</a></li>
+<li class="chapter" data-level="2.8.8" data-path="pec02.html"><a href="pec02.html#tipo-booleano-valores-numéricos"><i class="fa fa-check"></i><b>2.8.8</b> Tipo booleano: valores numéricos</a></li>
+<li class="chapter" data-level="2.8.9" data-path="pec02.html"><a href="pec02.html#tipo-booleano-cadenas-de-caracteres"><i class="fa fa-check"></i><b>2.8.9</b> Tipo booleano: cadenas de caracteres</a></li>
+<li class="chapter" data-level="2.8.10" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-operadores"><i class="fa fa-check"></i><b>2.8.10</b> Sintaxis propia de C: operadores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="pec03.html"><a href="pec03.html"><i class="fa fa-check"></i><b>3</b> PEC03</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="pec03.html"><a href="pec03.html#cómo-declarar-un-vector-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.1</b> Cómo declarar un vector en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.2" data-path="pec03.html"><a href="pec03.html#significado-de-los-argumentos-del-main"><i class="fa fa-check"></i><b>3.2</b> Significado de los argumentos del main</a></li>
+<li class="chapter" data-level="3.3" data-path="pec03.html"><a href="pec03.html#asignar-valores-a-un-vector"><i class="fa fa-check"></i><b>3.3</b> Asignar valores a un vector</a></li>
+<li class="chapter" data-level="3.4" data-path="pec03.html"><a href="pec03.html#stack-smashing-detected"><i class="fa fa-check"></i><b>3.4</b> Stack smashing detected</a></li>
+<li class="chapter" data-level="3.5" data-path="pec03.html"><a href="pec03.html#concatenación-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.5</b> Concatenación en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.6" data-path="pec03.html"><a href="pec03.html#importancia-de-los-tipos-utilizados-en-lenguaje-c"><i class="fa fa-check"></i><b>3.6</b> Importancia de los tipos utilizados en lenguaje C</a></li>
+<li class="chapter" data-level="3.7" data-path="pec03.html"><a href="pec03.html#ejemplo-notafinal"><i class="fa fa-check"></i><b>3.7</b> Ejemplo: notaFinal</a></li>
+<li class="chapter" data-level="3.8" data-path="pec03.html"><a href="pec03.html#frequently-made-mistakes-2"><i class="fa fa-check"></i><b>3.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="pec03.html"><a href="pec03.html#strings-declaración-como-vectores-de-caracteres-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.8.1</b> Strings: declaración como vectores de caracteres en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.8.2" data-path="pec03.html"><a href="pec03.html#sintaxis-propia-de-c-funciones-complejas"><i class="fa fa-check"></i><b>3.8.2</b> Sintaxis propia de C: funciones complejas</a></li>
+<li class="chapter" data-level="3.8.3" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-consecutivos"><i class="fa fa-check"></i><b>3.8.3</b> Estructura alternativa: if s consecutivos</a></li>
+<li class="chapter" data-level="3.8.4" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-vacíos"><i class="fa fa-check"></i><b>3.8.4</b> Estructura alternativa: if s vacíos</a></li>
+<li class="chapter" data-level="3.8.5" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-i"><i class="fa fa-check"></i><b>3.8.5</b> Estructura alternativa: interrumpir un algoritmo (I)</a></li>
+<li class="chapter" data-level="3.8.6" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-ii"><i class="fa fa-check"></i><b>3.8.6</b> Estructura alternativa: interrumpir un algoritmo (II)</a></li>
+<li class="chapter" data-level="3.8.7" data-path="pec03.html"><a href="pec03.html#constantes-y-números-valores-numéricos-al-código-hardcode"><i class="fa fa-check"></i><b>3.8.7</b> Constantes y números: Valores numéricos al código (hardcode)</a></li>
+<li class="chapter" data-level="3.8.8" data-path="pec03.html"><a href="pec03.html#constantes-declaración-de-constantes-mal-ubicada"><i class="fa fa-check"></i><b>3.8.8</b> Constantes: declaración de constantes mal ubicada</a></li>
+<li class="chapter" data-level="3.8.9" data-path="pec03.html"><a href="pec03.html#strings-comparación-directa"><i class="fa fa-check"></i><b>3.8.9</b> Strings: comparación directa</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="pec04.html"><a href="pec04.html"><i class="fa fa-check"></i><b>4</b> PEC04</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="pec04.html"><a href="pec04.html#como-tratar-elementos-de-un-vector-con-un-bucle"><i class="fa fa-check"></i><b>4.1</b> Como tratar elementos de un vector con un bucle</a></li>
+<li class="chapter" data-level="4.2" data-path="pec04.html"><a href="pec04.html#entrada-continua-de-valores-con-un-bucle"><i class="fa fa-check"></i><b>4.2</b> Entrada continua de valores con un bucle</a></li>
+<li class="chapter" data-level="4.3" data-path="pec04.html"><a href="pec04.html#como-tratar-valores-en-múltiples-vectores"><i class="fa fa-check"></i><b>4.3</b> Como tratar valores en múltiples vectores</a></li>
+<li class="chapter" data-level="4.4" data-path="pec04.html"><a href="pec04.html#definición-chars-vs-strings"><i class="fa fa-check"></i><b>4.4</b> Definición chars vs strings</a></li>
+<li class="chapter" data-level="4.5" data-path="pec04.html"><a href="pec04.html#ejemplo-pesopromedio"><i class="fa fa-check"></i><b>4.5</b> Ejemplo: pesoPromedio</a></li>
+<li class="chapter" data-level="4.6" data-path="pec04.html"><a href="pec04.html#frequently-made-mistakes-3"><i class="fa fa-check"></i><b>4.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="pec04.html"><a href="pec04.html#estructura-iterativa-for-vs-while"><i class="fa fa-check"></i><b>4.6.1</b> Estructura iterativa: for vs while</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pec05.html"><a href="pec05.html"><i class="fa fa-check"></i><b>5</b> PEC05</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="pec05.html"><a href="pec05.html#strcmp"><i class="fa fa-check"></i><b>5.1</b> strcmp()</a></li>
+<li class="chapter" data-level="5.2" data-path="pec05.html"><a href="pec05.html#scanf"><i class="fa fa-check"></i><b>5.2</b> scanf()</a></li>
+<li class="chapter" data-level="5.3" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strcmp"><i class="fa fa-check"></i><b>5.3</b> El finalizador ‘\0’ y strcmp()</a></li>
+<li class="chapter" data-level="5.4" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strlen"><i class="fa fa-check"></i><b>5.4</b> El finalizador ‘\0’ y strlen()</a></li>
+<li class="chapter" data-level="5.5" data-path="pec05.html"><a href="pec05.html#ejemplo-comparacionstrings"><i class="fa fa-check"></i><b>5.5</b> Ejemplo: comparacionStrings</a></li>
+<li class="chapter" data-level="5.6" data-path="pec05.html"><a href="pec05.html#ejemplo-nóminas"><i class="fa fa-check"></i><b>5.6</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="5.7" data-path="pec05.html"><a href="pec05.html#ejemplo-brisca"><i class="fa fa-check"></i><b>5.7</b> Ejemplo: brisca</a></li>
+<li class="chapter" data-level="5.8" data-path="pec05.html"><a href="pec05.html#frequently-made-mistakes-4"><i class="fa fa-check"></i><b>5.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-de-tuplas-mal-ubicada"><i class="fa fa-check"></i><b>5.8.1</b> Definición de tipo: definición de tuplas mal ubicada</a></li>
+<li class="chapter" data-level="5.8.2" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-mal-ubicada"><i class="fa fa-check"></i><b>5.8.2</b> Definición de tipo: definición mal ubicada</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="pec06.html"><a href="pec06.html"><i class="fa fa-check"></i><b>6</b> PEC06</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="pec06.html"><a href="pec06.html#diferencias-entre-funciones-y-acciones"><i class="fa fa-check"></i><b>6.1</b> Diferencias entre funciones y acciones</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="pec06.html"><a href="pec06.html#parámetros-de-entrada-in"><i class="fa fa-check"></i><b>6.1.1</b> Parámetros de entrada (in)</a></li>
+<li class="chapter" data-level="6.1.2" data-path="pec06.html"><a href="pec06.html#parámetros-de-salida-out"><i class="fa fa-check"></i><b>6.1.2</b> Parámetros de salida (out)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="pec06.html"><a href="pec06.html#parámetros-de-entradasalida-inout"><i class="fa fa-check"></i><b>6.1.3</b> Parámetros de entrada/salida (inout)</a></li>
+<li class="chapter" data-level="6.1.4" data-path="pec06.html"><a href="pec06.html#tuplas-como-parámetros"><i class="fa fa-check"></i><b>6.1.4</b> Tuplas como parámetros</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-acciones"><i class="fa fa-check"></i><b>6.2</b> Ejemplo: uso de acciones</a></li>
+<li class="chapter" data-level="6.3" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-funciones"><i class="fa fa-check"></i><b>6.3</b> Ejemplo: uso de funciones</a></li>
+<li class="chapter" data-level="6.4" data-path="pec06.html"><a href="pec06.html#ejemplo-nóminas-1"><i class="fa fa-check"></i><b>6.4</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="6.5" data-path="pec06.html"><a href="pec06.html#pivoteDefensiva"><i class="fa fa-check"></i><b>6.5</b> Ejemplo: pivoteDefensiva</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="pec06.html"><a href="pec06.html#explicación-sobre-la-acción-copiarjugadora"><i class="fa fa-check"></i><b>6.5.1</b> Explicación sobre la acción copiarJugadora()</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="pec06.html"><a href="pec06.html#frequently-made-mistakes-5"><i class="fa fa-check"></i><b>6.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-noms-de-paràmetres"><i class="fa fa-check"></i><b>6.6.1</b> Definició d’accions/funcions: noms de paràmetres</a></li>
+<li class="chapter" data-level="6.6.2" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-tipus-de-paràmetres"><i class="fa fa-check"></i><b>6.6.2</b> Definició d’accions/funcions: tipus de paràmetres</a></li>
+<li class="chapter" data-level="6.6.3" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-tipos-de-datos-de-regreso"><i class="fa fa-check"></i><b>6.6.3</b> Definición de funciones: tipos de datos de regreso</a></li>
+<li class="chapter" data-level="6.6.4" data-path="pec06.html"><a href="pec06.html#definición-de-acciones-retorno-de-valor"><i class="fa fa-check"></i><b>6.6.4</b> Definición de acciones: retorno de valor</a></li>
+<li class="chapter" data-level="6.6.5" data-path="pec06.html"><a href="pec06.html#definición-de-accionesfunciones-acciones-abiertas"><i class="fa fa-check"></i><b>6.6.5</b> Definición de acciones/funciones: acciones abiertas</a></li>
+<li class="chapter" data-level="6.6.6" data-path="pec06.html"><a href="pec06.html#llamada-a-funcionesacciones-tipos-de-parámetros"><i class="fa fa-check"></i><b>6.6.6</b> Llamada a funciones/acciones: tipos de parámetros</a></li>
+<li class="chapter" data-level="6.6.7" data-path="pec06.html"><a href="pec06.html#llamada-a-accionesfunciones-palabras-reservadas"><i class="fa fa-check"></i><b>6.6.7</b> Llamada a acciones/funciones: palabras reservadas</a></li>
+<li class="chapter" data-level="6.6.8" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-llamada-vacía"><i class="fa fa-check"></i><b>6.6.8</b> Llamada a funciones: llamada vacía</a></li>
+<li class="chapter" data-level="6.6.9" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-ausencia-de-parámetros"><i class="fa fa-check"></i><b>6.6.9</b> Llamada a funciones: ausencia de parámetros</a></li>
+<li class="chapter" data-level="6.6.10" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-errores-de-sintaxis-múltiples"><i class="fa fa-check"></i><b>6.6.10</b> Llamada a funciones: errores de sintaxis múltiples</a></li>
+<li class="chapter" data-level="6.6.11" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-funciones-dentro-del-main"><i class="fa fa-check"></i><b>6.6.11</b> Definición de funciones: funciones dentro del main</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pec07.html"><a href="pec07.html"><i class="fa fa-check"></i><b>7</b> PEC07</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pec07.html"><a href="pec07.html#cuándo-utilizar-dentro-de-funcionesacciones"><i class="fa fa-check"></i><b>7.1</b> Cuándo utilizar &amp; dentro de funciones/acciones</a></li>
+<li class="chapter" data-level="7.2" data-path="pec07.html"><a href="pec07.html#ejemplo-cómo-modular-un-programa-con-codelite"><i class="fa fa-check"></i><b>7.2</b> Ejemplo: cómo modular un programa con CodeLite</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="pec07.html"><a href="pec07.html#funcionamiento-por-defecto-de-un-proyecto-a-codelite"><i class="fa fa-check"></i><b>7.2.1</b> Funcionamiento por defecto de un proyecto a CodeLite:</a></li>
+<li class="chapter" data-level="7.2.2" data-path="pec07.html"><a href="pec07.html#ejecutable-dentro-de-bin."><i class="fa fa-check"></i><b>7.2.2</b> Ejecutable dentro de /bin.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="pec07.html"><a href="pec07.html#modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones."><i class="fa fa-check"></i><b>7.2.3</b> Modularización del programa en un archivo de cabeceras y uno de funciones.</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="pec07.html"><a href="pec07.html#tipo-de-parámetros-en-acciones-y-funciones"><i class="fa fa-check"></i><b>7.3</b> Tipo de parámetros en acciones y funciones</a></li>
+<li class="chapter" data-level="7.4" data-path="pec07.html"><a href="pec07.html#scanf-acción-o-función"><i class="fa fa-check"></i><b>7.4</b> scanf(): acción o función?</a></li>
+<li class="chapter" data-level="7.5" data-path="pec07.html"><a href="pec07.html#paso-por-valor-vs-paso-por-referencia"><i class="fa fa-check"></i><b>7.5</b> Paso por valor vs paso por referencia</a></li>
+<li class="chapter" data-level="7.6" data-path="pec07.html"><a href="pec07.html#ejemplo-invertirpalabra"><i class="fa fa-check"></i><b>7.6</b> Ejemplo: invertirPalabra</a></li>
+<li class="chapter" data-level="7.7" data-path="pec07.html"><a href="pec07.html#ejemplo-ispar"><i class="fa fa-check"></i><b>7.7</b> Ejemplo: isPar</a></li>
+<li class="chapter" data-level="7.8" data-path="pec07.html"><a href="pec07.html#ejemplo-pivotedefensivatiroslibres"><i class="fa fa-check"></i><b>7.8</b> Ejemplo: pivoteDefensivaTirosLibres</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pec08.html"><a href="pec08.html"><i class="fa fa-check"></i><b>8</b> PEC08</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="pec08.html"><a href="pec08.html#cómo-inicializar-una-tabla"><i class="fa fa-check"></i><b>8.1</b> Cómo inicializar una tabla</a></li>
+<li class="chapter" data-level="8.2" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota"><i class="fa fa-check"></i><b>8.2</b> Ejemplo: calcularNota</a></li>
+<li class="chapter" data-level="8.3" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota-con-introducción-iterativa"><i class="fa fa-check"></i><b>8.3</b> Ejemplo: calcularNota con introducción iterativa</a></li>
+<li class="chapter" data-level="8.4" data-path="pec08.html"><a href="pec08.html#ejemplo-recorrido-vs-búsqueda"><i class="fa fa-check"></i><b>8.4</b> Ejemplo: recorrido vs búsqueda</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="pec09.html"><a href="pec09.html"><i class="fa fa-check"></i><b>9</b> PEC09</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="pec09.html"><a href="pec09.html#ejemplo-listacartas"><i class="fa fa-check"></i><b>9.1</b> Ejemplo: listaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="pec10.html"><a href="pec10.html"><i class="fa fa-check"></i><b>10</b> PEC10</a></li>
+<li class="chapter" data-level="11" data-path="pr1.html"><a href="pr1.html"><i class="fa fa-check"></i><b>11</b> PR1</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pr1.html"><a href="pr1.html#modo-menu-vs-modo-test"><i class="fa fa-check"></i><b>11.1</b> Modo menu vs modo test</a></li>
+<li class="chapter" data-level="11.2" data-path="pr1.html"><a href="pr1.html#ejemplo-tupla-dentro-de-tupla"><i class="fa fa-check"></i><b>11.2</b> Ejemplo: tupla dentro de tupla</a></li>
+<li class="chapter" data-level="11.3" data-path="pr1.html"><a href="pr1.html#desplazamiento-de-elementos-en-un-vector"><i class="fa fa-check"></i><b>11.3</b> Desplazamiento de elementos en un vector</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="pr1.html"><a href="pr1.html#añadir-un-elemento"><i class="fa fa-check"></i><b>11.3.1</b> Añadir un elemento</a></li>
+<li class="chapter" data-level="11.3.2" data-path="pr1.html"><a href="pr1.html#borrar-un-elemento"><i class="fa fa-check"></i><b>11.3.2</b> Borrar un elemento</a></li>
+<li class="chapter" data-level="11.3.3" data-path="pr1.html"><a href="pr1.html#ejemplo-diassemana"><i class="fa fa-check"></i><b>11.3.3</b> Ejemplo: diasSemana</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="pr2.html"><a href="pr2.html"><i class="fa fa-check"></i><b>12</b> PR2</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="pr2.html"><a href="pr2.html#ejemplo-pilacartas"><i class="fa fa-check"></i><b>12.1</b> Ejemplo: pilaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html"><i class="fa fa-check"></i><b>13</b> VMWare y CodeLite</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#por-qué-una-máquina-virtual"><i class="fa fa-check"></i><b>13.1</b> ¿Por qué una máquina virtual?</a></li>
+<li class="chapter" data-level="13.2" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#virtualbox-y-requerimientos-de-virtualización"><i class="fa fa-check"></i><b>13.2</b> VirtualBox y requerimientos de virtualización</a></li>
+<li class="chapter" data-level="13.3" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-instalar-las-guest-additions"><i class="fa fa-check"></i><b>13.3</b> Cómo instalar las Guest Additions</a></li>
+<li class="chapter" data-level="13.4" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#primeros-pasos-con-codelite"><i class="fa fa-check"></i><b>13.4</b> Primeros pasos con CodeLite</a></li>
+<li class="chapter" data-level="13.5" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-activar-un-proyecto"><i class="fa fa-check"></i><b>13.5</b> Cómo activar un proyecto</a></li>
+<li class="chapter" data-level="13.6" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cambiar-idioma-del-teclado"><i class="fa fa-check"></i><b>13.6</b> Cambiar idioma del teclado</a></li>
+<li class="chapter" data-level="13.7" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#programa-por-defecto-al-crear-un-proyecto"><i class="fa fa-check"></i><b>13.7</b> Programa por defecto al crear un proyecto</a></li>
+<li class="chapter" data-level="13.8" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-fijar-el-kernel-de-inicio-con-lubuntu"><i class="fa fa-check"></i><b>13.8</b> Cómo fijar el kernel de inicio con Lubuntu</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="otros.html"><a href="otros.html"><i class="fa fa-check"></i><b>14</b> Otros</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="otros.html"><a href="otros.html#bibliografía"><i class="fa fa-check"></i><b>14.1</b> Bibliografía</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://www.uoc.edu" target="blank">www.uoc.edu</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAQ Laboratorio de Fundamentos de Programación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pec06" class="section level1" number="6">
+<h1 number="6"><span class="header-section-number">6</span> PEC06</h1>
+<div id="diferencias-entre-funciones-y-acciones" class="section level2" number="6.1">
+<h2 number="6.1"><span class="header-section-number">6.1</span> Diferencias entre funciones y acciones</h2>
+<p>A continuación se explican las diferencias entre una <strong>función</strong> y una <strong>acción</strong>, qué tipos de parámetros utilizan, cómo se implementan en lenguaje C, y finalmente qué pasa cuando un parámetro es una tupla. Es importante que se vayan consolidando todos estos conceptos.</p>
+<p>Las principales diferencias son:</p>
+<table>
+<colgroup>
+<col width="54%" />
+<col width="24%" />
+<col width="21%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>funciones</th>
+<th>acciones</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Devuelven un valor?</td>
+<td>sí</td>
+<td>no</td>
+</tr>
+<tr class="even">
+<td>Tipo de parámetros</td>
+<td>entrada (in)</td>
+<td>entrada (in), salida (out), entrada / salida (inout)</td>
+</tr>
+</tbody>
+</table>
+<p>El retorno de valor de las funciones permite que este se pueda asignar a una variable, hecho que no permiten las acciones.</p>
+<p>Por ejemplo, imaginemos que queremos implementar en lenguaje C la función <code>suma()</code>; una posible implementación podría ser:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb141"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb141-1"><a href="pec06.html#cb141-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb141-2"><a href="pec06.html#cb141-2"></a></span>
+<span id="cb141-3"><a href="pec06.html#cb141-3"></a><span class="co">/* Predeclaración de la función */</span></span>
+<span id="cb141-4"><a href="pec06.html#cb141-4"></a><span class="dt">int</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2);</span>
+<span id="cb141-5"><a href="pec06.html#cb141-5"></a></span>
+<span id="cb141-6"><a href="pec06.html#cb141-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb141-7"><a href="pec06.html#cb141-7"></a>    <span class="dt">int</span> num1 = <span class="dv">3</span>;</span>
+<span id="cb141-8"><a href="pec06.html#cb141-8"></a>    <span class="dt">int</span> num2 = <span class="dv">2</span>;</span>
+<span id="cb141-9"><a href="pec06.html#cb141-9"></a>    <span class="dt">int</span> resultado = <span class="dv">0</span>;</span>
+<span id="cb141-10"><a href="pec06.html#cb141-10"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb141-11"><a href="pec06.html#cb141-11"></a>    printf(<span class="st">&quot;Valor de num2 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num2);</span>
+<span id="cb141-12"><a href="pec06.html#cb141-12"></a>    printf(<span class="st">&quot;Valor de resultado = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb141-13"><a href="pec06.html#cb141-13"></a>    printf(<span class="st">&quot;&gt;&gt; Inicio ejecución función</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb141-14"><a href="pec06.html#cb141-14"></a>    resultado = suma(num1, num2);</span>
+<span id="cb141-15"><a href="pec06.html#cb141-15"></a>    printf(<span class="st">&quot;Suma = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb141-16"><a href="pec06.html#cb141-16"></a>    printf(<span class="st">&quot;&gt;&gt; Fin ejecución función</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb141-17"><a href="pec06.html#cb141-17"></a>    printf(<span class="st">&quot;Valor de resultado = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb141-18"><a href="pec06.html#cb141-18"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb141-19"><a href="pec06.html#cb141-19"></a>}</span>
+<span id="cb141-20"><a href="pec06.html#cb141-20"></a></span>
+<span id="cb141-21"><a href="pec06.html#cb141-21"></a><span class="co">/* Implementación de la función */</span></span>
+<span id="cb141-22"><a href="pec06.html#cb141-22"></a><span class="dt">int</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2) {</span>
+<span id="cb141-23"><a href="pec06.html#cb141-23"></a>    <span class="cf">return</span> (n1+n2);</span>
+<span id="cb141-24"><a href="pec06.html#cb141-24"></a>}</span></code></pre></div>
+<p>La ejecución generará la siguiente salida:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb142"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb142-1"><a href="pec06.html#cb142-1"></a>Valor de num1 = <span class="dv">3</span></span>
+<span id="cb142-2"><a href="pec06.html#cb142-2"></a>Valor de num2 = <span class="dv">2</span></span>
+<span id="cb142-3"><a href="pec06.html#cb142-3"></a>Valor de resultado = <span class="dv">0</span></span>
+<span id="cb142-4"><a href="pec06.html#cb142-4"></a>&gt;&gt; Inicio ejecución función</span>
+<span id="cb142-5"><a href="pec06.html#cb142-5"></a>Suma = <span class="dv">5</span></span>
+<span id="cb142-6"><a href="pec06.html#cb142-6"></a>&gt;&gt; Fin ejecución función</span>
+<span id="cb142-7"><a href="pec06.html#cb142-7"></a>Valor de resultado = <span class="dv">5</span></span></code></pre></div>
+<p>Como se puede ver, el valor de retorno de la función <code>suma()</code> la asignamos a la variable <code>resultado</code>.</p>
+<p>En una función, los parámetros pasados siempre serán <strong>de entrada</strong> (in): esto significa que dentro de la función únicamente serán valores de consulta, no los modificaremos para nada.</p>
+<p>Para entender bien cómo se implementa una acción, relacionaremos ejemplos similares con los diferentes tipos de parámetros que puede tener una acción: <strong>entrada</strong> (in), <strong>salida</strong> (out) y <strong>entrada/salida</strong> (inout).</p>
+<div id="parámetros-de-entrada-in" class="section level3" number="6.1.1">
+<h3 number="6.1.1"><span class="header-section-number">6.1.1</span> Parámetros de entrada (in)</h3>
+<p>Son aquellos parámetros que se pasan a una <strong>acción</strong> y de los que únicamente utilizaremos su contenido. Esto significa que vamos a trabajar con ellos en <em>modo lectura</em>: obtendremos sus valores para realizar cálculos, pero nunca modificaremos su contenido. Ejemplo:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb143"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb143-1"><a href="pec06.html#cb143-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb143-2"><a href="pec06.html#cb143-2"></a></span>
+<span id="cb143-3"><a href="pec06.html#cb143-3"></a><span class="co">/* Predeclaración de la acción */</span></span>
+<span id="cb143-4"><a href="pec06.html#cb143-4"></a><span class="dt">void</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2);</span>
+<span id="cb143-5"><a href="pec06.html#cb143-5"></a></span>
+<span id="cb143-6"><a href="pec06.html#cb143-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb143-7"><a href="pec06.html#cb143-7"></a>    <span class="dt">int</span> num1 = <span class="dv">3</span>;</span>
+<span id="cb143-8"><a href="pec06.html#cb143-8"></a>    <span class="dt">int</span> num2 = <span class="dv">2</span>;</span>
+<span id="cb143-9"><a href="pec06.html#cb143-9"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb143-10"><a href="pec06.html#cb143-10"></a>    printf(<span class="st">&quot;Valor de num2 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num2);</span>
+<span id="cb143-11"><a href="pec06.html#cb143-11"></a>    printf(<span class="st">&quot;&gt;&gt; Inicio ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb143-12"><a href="pec06.html#cb143-12"></a>    suma(num1, num2);</span>
+<span id="cb143-13"><a href="pec06.html#cb143-13"></a>    printf(<span class="st">&quot;&gt;&gt; Fin ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb143-14"><a href="pec06.html#cb143-14"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb143-15"><a href="pec06.html#cb143-15"></a>    printf(<span class="st">&quot;Valor de num2 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num2);</span>
+<span id="cb143-16"><a href="pec06.html#cb143-16"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb143-17"><a href="pec06.html#cb143-17"></a>}   </span>
+<span id="cb143-18"><a href="pec06.html#cb143-18"></a></span>
+<span id="cb143-19"><a href="pec06.html#cb143-19"></a><span class="co">/* Implementación de la acción */</span></span>
+<span id="cb143-20"><a href="pec06.html#cb143-20"></a><span class="dt">void</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2) {</span>
+<span id="cb143-21"><a href="pec06.html#cb143-21"></a>    <span class="dt">int</span> resultado = n1 + n2;</span>
+<span id="cb143-22"><a href="pec06.html#cb143-22"></a>    printf(<span class="st">&quot;Suma = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb143-23"><a href="pec06.html#cb143-23"></a>}</span></code></pre></div>
+<p>La ejecución generará la siguiente salida:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb144"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb144-1"><a href="pec06.html#cb144-1"></a>Valor de num1 = <span class="dv">3</span></span>
+<span id="cb144-2"><a href="pec06.html#cb144-2"></a>Valor de num2 = <span class="dv">2</span></span>
+<span id="cb144-3"><a href="pec06.html#cb144-3"></a>&gt;&gt; Inicio ejecución acción</span>
+<span id="cb144-4"><a href="pec06.html#cb144-4"></a>Suma = <span class="dv">5</span></span>
+<span id="cb144-5"><a href="pec06.html#cb144-5"></a>&gt;&gt; Fin ejecución acción</span>
+<span id="cb144-6"><a href="pec06.html#cb144-6"></a>Valor de num1 = <span class="dv">3</span></span>
+<span id="cb144-7"><a href="pec06.html#cb144-7"></a>Valor de num2 = <span class="dv">2</span></span></code></pre></div>
+<p>Como se puede observar, ni <code>num1</code> ni <code>num2</code> han modificado su valor después de la ejecución de la acción: son <strong>parámetros de entrada</strong>.</p>
+<p>Este tipo de parámetro también se referencia como <strong>parámetro por valor</strong>, o <strong>paso por valor</strong>, ya que lo que estamos pasando es un <strong>valor</strong>, no un puntero a un valor.</p>
+</div>
+<div id="parámetros-de-salida-out" class="section level3" number="6.1.2">
+<h3 number="6.1.2"><span class="header-section-number">6.1.2</span> Parámetros de salida (out)</h3>
+<p>A diferencia de los parámetros de entrada, los de salida se utilizan únicamente para guardar valores. Pueden contener cualquier valor inicial, que este no será utilizado dentro de la acción. Una vez realizados todos los cálculos de la acción, el resultado final se guardará en el parámetro de salida. Ejemplo:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb145"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb145-1"><a href="pec06.html#cb145-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb145-2"><a href="pec06.html#cb145-2"></a></span>
+<span id="cb145-3"><a href="pec06.html#cb145-3"></a><span class="co">/* Predeclaración de la acción */</span></span>
+<span id="cb145-4"><a href="pec06.html#cb145-4"></a><span class="dt">void</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2, <span class="dt">int</span> *res);</span>
+<span id="cb145-5"><a href="pec06.html#cb145-5"></a></span>
+<span id="cb145-6"><a href="pec06.html#cb145-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb145-7"><a href="pec06.html#cb145-7"></a>    <span class="dt">int</span> num1 = <span class="dv">3</span>;</span>
+<span id="cb145-8"><a href="pec06.html#cb145-8"></a>    <span class="dt">int</span> num2 = <span class="dv">2</span>;</span>
+<span id="cb145-9"><a href="pec06.html#cb145-9"></a>    <span class="dt">int</span> resultado = <span class="dv">0</span>;</span>
+<span id="cb145-10"><a href="pec06.html#cb145-10"></a>    <span class="dt">int</span> *pResultado = &amp;resultado;</span>
+<span id="cb145-11"><a href="pec06.html#cb145-11"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb145-12"><a href="pec06.html#cb145-12"></a>    printf(<span class="st">&quot;Valor de num2 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num2);</span>
+<span id="cb145-13"><a href="pec06.html#cb145-13"></a>    printf(<span class="st">&quot;Valor de resultado = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb145-14"><a href="pec06.html#cb145-14"></a>    printf(<span class="st">&quot;&gt;&gt; Inicio ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>); </span>
+<span id="cb145-15"><a href="pec06.html#cb145-15"></a>    suma(num1, num2, pResultado);</span>
+<span id="cb145-16"><a href="pec06.html#cb145-16"></a>    printf(<span class="st">&quot;Suma = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb145-17"><a href="pec06.html#cb145-17"></a>    printf(<span class="st">&quot;&gt;&gt; Fin ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb145-18"><a href="pec06.html#cb145-18"></a>    printf(<span class="st">&quot;Valor de resultado = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, resultado);</span>
+<span id="cb145-19"><a href="pec06.html#cb145-19"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb145-20"><a href="pec06.html#cb145-20"></a>}</span>
+<span id="cb145-21"><a href="pec06.html#cb145-21"></a></span>
+<span id="cb145-22"><a href="pec06.html#cb145-22"></a><span class="co">/* Implementación de la acción */</span></span>
+<span id="cb145-23"><a href="pec06.html#cb145-23"></a><span class="dt">void</span> suma(<span class="dt">int</span> n1, <span class="dt">int</span> n2, <span class="dt">int</span> *res) {</span>
+<span id="cb145-24"><a href="pec06.html#cb145-24"></a>    *res = n1 + n2;</span>
+<span id="cb145-25"><a href="pec06.html#cb145-25"></a>}</span></code></pre></div>
+<p>La ejecución generará la siguiente salida:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb146"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb146-1"><a href="pec06.html#cb146-1"></a>Valor de num1 = <span class="dv">3</span></span>
+<span id="cb146-2"><a href="pec06.html#cb146-2"></a>Valor de num2 = <span class="dv">2</span></span>
+<span id="cb146-3"><a href="pec06.html#cb146-3"></a>Valor de resultado = <span class="dv">0</span></span>
+<span id="cb146-4"><a href="pec06.html#cb146-4"></a>&gt;&gt; Inicio ejecución acción</span>
+<span id="cb146-5"><a href="pec06.html#cb146-5"></a>Suma = <span class="dv">5</span></span>
+<span id="cb146-6"><a href="pec06.html#cb146-6"></a>&gt;&gt; Fin ejecución acción</span>
+<span id="cb146-7"><a href="pec06.html#cb146-7"></a>Valor de resultado = <span class="dv">5</span></span></code></pre></div>
+<p>De momento ignoraremos que se trata de un puntero: independientemente del valor que tenga nada al pasar por parámetro, cuando finalice la acción contendrá la suma de los otros dos parámetros de entrada <code>num1</code> y <code>num2</code>.</p>
+<p>El valor resultado ha cambiado, de <code>0</code> a<code>5</code>. Se considera un <strong>parámetro de salida</strong> porque, independientemente del valor inicial que tenga este, no se utiliza para nada y al finalizar la acción contendrá el resultado de la operación <code>suma()</code>.</p>
+<p>Ahora sí comentamos el hecho de utilizar el puntero: el modo que tenemos en C para modificar una variable definida fuera de una acción desde dentro de la misma es trabajando precisamente con su dirección de memoria.</p>
+<p>Este tipo de parámetro también se referencia como <strong>parámetro por referencia</strong>, o <strong>paso por referencia</strong>, ya que pasamos un puntero a un valor, no el valor en sí mismo.</p>
+</div>
+<div id="parámetros-de-entradasalida-inout" class="section level3" number="6.1.3">
+<h3 number="6.1.3"><span class="header-section-number">6.1.3</span> Parámetros de entrada/salida (inout)</h3>
+<p>Este tipo de parámetro es una suma de los dos comportamientos anteriores: por un lado su valor importa a la hora de realizar los cálculos de la acción, ya la vez al finalizar la ejecución de la acción tendrá un valor diferente, también significativo por tratarse del resultado final del cálculo. Ejemplo:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb147"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb147-1"><a href="pec06.html#cb147-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb147-2"><a href="pec06.html#cb147-2"></a></span>
+<span id="cb147-3"><a href="pec06.html#cb147-3"></a><span class="co">/* Predeclaración de la acción */</span></span>
+<span id="cb147-4"><a href="pec06.html#cb147-4"></a><span class="dt">void</span> suma(<span class="dt">int</span> *pN1, <span class="dt">int</span> n2);</span>
+<span id="cb147-5"><a href="pec06.html#cb147-5"></a></span>
+<span id="cb147-6"><a href="pec06.html#cb147-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb147-7"><a href="pec06.html#cb147-7"></a>    <span class="dt">int</span> num1 = <span class="dv">3</span>;</span>
+<span id="cb147-8"><a href="pec06.html#cb147-8"></a>    <span class="dt">int</span> num2 = <span class="dv">2</span>;</span>
+<span id="cb147-9"><a href="pec06.html#cb147-9"></a>    <span class="dt">int</span> *pNum1 = &amp;num1;</span>
+<span id="cb147-10"><a href="pec06.html#cb147-10"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb147-11"><a href="pec06.html#cb147-11"></a>    printf(<span class="st">&quot;Valor de num2 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num2);</span>
+<span id="cb147-12"><a href="pec06.html#cb147-12"></a>    printf(<span class="st">&quot;&gt;&gt; Inicio ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>); </span>
+<span id="cb147-13"><a href="pec06.html#cb147-13"></a>    suma(pNum1, num2);</span>
+<span id="cb147-14"><a href="pec06.html#cb147-14"></a>    printf(<span class="st">&quot;Suma = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb147-15"><a href="pec06.html#cb147-15"></a>    printf(<span class="st">&quot;&gt;&gt; Fin ejecución acción</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb147-16"><a href="pec06.html#cb147-16"></a>    printf(<span class="st">&quot;Valor de num1 = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, num1);</span>
+<span id="cb147-17"><a href="pec06.html#cb147-17"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb147-18"><a href="pec06.html#cb147-18"></a>}</span>
+<span id="cb147-19"><a href="pec06.html#cb147-19"></a></span>
+<span id="cb147-20"><a href="pec06.html#cb147-20"></a><span class="co">/* Implementación de la acción */</span></span>
+<span id="cb147-21"><a href="pec06.html#cb147-21"></a><span class="dt">void</span> suma(<span class="dt">int</span> *pN1, <span class="dt">int</span> n2) {</span>
+<span id="cb147-22"><a href="pec06.html#cb147-22"></a>    *pN1 = *pN1 + n2;</span>
+<span id="cb147-23"><a href="pec06.html#cb147-23"></a>}</span></code></pre></div>
+<p>La ejecución generará la siguiente salida:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb148"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb148-1"><a href="pec06.html#cb148-1"></a>Valor de num1 = <span class="dv">3</span></span>
+<span id="cb148-2"><a href="pec06.html#cb148-2"></a>Valor de num2 = <span class="dv">2</span></span>
+<span id="cb148-3"><a href="pec06.html#cb148-3"></a>&gt;&gt; Inicio ejecución acción</span>
+<span id="cb148-4"><a href="pec06.html#cb148-4"></a>Suma = <span class="dv">5</span></span>
+<span id="cb148-5"><a href="pec06.html#cb148-5"></a>&gt;&gt; Fin ejecución acción</span>
+<span id="cb148-6"><a href="pec06.html#cb148-6"></a>Valor de num1 = <span class="dv">5</span></span></code></pre></div>
+<p>En este caso se ha realizado la suma como <code>num1 = num1 + num2</code>: el resultado de la suma de las dos variables se guarda en la primera de ellas. Así pues el valor de la variable <code>num1</code> importa tanto a la entrada como a la salida de la acción, con lo que se trata de un <strong>parámetro de entrada/salida</strong>.</p>
+<p>De igual forma que en el caso anterior, este tipo de parámetro también se referencia como <strong>parámetro por referencia</strong>, o <strong>paso por referencia</strong>, ya que pasamos un puntero.</p>
+</div>
+<div id="tuplas-como-parámetros" class="section level3" number="6.1.4">
+<h3 number="6.1.4"><span class="header-section-number">6.1.4</span> Tuplas como parámetros</h3>
+<p>Cuando un parámetro de una acción/función es una <strong>tupla</strong>, la forma como accederemos a sus atributos dentro de la acción/función variará en función del tipo de parámetro:</p>
+<ul>
+<li>Parámetros de <strong>entrada</strong>: el accesor los atributos es el <code>.</code> (un punto). Por lo tanto dentro de la función/acción, accederemos a los atributos de la tupla pasada por parámetro de la siguiente forma: <code>nombreTupla.nombreAtributo</code>.</li>
+<li>Parámetros de <strong>salida</strong> y de <strong>entrada/salida</strong>: en este caso el accesor los atributos de la tupla es <code>-&gt;</code>. Así, dentro de la acción podremos hacer referencia a los atributos de la tupla pasada por parámetro de la forma: <code>nombreTupla-&gt; nombreAtributo</code>.</li>
+</ul>
+</div>
+</div>
+<div id="ejemplo-uso-de-acciones" class="section level2" number="6.2">
+<h2 number="6.2"><span class="header-section-number">6.2</span> Ejemplo: uso de acciones</h2>
+<p>A continuación se adjunta un ejemplo inventado de cómo se pueden definir acciones que permitan modificar los atributos de una tupla pasada como puntero. Dentro del código hay comentarios adicionales para que quede lo más claro posible:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb149"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb149-1"><a href="pec06.html#cb149-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb149-2"><a href="pec06.html#cb149-2"></a></span>
+<span id="cb149-3"><a href="pec06.html#cb149-3"></a><span class="pp">#define MAX_CHAR 10+1</span></span>
+<span id="cb149-4"><a href="pec06.html#cb149-4"></a></span>
+<span id="cb149-5"><a href="pec06.html#cb149-5"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb149-6"><a href="pec06.html#cb149-6"></a>    <span class="dt">char</span> nombre[MAX_CHAR];</span>
+<span id="cb149-7"><a href="pec06.html#cb149-7"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb149-8"><a href="pec06.html#cb149-8"></a>} tEmpleado;</span>
+<span id="cb149-9"><a href="pec06.html#cb149-9"></a></span>
+<span id="cb149-10"><a href="pec06.html#cb149-10"></a><span class="co">/* Predeclaración de las acciones */</span></span>
+<span id="cb149-11"><a href="pec06.html#cb149-11"></a></span>
+<span id="cb149-12"><a href="pec06.html#cb149-12"></a><span class="dt">void</span> printEmpleado(tEmpleado empleado);</span>
+<span id="cb149-13"><a href="pec06.html#cb149-13"></a><span class="dt">void</span> setNominaEmpleado(tEmpleado *empleado, <span class="dt">float</span> nomina);</span>
+<span id="cb149-14"><a href="pec06.html#cb149-14"></a><span class="dt">void</span> setNombreEmpleado(tEmpleado *empleado, <span class="dt">char</span> nombre[MAX_CHAR]);</span>
+<span id="cb149-15"><a href="pec06.html#cb149-15"></a></span>
+<span id="cb149-16"><a href="pec06.html#cb149-16"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb149-17"><a href="pec06.html#cb149-17"></a>    <span class="co">/* Declaramos nuevoEmpleado de tipo tEmpleado,</span></span>
+<span id="cb149-18"><a href="pec06.html#cb149-18"></a><span class="co">     * pero no le daremos ningún valor directamente</span></span>
+<span id="cb149-19"><a href="pec06.html#cb149-19"></a><span class="co">     * a sus dos atributos (número y nómina): lo</span></span>
+<span id="cb149-20"><a href="pec06.html#cb149-20"></a><span class="co">     * haremos mediante dos acciones</span></span>
+<span id="cb149-21"><a href="pec06.html#cb149-21"></a><span class="co">     */</span></span>
+<span id="cb149-22"><a href="pec06.html#cb149-22"></a>    tEmpleado nuevoEmpleado;</span>
+<span id="cb149-23"><a href="pec06.html#cb149-23"></a>   </span>
+<span id="cb149-24"><a href="pec06.html#cb149-24"></a>    <span class="co">/* Los valores de los atributos número y nómina los</span></span>
+<span id="cb149-25"><a href="pec06.html#cb149-25"></a><span class="co">     * leeremos desde teclado y los guardaremos inicialmente</span></span>
+<span id="cb149-26"><a href="pec06.html#cb149-26"></a><span class="co">     * en las siguientes dos variables</span></span>
+<span id="cb149-27"><a href="pec06.html#cb149-27"></a><span class="co">     */</span></span>
+<span id="cb149-28"><a href="pec06.html#cb149-28"></a>    <span class="dt">char</span> nombre[MAX_CHAR];</span>
+<span id="cb149-29"><a href="pec06.html#cb149-29"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb149-30"><a href="pec06.html#cb149-30"></a>   </span>
+<span id="cb149-31"><a href="pec06.html#cb149-31"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nombre empleado : &quot;</span>);</span>
+<span id="cb149-32"><a href="pec06.html#cb149-32"></a>    scanf(<span class="st">&quot;%s&quot;</span>, nombre);</span>
+<span id="cb149-33"><a href="pec06.html#cb149-33"></a>      </span>
+<span id="cb149-34"><a href="pec06.html#cb149-34"></a>    printf(<span class="st">&quot;Nómina empleado : &quot;</span>);</span>
+<span id="cb149-35"><a href="pec06.html#cb149-35"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;nomina);</span>
+<span id="cb149-36"><a href="pec06.html#cb149-36"></a>   </span>
+<span id="cb149-37"><a href="pec06.html#cb149-37"></a>    <span class="co">/* Asignamos el número y la nómina al tEmpleado nuevoEmpleado</span></span>
+<span id="cb149-38"><a href="pec06.html#cb149-38"></a><span class="co">     * utilizando las acciones definidas. Fijaos</span></span>
+<span id="cb149-39"><a href="pec06.html#cb149-39"></a><span class="co">     * que el parámetro nuevoEmpleado lo pasamos como puntero</span></span>
+<span id="cb149-40"><a href="pec06.html#cb149-40"></a><span class="co">     * (pasamos su dirección en memoria, ya que va</span></span>
+<span id="cb149-41"><a href="pec06.html#cb149-41"></a><span class="co">     * precedido de &amp;)</span></span>
+<span id="cb149-42"><a href="pec06.html#cb149-42"></a><span class="co">     */</span></span>
+<span id="cb149-43"><a href="pec06.html#cb149-43"></a>    setNombreEmpleado(&amp;nuevoEmpleado, nombre);</span>
+<span id="cb149-44"><a href="pec06.html#cb149-44"></a>    setNominaEmpleado(&amp;nuevoEmpleado, nomina);</span>
+<span id="cb149-45"><a href="pec06.html#cb149-45"></a>   </span>
+<span id="cb149-46"><a href="pec06.html#cb149-46"></a>    <span class="co">/* Mostramos los datos de la tupla tEmpleado nuevoEmpleado</span></span>
+<span id="cb149-47"><a href="pec06.html#cb149-47"></a><span class="co">     * por pantalla</span></span>
+<span id="cb149-48"><a href="pec06.html#cb149-48"></a><span class="co">     */</span></span>
+<span id="cb149-49"><a href="pec06.html#cb149-49"></a>    printEmpleado(nuevoEmpleado);</span>
+<span id="cb149-50"><a href="pec06.html#cb149-50"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb149-51"><a href="pec06.html#cb149-51"></a>}</span>
+<span id="cb149-52"><a href="pec06.html#cb149-52"></a></span>
+<span id="cb149-53"><a href="pec06.html#cb149-53"></a><span class="co">/* Implementación de las acciones */</span></span>
+<span id="cb149-54"><a href="pec06.html#cb149-54"></a></span>
+<span id="cb149-55"><a href="pec06.html#cb149-55"></a><span class="dt">void</span> printEmpleado(tEmpleado empleado) {</span>
+<span id="cb149-56"><a href="pec06.html#cb149-56"></a>    <span class="co">/* El parámetro empleado es de entrada, por lo</span></span>
+<span id="cb149-57"><a href="pec06.html#cb149-57"></a><span class="co">     * que el acceso a sus atributos lo haremos</span></span>
+<span id="cb149-58"><a href="pec06.html#cb149-58"></a><span class="co">     * con un punto: empleado.nombre, empleado.nomina</span></span>
+<span id="cb149-59"><a href="pec06.html#cb149-59"></a><span class="co">     */</span></span>
+<span id="cb149-60"><a href="pec06.html#cb149-60"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Datos del empleado: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb149-61"><a href="pec06.html#cb149-61"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Nombre: %s</span><span class="sc">\n</span><span class="st">&quot;</span>, empleado.nombre);</span>
+<span id="cb149-62"><a href="pec06.html#cb149-62"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Nómina: %.2f €</span><span class="sc">\n</span><span class="st">&quot;</span>, empleado.nomina);</span>
+<span id="cb149-63"><a href="pec06.html#cb149-63"></a>}</span>
+<span id="cb149-64"><a href="pec06.html#cb149-64"></a></span>
+<span id="cb149-65"><a href="pec06.html#cb149-65"></a><span class="dt">void</span> setNominaEmpleado(tEmpleado *empleado, <span class="dt">float</span> nomina) {</span>
+<span id="cb149-66"><a href="pec06.html#cb149-66"></a>    <span class="co">/* El parámetro empleado (de tipo inout) es un puntero,</span></span>
+<span id="cb149-67"><a href="pec06.html#cb149-67"></a><span class="co">     * para que desde dentro de la acción sea posible</span></span>
+<span id="cb149-68"><a href="pec06.html#cb149-68"></a><span class="co">     * modificar el valor (de un atributo) del empleado</span></span>
+<span id="cb149-69"><a href="pec06.html#cb149-69"></a><span class="co">     * definido al main de nuestro programa, fuera el ámbito</span></span>
+<span id="cb149-70"><a href="pec06.html#cb149-70"></a><span class="co">     * de la acción. </span></span>
+<span id="cb149-71"><a href="pec06.html#cb149-71"></a><span class="co">     * El acceso a un atributo de un elemento referenciado con</span></span>
+<span id="cb149-72"><a href="pec06.html#cb149-72"></a><span class="co">     * un puntero se hace con &#39;-&gt;&#39;: empleado-&gt;nomina.</span></span>
+<span id="cb149-73"><a href="pec06.html#cb149-73"></a><span class="co">     */</span></span>
+<span id="cb149-74"><a href="pec06.html#cb149-74"></a>    empleado-&gt;nomina = nomina;</span>
+<span id="cb149-75"><a href="pec06.html#cb149-75"></a>}</span>
+<span id="cb149-76"><a href="pec06.html#cb149-76"></a></span>
+<span id="cb149-77"><a href="pec06.html#cb149-77"></a><span class="dt">void</span> setNombreEmpleado(tEmpleado *empleado, <span class="dt">char</span> nombre[MAX_CHAR]) {</span>
+<span id="cb149-78"><a href="pec06.html#cb149-78"></a>    <span class="co">/* Idem que en la acción setNominaEmpleado. En este caso</span></span>
+<span id="cb149-79"><a href="pec06.html#cb149-79"></a><span class="co">     * además hay que recordar que la asignación de strings</span></span>
+<span id="cb149-80"><a href="pec06.html#cb149-80"></a><span class="co">     * la hacemos con la función strcpy de C, en vez</span></span>
+<span id="cb149-81"><a href="pec06.html#cb149-81"></a><span class="co">     * de utilizar la asignación habitual &#39;=&#39; de los tipos</span></span>
+<span id="cb149-82"><a href="pec06.html#cb149-82"></a><span class="co">     * primitivos (char, int, float, ...)</span></span>
+<span id="cb149-83"><a href="pec06.html#cb149-83"></a><span class="co">     */</span></span>
+<span id="cb149-84"><a href="pec06.html#cb149-84"></a>    strcpy(empleado-&gt;nombre, nombre);</span>
+<span id="cb149-85"><a href="pec06.html#cb149-85"></a>}</span></code></pre></div>
+<p>Un ejemplo de ejecución sería:</p>
+<p>
+<img src="img/play.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb150"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb150-1"><a href="pec06.html#cb150-1"></a>Nombre empleado : Laura</span>
+<span id="cb150-2"><a href="pec06.html#cb150-2"></a>Nómina empleado : <span class="fl">1850.32</span></span>
+<span id="cb150-3"><a href="pec06.html#cb150-3"></a></span>
+<span id="cb150-4"><a href="pec06.html#cb150-4"></a>Datos del empleado: </span>
+<span id="cb150-5"><a href="pec06.html#cb150-5"></a>    Nombre: Laura</span>
+<span id="cb150-6"><a href="pec06.html#cb150-6"></a>    Nómina: <span class="fl">1850.32</span> €</span></code></pre></div>
+</div>
+<div id="ejemplo-uso-de-funciones" class="section level2" number="6.3">
+<h2 number="6.3"><span class="header-section-number">6.3</span> Ejemplo: uso de funciones</h2>
+<hr />
+<p>Si necesitamos un método que como resultado devuelva un string, en vez de utilizar una función utilizaremos una acción con un parámetro de salida o de entrada/salida. Las funciones las usaremos para devolver valores de <strong>tipo primitivo</strong> (entero, decimal, carácter), dejando los <strong>tipos compuestos</strong> (vectores, tuplas, etc.) para las acciones.</p>
+<p>A continuación se expone un ejemplo para que quede más claro:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb151"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb151-1"><a href="pec06.html#cb151-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb151-2"><a href="pec06.html#cb151-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb151-3"><a href="pec06.html#cb151-3"></a></span>
+<span id="cb151-4"><a href="pec06.html#cb151-4"></a><span class="co">/* Programa que, dada una hora, indica</span></span>
+<span id="cb151-5"><a href="pec06.html#cb151-5"></a><span class="co"> * a qué parte del día corresponde.</span></span>
+<span id="cb151-6"><a href="pec06.html#cb151-6"></a><span class="co"> * Por &quot;parte del día&quot; se entiende: madrugada,</span></span>
+<span id="cb151-7"><a href="pec06.html#cb151-7"></a><span class="co"> * mañana, mediodía, tarde, atardecer.</span></span>
+<span id="cb151-8"><a href="pec06.html#cb151-8"></a><span class="co"> * La hora se consigue mediante una</span></span>
+<span id="cb151-9"><a href="pec06.html#cb151-9"></a><span class="co"> * función, lo devuelve un valor</span></span>
+<span id="cb151-10"><a href="pec06.html#cb151-10"></a><span class="co"> * entero en formato HHMM (donde HH = hora y</span></span>
+<span id="cb151-11"><a href="pec06.html#cb151-11"></a><span class="co"> * MM = minuto).</span></span>
+<span id="cb151-12"><a href="pec06.html#cb151-12"></a><span class="co"> * Por otra parte, el cálculo de la parte</span></span>
+<span id="cb151-13"><a href="pec06.html#cb151-13"></a><span class="co"> * del día se realiza con una acción,</span></span>
+<span id="cb151-14"><a href="pec06.html#cb151-14"></a><span class="co"> * la que recibe dos parámetros: uno de entrada</span></span>
+<span id="cb151-15"><a href="pec06.html#cb151-15"></a><span class="co"> * correspondiente a la hora en formato HHMM,</span></span>
+<span id="cb151-16"><a href="pec06.html#cb151-16"></a><span class="co"> * y otro de salida que contendrá</span></span>
+<span id="cb151-17"><a href="pec06.html#cb151-17"></a><span class="co"> * la parte del día (string) que corresponde</span></span>
+<span id="cb151-18"><a href="pec06.html#cb151-18"></a><span class="co"> * a la hora.</span></span>
+<span id="cb151-19"><a href="pec06.html#cb151-19"></a><span class="co"> */</span></span>
+<span id="cb151-20"><a href="pec06.html#cb151-20"></a></span>
+<span id="cb151-21"><a href="pec06.html#cb151-21"></a><span class="pp">#define MAX_CHARS 8+1</span></span>
+<span id="cb151-22"><a href="pec06.html#cb151-22"></a></span>
+<span id="cb151-23"><a href="pec06.html#cb151-23"></a><span class="co">/* Predeclaración de funciones y acciones */</span></span>
+<span id="cb151-24"><a href="pec06.html#cb151-24"></a><span class="dt">void</span> calcularParteDelDia(<span class="dt">int</span> hora, <span class="dt">char</span> *parte);</span>
+<span id="cb151-25"><a href="pec06.html#cb151-25"></a><span class="dt">int</span> pedirHora();</span>
+<span id="cb151-26"><a href="pec06.html#cb151-26"></a></span>
+<span id="cb151-27"><a href="pec06.html#cb151-27"></a><span class="co">/* Programa principal */</span></span>
+<span id="cb151-28"><a href="pec06.html#cb151-28"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb151-29"><a href="pec06.html#cb151-29"></a>    <span class="dt">int</span> hora;</span>
+<span id="cb151-30"><a href="pec06.html#cb151-30"></a>    <span class="dt">char</span> parteDelDia[MAX_CHARS];</span>
+<span id="cb151-31"><a href="pec06.html#cb151-31"></a>    hora = pedirHora();</span>
+<span id="cb151-32"><a href="pec06.html#cb151-32"></a>    calcularParteDelDia(hora, parteDelDia);</span>
+<span id="cb151-33"><a href="pec06.html#cb151-33"></a>    printf(<span class="st">&quot;La hora %d corresponde a: %s </span><span class="sc">\n</span><span class="st">&quot;</span>, hora, parteDelDia);</span>
+<span id="cb151-34"><a href="pec06.html#cb151-34"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb151-35"><a href="pec06.html#cb151-35"></a>}</span>
+<span id="cb151-36"><a href="pec06.html#cb151-36"></a></span>
+<span id="cb151-37"><a href="pec06.html#cb151-37"></a><span class="co">/* Implementación de funciones y acciones */</span></span>
+<span id="cb151-38"><a href="pec06.html#cb151-38"></a></span>
+<span id="cb151-39"><a href="pec06.html#cb151-39"></a><span class="co">/* Función que devuelve un entero, correspondiente</span></span>
+<span id="cb151-40"><a href="pec06.html#cb151-40"></a><span class="co"> * a la hora introducida por teclado, en formato</span></span>
+<span id="cb151-41"><a href="pec06.html#cb151-41"></a><span class="co"> * HHMM</span></span>
+<span id="cb151-42"><a href="pec06.html#cb151-42"></a><span class="co"> */</span></span>
+<span id="cb151-43"><a href="pec06.html#cb151-43"></a><span class="dt">int</span> pedirHora() {</span>
+<span id="cb151-44"><a href="pec06.html#cb151-44"></a>    <span class="dt">int</span> hora;</span>
+<span id="cb151-45"><a href="pec06.html#cb151-45"></a>    printf(<span class="st">&quot;Teclea hora (formato HHMM) : &quot;</span>);</span>
+<span id="cb151-46"><a href="pec06.html#cb151-46"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;hora);</span>
+<span id="cb151-47"><a href="pec06.html#cb151-47"></a>    <span class="cf">return</span> hora;</span>
+<span id="cb151-48"><a href="pec06.html#cb151-48"></a>}</span>
+<span id="cb151-49"><a href="pec06.html#cb151-49"></a></span>
+<span id="cb151-50"><a href="pec06.html#cb151-50"></a><span class="co">/* Acción que, dada una hora (parámetro</span></span>
+<span id="cb151-51"><a href="pec06.html#cb151-51"></a><span class="co"> * de entrada), calcula qué parte del día</span></span>
+<span id="cb151-52"><a href="pec06.html#cb151-52"></a><span class="co"> * corresponde (parámetro de salida). La</span></span>
+<span id="cb151-53"><a href="pec06.html#cb151-53"></a><span class="co"> * parte del día es de tipo string. El</span></span>
+<span id="cb151-54"><a href="pec06.html#cb151-54"></a><span class="co"> * parámetro de salida debe ser un</span></span>
+<span id="cb151-55"><a href="pec06.html#cb151-55"></a><span class="co"> * puntero, para que desde dentro de</span></span>
+<span id="cb151-56"><a href="pec06.html#cb151-56"></a><span class="co"> * la acción se pueda modificar el valor</span></span>
+<span id="cb151-57"><a href="pec06.html#cb151-57"></a><span class="co"> * de la variable definida fuera del</span></span>
+<span id="cb151-58"><a href="pec06.html#cb151-58"></a><span class="co"> * ámbito de la acción, dentro del main.</span></span>
+<span id="cb151-59"><a href="pec06.html#cb151-59"></a><span class="co"> */</span></span>
+<span id="cb151-60"><a href="pec06.html#cb151-60"></a><span class="dt">void</span> calcularParteDelDia(<span class="dt">int</span> hora, <span class="dt">char</span> *parte) {</span>
+<span id="cb151-61"><a href="pec06.html#cb151-61"></a></span>
+<span id="cb151-62"><a href="pec06.html#cb151-62"></a>    <span class="co">/* Particionado horario extraído de</span></span>
+<span id="cb151-63"><a href="pec06.html#cb151-63"></a><span class="co">     * http://www.wikilengua.org/index.php/Hora</span></span>
+<span id="cb151-64"><a href="pec06.html#cb151-64"></a><span class="co">     */</span></span>
+<span id="cb151-65"><a href="pec06.html#cb151-65"></a></span>
+<span id="cb151-66"><a href="pec06.html#cb151-66"></a>    <span class="co">/* 0 corresponde a 0000 */</span></span>
+<span id="cb151-67"><a href="pec06.html#cb151-67"></a>    <span class="co">/* 600 corresponde a 0600 */</span></span>
+<span id="cb151-68"><a href="pec06.html#cb151-68"></a>    <span class="cf">if</span> (hora &gt;= <span class="dv">0</span> &amp;&amp; hora &lt;= <span class="dv">600</span>) {</span>
+<span id="cb151-69"><a href="pec06.html#cb151-69"></a>        strcpy(parte, <span class="st">&quot;madrugada&quot;</span>);</span>
+<span id="cb151-70"><a href="pec06.html#cb151-70"></a>    } <span class="cf">else</span> {</span>
+<span id="cb151-71"><a href="pec06.html#cb151-71"></a>        <span class="cf">if</span> (hora &gt; <span class="dv">600</span> &amp;&amp; hora &lt;= <span class="dv">1200</span>) {</span>
+<span id="cb151-72"><a href="pec06.html#cb151-72"></a>            strcpy(parte, <span class="st">&quot;mañana&quot;</span>);</span>
+<span id="cb151-73"><a href="pec06.html#cb151-73"></a>        } <span class="cf">else</span> {</span>
+<span id="cb151-74"><a href="pec06.html#cb151-74"></a>            <span class="cf">if</span> (hora &gt; <span class="dv">1200</span> &amp;&amp; hora &lt;= <span class="dv">1800</span>) {</span>
+<span id="cb151-75"><a href="pec06.html#cb151-75"></a>                strcpy(parte, <span class="st">&quot;tarde&quot;</span>);</span>
+<span id="cb151-76"><a href="pec06.html#cb151-76"></a>            } <span class="cf">else</span> {</span>
+<span id="cb151-77"><a href="pec06.html#cb151-77"></a>                <span class="cf">if</span> (hora &gt; <span class="dv">1800</span> &amp;&amp; hora &lt;= <span class="dv">2359</span>) {</span>
+<span id="cb151-78"><a href="pec06.html#cb151-78"></a>                    strcpy(parte, <span class="st">&quot;noche&quot;</span>);</span>
+<span id="cb151-79"><a href="pec06.html#cb151-79"></a>                } <span class="cf">else</span> {</span>
+<span id="cb151-80"><a href="pec06.html#cb151-80"></a>                    strcpy(parte, <span class="st">&quot;unknown!&quot;</span>);</span>
+<span id="cb151-81"><a href="pec06.html#cb151-81"></a>                }</span>
+<span id="cb151-82"><a href="pec06.html#cb151-82"></a>            }</span>
+<span id="cb151-83"><a href="pec06.html#cb151-83"></a>        }</span>
+<span id="cb151-84"><a href="pec06.html#cb151-84"></a>    }</span>
+<span id="cb151-85"><a href="pec06.html#cb151-85"></a>}</span></code></pre></div>
+<p>Un ejemplo de ejecución:</p>
+<p>
+<img src="img/play.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb152"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb152-1"><a href="pec06.html#cb152-1"></a>Teclea hora (formato HHMM) : <span class="dv">1906</span></span>
+<span id="cb152-2"><a href="pec06.html#cb152-2"></a>La hora <span class="dv">1906</span> corresponde a: noche </span></code></pre></div>
+</div>
+<div id="ejemplo-nóminas-1" class="section level2" number="6.4">
+<h2 number="6.4"><span class="header-section-number">6.4</span> Ejemplo: nóminas</h2>
+<p>Imaginemos que trabajamos con los empleados de una empresa. Supongamos que después de introducir n-empleados en nuestro sistema, queremos una función que nos devuelva el empleado que tiene la nómina menor de todas.</p>
+<p>Como esperamos un valor de retorno, estamos ante una función. A la función le pasaremos un vector de empleados con todos los empleados que previamente hemos introducido en nuestra empresa.</p>
+<p>Sin entrar en la codificación de la función, el main de nuestro programa puede ser similar al siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb153"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb153-1"><a href="pec06.html#cb153-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb153-2"><a href="pec06.html#cb153-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb153-3"><a href="pec06.html#cb153-3"></a></span>
+<span id="cb153-4"><a href="pec06.html#cb153-4"></a><span class="pp">#define MAX_EMPLEADOS 2</span></span>
+<span id="cb153-5"><a href="pec06.html#cb153-5"></a><span class="pp">#define MAX_CARACTERES 20+1</span></span>
+<span id="cb153-6"><a href="pec06.html#cb153-6"></a></span>
+<span id="cb153-7"><a href="pec06.html#cb153-7"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb153-8"><a href="pec06.html#cb153-8"></a>    <span class="dt">char</span> nombre[MAX_CARACTERES];</span>
+<span id="cb153-9"><a href="pec06.html#cb153-9"></a>    <span class="dt">char</span> apellido[MAX_CARACTERES];</span>
+<span id="cb153-10"><a href="pec06.html#cb153-10"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb153-11"><a href="pec06.html#cb153-11"></a>} tEmpleado;</span>
+<span id="cb153-12"><a href="pec06.html#cb153-12"></a></span>
+<span id="cb153-13"><a href="pec06.html#cb153-13"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb153-14"><a href="pec06.html#cb153-14"></a>    tEmpleado vEmpleados[MAX_EMPLEADOS];</span>
+<span id="cb153-15"><a href="pec06.html#cb153-15"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb153-16"><a href="pec06.html#cb153-16"></a></span>
+<span id="cb153-17"><a href="pec06.html#cb153-17"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb153-18"><a href="pec06.html#cb153-18"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nombre empleado %d : &quot;</span>, i);</span>
+<span id="cb153-19"><a href="pec06.html#cb153-19"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].nombre);</span>
+<span id="cb153-20"><a href="pec06.html#cb153-20"></a>        printf(<span class="st">&quot;Apellido empleado %d : &quot;</span>, i);</span>
+<span id="cb153-21"><a href="pec06.html#cb153-21"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].apellido);</span>
+<span id="cb153-22"><a href="pec06.html#cb153-22"></a>        printf(<span class="st">&quot;Nómina empleado %d : &quot;</span>, i);</span>
+<span id="cb153-23"><a href="pec06.html#cb153-23"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;vEmpleados[i].nomina);</span>
+<span id="cb153-24"><a href="pec06.html#cb153-24"></a>    }</span>
+<span id="cb153-25"><a href="pec06.html#cb153-25"></a>    tEmpleado empleado = buscarEmpleadoNominaMenor(vEmpleados);</span>
+<span id="cb153-26"><a href="pec06.html#cb153-26"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">El empleado con menor nómina es %s, %s (%.2f €)&quot;</span>, empleado.apellido, empleado.nombre, empleado.nomina);</span>
+<span id="cb153-27"><a href="pec06.html#cb153-27"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb153-28"><a href="pec06.html#cb153-28"></a>}</span></code></pre></div>
+<p>Hasta este punto no hay nada nuevo: utilizamos un vector de <code>tEmpleado</code> para ir introduciendo los empleados por teclado, y por cada empleado pedimos el nombre, el apellido y su nómina.</p>
+<p>Ahora toca implementar la función <code>buscarEmpleadoNominaMenor()</code>, que recibe como parámetro el vector de empleados de la empresa.</p>
+<p>De momento olvidemos de que estamos ante una función, simplemente centrémonos en cuál es la acción que queremos hacer. En este caso, queremos hacer un programa que recorra uno a uno todos los elementos de un vector, y encuentre el empleado que cobra menos.</p>
+<p>Una posible codificación sería la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb154"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb154-1"><a href="pec06.html#cb154-1"></a><span class="dt">int</span> i = <span class="dv">0</span>; </span>
+<span id="cb154-2"><a href="pec06.html#cb154-2"></a><span class="dt">int</span> nominaMenor = <span class="dv">0</span>;</span>
+<span id="cb154-3"><a href="pec06.html#cb154-3"></a><span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEATS; i++) {</span>
+<span id="cb154-4"><a href="pec06.html#cb154-4"></a>    <span class="cf">if</span> (vector[i].nomina &lt; vector[nominaMenor].nomina) {</span>
+<span id="cb154-5"><a href="pec06.html#cb154-5"></a>        nominaMenor = i;</span>
+<span id="cb154-6"><a href="pec06.html#cb154-6"></a>    }</span>
+<span id="cb154-7"><a href="pec06.html#cb154-7"></a>}</span></code></pre></div>
+<p>Este fragmento de código simplemente recorre uno a uno todos los <code>tEmpleat</code> de un vector, comparando la nómina menor encontrada hasta el momento con la del empleado que está tratando en cuestión: si esta segunda es inferior, nos quedamos con su posición dentro del vector como empleado con la nómina menor.</p>
+<p>Ahora convertimos este fragmento de código en una función:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb155"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb155-1"><a href="pec06.html#cb155-1"></a>tEmpleat buscarEmpleadoNominaMenor(tEmpleado vector[MAX_EMPLEADOS]) {</span>
+<span id="cb155-2"><a href="pec06.html#cb155-2"></a>    <span class="dt">int</span> i = <span class="dv">0</span>; </span>
+<span id="cb155-3"><a href="pec06.html#cb155-3"></a>    <span class="dt">int</span> nominaMenor = <span class="dv">0</span>;</span>
+<span id="cb155-4"><a href="pec06.html#cb155-4"></a></span>
+<span id="cb155-5"><a href="pec06.html#cb155-5"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb155-6"><a href="pec06.html#cb155-6"></a>        <span class="cf">if</span> (vector[i].nomina &lt; vector[nominaMenor].nomina) {</span>
+<span id="cb155-7"><a href="pec06.html#cb155-7"></a>            nominaMenor = i;</span>
+<span id="cb155-8"><a href="pec06.html#cb155-8"></a>        }</span>
+<span id="cb155-9"><a href="pec06.html#cb155-9"></a>    }</span>
+<span id="cb155-10"><a href="pec06.html#cb155-10"></a>    <span class="cf">return</span> vector[nominaMenor];</span>
+<span id="cb155-11"><a href="pec06.html#cb155-11"></a>}</span></code></pre></div>
+<p>Como se puede ver, la única diferencia es que ahora el código tiene la cabecera de la función, la cual nos dice que recibe como parámetro un elemento de tipo vector de <code>tEmpleado</code>, y que devolverá un elemento de tipo <code>tEmpleado</code>.</p>
+<p>De esta forma el programa completo queda de la siguiente manera:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb156"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb156-1"><a href="pec06.html#cb156-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb156-2"><a href="pec06.html#cb156-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb156-3"><a href="pec06.html#cb156-3"></a></span>
+<span id="cb156-4"><a href="pec06.html#cb156-4"></a><span class="pp">#define MAX_EMPLEADOS 2</span></span>
+<span id="cb156-5"><a href="pec06.html#cb156-5"></a><span class="pp">#define MAX_CARACTERES 20+1</span></span>
+<span id="cb156-6"><a href="pec06.html#cb156-6"></a></span>
+<span id="cb156-7"><a href="pec06.html#cb156-7"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb156-8"><a href="pec06.html#cb156-8"></a>    <span class="dt">char</span> nombre[MAX_CARACTERES];</span>
+<span id="cb156-9"><a href="pec06.html#cb156-9"></a>    <span class="dt">char</span> apellido[MAX_CARACTERES];</span>
+<span id="cb156-10"><a href="pec06.html#cb156-10"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb156-11"><a href="pec06.html#cb156-11"></a>} tEmpleado;</span>
+<span id="cb156-12"><a href="pec06.html#cb156-12"></a></span>
+<span id="cb156-13"><a href="pec06.html#cb156-13"></a><span class="co">/* Predeclaración de funciones/acciones */</span></span>
+<span id="cb156-14"><a href="pec06.html#cb156-14"></a>tEmpleat buscarEmpleadoNominaMenor(tEmpleado vector[MAX_EMPLEADOS]);</span>
+<span id="cb156-15"><a href="pec06.html#cb156-15"></a></span>
+<span id="cb156-16"><a href="pec06.html#cb156-16"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb156-17"><a href="pec06.html#cb156-17"></a>    tEmpleado vEmpleados[MAX_EMPLEADOS];</span>
+<span id="cb156-18"><a href="pec06.html#cb156-18"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb156-19"><a href="pec06.html#cb156-19"></a></span>
+<span id="cb156-20"><a href="pec06.html#cb156-20"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb156-21"><a href="pec06.html#cb156-21"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nom empleado %d : &quot;</span>, i);</span>
+<span id="cb156-22"><a href="pec06.html#cb156-22"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].nom);</span>
+<span id="cb156-23"><a href="pec06.html#cb156-23"></a>        printf(<span class="st">&quot;Cognom empleado %d : &quot;</span>, i);</span>
+<span id="cb156-24"><a href="pec06.html#cb156-24"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].cognom);</span>
+<span id="cb156-25"><a href="pec06.html#cb156-25"></a>        printf(<span class="st">&quot;Nòmina empleado %d : &quot;</span>, i);</span>
+<span id="cb156-26"><a href="pec06.html#cb156-26"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;vEmpleados[i].nomina);</span>
+<span id="cb156-27"><a href="pec06.html#cb156-27"></a>    }</span>
+<span id="cb156-28"><a href="pec06.html#cb156-28"></a>    tEmpleado empleado = buscarEmpleadoNominaMenor(vEmpleados);</span>
+<span id="cb156-29"><a href="pec06.html#cb156-29"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">El empleado con menor nómina es %s, %s (%.2f €)&quot;</span>, empleado.apellido, empleado.nombre, empleado.nomina);</span>
+<span id="cb156-30"><a href="pec06.html#cb156-30"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb156-31"><a href="pec06.html#cb156-31"></a>}</span>
+<span id="cb156-32"><a href="pec06.html#cb156-32"></a></span>
+<span id="cb156-33"><a href="pec06.html#cb156-33"></a><span class="co">/* Implementación de funciones/acciones */</span></span>
+<span id="cb156-34"><a href="pec06.html#cb156-34"></a>tEmpleado buscarEmpleadoNominaMenor(tEmpleado vector[MAX_EMPLEADOS]) {</span>
+<span id="cb156-35"><a href="pec06.html#cb156-35"></a>    <span class="dt">int</span> i = <span class="dv">0</span>; </span>
+<span id="cb156-36"><a href="pec06.html#cb156-36"></a>    <span class="dt">int</span> nominaMenor = <span class="dv">0</span>;</span>
+<span id="cb156-37"><a href="pec06.html#cb156-37"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb156-38"><a href="pec06.html#cb156-38"></a>        <span class="cf">if</span> (vector[i].nomina &lt; vector[nominaMenor].nomina) {</span>
+<span id="cb156-39"><a href="pec06.html#cb156-39"></a>            nominaMenor = i;</span>
+<span id="cb156-40"><a href="pec06.html#cb156-40"></a>        }</span>
+<span id="cb156-41"><a href="pec06.html#cb156-41"></a>    }</span>
+<span id="cb156-42"><a href="pec06.html#cb156-42"></a>    <span class="cf">return</span> vector[nominaMenor];</span>
+<span id="cb156-43"><a href="pec06.html#cb156-43"></a>}</span></code></pre></div>
+<p>Este ejemplo puede parecer sencillo para que el tipo de comparación que estamos haciendo es numérica: comparamos dos campos de tipo <code>float</code> (las nóminas de dos empleados).</p>
+<p>Ampliamos ahora la funcionalidad de nuestro programa: queremos que pueda hacer una búsqueda por apellido entre nuestros empleados. Para hacer esta búsqueda, habrá comparar una cadena de caracteres con el apellido de cada empleado.</p>
+<p>Para no hacer la función más compleja de lo necesario, imaginamos que ningún apellido se puede repetir y que siempre encontraremos un apellido como el que buscamos (el objetivo es ver cómo funciona <code>strcmp()</code>). Así pues nuestra función recibirá un vector de empleados y un apellido a buscar, y devolverá el empleado con ese apellido.</p>
+<p>Pongo todo el código completo, comentando al detalle la parte del <code>strcmp()</code>:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb157"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb157-1"><a href="pec06.html#cb157-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb157-2"><a href="pec06.html#cb157-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb157-3"><a href="pec06.html#cb157-3"></a></span>
+<span id="cb157-4"><a href="pec06.html#cb157-4"></a><span class="pp">#define MAX_EMPLEADOS 2</span></span>
+<span id="cb157-5"><a href="pec06.html#cb157-5"></a><span class="pp">#define MAX_CARACTERES 20+1</span></span>
+<span id="cb157-6"><a href="pec06.html#cb157-6"></a></span>
+<span id="cb157-7"><a href="pec06.html#cb157-7"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb157-8"><a href="pec06.html#cb157-8"></a>    <span class="dt">char</span> nombre[MAX_CARACTERES];</span>
+<span id="cb157-9"><a href="pec06.html#cb157-9"></a>    <span class="dt">char</span> apellido[MAX_CARACTERES];</span>
+<span id="cb157-10"><a href="pec06.html#cb157-10"></a>    <span class="dt">float</span> nomina;</span>
+<span id="cb157-11"><a href="pec06.html#cb157-11"></a>} tEmpleado;</span>
+<span id="cb157-12"><a href="pec06.html#cb157-12"></a></span>
+<span id="cb157-13"><a href="pec06.html#cb157-13"></a><span class="co">/* Predeclaración de funciones/acciones */</span></span>
+<span id="cb157-14"><a href="pec06.html#cb157-14"></a>tEmpleado buscarEmpleadoNominaMenor(tEmpleado vector[MAX_EMPLEADOS]);</span>
+<span id="cb157-15"><a href="pec06.html#cb157-15"></a>tEmpleado buscarEmpleadoPorApellido(tEmpleado vector[MAX_EMPLEADOS], <span class="dt">char</span> apellido[MAX_CARACTERES]);</span>
+<span id="cb157-16"><a href="pec06.html#cb157-16"></a></span>
+<span id="cb157-17"><a href="pec06.html#cb157-17"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb157-18"><a href="pec06.html#cb157-18"></a>    tEmpleado vEmpleados[MAX_EMPLEADOS];</span>
+<span id="cb157-19"><a href="pec06.html#cb157-19"></a>    <span class="dt">char</span> apellido[MAX_CARACTERES];</span>
+<span id="cb157-20"><a href="pec06.html#cb157-20"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb157-21"><a href="pec06.html#cb157-21"></a></span>
+<span id="cb157-22"><a href="pec06.html#cb157-22"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb157-23"><a href="pec06.html#cb157-23"></a>        printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Nombre empleado %d : &quot;</span>, i);</span>
+<span id="cb157-24"><a href="pec06.html#cb157-24"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].nombre);</span>
+<span id="cb157-25"><a href="pec06.html#cb157-25"></a>        printf(<span class="st">&quot;Apellido empleado %d : &quot;</span>, i);</span>
+<span id="cb157-26"><a href="pec06.html#cb157-26"></a>        scanf(<span class="st">&quot;%s&quot;</span>, vEmpleados[i].apellido);</span>
+<span id="cb157-27"><a href="pec06.html#cb157-27"></a>        printf(<span class="st">&quot;Nómina empleado %d : &quot;</span>, i);</span>
+<span id="cb157-28"><a href="pec06.html#cb157-28"></a>        scanf(<span class="st">&quot;%f&quot;</span>, &amp;vEmpleados[i].nomina);</span>
+<span id="cb157-29"><a href="pec06.html#cb157-29"></a>    }</span>
+<span id="cb157-30"><a href="pec06.html#cb157-30"></a>    tEmpleado empleado = buscarEmpleadoNominaMenor(vEmpleados);</span>
+<span id="cb157-31"><a href="pec06.html#cb157-31"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">El empleado con menor nómina es %s, %s (%.2f €)&quot;</span>, empleado.apellido, empleado.nombre, empleado.nomina);</span>
+<span id="cb157-32"><a href="pec06.html#cb157-32"></a></span>
+<span id="cb157-33"><a href="pec06.html#cb157-33"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Apellido del empleado a buscar : &quot;</span>);</span>
+<span id="cb157-34"><a href="pec06.html#cb157-34"></a>    scanf(<span class="st">&quot;%s&quot;</span>, apellido);</span>
+<span id="cb157-35"><a href="pec06.html#cb157-35"></a></span>
+<span id="cb157-36"><a href="pec06.html#cb157-36"></a>    tEmpleado empleadoApellido = buscarEmpleadoPorApellido(vEmpleados, apellido);</span>
+<span id="cb157-37"><a href="pec06.html#cb157-37"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Datos del empleado: %s, %s -&gt; %f&quot;</span>, empleadoApellido.apellido, empleadoApellido.nombre, empleadoApellido.nomina);</span>
+<span id="cb157-38"><a href="pec06.html#cb157-38"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb157-39"><a href="pec06.html#cb157-39"></a>}</span>
+<span id="cb157-40"><a href="pec06.html#cb157-40"></a></span>
+<span id="cb157-41"><a href="pec06.html#cb157-41"></a><span class="co">/* Implementación de funciones/acciones */</span></span>
+<span id="cb157-42"><a href="pec06.html#cb157-42"></a>tEmpleado buscarEmpleadoNominaMenor(tEmpleado vector[MAX_EMPLEADOS]) {</span>
+<span id="cb157-43"><a href="pec06.html#cb157-43"></a>    <span class="dt">int</span> i = <span class="dv">0</span>; </span>
+<span id="cb157-44"><a href="pec06.html#cb157-44"></a>    <span class="dt">int</span> nominaMenor = <span class="dv">0</span>;</span>
+<span id="cb157-45"><a href="pec06.html#cb157-45"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb157-46"><a href="pec06.html#cb157-46"></a>        <span class="cf">if</span> (vector[i].nomina &lt; vector[nominaMenor].nomina) {</span>
+<span id="cb157-47"><a href="pec06.html#cb157-47"></a>            nominaMenor = i;</span>
+<span id="cb157-48"><a href="pec06.html#cb157-48"></a>        }</span>
+<span id="cb157-49"><a href="pec06.html#cb157-49"></a>    }</span>
+<span id="cb157-50"><a href="pec06.html#cb157-50"></a>    <span class="cf">return</span> vector[nominaMenor];</span>
+<span id="cb157-51"><a href="pec06.html#cb157-51"></a>}</span>
+<span id="cb157-52"><a href="pec06.html#cb157-52"></a></span>
+<span id="cb157-53"><a href="pec06.html#cb157-53"></a>tEmpleado buscarEmpleadoPorApellido(tEmpleado vector[MAX_EMPLEADOS], <span class="dt">char</span> apellido[MAX_CARACTERES]) {</span>
+<span id="cb157-54"><a href="pec06.html#cb157-54"></a>    <span class="dt">int</span> i = <span class="dv">0</span>; </span>
+<span id="cb157-55"><a href="pec06.html#cb157-55"></a>    tEmpleado empleado;</span>
+<span id="cb157-56"><a href="pec06.html#cb157-56"></a>    </span>
+<span id="cb157-57"><a href="pec06.html#cb157-57"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_EMPLEADOS; i++) {</span>
+<span id="cb157-58"><a href="pec06.html#cb157-58"></a>        <span class="co">/* Para comparar strings utilizaremos la función</span></span>
+<span id="cb157-59"><a href="pec06.html#cb157-59"></a><span class="co">         * strcmp() de C. Esta función compara dos</span></span>
+<span id="cb157-60"><a href="pec06.html#cb157-60"></a><span class="co">         * cadenas de caracteres, y devuelve un valor</span></span>
+<span id="cb157-61"><a href="pec06.html#cb157-61"></a><span class="co">         * como resultado de la comparación:</span></span>
+<span id="cb157-62"><a href="pec06.html#cb157-62"></a><span class="co">         * - si el valor es 0: las dos cadenas son iguales</span></span>
+<span id="cb157-63"><a href="pec06.html#cb157-63"></a><span class="co">         * - si el valor es -1: la primera cadena &lt; segunda cadena</span></span>
+<span id="cb157-64"><a href="pec06.html#cb157-64"></a><span class="co">         * - si el valor es 1: la primera cadena &gt; segunda cadena</span></span>
+<span id="cb157-65"><a href="pec06.html#cb157-65"></a><span class="co">         * En nuestro caso nos interesa detectar que los</span></span>
+<span id="cb157-66"><a href="pec06.html#cb157-66"></a><span class="co">         * apellidos sean iguales, con lo que </span></span>
+<span id="cb157-67"><a href="pec06.html#cb157-67"></a><span class="co">         * tenemos que controlar que el valor devuelto por</span></span>
+<span id="cb157-68"><a href="pec06.html#cb157-68"></a><span class="co">         * la función strcmp() sea 0.</span></span>
+<span id="cb157-69"><a href="pec06.html#cb157-69"></a><span class="co">         */</span></span>
+<span id="cb157-70"><a href="pec06.html#cb157-70"></a>        <span class="cf">if</span> (strcmp(vector[i].apellido, apellido) == <span class="dv">0</span>) {</span>
+<span id="cb157-71"><a href="pec06.html#cb157-71"></a>            <span class="cf">return</span> vector[i];</span>
+<span id="cb157-72"><a href="pec06.html#cb157-72"></a>        }</span>
+<span id="cb157-73"><a href="pec06.html#cb157-73"></a>    }</span>
+<span id="cb157-74"><a href="pec06.html#cb157-74"></a>}</span></code></pre></div>
+</div>
+<div id="pivoteDefensiva" class="section level2" number="6.5">
+<h2 number="6.5"><span class="header-section-number">6.5</span> Ejemplo: pivoteDefensiva</h2>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb158"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb158-1"><a href="pec06.html#cb158-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb158-2"><a href="pec06.html#cb158-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb158-3"><a href="pec06.html#cb158-3"></a></span>
+<span id="cb158-4"><a href="pec06.html#cb158-4"></a><span class="co">/* Recibimos una petición de un equipo femenino de baloncesto,</span></span>
+<span id="cb158-5"><a href="pec06.html#cb158-5"></a><span class="co"> * en la que nos piden un programa que les permita</span></span>
+<span id="cb158-6"><a href="pec06.html#cb158-6"></a><span class="co"> * seleccionar la mejor pivote defensiva entre una</span></span>
+<span id="cb158-7"><a href="pec06.html#cb158-7"></a><span class="co"> * serie de candidatas.</span></span>
+<span id="cb158-8"><a href="pec06.html#cb158-8"></a><span class="co"> * La mejor pivote defensiva es aquella que captura</span></span>
+<span id="cb158-9"><a href="pec06.html#cb158-9"></a><span class="co"> * más rebotes; en caso de empate, se elegirá la que</span></span>
+<span id="cb158-10"><a href="pec06.html#cb158-10"></a><span class="co"> * haga más tapones.</span></span>
+<span id="cb158-11"><a href="pec06.html#cb158-11"></a><span class="co"> * Habrá que implementar 3 acciones y 1 función:</span></span>
+<span id="cb158-12"><a href="pec06.html#cb158-12"></a><span class="co"> * - acción leerJugadora(j): lee de teclado y</span></span>
+<span id="cb158-13"><a href="pec06.html#cb158-13"></a><span class="co"> *   guarda todos los atributos de la jugadora a la</span></span>
+<span id="cb158-14"><a href="pec06.html#cb158-14"></a><span class="co"> *   en la tupla j.</span></span>
+<span id="cb158-15"><a href="pec06.html#cb158-15"></a><span class="co"> * - acción mostrarJugadora(j): muestra por pantalla</span></span>
+<span id="cb158-16"><a href="pec06.html#cb158-16"></a><span class="co"> *   el valor de los atributos de la tupla j.</span></span>
+<span id="cb158-17"><a href="pec06.html#cb158-17"></a><span class="co"> * - acción copiarJugadoras(j1, j2): copia el valor</span></span>
+<span id="cb158-18"><a href="pec06.html#cb158-18"></a><span class="co"> *   de todos los atributos de j2 hacia j1.</span></span>
+<span id="cb158-19"><a href="pec06.html#cb158-19"></a><span class="co"> * - función compararJugadoras(j1, j2): devuelve -1 en</span></span>
+<span id="cb158-20"><a href="pec06.html#cb158-20"></a><span class="co"> *   caso de que la mejor pivote sea j1, y 1 en caso</span></span>
+<span id="cb158-21"><a href="pec06.html#cb158-21"></a><span class="co"> *   que la mejor sea j2.</span></span>
+<span id="cb158-22"><a href="pec06.html#cb158-22"></a><span class="co"> */</span></span>
+<span id="cb158-23"><a href="pec06.html#cb158-23"></a><span class="pp">#define MAX_NOMBRE 20+1</span></span>
+<span id="cb158-24"><a href="pec06.html#cb158-24"></a><span class="pp">#define MAX_APELLIDO 20+1</span></span>
+<span id="cb158-25"><a href="pec06.html#cb158-25"></a><span class="pp">#define MAX_JUGADORAS 3</span></span>
+<span id="cb158-26"><a href="pec06.html#cb158-26"></a></span>
+<span id="cb158-27"><a href="pec06.html#cb158-27"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb158-28"><a href="pec06.html#cb158-28"></a>    <span class="dt">char</span> nombre[MAX_NOMBRE];</span>
+<span id="cb158-29"><a href="pec06.html#cb158-29"></a>    <span class="dt">char</span> apellido[MAX_APELLIDO];</span>
+<span id="cb158-30"><a href="pec06.html#cb158-30"></a>    <span class="dt">float</span> rebotes;</span>
+<span id="cb158-31"><a href="pec06.html#cb158-31"></a>    <span class="dt">float</span> tapones;</span>
+<span id="cb158-32"><a href="pec06.html#cb158-32"></a>} tJugadora;</span>
+<span id="cb158-33"><a href="pec06.html#cb158-33"></a></span>
+<span id="cb158-34"><a href="pec06.html#cb158-34"></a><span class="co">/* Predeclaraciones de funciones/acciones */</span></span>
+<span id="cb158-35"><a href="pec06.html#cb158-35"></a><span class="dt">void</span> leerJugadora(tJugadora *j);</span>
+<span id="cb158-36"><a href="pec06.html#cb158-36"></a><span class="dt">void</span> mostrarJugadora(tJugadora j);</span>
+<span id="cb158-37"><a href="pec06.html#cb158-37"></a><span class="dt">void</span> copiarJugadora(tJugadora *destino, tJugadora origen);</span>
+<span id="cb158-38"><a href="pec06.html#cb158-38"></a><span class="dt">int</span> compararJugadoras(tJugadora j1, tJugadora j2);</span>
+<span id="cb158-39"><a href="pec06.html#cb158-39"></a></span>
+<span id="cb158-40"><a href="pec06.html#cb158-40"></a><span class="co">/* Programa principal */</span></span>
+<span id="cb158-41"><a href="pec06.html#cb158-41"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb158-42"><a href="pec06.html#cb158-42"></a>    tJugadora vJugadoras[MAX_JUGADORAS];</span>
+<span id="cb158-43"><a href="pec06.html#cb158-43"></a>    <span class="dt">int</span> i, resultado;</span>
+<span id="cb158-44"><a href="pec06.html#cb158-44"></a></span>
+<span id="cb158-45"><a href="pec06.html#cb158-45"></a>    <span class="co">/* Se crea la tJugadora ficticia</span></span>
+<span id="cb158-46"><a href="pec06.html#cb158-46"></a><span class="co">     * mejorPivote que nos ayudará a encontrar</span></span>
+<span id="cb158-47"><a href="pec06.html#cb158-47"></a><span class="co">     * la mejor opción de entre todas las</span></span>
+<span id="cb158-48"><a href="pec06.html#cb158-48"></a><span class="co">     * candidatas</span></span>
+<span id="cb158-49"><a href="pec06.html#cb158-49"></a><span class="co">     */</span></span>
+<span id="cb158-50"><a href="pec06.html#cb158-50"></a>    tJugadora mejorPivote; </span>
+<span id="cb158-51"><a href="pec06.html#cb158-51"></a>    mejorPivote.rebotes = <span class="dv">0</span>;</span>
+<span id="cb158-52"><a href="pec06.html#cb158-52"></a>    mejorPivote.tapones = <span class="dv">0</span>;</span>
+<span id="cb158-53"><a href="pec06.html#cb158-53"></a></span>
+<span id="cb158-54"><a href="pec06.html#cb158-54"></a>    <span class="co">/* Leemos todas las jugadoras con</span></span>
+<span id="cb158-55"><a href="pec06.html#cb158-55"></a><span class="co">     * la acción leerJugadora(). Esta</span></span>
+<span id="cb158-56"><a href="pec06.html#cb158-56"></a><span class="co">     * acción recibe un parámetro de salida</span></span>
+<span id="cb158-57"><a href="pec06.html#cb158-57"></a><span class="co">     * (out), el cual contendrá la</span></span>
+<span id="cb158-58"><a href="pec06.html#cb158-58"></a><span class="co">     * jugadora leída por teclado. Como</span></span>
+<span id="cb158-59"><a href="pec06.html#cb158-59"></a><span class="co">     * se trata de un parámetro de tipo</span></span>
+<span id="cb158-60"><a href="pec06.html#cb158-60"></a><span class="co">     * out, se realizará un paso por</span></span>
+<span id="cb158-61"><a href="pec06.html#cb158-61"></a><span class="co">     * referencia (= pasaremos un puntero)</span></span>
+<span id="cb158-62"><a href="pec06.html#cb158-62"></a><span class="co">     */</span></span>
+<span id="cb158-63"><a href="pec06.html#cb158-63"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_JUGADORAS; i++) {</span>
+<span id="cb158-64"><a href="pec06.html#cb158-64"></a>        tJugadora jugadora;</span>
+<span id="cb158-65"><a href="pec06.html#cb158-65"></a>        leerJugadora(&amp;jugadora);</span>
+<span id="cb158-66"><a href="pec06.html#cb158-66"></a>        vJugadoras[i] = jugadora;</span>
+<span id="cb158-67"><a href="pec06.html#cb158-67"></a>    }</span>
+<span id="cb158-68"><a href="pec06.html#cb158-68"></a></span>
+<span id="cb158-69"><a href="pec06.html#cb158-69"></a>    <span class="co">/* Mostramos por pantalla cuál</span></span>
+<span id="cb158-70"><a href="pec06.html#cb158-70"></a><span class="co">     * es la mejor jugadora de perfil</span></span>
+<span id="cb158-71"><a href="pec06.html#cb158-71"></a><span class="co">     * pivote defensivo. La idea es ir</span></span>
+<span id="cb158-72"><a href="pec06.html#cb158-72"></a><span class="co">     * recorriendo una a una las jugadoras</span></span>
+<span id="cb158-73"><a href="pec06.html#cb158-73"></a><span class="co">     * del vector y compararlas con mejorPivote:</span></span>
+<span id="cb158-74"><a href="pec06.html#cb158-74"></a><span class="co">     * 1. Si la jugadora del vector es mejor</span></span>
+<span id="cb158-75"><a href="pec06.html#cb158-75"></a><span class="co">     *    que mejorPivote, copiaremos los datos</span></span>
+<span id="cb158-76"><a href="pec06.html#cb158-76"></a><span class="co">     *    de la jugadora hacia mejorPivote.</span></span>
+<span id="cb158-77"><a href="pec06.html#cb158-77"></a><span class="co">     * 2. Si mejorPivote es mejor que la</span></span>
+<span id="cb158-78"><a href="pec06.html#cb158-78"></a><span class="co">     *    jugadora del vector, no haremos nada.</span></span>
+<span id="cb158-79"><a href="pec06.html#cb158-79"></a><span class="co">     * Al finalizar el recorrido de todas</span></span>
+<span id="cb158-80"><a href="pec06.html#cb158-80"></a><span class="co">     * las jugadoras del vector, tendremos que</span></span>
+<span id="cb158-81"><a href="pec06.html#cb158-81"></a><span class="co">     * mejorPivote contendrá la jugadora</span></span>
+<span id="cb158-82"><a href="pec06.html#cb158-82"></a><span class="co">     * que estamos buscando.</span></span>
+<span id="cb158-83"><a href="pec06.html#cb158-83"></a><span class="co">     */</span></span>
+<span id="cb158-84"><a href="pec06.html#cb158-84"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_JUGADORAS; i++) {</span>
+<span id="cb158-85"><a href="pec06.html#cb158-85"></a>        resultado = compararJugadoras(mejorPivote, vJugadoras[i]);</span>
+<span id="cb158-86"><a href="pec06.html#cb158-86"></a>        <span class="cf">if</span> (resultado == <span class="dv">1</span>) {</span>
+<span id="cb158-87"><a href="pec06.html#cb158-87"></a>            copiarJugadora(&amp;mejorPivote, vJugadoras[i]);</span>
+<span id="cb158-88"><a href="pec06.html#cb158-88"></a>        }</span>
+<span id="cb158-89"><a href="pec06.html#cb158-89"></a>    }</span>
+<span id="cb158-90"><a href="pec06.html#cb158-90"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Mejor opción como pivote defensiva : &quot;</span>);</span>
+<span id="cb158-91"><a href="pec06.html#cb158-91"></a>    mostrarJugadora(mejorPivote);</span>
+<span id="cb158-92"><a href="pec06.html#cb158-92"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb158-93"><a href="pec06.html#cb158-93"></a>}</span>
+<span id="cb158-94"><a href="pec06.html#cb158-94"></a></span>
+<span id="cb158-95"><a href="pec06.html#cb158-95"></a><span class="co">/* Implementación de les funciones/acciones */</span></span>
+<span id="cb158-96"><a href="pec06.html#cb158-96"></a><span class="dt">void</span> leerJugadora(tJugadora *j) {</span>
+<span id="cb158-97"><a href="pec06.html#cb158-97"></a>    printf(<span class="st">&quot;Introduce los datos de la nueva jugadora: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb158-98"><a href="pec06.html#cb158-98"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Nombre: &quot;</span>);</span>
+<span id="cb158-99"><a href="pec06.html#cb158-99"></a>    scanf(<span class="st">&quot;%s&quot;</span>, j-&gt;nombre);</span>
+<span id="cb158-100"><a href="pec06.html#cb158-100"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Apellido: &quot;</span>);</span>
+<span id="cb158-101"><a href="pec06.html#cb158-101"></a>    scanf(<span class="st">&quot;%s&quot;</span>, j-&gt;apellido);</span>
+<span id="cb158-102"><a href="pec06.html#cb158-102"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">&gt;&gt; Promedios por partido:</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb158-103"><a href="pec06.html#cb158-103"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Rebotes: &quot;</span>);</span>
+<span id="cb158-104"><a href="pec06.html#cb158-104"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;j-&gt;rebotes);</span>
+<span id="cb158-105"><a href="pec06.html#cb158-105"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Tapones: &quot;</span>);</span>
+<span id="cb158-106"><a href="pec06.html#cb158-106"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;j-&gt;tapones);</span>
+<span id="cb158-107"><a href="pec06.html#cb158-107"></a>}</span>
+<span id="cb158-108"><a href="pec06.html#cb158-108"></a></span>
+<span id="cb158-109"><a href="pec06.html#cb158-109"></a><span class="dt">void</span> mostrarJugadora(tJugadora j) {</span>
+<span id="cb158-110"><a href="pec06.html#cb158-110"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">%s, %s: %.1f rebotes, %.1f tapones </span><span class="sc">\n</span><span class="st">&quot;</span>, j.apellido, j.nombre, j.rebotes, j.tapones);</span>
+<span id="cb158-111"><a href="pec06.html#cb158-111"></a>}</span>
+<span id="cb158-112"><a href="pec06.html#cb158-112"></a></span>
+<span id="cb158-113"><a href="pec06.html#cb158-113"></a><span class="dt">void</span> copiarJugadora(tJugadora *destino, tJugadora origen) {</span>
+<span id="cb158-114"><a href="pec06.html#cb158-114"></a>    <span class="co">/* Recordemos: </span></span>
+<span id="cb158-115"><a href="pec06.html#cb158-115"></a><span class="co">     * - si el parámetro es un puntero, el accesor</span></span>
+<span id="cb158-116"><a href="pec06.html#cb158-116"></a><span class="co">     *   de atributos será &#39;-&gt;&#39;</span></span>
+<span id="cb158-117"><a href="pec06.html#cb158-117"></a><span class="co">     * - si el parámetro és un valor, el accesor</span></span>
+<span id="cb158-118"><a href="pec06.html#cb158-118"></a><span class="co">     *   de atributos será &#39;.&#39;</span></span>
+<span id="cb158-119"><a href="pec06.html#cb158-119"></a><span class="co">     */</span></span>
+<span id="cb158-120"><a href="pec06.html#cb158-120"></a>    strcpy(destino-&gt;nombre, origen.nombre);</span>
+<span id="cb158-121"><a href="pec06.html#cb158-121"></a>    strcpy(destino-&gt;apellido, origen.apellido);</span>
+<span id="cb158-122"><a href="pec06.html#cb158-122"></a>    destino-&gt;rebotes = origen.rebotes;</span>
+<span id="cb158-123"><a href="pec06.html#cb158-123"></a>    destino-&gt;tapones = origen.tapones;</span>
+<span id="cb158-124"><a href="pec06.html#cb158-124"></a>}</span>
+<span id="cb158-125"><a href="pec06.html#cb158-125"></a></span>
+<span id="cb158-126"><a href="pec06.html#cb158-126"></a><span class="dt">int</span> compararJugadoras(tJugadora j1, tJugadora j2) {</span>
+<span id="cb158-127"><a href="pec06.html#cb158-127"></a>    <span class="co">/* Estamos buscando una jugadora que</span></span>
+<span id="cb158-128"><a href="pec06.html#cb158-128"></a><span class="co">     * tenga un perfil de pivote defensivo,</span></span>
+<span id="cb158-129"><a href="pec06.html#cb158-129"></a><span class="co">     * Con lo que seleccionaremos:</span></span>
+<span id="cb158-130"><a href="pec06.html#cb158-130"></a><span class="co">     * 1. Aquella que tenga más rebotes por partido</span></span>
+<span id="cb158-131"><a href="pec06.html#cb158-131"></a><span class="co">     * 2. En caso de empate en rebotes, aquella que</span></span>
+<span id="cb158-132"><a href="pec06.html#cb158-132"></a><span class="co">     *    haga más tapones por partido</span></span>
+<span id="cb158-133"><a href="pec06.html#cb158-133"></a><span class="co">     */</span> </span>
+<span id="cb158-134"><a href="pec06.html#cb158-134"></a>    <span class="cf">if</span> (j1.rebotes &gt; j2.rebotes) {</span>
+<span id="cb158-135"><a href="pec06.html#cb158-135"></a>        <span class="cf">return</span> -<span class="dv">1</span>;</span>
+<span id="cb158-136"><a href="pec06.html#cb158-136"></a>    } <span class="cf">else</span> {</span>
+<span id="cb158-137"><a href="pec06.html#cb158-137"></a>        <span class="cf">if</span> (j1.rebotes &lt; j2.rebotes) {</span>
+<span id="cb158-138"><a href="pec06.html#cb158-138"></a>            <span class="cf">return</span> <span class="dv">1</span>;</span>
+<span id="cb158-139"><a href="pec06.html#cb158-139"></a>        } <span class="cf">else</span> {</span>
+<span id="cb158-140"><a href="pec06.html#cb158-140"></a>            <span class="co">/* En este punto tenemos que</span></span>
+<span id="cb158-141"><a href="pec06.html#cb158-141"></a><span class="co">             * j1.rebotes == j2.rebotes,</span></span>
+<span id="cb158-142"><a href="pec06.html#cb158-142"></a><span class="co">             * con lo que vamos a comparar el siguiente</span></span>
+<span id="cb158-143"><a href="pec06.html#cb158-143"></a><span class="co">             * atributo según la prioridad definida</span></span>
+<span id="cb158-144"><a href="pec06.html#cb158-144"></a><span class="co">             * para la posición de pivote defensiva</span></span>
+<span id="cb158-145"><a href="pec06.html#cb158-145"></a><span class="co">             */</span></span>
+<span id="cb158-146"><a href="pec06.html#cb158-146"></a>            <span class="cf">if</span> (j1.tapones &gt; j2.tapones) {</span>
+<span id="cb158-147"><a href="pec06.html#cb158-147"></a>                <span class="cf">return</span> -<span class="dv">1</span>;</span>
+<span id="cb158-148"><a href="pec06.html#cb158-148"></a>            } <span class="cf">else</span> {</span>
+<span id="cb158-149"><a href="pec06.html#cb158-149"></a>                <span class="cf">if</span> (j1.tapones &lt; j2.tapones) {</span>
+<span id="cb158-150"><a href="pec06.html#cb158-150"></a>                    <span class="cf">return</span> <span class="dv">1</span>;</span>
+<span id="cb158-151"><a href="pec06.html#cb158-151"></a>                } <span class="cf">else</span> {</span>
+<span id="cb158-152"><a href="pec06.html#cb158-152"></a>                    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb158-153"><a href="pec06.html#cb158-153"></a>                }</span>
+<span id="cb158-154"><a href="pec06.html#cb158-154"></a>            }</span>
+<span id="cb158-155"><a href="pec06.html#cb158-155"></a>        }</span>
+<span id="cb158-156"><a href="pec06.html#cb158-156"></a>    }</span>
+<span id="cb158-157"><a href="pec06.html#cb158-157"></a>}</span></code></pre></div>
+<p>Ejemplo de ejecución:</p>
+<p>
+<img src="img/play.png" float="right;" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb159"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb159-1"><a href="pec06.html#cb159-1"></a>Introduce los datos de la nueva jugadora: </span>
+<span id="cb159-2"><a href="pec06.html#cb159-2"></a>    Nombre: Julia</span>
+<span id="cb159-3"><a href="pec06.html#cb159-3"></a>    Apellido: Sanz</span>
+<span id="cb159-4"><a href="pec06.html#cb159-4"></a>    &gt;&gt; Promedios por partido:</span>
+<span id="cb159-5"><a href="pec06.html#cb159-5"></a>    Rebotes: <span class="fl">7.9</span></span>
+<span id="cb159-6"><a href="pec06.html#cb159-6"></a>    Tapones: <span class="fl">0.9</span></span>
+<span id="cb159-7"><a href="pec06.html#cb159-7"></a>Introduce los datos de la nueva jugadora: </span>
+<span id="cb159-8"><a href="pec06.html#cb159-8"></a>    Nombre: Nuria</span>
+<span id="cb159-9"><a href="pec06.html#cb159-9"></a>    Apellido: Gutierrez</span>
+<span id="cb159-10"><a href="pec06.html#cb159-10"></a>    &gt;&gt; Promedios por partido:</span>
+<span id="cb159-11"><a href="pec06.html#cb159-11"></a>    Rebotes: <span class="fl">7.9</span></span>
+<span id="cb159-12"><a href="pec06.html#cb159-12"></a>    Tapones: <span class="fl">1.4</span></span>
+<span id="cb159-13"><a href="pec06.html#cb159-13"></a>Introduce los datos de la nueva jugadora: </span>
+<span id="cb159-14"><a href="pec06.html#cb159-14"></a>    Nombre: Mireia</span>
+<span id="cb159-15"><a href="pec06.html#cb159-15"></a>    Apellido: Mateu</span>
+<span id="cb159-16"><a href="pec06.html#cb159-16"></a>    &gt;&gt; Promedios por partido:</span>
+<span id="cb159-17"><a href="pec06.html#cb159-17"></a>    Rebotes: <span class="fl">6.8</span></span>
+<span id="cb159-18"><a href="pec06.html#cb159-18"></a>    Tapones: <span class="fl">2.1</span></span>
+<span id="cb159-19"><a href="pec06.html#cb159-19"></a></span>
+<span id="cb159-20"><a href="pec06.html#cb159-20"></a>Mejor opción como pivote defensiva : </span>
+<span id="cb159-21"><a href="pec06.html#cb159-21"></a>Gutierrez, Nuria: <span class="fl">7.9</span> rebotes, <span class="fl">1.4</span> tapones </span></code></pre></div>
+<div id="explicación-sobre-la-acción-copiarjugadora" class="section level3" number="6.5.1">
+<h3 number="6.5.1"><span class="header-section-number">6.5.1</span> Explicación sobre la acción copiarJugadora()</h3>
+<p>La acción <code>copiarJugadora(tJugadora *destino, tJugadora origen)</code> del ejemplo recibe dos parámetros:</p>
+<ul>
+<li>El primero de ellos es <code>destino</code>, un puntero a una tupla de tipo<code>tJugadora</code>; otra forma de decirlo es que el valor <code>destino</code> lo <strong>pasamos por referencia</strong>. Este parámetro es de tipo <code>out</code>, ya que no utilizamos para nada el valor inicial que tiene y sólo nos interesa el valor final que tendrá en ejecutar la acción.</li>
+<li>El segundo es <code>origen</code>, una tupla que <strong>pasamos por valor</strong>. Por lo tanto en este caso no estamos pasando el puntero a una <code>tJugadora</code>, sinó directamente una <code>tJugadora</code>.</li>
+</ul>
+<p>Cuando tenemos un puntero a una tupla accedemos a sus atributos mediante el operador <code>-&gt;</code>. En cambio, si estamos tratando una tupla accederemos a ellos con el operador <code>.</code> (punto).</p>
+<p>La codificación de la acción es:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb160"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb160-1"><a href="pec06.html#cb160-1"></a><span class="dt">void</span> copiarJugadora(tJugadora *destino, tJugadora origen) {</span>
+<span id="cb160-2"><a href="pec06.html#cb160-2"></a>    <span class="co">/* Recordemos: </span></span>
+<span id="cb160-3"><a href="pec06.html#cb160-3"></a><span class="co">     * - si el parámetro es un puntero, el accesor</span></span>
+<span id="cb160-4"><a href="pec06.html#cb160-4"></a><span class="co">     * de atributos será &#39;-&gt;&#39;</span></span>
+<span id="cb160-5"><a href="pec06.html#cb160-5"></a><span class="co">     * - si el parámetro és un valor, el accesor</span></span>
+<span id="cb160-6"><a href="pec06.html#cb160-6"></a><span class="co">     * de atributos será &#39;.&#39;</span></span>
+<span id="cb160-7"><a href="pec06.html#cb160-7"></a><span class="co">     */</span></span>
+<span id="cb160-8"><a href="pec06.html#cb160-8"></a>    strcpy(destino-&gt;nombre, origen.nombre);</span>
+<span id="cb160-9"><a href="pec06.html#cb160-9"></a>    strcpy(destino-&gt;apellido, origen.apellido);</span>
+<span id="cb160-10"><a href="pec06.html#cb160-10"></a>    destino-&gt;rebotes = origen.rebotes;</span>
+<span id="cb160-11"><a href="pec06.html#cb160-11"></a>    destino-&gt;tapones = origen.tapones;</span>
+<span id="cb160-12"><a href="pec06.html#cb160-12"></a>}</span></code></pre></div>
+<p>No utilizaremos el prefijo <code>&amp;</code> delante de la <code>tJugadora origen</code>, de la misma forma que no utilizamos <code>&amp;</code>cuando vamos a imprimir por pantalla con <code>printf()</code> el valor de una variable: como que estamos tratando con un valor, simplemente accedemos a él y lo utilizamos. Por lo tanto estas acciones serían <strong>incorrectas</strong>:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb161"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb161-1"><a href="pec06.html#cb161-1"></a>    strcpy(destino-&gt;nombre, &amp;origen.nombre);</span>
+<span id="cb161-2"><a href="pec06.html#cb161-2"></a>    strcpy(destino-&gt;apellido, &amp;origen.apellido);</span>
+<span id="cb161-3"><a href="pec06.html#cb161-3"></a>    destino-&gt;rebotes = &amp;origen.rebotes;</span>
+<span id="cb161-4"><a href="pec06.html#cb161-4"></a>    destino-&gt;tapons = &amp;origen.tapons;</span></code></pre></div>
+<p>Sí que tenemos una alternativa posible al operador <code>-&gt;</code>, según se indica en la XWiki:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb162"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb162-1"><a href="pec06.html#cb162-1"></a>    strcpy((*desti).nombre, origen.nombre);</span>
+<span id="cb162-2"><a href="pec06.html#cb162-2"></a>    strcpy((*desti).apellido, origen.apellido);</span>
+<span id="cb162-3"><a href="pec06.html#cb162-3"></a>    (*desti).rebotes = origen.rebotes;</span>
+<span id="cb162-4"><a href="pec06.html#cb162-4"></a>    (*desti).tapones = origen.tapones;</span></code></pre></div>
+<p>Por lo tanto este último bloque de código se puede sustituir en el ejemplo anterior y todo seguirá funcionando correctamente, ya que son equivalentes. Se puede utilizar una forma u otra, aunque el operador <code>-&gt;</code> parece más fácil de entender visualmente.</p>
+</div>
+</div>
+<div id="frequently-made-mistakes-5" class="section level2" number="6.6">
+<h2 number="6.6"><span class="header-section-number">6.6</span> Frequently Made Mistakes</h2>
+<div id="definició-daccionsfuncions-noms-de-paràmetres" class="section level3" number="6.6.1">
+<h3 number="6.6.1"><span class="header-section-number">6.6.1</span> Definició d’accions/funcions: noms de paràmetres</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelCmp(in tHotel, in tHotel)
+    { ... }
+end action</code></pre>
+<p>En el ejemplo mostrado parece que la intención es definir dos parámetros, pero falta indicar el identificador (nombre) para cada uno de ellos. Recordemos que en la declaración de la cabecera de una acción / función, hay que indicar, para cada parámetro:</p>
+<ul>
+<li>El tipo de parámetro que recibe la acción o función, (in, out o inout)</li>
+<li>El tipo de datos del parámetro (tHotel en el ejemplo)</li>
+<li>El identificador asociado al parámetro (no definido en el ejemplo).</li>
+</ul>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelCmp(in hotel1: tHotel, in hotel2: tHotel)
+    { ... }
+end action</code></pre>
+</div>
+<div id="definició-daccionsfuncions-tipus-de-paràmetres" class="section level3" number="6.6.2">
+<h3 number="6.6.2"><span class="header-section-number">6.6.2</span> Definició d’accions/funcions: tipus de paràmetres</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/c_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelCmp(in hotel1: tHotel, out hotel2: tHotel)
+    hotel1.id = hotel2.id;
+end action</code></pre>
+<p>En la <strong>declaración de la cabecera</strong> de una acción/función hay que indicar para cada parámetro el tipo de parámetro que recibe la acción/función: <code>in</code>,<code>out</code> o <code>inout</code>. Los parámetros de tipo <code>in</code> no se pueden modificar en el interior de la acción, mientras sí podemos hacerlo en el caso de los parámetros de tipo <code>out</code> o <code>inout</code>. En el ejemplo, se está modificando el parámetro <code>hotel1</code> actualizando el valor de uno de sus campos. O bien se trata de una confusión entre ambos parámetros, o bien <code>hotel1</code> debe ser de tipo <code>out</code>.</p>
+<p>Pseudocódigos correctos:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb166"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb166-1"><a href="pec06.html#cb166-1"></a>action hotelCmp(in hotel1: tHotel, out hotel2: tHotel)</span>
+<span id="cb166-2"><a href="pec06.html#cb166-2"></a>    hotel2.id = hotel1.id;</span>
+<span id="cb166-3"><a href="pec06.html#cb166-3"></a>end action</span></code></pre></div>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb167"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb167-1"><a href="pec06.html#cb167-1"></a>action hotelCmp(out hotel1: tHotel, in hotel2: tHotel)</span>
+<span id="cb167-2"><a href="pec06.html#cb167-2"></a>    hotel1.id = hotel2.id;</span>
+<span id="cb167-3"><a href="pec06.html#cb167-3"></a>end action</span></code></pre></div>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb168"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb168-1"><a href="pec06.html#cb168-1"></a>action hotelCmp(out hotel1: tHotel, inout hotel2: tHotel)</span>
+<span id="cb168-2"><a href="pec06.html#cb168-2"></a>    hotel1.id = hotel2.id;</span>
+<span id="cb168-3"><a href="pec06.html#cb168-3"></a>end action</span></code></pre></div>
+<p>Fijaros que si el parámetro <code>hotel1</code> es de tipo<code>out</code> y tenemos que leer el parámetro <code>hotel2</code>, este segundo parámetro debe ser forzosamente de tipo <code>in</code> o <code>inout</code>, por lo que hemos modificado el tipo en la cabecera de la función.</p>
+</div>
+<div id="definición-de-funciones-tipos-de-datos-de-regreso" class="section level3" number="6.6.3">
+<h3 number="6.6.3"><span class="header-section-number">6.6.3</span> Definición de funciones: tipos de datos de regreso</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>function hotelCmp(h1: tHotel, h2: tHotel)
+    { ... }
+end function</code></pre>
+<p>En el ejemplo mostrado, <code>hotelCmp</code> está definida como función, con los parámetros de entrada<code>h1</code> y <code>h2</code>, pero las funciones siempre devuelven un valor, y hay que indicar siempre el tipo de dato en la misma cabecera.</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>function hotelCmp(h1: tHotel, h2: tHotel): integer
+    { ... }
+end function</code></pre>
+<p>Obsérvese que en este caso, no es necesario indicar el tipo de parámetros de entrada (<code>in</code>,<code>out</code> o <code>inout</code>), porque en las funciones los parámetros siempre son de entrada y no se pueden modificar.</p>
+</div>
+<div id="definición-de-acciones-retorno-de-valor" class="section level3" number="6.6.4">
+<h3 number="6.6.4"><span class="header-section-number">6.6.4</span> Definición de acciones: retorno de valor</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hoteTableInit(inout tHotelTable: tabHotels): void
+    { ... }
+end action</code></pre>
+<p>Se ha definido una acción llamada <code>hotelTableInit</code>, que recibe un parámetro de entrada/salida (<code>inout</code>) de tipo <code>tHotelTable</code>, con el identificador<code>tabHotels</code>. Las acciones nunca devuelven un valor, pero erróneamente se ha interpretado que hay que indicar este hecho añadiendo <code>: void</code> al final de la cabecera de la acción.</p>
+<p>Este caso es doblemente incorrecto debido a que <code>: void</code> es un identificador propio de C que no existe en lenguaje algorítmico.</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hoteTableInit(inout tHotelTable: tabHotels)
+    { ... }
+end action</code></pre>
+<p>Observad que en este caso, al tratarse de una <strong>acción</strong> es necesario indicar el tipo de parámetros de entrada: <code>in</code>, <code>out</code> o <code>inout</code>.</p>
+</div>
+<div id="definición-de-accionesfunciones-acciones-abiertas" class="section level3" number="6.6.5">
+<h3 number="6.6.5"><span class="header-section-number">6.6.5</span> Definición de acciones/funciones: acciones abiertas</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelCmp(in hotel1: tHotel, out hotel2: tHotel)
+    hotel1.id = hotel2.id;
+    { ... }
+action readHotel(out hotel1: tHotel)
+    hotel1.id = readInteger();
+end action</code></pre>
+<p>Las <strong>funciones</strong> y <strong>acciones</strong> constituyen <strong>bloques de código</strong> con unas funcionalidades y características especiales, y como tal deben estar bien delimitadas mediante las palabras reservadas <code>function</code> …<code>end function</code> y <code>action</code> …<code>end action</code>. Dejar una acción sin cerrar puede parecer un tema menor, pero en C esto comportará con toda seguridad un error de compilación (a menudo difícil de detectar).</p>
+Pseudocódigo correcto:
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelCmp(in hotel1: tHotel, out hotel2: tHotel)
+    hotel1.id = hotel2.id;
+    { ... }
+end action
+action readHotel(out hotel1: tHotel)
+    hotel1.id = readInteger();
+end action</code></pre>
+</div>
+<div id="llamada-a-funcionesacciones-tipos-de-parámetros" class="section level3" number="6.6.6">
+<h3 number="6.6.6"><span class="header-section-number">6.6.6</span> Llamada a funciones/acciones: tipos de parámetros</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>hotelRead(out h1: tHotel);
+hotelRead(out h2: tHotel);
+
+action hotelRead(out h: tHotel)
+    { ... }
+end action</code></pre>
+<p>El tipo de parámetro que recibe una acción/función, así como el tipo de datos y el identificador del parámetro, hay que indicarlos únicamente en la <strong>definición de la cabecera</strong> de la <strong>acción</strong>. En el caso de las <strong>funciones</strong>, no indicaremos el tipo de datos ya que todos son ‘in’.</p>
+<p>En la <strong>llamada</strong> a una acción/función únicamente se tienen que indicar los parámetros.</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>hotelRead(h1);
+hotelRead(h2);
+
+action hotelRead(out h: tHotel)
+    { ... }
+end action</code></pre>
+</div>
+<div id="llamada-a-accionesfunciones-palabras-reservadas" class="section level3" number="6.6.7">
+<h3 number="6.6.7"><span class="header-section-number">6.6.7</span> Llamada a acciones/funciones: palabras reservadas</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action hotelRead(h1);
+action hotelRead(h2);
+
+action hotelRead(out h: tHotel)
+    { ... }
+end action</code></pre>
+<p>La palabra reservada <code>action</code> se usará únicamente para la <strong>definición de la cabecera</strong> de la acción.</p>
+<p>En la <strong>llamada</strong> a una acción únicamente hay que indicar el nombre de la acción y los parámetros; es incorrecto añadir nuevamente la palabra reservada <code>action</code>.</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>hotelRead(h1);
+hotelRead(h2);
+
+action hotelRead(out h: tHotel)
+    { ... }
+end action</code></pre>
+</div>
+<div id="llamada-a-funciones-llamada-vacía" class="section level3" number="6.6.8">
+<h3 number="6.6.8"><span class="header-section-number">6.6.8</span> Llamada a funciones: llamada vacía</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>bestHotel: integer;
+
+compareHotels(h1,h2);
+
+if (bestHotel = 1) then
+    { ... }
+end if  
+
+function hotelRead(h1: tHotel, h2: tHotel): integer
+    { ... }
+    return bestHotel;
+end function</code></pre>
+<p>Como ocurre en todas las funciones, la función <code>hotelRead()</code> devuelve un valor: en este caso la variable <code>bestHotel</code>. Sin embargo, la <strong>llamada</strong> que se hace de la función no es correcta, porque el retorno de la función no se guarda ninguna parte y la variable <code>bestHotel</code> del programa principal sigue sin haberse actualizado.</p>
+<p>En el caso de C este código no provocaría un error, pero si no hacemos nada más desde el programa principal no tendremos acceso al resultado que devuelve la función (que es lo que se supone que queríamos hacer).</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>bestHotel: integer;
+
+bestHotel:= compareHotels(h1,h2);
+
+if (bestHotel = 1) then
+    {...}
+end if  
+
+function hotelRead(h1: tHotel, h2: tHotel): integer
+    {...}
+    return bestHotel;
+end function</code></pre>
+<p>El retorno de una función también se puede utilizar en una expresión, en este caso sin asignarlo a ninguna variable, ya que en la misma expresión el compilador calculará el retorno de la función y lo sustituirá el valor correspondiente a la función:</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>bestHotel: integer;
+
+if (compareHotels(h1,h2) = 1) then
+    { ... }
+end if  
+
+function hotelRead(h1: tHotel, h2: tHotel): integer
+    { ... }
+    return bestHotel;
+end function</code></pre>
+</div>
+<div id="llamada-a-funciones-ausencia-de-parámetros" class="section level3" number="6.6.9">
+<h3 number="6.6.9"><span class="header-section-number">6.6.9</span> Llamada a funciones: ausencia de parámetros</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>var
+    myReal: real;
+    myInteger: integer;
+end var
+
+myInteger:= integerToReal();</code></pre>
+<p>La función <code>integerToReal</code> devuelve un valor y lo queremos guardar en la variable <code>myInteger</code>. El problema es que la función necesita que le pasamos un <strong>parámetro</strong> cuando la llamamos: en este caso, el número real a convertir a entero.</p>
+<p>En caso de duda hay que consultar siempre la <strong>cabecera de declaración</strong> de la función, ya que nos indicará en cada caso el número y tipo de parámetros que espera.</p>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>var
+    myReal: real;
+    myInteger: integer;
+end var
+
+myInteger:= integerToReal(myReal);</code></pre>
+</div>
+<div id="llamada-a-funciones-errores-de-sintaxis-múltiples" class="section level3" number="6.6.10">
+<h3 number="6.6.10"><span class="header-section-number">6.6.10</span> Llamada a funciones: errores de sintaxis múltiples</h3>
+<p>Pseudocódigo incorrecto:</p>
+<p>
+<img src="img/alg_err.png" style="float:left; padding:10px" />
+</p>
+<pre><code>var
+    hotel1: tHotel;
+end var
+
+hotelRead(in: &amp;myHotel);
+
+action hotelRead(in myHotel: tHotel)
+    { ... }
+end action</code></pre>
+<p>El pseudocódigo anterior contiene varios errores de sintaxis en la <strong>llamada a la función</strong>:</p>
+<ul>
+<li>Se indica el tipo de parámetro <code>in</code>.</li>
+<li>Se incluye el operador <code>:</code>.</li>
+<li>Se añade sintaxis propia de C con el operador <code>&amp;</code>, para pasar el parámetro <code>myHotel</code> por referencia. En lenguaje algorítmico el paso de un parámetro por referencia se determina mediante la cabecera de la función.</li>
+</ul>
+<p>Pseudocódigo correcto:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>var
+    hotel1: tHotel;
+end var
+
+hotelRead(myHotel);
+
+action hotelRead(in myHotel: tHotel)
+    { ... }
+end action</code></pre>
+</div>
+<div id="definición-de-funciones-funciones-dentro-del-main" class="section level3" number="6.6.11">
+<h3 number="6.6.11"><span class="header-section-number">6.6.11</span> Definición de funciones: funciones dentro del main</h3>
+<p>Código incorrecto:</p>
+<p>
+<img src="img/c_err.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb186"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb186-1"><a href="pec06.html#cb186-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb186-2"><a href="pec06.html#cb186-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb186-3"><a href="pec06.html#cb186-3"></a></span>
+<span id="cb186-4"><a href="pec06.html#cb186-4"></a><span class="pp">#define MAX_LEN 15</span></span>
+<span id="cb186-5"><a href="pec06.html#cb186-5"></a></span>
+<span id="cb186-6"><a href="pec06.html#cb186-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb186-7"><a href="pec06.html#cb186-7"></a>    <span class="dt">int</span> num1;</span>
+<span id="cb186-8"><a href="pec06.html#cb186-8"></a>    <span class="dt">int</span> num2;</span>
+<span id="cb186-9"><a href="pec06.html#cb186-9"></a>    <span class="dt">bool</span> myBool;</span>
+<span id="cb186-10"><a href="pec06.html#cb186-10"></a></span>
+<span id="cb186-11"><a href="pec06.html#cb186-11"></a>    <span class="dt">bool</span> compareNumbers(<span class="dt">int</span> n1, <span class="dt">int</span> n2){</span>
+<span id="cb186-12"><a href="pec06.html#cb186-12"></a>       <span class="cf">return</span> (n1 &gt; n2); </span>
+<span id="cb186-13"><a href="pec06.html#cb186-13"></a>    }</span>
+<span id="cb186-14"><a href="pec06.html#cb186-14"></a>    </span>
+<span id="cb186-15"><a href="pec06.html#cb186-15"></a>    myBool = compareNumbers(num1, num2);</span>
+<span id="cb186-16"><a href="pec06.html#cb186-16"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb186-17"><a href="pec06.html#cb186-17"></a>}</span></code></pre></div>
+<p>Las funciones y acciones se tienen que definir de forma individual y separada. No es correcto definir funciones anidadas o incluidas dentro de otras (como por ejemplo el <code>main</code>), entre otras cosas porque estas funciones no estarán disponibles desde el exterior de la función donde son creadas.</p>
+<p>Código correcto:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb187"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb187-1"><a href="pec06.html#cb187-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb187-2"><a href="pec06.html#cb187-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb187-3"><a href="pec06.html#cb187-3"></a></span>
+<span id="cb187-4"><a href="pec06.html#cb187-4"></a><span class="pp">#define MAX_LEN 15</span></span>
+<span id="cb187-5"><a href="pec06.html#cb187-5"></a></span>
+<span id="cb187-6"><a href="pec06.html#cb187-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb187-7"><a href="pec06.html#cb187-7"></a>    <span class="dt">int</span> num1;</span>
+<span id="cb187-8"><a href="pec06.html#cb187-8"></a>    <span class="dt">int</span> num2;</span>
+<span id="cb187-9"><a href="pec06.html#cb187-9"></a>    <span class="dt">bool</span> myBool;</span>
+<span id="cb187-10"><a href="pec06.html#cb187-10"></a>    myBool = compareNumbers(num1, num2);</span>
+<span id="cb187-11"><a href="pec06.html#cb187-11"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb187-12"><a href="pec06.html#cb187-12"></a>}</span>
+<span id="cb187-13"><a href="pec06.html#cb187-13"></a></span>
+<span id="cb187-14"><a href="pec06.html#cb187-14"></a><span class="dt">bool</span> compareNumbers(<span class="dt">int</span> n1, <span class="dt">int</span> n2){</span>
+<span id="cb187-15"><a href="pec06.html#cb187-15"></a>    <span class="cf">return</span> (n1 &gt; n2); </span>
+<span id="cb187-16"><a href="pec06.html#cb187-16"></a>}</span></code></pre></div>
+
+</div>
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pec05.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pec07.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/06-PEC06.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["FAQ_Laboratorio_FP.pdf", "FAQ_Laboratorio_FP.epub"],
+"toc": {
+"collapse": "section",
+"toc": true,
+"toc_float": true,
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

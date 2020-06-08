@@ -1,0 +1,1251 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>7 PEC07 | FAQ Laboratorio de Fundamentos de Programación</title>
+  <meta name="description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="7 PEC07 | FAQ Laboratorio de Fundamentos de Programación" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="7 PEC07 | FAQ Laboratorio de Fundamentos de Programación" />
+  
+  <meta name="twitter:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  
+
+<meta name="author" content="Jordi Blasco Planesas" />
+
+
+<meta name="date" content="2020-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="pec06.html"/>
+<link rel="next" href="pec08.html"/>
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168821881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168821881-1');
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="./img/uoc.png" width="100"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="pec01.html"><a href="pec01.html"><i class="fa fa-check"></i><b>1</b> PEC01</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.1</b> Lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.2" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.2</b> Lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.3" data-path="pec01.html"><a href="pec01.html#equivalencias-lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.3</b> Equivalencias lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.4" data-path="pec01.html"><a href="pec01.html#impresión-de-valores-incorrecta"><i class="fa fa-check"></i><b>1.4</b> Impresión de valores incorrecta</a></li>
+<li class="chapter" data-level="1.5" data-path="pec01.html"><a href="pec01.html#cómo-definir-un-enumerativo"><i class="fa fa-check"></i><b>1.5</b> Cómo definir un enumerativo</a></li>
+<li class="chapter" data-level="1.6" data-path="pec01.html"><a href="pec01.html#cómo-utilizar-un-enumerativo"><i class="fa fa-check"></i><b>1.6</b> Cómo utilizar un enumerativo</a></li>
+<li class="chapter" data-level="1.7" data-path="pec01.html"><a href="pec01.html#especificador-de-un-enumerativo"><i class="fa fa-check"></i><b>1.7</b> Especificador de un enumerativo</a></li>
+<li class="chapter" data-level="1.8" data-path="pec01.html"><a href="pec01.html#lectura-de-caracteres-en-c"><i class="fa fa-check"></i><b>1.8</b> Lectura de caracteres en C</a></li>
+<li class="chapter" data-level="1.9" data-path="pec01.html"><a href="pec01.html#lectura-de-float-en-c"><i class="fa fa-check"></i><b>1.9</b> Lectura de float en C</a></li>
+<li class="chapter" data-level="1.10" data-path="pec01.html"><a href="pec01.html#frequently-made-mistakes"><i class="fa fa-check"></i><b>1.10</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="pec01.html"><a href="pec01.html#definición-de-tipos-tipo-booleano"><i class="fa fa-check"></i><b>1.10.1</b> Definición de tipos: tipo booleano</a></li>
+<li class="chapter" data-level="1.10.2" data-path="pec01.html"><a href="pec01.html#estilo-y-formato-ausencia-de-estilo-y-formato-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.10.2</b> Estilo y formato: ausencia de estilo y formato en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.10.3" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-identificadores-no-permitidos"><i class="fa fa-check"></i><b>1.10.3</b> Declaración de variables: identificadores no permitidos</a></li>
+<li class="chapter" data-level="1.10.4" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-operador-de-declaración"><i class="fa fa-check"></i><b>1.10.4</b> Declaración de variables: operador de declaración</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pec02.html"><a href="pec02.html"><i class="fa fa-check"></i><b>2</b> PEC02</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pec02.html"><a href="pec02.html#booleanos-en-c"><i class="fa fa-check"></i><b>2.1</b> Booleanos en C</a></li>
+<li class="chapter" data-level="2.2" data-path="pec02.html"><a href="pec02.html#booleanos-definidos-como-enumerativos"><i class="fa fa-check"></i><b>2.2</b> Booleanos definidos como enumerativos</a></li>
+<li class="chapter" data-level="2.3" data-path="pec02.html"><a href="pec02.html#constantes-define-vs-const"><i class="fa fa-check"></i><b>2.3</b> Constantes: define vs const</a></li>
+<li class="chapter" data-level="2.4" data-path="pec02.html"><a href="pec02.html#cómo-mostrar-el-valor-de-una-constante"><i class="fa fa-check"></i><b>2.4</b> Cómo mostrar el valor de una constante</a></li>
+<li class="chapter" data-level="2.5" data-path="pec02.html"><a href="pec02.html#precisión-en-variables-float"><i class="fa fa-check"></i><b>2.5</b> Precisión en variables float</a></li>
+<li class="chapter" data-level="2.6" data-path="pec02.html"><a href="pec02.html#semántica-de-una-expresión"><i class="fa fa-check"></i><b>2.6</b> Semántica de una expresión</a></li>
+<li class="chapter" data-level="2.7" data-path="pec02.html"><a href="pec02.html#ejemplos-de-expresiones"><i class="fa fa-check"></i><b>2.7</b> Ejemplos de expresiones</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="pec02.html"><a href="pec02.html#ejemplo-1-espar"><i class="fa fa-check"></i><b>2.7.1</b> Ejemplo 1: esPar</a></li>
+<li class="chapter" data-level="2.7.2" data-path="pec02.html"><a href="pec02.html#ejemplo-2-findesemana"><i class="fa fa-check"></i><b>2.7.2</b> Ejemplo 2: finDeSemana</a></li>
+<li class="chapter" data-level="2.7.3" data-path="pec02.html"><a href="pec02.html#ejemplo-3-esvocal"><i class="fa fa-check"></i><b>2.7.3</b> Ejemplo 3: esVocal</a></li>
+<li class="chapter" data-level="2.7.4" data-path="pec02.html"><a href="pec02.html#ejemplo-4-votaciones"><i class="fa fa-check"></i><b>2.7.4</b> Ejemplo 4: votaciones</a></li>
+<li class="chapter" data-level="2.7.5" data-path="pec02.html"><a href="pec02.html#ejemplo-5-gintonicpreparation"><i class="fa fa-check"></i><b>2.7.5</b> Ejemplo 5: ginTonicPreparation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="pec02.html"><a href="pec02.html#ejemplo-6-gintonicfreeml"><i class="fa fa-check"></i><b>2.7.6</b> Ejemplo 6: ginTonicFreeMl</a></li>
+<li class="chapter" data-level="2.7.7" data-path="pec02.html"><a href="pec02.html#ejemplo-7-scoutingbasquet"><i class="fa fa-check"></i><b>2.7.7</b> Ejemplo 7: scoutingBasquet</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="pec02.html"><a href="pec02.html#frequently-made-mistakes-1"><i class="fa fa-check"></i><b>2.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="pec02.html"><a href="pec02.html#interfaz-de-usuario-ausencia-de-textos-informativos"><i class="fa fa-check"></i><b>2.8.1</b> Interfaz de usuario: ausencia de textos informativos</a></li>
+<li class="chapter" data-level="2.8.2" data-path="pec02.html"><a href="pec02.html#caracteres-uso-de-comillas-simples"><i class="fa fa-check"></i><b>2.8.2</b> Caracteres: uso de comillas simples</a></li>
+<li class="chapter" data-level="2.8.3" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-funciones-de-lectura-escritura"><i class="fa fa-check"></i><b>2.8.3</b> Sintaxis propia de C: funciones de lectura / escritura</a></li>
+<li class="chapter" data-level="2.8.4" data-path="pec02.html"><a href="pec02.html#conversión-de-tipos-funciones-inexistentes"><i class="fa fa-check"></i><b>2.8.4</b> Conversión de tipos: funciones inexistentes</a></li>
+<li class="chapter" data-level="2.8.5" data-path="pec02.html"><a href="pec02.html#expresiones-variables-intermedias"><i class="fa fa-check"></i><b>2.8.5</b> Expresiones: variables intermedias</a></li>
+<li class="chapter" data-level="2.8.6" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-bloque-central-de-código"><i class="fa fa-check"></i><b>2.8.6</b> Declaración de variables: declaración mal ubicada (bloque central de código)</a></li>
+<li class="chapter" data-level="2.8.7" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-variables-globales"><i class="fa fa-check"></i><b>2.8.7</b> Declaración de variables: declaración mal ubicada (variables globales)</a></li>
+<li class="chapter" data-level="2.8.8" data-path="pec02.html"><a href="pec02.html#tipo-booleano-valores-numéricos"><i class="fa fa-check"></i><b>2.8.8</b> Tipo booleano: valores numéricos</a></li>
+<li class="chapter" data-level="2.8.9" data-path="pec02.html"><a href="pec02.html#tipo-booleano-cadenas-de-caracteres"><i class="fa fa-check"></i><b>2.8.9</b> Tipo booleano: cadenas de caracteres</a></li>
+<li class="chapter" data-level="2.8.10" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-operadores"><i class="fa fa-check"></i><b>2.8.10</b> Sintaxis propia de C: operadores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="pec03.html"><a href="pec03.html"><i class="fa fa-check"></i><b>3</b> PEC03</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="pec03.html"><a href="pec03.html#cómo-declarar-un-vector-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.1</b> Cómo declarar un vector en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.2" data-path="pec03.html"><a href="pec03.html#significado-de-los-argumentos-del-main"><i class="fa fa-check"></i><b>3.2</b> Significado de los argumentos del main</a></li>
+<li class="chapter" data-level="3.3" data-path="pec03.html"><a href="pec03.html#asignar-valores-a-un-vector"><i class="fa fa-check"></i><b>3.3</b> Asignar valores a un vector</a></li>
+<li class="chapter" data-level="3.4" data-path="pec03.html"><a href="pec03.html#stack-smashing-detected"><i class="fa fa-check"></i><b>3.4</b> Stack smashing detected</a></li>
+<li class="chapter" data-level="3.5" data-path="pec03.html"><a href="pec03.html#concatenación-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.5</b> Concatenación en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.6" data-path="pec03.html"><a href="pec03.html#importancia-de-los-tipos-utilizados-en-lenguaje-c"><i class="fa fa-check"></i><b>3.6</b> Importancia de los tipos utilizados en lenguaje C</a></li>
+<li class="chapter" data-level="3.7" data-path="pec03.html"><a href="pec03.html#ejemplo-notafinal"><i class="fa fa-check"></i><b>3.7</b> Ejemplo: notaFinal</a></li>
+<li class="chapter" data-level="3.8" data-path="pec03.html"><a href="pec03.html#frequently-made-mistakes-2"><i class="fa fa-check"></i><b>3.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="pec03.html"><a href="pec03.html#strings-declaración-como-vectores-de-caracteres-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.8.1</b> Strings: declaración como vectores de caracteres en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.8.2" data-path="pec03.html"><a href="pec03.html#sintaxis-propia-de-c-funciones-complejas"><i class="fa fa-check"></i><b>3.8.2</b> Sintaxis propia de C: funciones complejas</a></li>
+<li class="chapter" data-level="3.8.3" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-consecutivos"><i class="fa fa-check"></i><b>3.8.3</b> Estructura alternativa: if s consecutivos</a></li>
+<li class="chapter" data-level="3.8.4" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-vacíos"><i class="fa fa-check"></i><b>3.8.4</b> Estructura alternativa: if s vacíos</a></li>
+<li class="chapter" data-level="3.8.5" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-i"><i class="fa fa-check"></i><b>3.8.5</b> Estructura alternativa: interrumpir un algoritmo (I)</a></li>
+<li class="chapter" data-level="3.8.6" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-ii"><i class="fa fa-check"></i><b>3.8.6</b> Estructura alternativa: interrumpir un algoritmo (II)</a></li>
+<li class="chapter" data-level="3.8.7" data-path="pec03.html"><a href="pec03.html#constantes-y-números-valores-numéricos-al-código-hardcode"><i class="fa fa-check"></i><b>3.8.7</b> Constantes y números: Valores numéricos al código (hardcode)</a></li>
+<li class="chapter" data-level="3.8.8" data-path="pec03.html"><a href="pec03.html#constantes-declaración-de-constantes-mal-ubicada"><i class="fa fa-check"></i><b>3.8.8</b> Constantes: declaración de constantes mal ubicada</a></li>
+<li class="chapter" data-level="3.8.9" data-path="pec03.html"><a href="pec03.html#strings-comparación-directa"><i class="fa fa-check"></i><b>3.8.9</b> Strings: comparación directa</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="pec04.html"><a href="pec04.html"><i class="fa fa-check"></i><b>4</b> PEC04</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="pec04.html"><a href="pec04.html#como-tratar-elementos-de-un-vector-con-un-bucle"><i class="fa fa-check"></i><b>4.1</b> Como tratar elementos de un vector con un bucle</a></li>
+<li class="chapter" data-level="4.2" data-path="pec04.html"><a href="pec04.html#entrada-continua-de-valores-con-un-bucle"><i class="fa fa-check"></i><b>4.2</b> Entrada continua de valores con un bucle</a></li>
+<li class="chapter" data-level="4.3" data-path="pec04.html"><a href="pec04.html#como-tratar-valores-en-múltiples-vectores"><i class="fa fa-check"></i><b>4.3</b> Como tratar valores en múltiples vectores</a></li>
+<li class="chapter" data-level="4.4" data-path="pec04.html"><a href="pec04.html#definición-chars-vs-strings"><i class="fa fa-check"></i><b>4.4</b> Definición chars vs strings</a></li>
+<li class="chapter" data-level="4.5" data-path="pec04.html"><a href="pec04.html#ejemplo-pesopromedio"><i class="fa fa-check"></i><b>4.5</b> Ejemplo: pesoPromedio</a></li>
+<li class="chapter" data-level="4.6" data-path="pec04.html"><a href="pec04.html#frequently-made-mistakes-3"><i class="fa fa-check"></i><b>4.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="pec04.html"><a href="pec04.html#estructura-iterativa-for-vs-while"><i class="fa fa-check"></i><b>4.6.1</b> Estructura iterativa: for vs while</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pec05.html"><a href="pec05.html"><i class="fa fa-check"></i><b>5</b> PEC05</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="pec05.html"><a href="pec05.html#strcmp"><i class="fa fa-check"></i><b>5.1</b> strcmp()</a></li>
+<li class="chapter" data-level="5.2" data-path="pec05.html"><a href="pec05.html#scanf"><i class="fa fa-check"></i><b>5.2</b> scanf()</a></li>
+<li class="chapter" data-level="5.3" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strcmp"><i class="fa fa-check"></i><b>5.3</b> El finalizador ‘\0’ y strcmp()</a></li>
+<li class="chapter" data-level="5.4" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strlen"><i class="fa fa-check"></i><b>5.4</b> El finalizador ‘\0’ y strlen()</a></li>
+<li class="chapter" data-level="5.5" data-path="pec05.html"><a href="pec05.html#ejemplo-comparacionstrings"><i class="fa fa-check"></i><b>5.5</b> Ejemplo: comparacionStrings</a></li>
+<li class="chapter" data-level="5.6" data-path="pec05.html"><a href="pec05.html#ejemplo-nóminas"><i class="fa fa-check"></i><b>5.6</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="5.7" data-path="pec05.html"><a href="pec05.html#ejemplo-brisca"><i class="fa fa-check"></i><b>5.7</b> Ejemplo: brisca</a></li>
+<li class="chapter" data-level="5.8" data-path="pec05.html"><a href="pec05.html#frequently-made-mistakes-4"><i class="fa fa-check"></i><b>5.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-de-tuplas-mal-ubicada"><i class="fa fa-check"></i><b>5.8.1</b> Definición de tipo: definición de tuplas mal ubicada</a></li>
+<li class="chapter" data-level="5.8.2" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-mal-ubicada"><i class="fa fa-check"></i><b>5.8.2</b> Definición de tipo: definición mal ubicada</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="pec06.html"><a href="pec06.html"><i class="fa fa-check"></i><b>6</b> PEC06</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="pec06.html"><a href="pec06.html#diferencias-entre-funciones-y-acciones"><i class="fa fa-check"></i><b>6.1</b> Diferencias entre funciones y acciones</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="pec06.html"><a href="pec06.html#parámetros-de-entrada-in"><i class="fa fa-check"></i><b>6.1.1</b> Parámetros de entrada (in)</a></li>
+<li class="chapter" data-level="6.1.2" data-path="pec06.html"><a href="pec06.html#parámetros-de-salida-out"><i class="fa fa-check"></i><b>6.1.2</b> Parámetros de salida (out)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="pec06.html"><a href="pec06.html#parámetros-de-entradasalida-inout"><i class="fa fa-check"></i><b>6.1.3</b> Parámetros de entrada/salida (inout)</a></li>
+<li class="chapter" data-level="6.1.4" data-path="pec06.html"><a href="pec06.html#tuplas-como-parámetros"><i class="fa fa-check"></i><b>6.1.4</b> Tuplas como parámetros</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-acciones"><i class="fa fa-check"></i><b>6.2</b> Ejemplo: uso de acciones</a></li>
+<li class="chapter" data-level="6.3" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-funciones"><i class="fa fa-check"></i><b>6.3</b> Ejemplo: uso de funciones</a></li>
+<li class="chapter" data-level="6.4" data-path="pec06.html"><a href="pec06.html#ejemplo-nóminas-1"><i class="fa fa-check"></i><b>6.4</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="6.5" data-path="pec06.html"><a href="pec06.html#pivoteDefensiva"><i class="fa fa-check"></i><b>6.5</b> Ejemplo: pivoteDefensiva</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="pec06.html"><a href="pec06.html#explicación-sobre-la-acción-copiarjugadora"><i class="fa fa-check"></i><b>6.5.1</b> Explicación sobre la acción copiarJugadora()</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="pec06.html"><a href="pec06.html#frequently-made-mistakes-5"><i class="fa fa-check"></i><b>6.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-noms-de-paràmetres"><i class="fa fa-check"></i><b>6.6.1</b> Definició d’accions/funcions: noms de paràmetres</a></li>
+<li class="chapter" data-level="6.6.2" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-tipus-de-paràmetres"><i class="fa fa-check"></i><b>6.6.2</b> Definició d’accions/funcions: tipus de paràmetres</a></li>
+<li class="chapter" data-level="6.6.3" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-tipos-de-datos-de-regreso"><i class="fa fa-check"></i><b>6.6.3</b> Definición de funciones: tipos de datos de regreso</a></li>
+<li class="chapter" data-level="6.6.4" data-path="pec06.html"><a href="pec06.html#definición-de-acciones-retorno-de-valor"><i class="fa fa-check"></i><b>6.6.4</b> Definición de acciones: retorno de valor</a></li>
+<li class="chapter" data-level="6.6.5" data-path="pec06.html"><a href="pec06.html#definición-de-accionesfunciones-acciones-abiertas"><i class="fa fa-check"></i><b>6.6.5</b> Definición de acciones/funciones: acciones abiertas</a></li>
+<li class="chapter" data-level="6.6.6" data-path="pec06.html"><a href="pec06.html#llamada-a-funcionesacciones-tipos-de-parámetros"><i class="fa fa-check"></i><b>6.6.6</b> Llamada a funciones/acciones: tipos de parámetros</a></li>
+<li class="chapter" data-level="6.6.7" data-path="pec06.html"><a href="pec06.html#llamada-a-accionesfunciones-palabras-reservadas"><i class="fa fa-check"></i><b>6.6.7</b> Llamada a acciones/funciones: palabras reservadas</a></li>
+<li class="chapter" data-level="6.6.8" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-llamada-vacía"><i class="fa fa-check"></i><b>6.6.8</b> Llamada a funciones: llamada vacía</a></li>
+<li class="chapter" data-level="6.6.9" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-ausencia-de-parámetros"><i class="fa fa-check"></i><b>6.6.9</b> Llamada a funciones: ausencia de parámetros</a></li>
+<li class="chapter" data-level="6.6.10" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-errores-de-sintaxis-múltiples"><i class="fa fa-check"></i><b>6.6.10</b> Llamada a funciones: errores de sintaxis múltiples</a></li>
+<li class="chapter" data-level="6.6.11" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-funciones-dentro-del-main"><i class="fa fa-check"></i><b>6.6.11</b> Definición de funciones: funciones dentro del main</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pec07.html"><a href="pec07.html"><i class="fa fa-check"></i><b>7</b> PEC07</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pec07.html"><a href="pec07.html#cuándo-utilizar-dentro-de-funcionesacciones"><i class="fa fa-check"></i><b>7.1</b> Cuándo utilizar &amp; dentro de funciones/acciones</a></li>
+<li class="chapter" data-level="7.2" data-path="pec07.html"><a href="pec07.html#ejemplo-cómo-modular-un-programa-con-codelite"><i class="fa fa-check"></i><b>7.2</b> Ejemplo: cómo modular un programa con CodeLite</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="pec07.html"><a href="pec07.html#funcionamiento-por-defecto-de-un-proyecto-a-codelite"><i class="fa fa-check"></i><b>7.2.1</b> Funcionamiento por defecto de un proyecto a CodeLite:</a></li>
+<li class="chapter" data-level="7.2.2" data-path="pec07.html"><a href="pec07.html#ejecutable-dentro-de-bin."><i class="fa fa-check"></i><b>7.2.2</b> Ejecutable dentro de /bin.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="pec07.html"><a href="pec07.html#modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones."><i class="fa fa-check"></i><b>7.2.3</b> Modularización del programa en un archivo de cabeceras y uno de funciones.</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="pec07.html"><a href="pec07.html#tipo-de-parámetros-en-acciones-y-funciones"><i class="fa fa-check"></i><b>7.3</b> Tipo de parámetros en acciones y funciones</a></li>
+<li class="chapter" data-level="7.4" data-path="pec07.html"><a href="pec07.html#scanf-acción-o-función"><i class="fa fa-check"></i><b>7.4</b> scanf(): acción o función?</a></li>
+<li class="chapter" data-level="7.5" data-path="pec07.html"><a href="pec07.html#paso-por-valor-vs-paso-por-referencia"><i class="fa fa-check"></i><b>7.5</b> Paso por valor vs paso por referencia</a></li>
+<li class="chapter" data-level="7.6" data-path="pec07.html"><a href="pec07.html#ejemplo-invertirpalabra"><i class="fa fa-check"></i><b>7.6</b> Ejemplo: invertirPalabra</a></li>
+<li class="chapter" data-level="7.7" data-path="pec07.html"><a href="pec07.html#ejemplo-ispar"><i class="fa fa-check"></i><b>7.7</b> Ejemplo: isPar</a></li>
+<li class="chapter" data-level="7.8" data-path="pec07.html"><a href="pec07.html#ejemplo-pivotedefensivatiroslibres"><i class="fa fa-check"></i><b>7.8</b> Ejemplo: pivoteDefensivaTirosLibres</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pec08.html"><a href="pec08.html"><i class="fa fa-check"></i><b>8</b> PEC08</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="pec08.html"><a href="pec08.html#cómo-inicializar-una-tabla"><i class="fa fa-check"></i><b>8.1</b> Cómo inicializar una tabla</a></li>
+<li class="chapter" data-level="8.2" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota"><i class="fa fa-check"></i><b>8.2</b> Ejemplo: calcularNota</a></li>
+<li class="chapter" data-level="8.3" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota-con-introducción-iterativa"><i class="fa fa-check"></i><b>8.3</b> Ejemplo: calcularNota con introducción iterativa</a></li>
+<li class="chapter" data-level="8.4" data-path="pec08.html"><a href="pec08.html#ejemplo-recorrido-vs-búsqueda"><i class="fa fa-check"></i><b>8.4</b> Ejemplo: recorrido vs búsqueda</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="pec09.html"><a href="pec09.html"><i class="fa fa-check"></i><b>9</b> PEC09</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="pec09.html"><a href="pec09.html#ejemplo-listacartas"><i class="fa fa-check"></i><b>9.1</b> Ejemplo: listaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="pec10.html"><a href="pec10.html"><i class="fa fa-check"></i><b>10</b> PEC10</a></li>
+<li class="chapter" data-level="11" data-path="pr1.html"><a href="pr1.html"><i class="fa fa-check"></i><b>11</b> PR1</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pr1.html"><a href="pr1.html#modo-menu-vs-modo-test"><i class="fa fa-check"></i><b>11.1</b> Modo menu vs modo test</a></li>
+<li class="chapter" data-level="11.2" data-path="pr1.html"><a href="pr1.html#ejemplo-tupla-dentro-de-tupla"><i class="fa fa-check"></i><b>11.2</b> Ejemplo: tupla dentro de tupla</a></li>
+<li class="chapter" data-level="11.3" data-path="pr1.html"><a href="pr1.html#desplazamiento-de-elementos-en-un-vector"><i class="fa fa-check"></i><b>11.3</b> Desplazamiento de elementos en un vector</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="pr1.html"><a href="pr1.html#añadir-un-elemento"><i class="fa fa-check"></i><b>11.3.1</b> Añadir un elemento</a></li>
+<li class="chapter" data-level="11.3.2" data-path="pr1.html"><a href="pr1.html#borrar-un-elemento"><i class="fa fa-check"></i><b>11.3.2</b> Borrar un elemento</a></li>
+<li class="chapter" data-level="11.3.3" data-path="pr1.html"><a href="pr1.html#ejemplo-diassemana"><i class="fa fa-check"></i><b>11.3.3</b> Ejemplo: diasSemana</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="pr2.html"><a href="pr2.html"><i class="fa fa-check"></i><b>12</b> PR2</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="pr2.html"><a href="pr2.html#ejemplo-pilacartas"><i class="fa fa-check"></i><b>12.1</b> Ejemplo: pilaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html"><i class="fa fa-check"></i><b>13</b> VMWare y CodeLite</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#por-qué-una-máquina-virtual"><i class="fa fa-check"></i><b>13.1</b> ¿Por qué una máquina virtual?</a></li>
+<li class="chapter" data-level="13.2" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#virtualbox-y-requerimientos-de-virtualización"><i class="fa fa-check"></i><b>13.2</b> VirtualBox y requerimientos de virtualización</a></li>
+<li class="chapter" data-level="13.3" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-instalar-las-guest-additions"><i class="fa fa-check"></i><b>13.3</b> Cómo instalar las Guest Additions</a></li>
+<li class="chapter" data-level="13.4" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#primeros-pasos-con-codelite"><i class="fa fa-check"></i><b>13.4</b> Primeros pasos con CodeLite</a></li>
+<li class="chapter" data-level="13.5" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-activar-un-proyecto"><i class="fa fa-check"></i><b>13.5</b> Cómo activar un proyecto</a></li>
+<li class="chapter" data-level="13.6" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cambiar-idioma-del-teclado"><i class="fa fa-check"></i><b>13.6</b> Cambiar idioma del teclado</a></li>
+<li class="chapter" data-level="13.7" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#programa-por-defecto-al-crear-un-proyecto"><i class="fa fa-check"></i><b>13.7</b> Programa por defecto al crear un proyecto</a></li>
+<li class="chapter" data-level="13.8" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-fijar-el-kernel-de-inicio-con-lubuntu"><i class="fa fa-check"></i><b>13.8</b> Cómo fijar el kernel de inicio con Lubuntu</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="otros.html"><a href="otros.html"><i class="fa fa-check"></i><b>14</b> Otros</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="otros.html"><a href="otros.html#bibliografía"><i class="fa fa-check"></i><b>14.1</b> Bibliografía</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://www.uoc.edu" target="blank">www.uoc.edu</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAQ Laboratorio de Fundamentos de Programación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="pec07" class="section level1" number="7">
+<h1 number="7"><span class="header-section-number">7</span> PEC07</h1>
+<div id="cuándo-utilizar-dentro-de-funcionesacciones" class="section level2" number="7.1">
+<h2 number="7.1"><span class="header-section-number">7.1</span> Cuándo utilizar &amp; dentro de funciones/acciones</h2>
+<p>A veces cuando hacemos llamadas a <strong>acciones</strong> dentro de <strong>acciones</strong>, vemos que si pasamos un parámetro con <code>&amp;</code> los resultados no son correctos, pero en cambio el parámetro sin el <code>&amp;</code> todo funciona . Y al revés.</p>
+<p>Para aclarar estas dudas usaremos el siguiente ejemplo: es un programa sencillo que trabaja con tipo <code>tPec</code>. Un elemento <code>tPec</code> contiene dos atributos: un <code>nombre</code> (cadena de caracteres) y una <code>nota</code> (decimal). El programa hace la lectura de valores desde teclado con la acción <code>pecRead(...)</code>, la modificación del nombre de la PEC con <code>nombreToUpperCase (...)</code>, y su posterior impresión por pantalla mediante <code>pecWrite(...)</code>.</p>
+<p>Con el objetivo de dejarlo todo lo más claro posible se han añadido comentarios extensos dentro del programa, explicando en cada situación qué se hace y por qué.</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb188"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb188-1"><a href="pec07.html#cb188-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb188-2"><a href="pec07.html#cb188-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb188-3"><a href="pec07.html#cb188-3"></a></span>
+<span id="cb188-4"><a href="pec07.html#cb188-4"></a><span class="co">/* Definición de constantes */</span></span>
+<span id="cb188-5"><a href="pec07.html#cb188-5"></a><span class="pp">#define MAX_NOMBRE 5+1</span></span>
+<span id="cb188-6"><a href="pec07.html#cb188-6"></a></span>
+<span id="cb188-7"><a href="pec07.html#cb188-7"></a><span class="co">/* Definición de la tupla tPec */</span></span>
+<span id="cb188-8"><a href="pec07.html#cb188-8"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb188-9"><a href="pec07.html#cb188-9"></a>    <span class="dt">char</span> nombre[MAX_NOMBRE];</span>
+<span id="cb188-10"><a href="pec07.html#cb188-10"></a>    <span class="dt">float</span> nota;</span>
+<span id="cb188-11"><a href="pec07.html#cb188-11"></a>} tPec;</span>
+<span id="cb188-12"><a href="pec07.html#cb188-12"></a></span>
+<span id="cb188-13"><a href="pec07.html#cb188-13"></a><span class="co">/* Predeclaració de funcions y acciones */</span></span>
+<span id="cb188-14"><a href="pec07.html#cb188-14"></a></span>
+<span id="cb188-15"><a href="pec07.html#cb188-15"></a><span class="co">/* Acción que lee por teclado los atributos de un</span></span>
+<span id="cb188-16"><a href="pec07.html#cb188-16"></a><span class="co"> * tipo tPec y le asigna los valores. En este</span></span>
+<span id="cb188-17"><a href="pec07.html#cb188-17"></a><span class="co"> * caso el parámetro pec es de tipo &#39;out&#39;, dado que</span></span>
+<span id="cb188-18"><a href="pec07.html#cb188-18"></a><span class="co"> * su valor antes y después de ejecutar la acción</span></span>
+<span id="cb188-19"><a href="pec07.html#cb188-19"></a><span class="co"> * Hhabrá cambiado. Además, como que el valor inicial</span></span>
+<span id="cb188-20"><a href="pec07.html#cb188-20"></a><span class="co"> * de pec no nos interesa para nada (recordemos que</span></span>
+<span id="cb188-21"><a href="pec07.html#cb188-21"></a><span class="co"> * el objetivo de esta acción es leer de teclado</span></span>
+<span id="cb188-22"><a href="pec07.html#cb188-22"></a><span class="co"> * y dar valor a pec, por lo tanto sobrescribir</span></span>
+<span id="cb188-23"><a href="pec07.html#cb188-23"></a><span class="co"> * cualquier valor previo que tenga), podemos</span></span>
+<span id="cb188-24"><a href="pec07.html#cb188-24"></a><span class="co"> * descartar que sea de tipo &#39;inout&#39;.</span></span>
+<span id="cb188-25"><a href="pec07.html#cb188-25"></a><span class="co"> * Cuando un parámetro es de tipo out/inout, lo</span></span>
+<span id="cb188-26"><a href="pec07.html#cb188-26"></a><span class="co"> * pasamos por referencia o, lo que es lo mismo,</span></span>
+<span id="cb188-27"><a href="pec07.html#cb188-27"></a><span class="co"> * pasamos un puntero a un tipo de elemento; como</span></span>
+<span id="cb188-28"><a href="pec07.html#cb188-28"></a><span class="co"> * se puede ver, aquí eac es un puntero a un</span></span>
+<span id="cb188-29"><a href="pec07.html#cb188-29"></a><span class="co"> * Elemento de tipo tPec, ya que va precedido por *.</span></span>
+<span id="cb188-30"><a href="pec07.html#cb188-30"></a><span class="co"> * Utilizamos un puntero porque es la única manera</span></span>
+<span id="cb188-31"><a href="pec07.html#cb188-31"></a><span class="co"> * que tenemos de modificar un elemento definido</span></span>
+<span id="cb188-32"><a href="pec07.html#cb188-32"></a><span class="co"> * fuera del ámbito de la acción, desde dentro de</span></span>
+<span id="cb188-33"><a href="pec07.html#cb188-33"></a><span class="co"> * la propia acción.</span></span>
+<span id="cb188-34"><a href="pec07.html#cb188-34"></a><span class="co"> */</span></span>
+<span id="cb188-35"><a href="pec07.html#cb188-35"></a><span class="dt">void</span> pecRead(tPec *pec);</span>
+<span id="cb188-36"><a href="pec07.html#cb188-36"></a></span>
+<span id="cb188-37"><a href="pec07.html#cb188-37"></a><span class="co">/* Acción que, dado un tipo tPec, muestra su</span></span>
+<span id="cb188-38"><a href="pec07.html#cb188-38"></a><span class="co"> * contenido (nombre y nota) por pantalla. Aquí el</span></span>
+<span id="cb188-39"><a href="pec07.html#cb188-39"></a><span class="co"> * parámetro pec es de tipo in: su valor</span></span>
+<span id="cb188-40"><a href="pec07.html#cb188-40"></a><span class="co"> * antes y después de ejecutar la acción no variará.</span></span>
+<span id="cb188-41"><a href="pec07.html#cb188-41"></a><span class="co"> * Un parámetro de tipo in lo pasamos por valor:</span></span>
+<span id="cb188-42"><a href="pec07.html#cb188-42"></a><span class="co"> * en este caso es un elemento de tipo tPec.</span></span>
+<span id="cb188-43"><a href="pec07.html#cb188-43"></a><span class="co"> * Como se puede ver, no tiene que ir precedido por *.</span></span>
+<span id="cb188-44"><a href="pec07.html#cb188-44"></a><span class="co"> */</span></span>
+<span id="cb188-45"><a href="pec07.html#cb188-45"></a><span class="dt">void</span> pecWrite(tPec pec);</span>
+<span id="cb188-46"><a href="pec07.html#cb188-46"></a></span>
+<span id="cb188-47"><a href="pec07.html#cb188-47"></a><span class="co">/* Acción que, dado un tipo tPec, coge su</span></span>
+<span id="cb188-48"><a href="pec07.html#cb188-48"></a><span class="co"> * nombre y lo pasa a mayúsculas. Por ejemplo, si</span></span>
+<span id="cb188-49"><a href="pec07.html#cb188-49"></a><span class="co"> * el nombre es &quot;pEc01&quot; lo modificará por &quot;PEC01&quot;.</span></span>
+<span id="cb188-50"><a href="pec07.html#cb188-50"></a><span class="co"> * El parámetro es de tipo &#39;inout&#39;: su valor</span></span>
+<span id="cb188-51"><a href="pec07.html#cb188-51"></a><span class="co"> * antes y después de ejecutar la acción habrá cambiado</span></span>
+<span id="cb188-52"><a href="pec07.html#cb188-52"></a><span class="co"> * y además, el valor inicial que tiene es</span></span>
+<span id="cb188-53"><a href="pec07.html#cb188-53"></a><span class="co"> * importante, ya que lo necesitamos para calcular el</span></span>
+<span id="cb188-54"><a href="pec07.html#cb188-54"></a><span class="co"> * valor final ( &quot;pEc01&quot; -&gt; &quot;PEC01&quot;). Al ser un</span></span>
+<span id="cb188-55"><a href="pec07.html#cb188-55"></a><span class="co"> * parámetro de tipo &#39;inout&#39;, pasaremos su</span></span>
+<span id="cb188-56"><a href="pec07.html#cb188-56"></a><span class="co"> * valor por referencia: necesitamos que pueda ser</span></span>
+<span id="cb188-57"><a href="pec07.html#cb188-57"></a><span class="co"> * modificado desde dentro de la acción, con lo</span></span>
+<span id="cb188-58"><a href="pec07.html#cb188-58"></a><span class="co"> * es necesario trabajar con un puntero al elemento</span></span>
+<span id="cb188-59"><a href="pec07.html#cb188-59"></a><span class="co"> * Pec, de ahí que vaya precedido con *.</span></span>
+<span id="cb188-60"><a href="pec07.html#cb188-60"></a><span class="co"> */</span></span>
+<span id="cb188-61"><a href="pec07.html#cb188-61"></a><span class="dt">void</span> nomToUpperCase(tPec *pec);</span>
+<span id="cb188-62"><a href="pec07.html#cb188-62"></a></span>
+<span id="cb188-63"><a href="pec07.html#cb188-63"></a><span class="co">/* Programa principal */</span></span>
+<span id="cb188-64"><a href="pec07.html#cb188-64"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb188-65"><a href="pec07.html#cb188-65"></a>    <span class="co">/* Definimos las variables */</span></span>
+<span id="cb188-66"><a href="pec07.html#cb188-66"></a>    tPec pec1, pec2, pec3;</span>
+<span id="cb188-67"><a href="pec07.html#cb188-67"></a></span>
+<span id="cb188-68"><a href="pec07.html#cb188-68"></a>    <span class="co">/* Damos valor a los atributos de cada una</span></span>
+<span id="cb188-69"><a href="pec07.html#cb188-69"></a><span class="co">     * de las 3 PEC. Tened en cuenta que estamos pasando</span></span>
+<span id="cb188-70"><a href="pec07.html#cb188-70"></a><span class="co">     * punteros a elementos de tipo tPec: el &amp;</span></span>
+<span id="cb188-71"><a href="pec07.html#cb188-71"></a><span class="co">     * previo indica que tomamos la dirección de</span></span>
+<span id="cb188-72"><a href="pec07.html#cb188-72"></a><span class="co">     * memoria donde reside el elemento de tipo</span></span>
+<span id="cb188-73"><a href="pec07.html#cb188-73"></a><span class="co">     * tPec. Como pasamos punteros a memoria,</span></span>
+<span id="cb188-74"><a href="pec07.html#cb188-74"></a><span class="co">     * desde dentro de la acción podremos modificar</span></span>
+<span id="cb188-75"><a href="pec07.html#cb188-75"></a><span class="co">     * el contenido de pec1, pec2 y pec3, aunque</span></span>
+<span id="cb188-76"><a href="pec07.html#cb188-76"></a><span class="co">     * estas tres variables hayan sido</span></span>
+<span id="cb188-77"><a href="pec07.html#cb188-77"></a><span class="co">     * definidas fuera del ámbito de la acción.</span></span>
+<span id="cb188-78"><a href="pec07.html#cb188-78"></a><span class="co">     */</span></span>
+<span id="cb188-79"><a href="pec07.html#cb188-79"></a>    pecRead(&amp;pec1);</span>
+<span id="cb188-80"><a href="pec07.html#cb188-80"></a>    pecRead(&amp;pec2);</span>
+<span id="cb188-81"><a href="pec07.html#cb188-81"></a>    pecRead(&amp;pec3);</span>
+<span id="cb188-82"><a href="pec07.html#cb188-82"></a>    </span>
+<span id="cb188-83"><a href="pec07.html#cb188-83"></a>    <span class="co">/* Mostramos por pantalla los atributos de</span></span>
+<span id="cb188-84"><a href="pec07.html#cb188-84"></a><span class="co">     * cada una de las 3 PEC. En este caso</span></span>
+<span id="cb188-85"><a href="pec07.html#cb188-85"></a><span class="co">     * el paso de parámetros se hace por valor:</span></span>
+<span id="cb188-86"><a href="pec07.html#cb188-86"></a><span class="co">     * pasamos directamente los elementos de tipo</span></span>
+<span id="cb188-87"><a href="pec07.html#cb188-87"></a><span class="co">     * tPec, ya que estos no serán modificados</span></span>
+<span id="cb188-88"><a href="pec07.html#cb188-88"></a><span class="co">     * desde dentro de la acción (son de tipo &#39;in&#39;).</span></span>
+<span id="cb188-89"><a href="pec07.html#cb188-89"></a><span class="co">     */</span></span>
+<span id="cb188-90"><a href="pec07.html#cb188-90"></a>    pecWrite(pec1);</span>
+<span id="cb188-91"><a href="pec07.html#cb188-91"></a>    pecWrite(pec2);</span>
+<span id="cb188-92"><a href="pec07.html#cb188-92"></a>    pecWrite(pec3);</span>
+<span id="cb188-93"><a href="pec07.html#cb188-93"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb188-94"><a href="pec07.html#cb188-94"></a>}</span>
+<span id="cb188-95"><a href="pec07.html#cb188-95"></a></span>
+<span id="cb188-96"><a href="pec07.html#cb188-96"></a><span class="co">/* Implementación de funciones y acciones */</span></span>
+<span id="cb188-97"><a href="pec07.html#cb188-97"></a></span>
+<span id="cb188-98"><a href="pec07.html#cb188-98"></a><span class="dt">void</span> pecRead(tPec *pec) {</span>
+<span id="cb188-99"><a href="pec07.html#cb188-99"></a>    <span class="co">/* Leemos desde teclado el valor</span></span>
+<span id="cb188-100"><a href="pec07.html#cb188-100"></a><span class="co">     * correspondiente al nombre de la PEC</span></span>
+<span id="cb188-101"><a href="pec07.html#cb188-101"></a><span class="co">     */</span></span>
+<span id="cb188-102"><a href="pec07.html#cb188-102"></a>    printf(<span class="st">&quot;Introduce nombre : &quot;</span>);</span>
+<span id="cb188-103"><a href="pec07.html#cb188-103"></a>    scanf(<span class="st">&quot;%s&quot;</span>, pec-&gt;nombre);</span>
+<span id="cb188-104"><a href="pec07.html#cb188-104"></a></span>
+<span id="cb188-105"><a href="pec07.html#cb188-105"></a>    <span class="co">/* Leemos desde teclado el valor</span></span>
+<span id="cb188-106"><a href="pec07.html#cb188-106"></a><span class="co">     * correspondiente a la nota de la PEC</span></span>
+<span id="cb188-107"><a href="pec07.html#cb188-107"></a><span class="co">     */</span></span>
+<span id="cb188-108"><a href="pec07.html#cb188-108"></a>    printf(<span class="st">&quot;Introduce nota: &quot;</span>);</span>
+<span id="cb188-109"><a href="pec07.html#cb188-109"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;pec-&gt;nota);</span>
+<span id="cb188-110"><a href="pec07.html#cb188-110"></a>    </span>
+<span id="cb188-111"><a href="pec07.html#cb188-111"></a>    <span class="co">/* Ahora llegamos en un punto donde, dentro de una</span></span>
+<span id="cb188-112"><a href="pec07.html#cb188-112"></a><span class="co">     * acción, llamamos a otra acción. ¿Debemos</span></span>
+<span id="cb188-113"><a href="pec07.html#cb188-113"></a><span class="co">     * pasar como atributo pec, o &amp;pec?</span></span>
+<span id="cb188-114"><a href="pec07.html#cb188-114"></a><span class="co">     * Ante esta duda, debemos preguntarnos</span></span>
+<span id="cb188-115"><a href="pec07.html#cb188-115"></a><span class="co">     * qué tipo de valor contiene ahora</span></span>
+<span id="cb188-116"><a href="pec07.html#cb188-116"></a><span class="co">     * mismo (antes de ejecutar la siguiente acción)</span></span>
+<span id="cb188-117"><a href="pec07.html#cb188-117"></a><span class="co">     * el parámetro pec. Si recordamos como está</span></span>
+<span id="cb188-118"><a href="pec07.html#cb188-118"></a><span class="co">     * definida la acción pecRead (tPec *pec), pec</span></span>
+<span id="cb188-119"><a href="pec07.html#cb188-119"></a><span class="co">     * es un puntero a memoria, ya que va precedido</span></span>
+<span id="cb188-120"><a href="pec07.html#cb188-120"></a><span class="co">     * de *. Esto significa que en este preciso</span></span>
+<span id="cb188-121"><a href="pec07.html#cb188-121"></a><span class="co">     * momento pec sigue siendo un puntero.</span></span>
+<span id="cb188-122"><a href="pec07.html#cb188-122"></a><span class="co">     * Por otro lado, si nos fijamos en la definición</span></span>
+<span id="cb188-123"><a href="pec07.html#cb188-123"></a><span class="co">     * de la acción nomToUpperCase(tPec *pec), vemos</span></span>
+<span id="cb188-124"><a href="pec07.html#cb188-124"></a><span class="co">     * que también espera recibir un puntero. Así como</span></span>
+<span id="cb188-125"><a href="pec07.html#cb188-125"></a><span class="co">     * pec es un puntero y nomToUpperCase(...)</span></span>
+<span id="cb188-126"><a href="pec07.html#cb188-126"></a><span class="co">     * espera recibir un puntero, simplemente le pasamos</span></span>
+<span id="cb188-127"><a href="pec07.html#cb188-127"></a><span class="co">     * pec como parámetro (y no &amp;pec!)</span></span>
+<span id="cb188-128"><a href="pec07.html#cb188-128"></a><span class="co">     */</span></span>
+<span id="cb188-129"><a href="pec07.html#cb188-129"></a>    nomToUpperCase(pec);</span>
+<span id="cb188-130"><a href="pec07.html#cb188-130"></a>    printf(<span class="st">&quot;----------------------</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb188-131"><a href="pec07.html#cb188-131"></a>}</span>
+<span id="cb188-132"><a href="pec07.html#cb188-132"></a></span>
+<span id="cb188-133"><a href="pec07.html#cb188-133"></a><span class="dt">void</span> pecWrite(tPec pec) {</span>
+<span id="cb188-134"><a href="pec07.html#cb188-134"></a>    <span class="co">/* Mostramos por pantalla los valores</span></span>
+<span id="cb188-135"><a href="pec07.html#cb188-135"></a><span class="co">     * de los atributos de la PEC</span></span>
+<span id="cb188-136"><a href="pec07.html#cb188-136"></a><span class="co">     */</span></span>
+<span id="cb188-137"><a href="pec07.html#cb188-137"></a>    printf(<span class="st">&quot;&gt;&gt; %s con nota %.1f </span><span class="sc">\n</span><span class="st">&quot;</span>, pec.nombre, pec.nota);</span>
+<span id="cb188-138"><a href="pec07.html#cb188-138"></a>}</span>
+<span id="cb188-139"><a href="pec07.html#cb188-139"></a></span>
+<span id="cb188-140"><a href="pec07.html#cb188-140"></a><span class="dt">void</span> nomToUpperCase(tPec *pec) {</span>
+<span id="cb188-141"><a href="pec07.html#cb188-141"></a>    <span class="co">/* Hay librerías que ya implementan los cambios</span></span>
+<span id="cb188-142"><a href="pec07.html#cb188-142"></a><span class="co">     * entre mayúsculas y minúsculas. En este caso</span></span>
+<span id="cb188-143"><a href="pec07.html#cb188-143"></a><span class="co">     * hemos optado por no utilizar ninguno e implementarlo</span></span>
+<span id="cb188-144"><a href="pec07.html#cb188-144"></a><span class="co">     * nosotros mismos, tratando el string nombre de pec</span></span>
+<span id="cb188-145"><a href="pec07.html#cb188-145"></a><span class="co">     * como un recorrido carácter a carácter.</span></span>
+<span id="cb188-146"><a href="pec07.html#cb188-146"></a><span class="co">     */</span></span>
+<span id="cb188-147"><a href="pec07.html#cb188-147"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb188-148"><a href="pec07.html#cb188-148"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; pec-&gt;nombre[i] != <span class="ch">&#39;\0&#39;</span>; i++) {</span>
+<span id="cb188-149"><a href="pec07.html#cb188-149"></a>        <span class="cf">if</span> (pec-&gt;nombre[i] &gt;= <span class="ch">&#39;a&#39;</span> &amp;&amp; pec-&gt;nombre[i] &lt;= <span class="ch">&#39;z&#39;</span>) {</span>
+<span id="cb188-150"><a href="pec07.html#cb188-150"></a>            pec-&gt;nombre[i] = pec-&gt;nombre[i] + (<span class="ch">&#39;A&#39;</span> - <span class="ch">&#39;a&#39;</span>);</span>
+<span id="cb188-151"><a href="pec07.html#cb188-151"></a>        }</span>
+<span id="cb188-152"><a href="pec07.html#cb188-152"></a>    }</span>
+<span id="cb188-153"><a href="pec07.html#cb188-153"></a>}</span></code></pre></div>
+</div>
+<div id="ejemplo-cómo-modular-un-programa-con-codelite" class="section level2" number="7.2">
+<h2 number="7.2"><span class="header-section-number">7.2</span> Ejemplo: cómo modular un programa con CodeLite</h2>
+<p>A continuación se explicará detalladamente cómo modular el programa típico <code>HelloWorld</code> de una forma diferente de como se explica en los vídeos de la xWiki, que puede ser más comprensible. La explicación es un poco extensa para que quede lo más claro posible.</p>
+<div id="funcionamiento-por-defecto-de-un-proyecto-a-codelite" class="section level3" number="7.2.1">
+<h3 number="7.2.1"><span class="header-section-number">7.2.1</span> Funcionamiento por defecto de un proyecto a CodeLite:</h3>
+<p>Cuando en CodeLite creamos un nuevo proyecto, por ejemplo <code>Modularidad</code>, con el típico <code>main.c</code> inicial que contiene el programa <code>HelloWorld</code>, tenemos la siguiente distribución de archivos:</p>
+<div class="sourceCode" id="cb189"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb189-1"><a href="pec07.html#cb189-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l</span>
+<span id="cb189-2"><a href="pec07.html#cb189-2"></a>total <span class="dv">12</span></span>
+<span id="cb189-3"><a href="pec07.html#cb189-3"></a>-rw-r--r-- <span class="dv">1</span> uoc uoc   <span class="dv">93</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> main.c</span>
+<span id="cb189-4"><a href="pec07.html#cb189-4"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4274</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> Modularidad.project</span></code></pre></div>
+<p>Si compilamos este programa en CodeLite, vemos que nos ha generado una nueva carpeta llamada <code>Debug</code>:</p>
+<div class="sourceCode" id="cb190"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb190-1"><a href="pec07.html#cb190-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l</span>
+<span id="cb190-2"><a href="pec07.html#cb190-2"></a>total <span class="dv">24</span></span>
+<span id="cb190-3"><a href="pec07.html#cb190-3"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> Debug</span>
+<span id="cb190-4"><a href="pec07.html#cb190-4"></a>-rw-r--r-- <span class="dv">1</span> uoc uoc   <span class="dv">93</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> main.c</span>
+<span id="cb190-5"><a href="pec07.html#cb190-5"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">3249</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> Modularidad.mk</span>
+<span id="cb190-6"><a href="pec07.html#cb190-6"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4274</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> Modularidad.project</span>
+<span id="cb190-7"><a href="pec07.html#cb190-7"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">17</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> Modularidad.txt</span>
+<span id="cb190-8"><a href="pec07.html#cb190-8"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$</span></code></pre></div>
+<p>El contenido de la carpeta <code>Debug</code> es el programa ejecutable final junto con los archivos objeto intermedios:</p>
+<div class="sourceCode" id="cb191"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb191-1"><a href="pec07.html#cb191-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ cd Debug</span>
+<span id="cb191-2"><a href="pec07.html#cb191-2"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/Debug$ ls -l</span>
+<span id="cb191-3"><a href="pec07.html#cb191-3"></a>total <span class="dv">24</span></span>
+<span id="cb191-4"><a href="pec07.html#cb191-4"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4620</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> main.c.o</span>
+<span id="cb191-5"><a href="pec07.html#cb191-5"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">23</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> main.c.o.d</span>
+<span id="cb191-6"><a href="pec07.html#cb191-6"></a>-rwxrwxr-x <span class="dv">1</span> uoc uoc <span class="dv">9708</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> Modularidad</span>
+<span id="cb191-7"><a href="pec07.html#cb191-7"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/Debug$</span></code></pre></div>
+<p>Si se quiere, desde un terminal de Lubuntu se puede ejecutar el programa resultante <code>Modularidad</code> de la siguiente forma:</p>
+<div class="sourceCode" id="cb192"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb192-1"><a href="pec07.html#cb192-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/Debug$ ./Modularidad</span>
+<span id="cb192-2"><a href="pec07.html#cb192-2"></a>hello world</span>
+<span id="cb192-3"><a href="pec07.html#cb192-3"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/Debug$</span></code></pre></div>
+</div>
+<div id="ejecutable-dentro-de-bin." class="section level3" number="7.2.2">
+<h3 number="7.2.2"><span class="header-section-number">7.2.2</span> Ejecutable dentro de /bin.</h3>
+<p>Vamos ahora a modificar CodeLite para que el ejecutable nos lo guarde siempre dentro de la carpeta <code>./bin</code>.</p>
+<p>El primer video de la xWiki indica cómo cambiar la carpeta donde se guarda el archivo ejecutable resultante de compilar nuestro programa. El objetivo es que en vez de utilizar la carpeta <code>./Debug</code> el archivo ejecutable se guarde dentro de la nueva carpeta<code>./bin</code></p>
+<p>Atención: este apartado no se pide explícitamente en la PEC07 (únicamente se habla de las carpetas <code>./src</code> e <code>./include</code>), con lo que no hay que aplicarlo a la PEC.</p>
+<p>Para hacer este cambio, hacemos clic botón derecho del ratón sobre el nombre del proyecto, <strong>Modularidad</strong> -&gt; <strong>Settings …</strong> -&gt; <strong>General</strong> -&gt; <strong>Output File</strong>: ponemos el valor <code>./bin/$(ProjectName)</code>. Esto significa que el ejecutable se guardará dentro de la carpeta <code>./bin</code> y que su nombre será el mismo que el nombre del proyecto (en el caso que nos ocupa, se llamará<code>Modularidad</code>)</p>
+<p>Además, sin salir de esta misma pantalla, cambiamos el valor del <strong>Working Directory</strong> por: <code>./bin</code>. Este valor es el que tiene en consideración CodeLite a la hora de buscar el ejecutable del proyecto, para cuando hacemos el <code>Run</code>.</p>
+<p>Guardamos los cambios y si ahora compilamos nuevamente el programa, vemos que ha creado la carpeta <code>./bin</code> dentro de nuestro proyecto:</p>
+<div class="sourceCode" id="cb193"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb193-1"><a href="pec07.html#cb193-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l</span>
+<span id="cb193-2"><a href="pec07.html#cb193-2"></a>total <span class="dv">28</span></span>
+<span id="cb193-3"><a href="pec07.html#cb193-3"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">11</span> bin</span>
+<span id="cb193-4"><a href="pec07.html#cb193-4"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">58</span> Debug</span>
+<span id="cb193-5"><a href="pec07.html#cb193-5"></a>-rw-r--r-- <span class="dv">1</span> uoc uoc   <span class="dv">93</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> main.c</span>
+<span id="cb193-6"><a href="pec07.html#cb193-6"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">3230</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">11</span> Modularidad.mk</span>
+<span id="cb193-7"><a href="pec07.html#cb193-7"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4350</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">10</span> Modularidad.project</span>
+<span id="cb193-8"><a href="pec07.html#cb193-8"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">17</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">11</span> Modularidad.txt</span>
+<span id="cb193-9"><a href="pec07.html#cb193-9"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ </span></code></pre></div>
+<p>Al igual que en el caso anterior, si queremos podemos ejecutar el programa desde el propio terminal:</p>
+<div class="sourceCode" id="cb194"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb194-1"><a href="pec07.html#cb194-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ cd ./bin</span>
+<span id="cb194-2"><a href="pec07.html#cb194-2"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/bin$ ls -l</span>
+<span id="cb194-3"><a href="pec07.html#cb194-3"></a>total <span class="dv">12</span></span>
+<span id="cb194-4"><a href="pec07.html#cb194-4"></a>-rwxrwxr-x <span class="dv">1</span> uoc uoc <span class="dv">9708</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">11</span> Modularidad</span>
+<span id="cb194-5"><a href="pec07.html#cb194-5"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/bin$ ./Modularidad</span>
+<span id="cb194-6"><a href="pec07.html#cb194-6"></a>hello world</span>
+<span id="cb194-7"><a href="pec07.html#cb194-7"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad/bin$</span></code></pre></div>
+<p>A partir de ese momento, siempre que compilemos nuestro programa, guardará el ejecutable dentro de la carpeta <code>./bin</code>.</p>
+</div>
+<div id="modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones." class="section level3" number="7.2.3">
+<h3 number="7.2.3"><span class="header-section-number">7.2.3</span> Modularización del programa en un archivo de cabeceras y uno de funciones.</h3>
+<p>Centraremos ahora la explicación con la estructura que se pide a la PEC07 y trabajando sobre el mismo ejemplo <code>Modularidad</code>.</p>
+<p>Lo que queremos conseguir es la siguiente estructura:</p>
+<div class="sourceCode" id="cb195"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb195-1"><a href="pec07.html#cb195-1"></a>proyecto Modularidad</span>
+<span id="cb195-2"><a href="pec07.html#cb195-2"></a>   |</span>
+<span id="cb195-3"><a href="pec07.html#cb195-3"></a>   |-- /include/</span>
+<span id="cb195-4"><a href="pec07.html#cb195-4"></a>   |     |</span>
+<span id="cb195-5"><a href="pec07.html#cb195-5"></a>   |     \-- helloWorld.h</span>
+<span id="cb195-6"><a href="pec07.html#cb195-6"></a>   |</span>
+<span id="cb195-7"><a href="pec07.html#cb195-7"></a>   \-- /src/</span>
+<span id="cb195-8"><a href="pec07.html#cb195-8"></a>         |</span>
+<span id="cb195-9"><a href="pec07.html#cb195-9"></a>         |-- helloWorld.c</span>
+<span id="cb195-10"><a href="pec07.html#cb195-10"></a>         \-- main.c</span></code></pre></div>
+<p>El objetivo es dividir (modularizar) el archivo único <code>main.c</code> que tenemos hasta ahora en tres archivos:</p>
+<ul>
+<li><code>helloWorld.h</code>: este archivo contendrá la predeclaración de todas las funciones y acciones de nuestro programa, así como la definición de todos los tipos necesarios (enumerativos, tuplas, etc) y constantes que requiera nuestro programa C. Este archivo lo ubicaremos dentro de la carpeta <code>./include</code> de nuestro proyecto</li>
+<li><code>helloWorld.c</code>: dentro de él se implementarán todas las acciones y funciones del programa. Básicamente contendrá el código de todo lo que hemos predeclarado en el archivo <code>helloWorld.h</code>.</li>
+<li><code>main.c</code>: contendrá el código del programa principal, identificado por la función <code>main()</code>.</li>
+</ul>
+<p>El primer paso que podemos hacer es crear las dos carpetas que necesitará nuestro proyecto modularizado, <code>src</code> e <code>include</code>:</p>
+<div class="sourceCode" id="cb196"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb196-1"><a href="pec07.html#cb196-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ mkdir src</span>
+<span id="cb196-2"><a href="pec07.html#cb196-2"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ mkdir include</span>
+<span id="cb196-3"><a href="pec07.html#cb196-3"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l</span>
+<span id="cb196-4"><a href="pec07.html#cb196-4"></a>total <span class="dv">36</span></span>
+<span id="cb196-5"><a href="pec07.html#cb196-5"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">14</span> bin</span>
+<span id="cb196-6"><a href="pec07.html#cb196-6"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">14</span> Debug</span>
+<span id="cb196-7"><a href="pec07.html#cb196-7"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">18</span> include</span>
+<span id="cb196-8"><a href="pec07.html#cb196-8"></a>-rw-r--r-- <span class="dv">1</span> uoc uoc   <span class="dv">93</span> nov <span class="dv">17</span> <span class="dv">23</span>:<span class="dv">56</span> main.c</span>
+<span id="cb196-9"><a href="pec07.html#cb196-9"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">3230</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">14</span> Modularidad.mk</span>
+<span id="cb196-10"><a href="pec07.html#cb196-10"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4350</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">10</span> Modularidad.project</span>
+<span id="cb196-11"><a href="pec07.html#cb196-11"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">17</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">14</span> Modularidad.txt</span>
+<span id="cb196-12"><a href="pec07.html#cb196-12"></a>drwxrwxr-x <span class="dv">2</span> uoc uoc <span class="dv">4096</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">18</span> src</span>
+<span id="cb196-13"><a href="pec07.html#cb196-13"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ </span></code></pre></div>
+<p>El siguiente paso es transformar el programa <code>HelloWorld</code> típico en un programa modularizado: por este motivo necesitamos la definición de algunas funciones o acciones que nos permitan separar un único archivo en uno de cabeceras (<code>helloWorld.h</code>), uno de implementación de funciones/acciones (<code>helloWorld.c</code>) y un principal (<code>main.c</code>). Por tanto, el objetivo es pasar del siguiente programa …:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb197"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb197-1"><a href="pec07.html#cb197-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb197-2"><a href="pec07.html#cb197-2"></a></span>
+<span id="cb197-3"><a href="pec07.html#cb197-3"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb197-4"><a href="pec07.html#cb197-4"></a>    printf(<span class="st">&quot;hello world</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb197-5"><a href="pec07.html#cb197-5"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb197-6"><a href="pec07.html#cb197-6"></a>}</span></code></pre></div>
+<p>… el siguiente código modularizado:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb198"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb198-1"><a href="pec07.html#cb198-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb198-2"><a href="pec07.html#cb198-2"></a></span>
+<span id="cb198-3"><a href="pec07.html#cb198-3"></a><span class="co">/* Predeclaración de las funciones/acciones */</span></span>
+<span id="cb198-4"><a href="pec07.html#cb198-4"></a><span class="dt">void</span> showHelloMessage();</span>
+<span id="cb198-5"><a href="pec07.html#cb198-5"></a></span>
+<span id="cb198-6"><a href="pec07.html#cb198-6"></a><span class="co">/* Código principal */</span></span>
+<span id="cb198-7"><a href="pec07.html#cb198-7"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb198-8"><a href="pec07.html#cb198-8"></a>    showHelloMessage();</span>
+<span id="cb198-9"><a href="pec07.html#cb198-9"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb198-10"><a href="pec07.html#cb198-10"></a>}</span>
+<span id="cb198-11"><a href="pec07.html#cb198-11"></a></span>
+<span id="cb198-12"><a href="pec07.html#cb198-12"></a><span class="co">/* Implementación de las funciones/acciones */</span></span>
+<span id="cb198-13"><a href="pec07.html#cb198-13"></a><span class="dt">void</span> showHelloMessage() {</span>
+<span id="cb198-14"><a href="pec07.html#cb198-14"></a>    printf(<span class="st">&quot;hello world</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb198-15"><a href="pec07.html#cb198-15"></a>};</span></code></pre></div>
+<p>Si se ejecuta el nuevo código dentro de un único <code>main.c</code>, éste seguirá mostrando correctamente el mensaje de <em>“hello world”</em>. El objetivo es terminándolo dividiendo en tres bloques:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb199"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb199-1"><a href="pec07.html#cb199-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb199-2"><a href="pec07.html#cb199-2"></a></span>
+<span id="cb199-3"><a href="pec07.html#cb199-3"></a><span class="co">/* Inicio contenido del fichero helloWorld.h */</span></span>
+<span id="cb199-4"><a href="pec07.html#cb199-4"></a><span class="co">/* Predeclaración de las funciones/acciones */</span></span>
+<span id="cb199-5"><a href="pec07.html#cb199-5"></a><span class="dt">void</span> showHelloMessage();</span>
+<span id="cb199-6"><a href="pec07.html#cb199-6"></a><span class="co">/* Fin contenido del fichero helloWorld.h */</span></span>
+<span id="cb199-7"><a href="pec07.html#cb199-7"></a></span>
+<span id="cb199-8"><a href="pec07.html#cb199-8"></a><span class="co">/* Inicio contenido del fichero main.c */</span></span>
+<span id="cb199-9"><a href="pec07.html#cb199-9"></a><span class="co">/* Código principal */</span></span>
+<span id="cb199-10"><a href="pec07.html#cb199-10"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb199-11"><a href="pec07.html#cb199-11"></a>    showHelloMessage();</span>
+<span id="cb199-12"><a href="pec07.html#cb199-12"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb199-13"><a href="pec07.html#cb199-13"></a>}</span>
+<span id="cb199-14"><a href="pec07.html#cb199-14"></a><span class="co">/* Fin contenido del fichero main.c */</span></span>
+<span id="cb199-15"><a href="pec07.html#cb199-15"></a></span>
+<span id="cb199-16"><a href="pec07.html#cb199-16"></a><span class="co">/* Inicio contenido del fichero helloWorld.c */</span></span>
+<span id="cb199-17"><a href="pec07.html#cb199-17"></a><span class="co">/* Implementación de las funciones/acciones */</span></span>
+<span id="cb199-18"><a href="pec07.html#cb199-18"></a><span class="dt">void</span> showHelloMessage() {</span>
+<span id="cb199-19"><a href="pec07.html#cb199-19"></a>    printf(<span class="st">&quot;hello world</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb199-20"><a href="pec07.html#cb199-20"></a>};</span>
+<span id="cb199-21"><a href="pec07.html#cb199-21"></a><span class="co">/* Fin contenido del fichero helloWorld.c */</span></span></code></pre></div>
+<p>El primer paso que haremos será eliminar desde CodeLite el programa antiguo; por tanto, <strong>CodeLite</strong> -&gt; proyecto <strong>Modularidad</strong> -&gt; <strong>src</strong> -&gt; botón derecho sobre el nombre del archivo <code>main.c</code> -&gt; <strong>Remove</strong> -&gt; confirmamos el borrado -&gt; confirmamos el borrado del archivo <code>main.c</code> de disco.</p>
+<p>En este punto, a CodeLite, dentro del proyecto <code>Modularidad</code> únicamente tenemos una carpeta <em>virtual</em> llamada <code>src</code>. Atención: la carpeta <em>virtual</em> llamada <code>src</code> de nuestro proyecto de CodeLite en este momento no tiene ninguna relación con la carpeta <code>./src</code> que se ha creado hace un momento.</p>
+<p>Creamos el programa principal <code>main.c</code> haciendo: <strong>CodeLite</strong> -&gt; proyecto <strong>Modularidad</strong> -&gt; botón derecho sobre carpeta <strong>src</strong> -&gt; <strong>Add New File</strong> -&gt; seleccionamos el tipo <strong>C source File (.c)</strong> -&gt; indicamos como <strong>Name</strong>: <code>main.c</code>, y como <strong>Location</strong> seleccionamos la carpeta <code>./src</code> que hemos creado antes.</p>
+<p>Vamos a crear el segundo archivo, <code>helloWorld.c</code>, exactamente de la misma forma: <strong>CodeLite</strong> -&gt; proyecto <strong>Modularidad</strong> -&gt; botón derecho sobre carpeta <strong>src</strong> -&gt; <strong>Add New File</strong> -&gt; seleccionamos el tipo <strong>C Source File (.c)</strong> -&gt; indicamos como <strong>Name</strong>: <code>helloWorld.c</code>, y como <strong>Location</strong> seleccionamos la carpeta <code>./src</code> creada anteriormente.</p>
+<p>Creamos ahora una carpeta <em>virtual</em> dentro de nuestro proyecto desde <strong>CodeLite</strong> -&gt; botón derecho sobre el proyecto <strong>Modularidad</strong> -&gt; <strong>New Virtual Folder</strong> -&gt; le ponemos por nombre: <code>include</code></p>
+<p>Para finalizar, creamos el tercer archivo requerido: <code>helloWorld.h</code>. Los pasos serán: <strong>CodeLite</strong> -&gt; proyecto <strong>Modularidad</strong> -&gt; botón derecho sobre carpeta <strong>include</strong> -&gt; <strong>Add New File</strong> -&gt; seleccionamos el tipo <strong>Header File (h)</strong> -&gt; indicamos como <strong>Name</strong>: <code>helloWorld.h</code>, y como <strong>Location</strong> seleccionamos la carpeta <code>./include</code> creada anteriormente.</p>
+<p>En este punto nuestro proyecto <code>Modularidad</code> de CodeLite tendrá la estructura deseada:</p>
+<div class="sourceCode" id="cb200"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb200-1"><a href="pec07.html#cb200-1"></a>proyecto Modularidad</span>
+<span id="cb200-2"><a href="pec07.html#cb200-2"></a>   |</span>
+<span id="cb200-3"><a href="pec07.html#cb200-3"></a>   |-- /include/</span>
+<span id="cb200-4"><a href="pec07.html#cb200-4"></a>   |     |</span>
+<span id="cb200-5"><a href="pec07.html#cb200-5"></a>   |     \-- helloWorld.h</span>
+<span id="cb200-6"><a href="pec07.html#cb200-6"></a>   |</span>
+<span id="cb200-7"><a href="pec07.html#cb200-7"></a>   \-- /src/</span>
+<span id="cb200-8"><a href="pec07.html#cb200-8"></a>         |</span>
+<span id="cb200-9"><a href="pec07.html#cb200-9"></a>         |-- helloWorld.c</span>
+<span id="cb200-10"><a href="pec07.html#cb200-10"></a>         \-- main.c</span></code></pre></div>
+<p>Ahora sólo hay que dar contenido a los 3 archivos vacíos que hemos creado.</p>
+<p>Empezamos por el archivo de cabeceras <code>helloWorld.h</code>. El editamos como lo hacemos habitualmente en CodeLite, y le copiamos el fragmento de código que hemos dicho antes que le correspondía:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb201"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb201-1"><a href="pec07.html#cb201-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb201-2"><a href="pec07.html#cb201-2"></a></span>
+<span id="cb201-3"><a href="pec07.html#cb201-3"></a><span class="co">/* Predeclaración de las funciones/acciones */</span></span>
+<span id="cb201-4"><a href="pec07.html#cb201-4"></a><span class="dt">void</span> showHelloMessage();</span></code></pre></div>
+<p>Editamos el fichero <code>helloWorld.c</code> y le añadimos el código correspondiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb202"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb202-1"><a href="pec07.html#cb202-1"></a><span class="co">/* Implementación de las funciones/acciones */</span></span>
+<span id="cb202-2"><a href="pec07.html#cb202-2"></a><span class="dt">void</span> showHelloMessage() {</span>
+<span id="cb202-3"><a href="pec07.html#cb202-3"></a>    printf(<span class="st">&quot;hello world</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb202-4"><a href="pec07.html#cb202-4"></a>};</span></code></pre></div>
+<p>Y para finalizar editamos el contenido del archivo <code>main.c</code> con el código comentado anteriormente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb203"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb203-1"><a href="pec07.html#cb203-1"></a><span class="co">/* Código principal */</span></span>
+<span id="cb203-2"><a href="pec07.html#cb203-2"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb203-3"><a href="pec07.html#cb203-3"></a>    showHelloMessage();</span>
+<span id="cb203-4"><a href="pec07.html#cb203-4"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb203-5"><a href="pec07.html#cb203-5"></a>}</span></code></pre></div>
+<p>En este punto tenemos el programa modularizado, pero nos falta dos cuestiones:</p>
+<ul>
+<li>Configurar CodeLite para que tenga presentes donde buscar el archivo de cabeceras <code>.h</code> cuando hacemos referencia.</li>
+<li>Hacer que los archivos estén enlazados entre ellos: ahora mismo son completamente independientes.</li>
+</ul>
+<p>Vamos por el primer punto: para indicar a CodeLite donde encontrará todos los archivos <code>.h</code> de un programa, basta con hacer <strong>CodeLite</strong> -&gt; clic botón derecho sobre <strong>Modularidad</strong> -&gt; <strong>Settings …</strong> -&gt; <strong>Compiler</strong> -&gt; dentro de la opción <strong>Include Paths</strong> añadir el valor <code>.;./include</code></p>
+<p>Para el segundo punto: tenemos que el archivo <code>main.c</code> en estos momentos hace referencia a una acción llamada <code>showHelloMessage()</code>, de la que no sabemos nada. Lo que necesitamos es importar el archivo de cabeceras; como es un archivo que hemos creado nosotros, el <code>include</code> va entre comillas dobles:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb204"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb204-1"><a href="pec07.html#cb204-1"></a><span class="pp">#include </span><span class="im">&quot;helloWorld.h&quot;</span></span>
+<span id="cb204-2"><a href="pec07.html#cb204-2"></a></span>
+<span id="cb204-3"><a href="pec07.html#cb204-3"></a><span class="co">/* Código principal */</span></span>
+<span id="cb204-4"><a href="pec07.html#cb204-4"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb204-5"><a href="pec07.html#cb204-5"></a>    showHelloMessage();</span>
+<span id="cb204-6"><a href="pec07.html#cb204-6"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb204-7"><a href="pec07.html#cb204-7"></a>}</span></code></pre></div>
+<p>El siguiente paso será añadir el <code>include</code> habitual de la librería <code>stdio.h</code> dentro del archivo<code>helloWorld.c</code>, ya que en él utilizamos la función <code>printf()</code> incluida en esta librería:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb205"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb205-1"><a href="pec07.html#cb205-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb205-2"><a href="pec07.html#cb205-2"></a></span>
+<span id="cb205-3"><a href="pec07.html#cb205-3"></a><span class="co">/* Implementación de las funciones/acciones */</span></span>
+<span id="cb205-4"><a href="pec07.html#cb205-4"></a><span class="dt">void</span> showHelloMessage() {</span>
+<span id="cb205-5"><a href="pec07.html#cb205-5"></a>    printf(<span class="st">&quot;hello world</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb205-6"><a href="pec07.html#cb205-6"></a>};</span></code></pre></div>
+<p>En este punto ya podemos ejecutar nuestro programa modularizado correctamente.</p>
+<p>La estructura resultante y el contenido de cada carpeta es el deseado:</p>
+<div class="sourceCode" id="cb206"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb206-1"><a href="pec07.html#cb206-1"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l ./bin</span>
+<span id="cb206-2"><a href="pec07.html#cb206-2"></a>total <span class="dv">12</span></span>
+<span id="cb206-3"><a href="pec07.html#cb206-3"></a>-rwxrwxr-x <span class="dv">1</span> uoc uoc <span class="dv">10172</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> Modularidad</span>
+<span id="cb206-4"><a href="pec07.html#cb206-4"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l ./include/</span>
+<span id="cb206-5"><a href="pec07.html#cb206-5"></a>total <span class="dv">4</span></span>
+<span id="cb206-6"><a href="pec07.html#cb206-6"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">70</span> nov <span class="dv">18</span> <span class="bn">00</span>:<span class="dv">54</span> helloWorld.h</span>
+<span id="cb206-7"><a href="pec07.html#cb206-7"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l ./src</span>
+<span id="cb206-8"><a href="pec07.html#cb206-8"></a>total <span class="dv">8</span></span>
+<span id="cb206-9"><a href="pec07.html#cb206-9"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">122</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> helloWorld.c</span>
+<span id="cb206-10"><a href="pec07.html#cb206-10"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">113</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="bn">07</span> main.c</span>
+<span id="cb206-11"><a href="pec07.html#cb206-11"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ ls -l ./Debug/</span>
+<span id="cb206-12"><a href="pec07.html#cb206-12"></a>total <span class="dv">20</span></span>
+<span id="cb206-13"><a href="pec07.html#cb206-13"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">4544</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> src_helloWorld.c.o</span>
+<span id="cb206-14"><a href="pec07.html#cb206-14"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">43</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> src_helloWorld.c.o.d</span>
+<span id="cb206-15"><a href="pec07.html#cb206-15"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc <span class="dv">2440</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> src_main.c.o</span>
+<span id="cb206-16"><a href="pec07.html#cb206-16"></a>-rw-rw-r-- <span class="dv">1</span> uoc uoc   <span class="dv">75</span> nov <span class="dv">18</span> <span class="bn">01</span>:<span class="er">09</span> src_main.c.o.d</span>
+<span id="cb206-17"><a href="pec07.html#cb206-17"></a>uoc@fp:~/Documents/codelite/workspaces/Test/Modularidad$ </span></code></pre></div>
+<p>Ni para la realización de este ejemplo ni para la PEC07 hay que crear librerías propias, con lo que este punto no lo comento: únicamente trataremos con archivos de cabecera <code>.h</code>, archivos de implementación <code>.c</code>, y el archivo correspondiente al código principal <code>main.c</code>.</p>
+</div>
+</div>
+<div id="tipo-de-parámetros-en-acciones-y-funciones" class="section level2" number="7.3">
+<h2 number="7.3"><span class="header-section-number">7.3</span> Tipo de parámetros en acciones y funciones</h2>
+<p>En las <strong>acciones</strong> los parámetros pueden ser de tipo <strong>in</strong>, <strong>out</strong> o <strong>inout</strong>. Debe especificarse en el momento de definir la acción a nuestro algoritmo.</p>
+<p>Ejemplo: tres formas de implementar una suma de dos enteros con diferentes acciones según los tipos <strong>in</strong>, <strong>out</strong> o <strong>inout</strong> de los parámetros:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>action suma1(in num1: integer, in num2: integer)
+    var
+        resultado: integer;
+    end var
+
+    resultat := num1 + num2;
+    writeString(&quot;Resultado de la suma = &quot;);
+    writeInteger(resultado);
+end action
+
+action suma2(in num1: integer, in num2: integer, out resultado: integer)
+    resultado := num1 + num2;
+end action
+
+action suma3(inout num1: integer, in num2: integer)
+    num1 := num1 + num2;
+end action</code></pre>
+<p>A las funciones en cambio todos los parámetros son de entrada, con lo que no es necesario indicar el <strong>in</strong>.</p>
+<p>Ejemplo:</p>
+<p>
+<img src="img/alg.png" style="float:left; padding:10px" />
+</p>
+<pre><code>function suma4(num1: integer, num2: integer): integer
+    var
+        resultado: integer;
+    end var
+
+    resultado := num1 + num2;
+    return resultado;
+end function</code></pre>
+</div>
+<div id="scanf-acción-o-función" class="section level2" number="7.4">
+<h2 number="7.4"><span class="header-section-number">7.4</span> scanf(): acción o función?</h2>
+<p>Lo que nos indica la firma <code>scanf()</code> es que estamos ante una función:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb209"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb209-1"><a href="pec07.html#cb209-1"></a><span class="dt">int</span> scanf(<span class="dt">const</span> <span class="dt">char</span> *format, type* var1, ...);</span></code></pre></div>
+<p>El segundo argumento no es de tipo <strong>out</strong>, ya que lo que le pasamos no es la variable que guardará el valor leído, sino el puntero a la variable que guardará el valor leído, y este puntero no varía en ningún momento.</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb210"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb210-1"><a href="pec07.html#cb210-1"></a><span class="co">/* Por ejemplo, el valor de &amp;numero es 0xbfb86c40 */</span></span>
+<span id="cb210-2"><a href="pec07.html#cb210-2"></a>scanf(<span class="st">&quot;%d&quot;</span>, &amp;numero)</span>
+<span id="cb210-3"><a href="pec07.html#cb210-3"></a><span class="co">/* una vez ejecutada la función scanf(), el valor de &amp;numero continua siendo 0xbfb86c40 */</span></span></code></pre></div>
+<p>La función <code>scanf</code> devuelve un valor, aunque nosotros no lo utilizamos habitualmente: el número de elementos procesados correctamente. Dicho de otra forma: que una función devuelva un valor no nos obliga a recuperarlo y tratarlo, aunque habitualmente sí lo haremos.</p>
+<p>Por otra parte, el hecho de definir un parámetro de una función/acción como <code>const</code> significa que este parámetro dentro de la acción/función se comportará como una constante. Por lo tanto dentro del ámbito de la función/acción no se podrá modificar.</p>
+<p>Este hecho nos puede interesar o no. Por ejemplo, imaginemos que creamos la siguiente función para sumar dos enteros:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb211"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb211-1"><a href="pec07.html#cb211-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb211-2"><a href="pec07.html#cb211-2"></a></span>
+<span id="cb211-3"><a href="pec07.html#cb211-3"></a><span class="co">/* Predeclaración de funcioens/aciones */</span></span>
+<span id="cb211-4"><a href="pec07.html#cb211-4"></a><span class="dt">int</span> suma(<span class="dt">int</span> numA, <span class="dt">int</span> numB);</span>
+<span id="cb211-5"><a href="pec07.html#cb211-5"></a></span>
+<span id="cb211-6"><a href="pec07.html#cb211-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb211-7"><a href="pec07.html#cb211-7"></a>    <span class="dt">int</span> a = <span class="dv">10</span>;</span>
+<span id="cb211-8"><a href="pec07.html#cb211-8"></a>    <span class="dt">int</span> b = <span class="dv">13</span>;</span>
+<span id="cb211-9"><a href="pec07.html#cb211-9"></a></span>
+<span id="cb211-10"><a href="pec07.html#cb211-10"></a>    <span class="dt">int</span> resultado = suma(a, b);</span>
+<span id="cb211-11"><a href="pec07.html#cb211-11"></a>    printf(<span class="st">&quot;Resultado: %d + %d = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, a, b, resultado);</span>
+<span id="cb211-12"><a href="pec07.html#cb211-12"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb211-13"><a href="pec07.html#cb211-13"></a>}</span>
+<span id="cb211-14"><a href="pec07.html#cb211-14"></a></span>
+<span id="cb211-15"><a href="pec07.html#cb211-15"></a><span class="co">/* Implementación de funciones/acciones */</span></span>
+<span id="cb211-16"><a href="pec07.html#cb211-16"></a><span class="dt">int</span> suma(<span class="dt">int</span> numA, <span class="dt">int</span> numB) {</span>
+<span id="cb211-17"><a href="pec07.html#cb211-17"></a>    numA = numA + numB;</span>
+<span id="cb211-18"><a href="pec07.html#cb211-18"></a>    <span class="cf">return</span> (numA);</span>
+<span id="cb211-19"><a href="pec07.html#cb211-19"></a>}</span></code></pre></div>
+<p>Dentro del ámbito de la función, nos interesa por ejemplo que el parámetro <code>numA</code> sea constante? No, ya que si lo definimos de esta forma la compilación nos fallará:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb212"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb212-1"><a href="pec07.html#cb212-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb212-2"><a href="pec07.html#cb212-2"></a></span>
+<span id="cb212-3"><a href="pec07.html#cb212-3"></a><span class="co">/* Predeclaración de funciones/aciones */</span></span>
+<span id="cb212-4"><a href="pec07.html#cb212-4"></a><span class="dt">int</span> suma(<span class="dt">const</span> <span class="dt">int</span> numA, <span class="dt">int</span> numB);</span>
+<span id="cb212-5"><a href="pec07.html#cb212-5"></a></span>
+<span id="cb212-6"><a href="pec07.html#cb212-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb212-7"><a href="pec07.html#cb212-7"></a>    <span class="dt">int</span> a = <span class="dv">10</span>;</span>
+<span id="cb212-8"><a href="pec07.html#cb212-8"></a>    <span class="dt">int</span> b = <span class="dv">13</span>;</span>
+<span id="cb212-9"><a href="pec07.html#cb212-9"></a></span>
+<span id="cb212-10"><a href="pec07.html#cb212-10"></a>    <span class="dt">int</span> resultado = suma(a, b);</span>
+<span id="cb212-11"><a href="pec07.html#cb212-11"></a>    printf(<span class="st">&quot;Resultado: %d + %d = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, a, b, resultado);</span>
+<span id="cb212-12"><a href="pec07.html#cb212-12"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb212-13"><a href="pec07.html#cb212-13"></a>}</span>
+<span id="cb212-14"><a href="pec07.html#cb212-14"></a></span>
+<span id="cb212-15"><a href="pec07.html#cb212-15"></a><span class="co">/* Implementación de funciones/acciones */</span></span>
+<span id="cb212-16"><a href="pec07.html#cb212-16"></a><span class="dt">int</span> suma(<span class="dt">const</span> <span class="dt">int</span> numA, <span class="dt">int</span> numB) {</span>
+<span id="cb212-17"><a href="pec07.html#cb212-17"></a>    numA = numA + numB;</span>
+<span id="cb212-18"><a href="pec07.html#cb212-18"></a>    <span class="cf">return</span> (numA);</span>
+<span id="cb212-19"><a href="pec07.html#cb212-19"></a>}</span></code></pre></div>
+<p>El error que obtendremos al intentar compilar el programa será <em>“error: assignment of read-only parameter ’numA”</em>, ya que dentro de la función suma estamos modificando el valor de <code>numA</code>.</p>
+<p>Muy importante: que dentro de la función modifiquemos el valor de <code>numA</code> no significa que fuera del ámbito de la función el valor de la variable a varíe (lo podemos comprobar en el <code>printf()</code> que se hace posteriormente).</p>
+<p>Por lo tanto el uso de const en un parámetro debería limitarse a aquellos valores que se vayan a tratar realmente como constantes: por ejemplo, si pasamos la constante <code>PI = 3.14159...</code> como parámetro, dentro de la función seguro que no tenemos la necesidad de modificar esta constante matemática, con lo que en este caso es más adecuado utilizar <code>const</code> en el parámetro de la función.</p>
+<p>Como último punto, no hay que confundir el hecho de definir un parámetro de una función como <code>const</code>, a hacer que fuera del ámbito de la función el parámetro correspondiente se defina como constante:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb213"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb213-1"><a href="pec07.html#cb213-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb213-2"><a href="pec07.html#cb213-2"></a></span>
+<span id="cb213-3"><a href="pec07.html#cb213-3"></a><span class="co">/* Predeclaración de funciones/aciones */</span></span>
+<span id="cb213-4"><a href="pec07.html#cb213-4"></a><span class="dt">int</span> suma(<span class="dt">int</span> numA, <span class="dt">int</span> numB);</span>
+<span id="cb213-5"><a href="pec07.html#cb213-5"></a></span>
+<span id="cb213-6"><a href="pec07.html#cb213-6"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb213-7"><a href="pec07.html#cb213-7"></a>    <span class="dt">const</span> <span class="dt">int</span> a = <span class="dv">10</span>;</span>
+<span id="cb213-8"><a href="pec07.html#cb213-8"></a>    <span class="dt">int</span> b = <span class="dv">13</span>;</span>
+<span id="cb213-9"><a href="pec07.html#cb213-9"></a></span>
+<span id="cb213-10"><a href="pec07.html#cb213-10"></a>    <span class="dt">int</span> resultado = suma(a, b);</span>
+<span id="cb213-11"><a href="pec07.html#cb213-11"></a>    printf(<span class="st">&quot;Resultado: %d + %d = %d</span><span class="sc">\n</span><span class="st">&quot;</span>, a, b, resultado);</span>
+<span id="cb213-12"><a href="pec07.html#cb213-12"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb213-13"><a href="pec07.html#cb213-13"></a>}</span>
+<span id="cb213-14"><a href="pec07.html#cb213-14"></a></span>
+<span id="cb213-15"><a href="pec07.html#cb213-15"></a><span class="co">/* Implementació de funciones/acciones */</span></span>
+<span id="cb213-16"><a href="pec07.html#cb213-16"></a><span class="dt">int</span> suma(<span class="dt">int</span> numA, <span class="dt">int</span> numB) {</span>
+<span id="cb213-17"><a href="pec07.html#cb213-17"></a>    numA = numA + numB;</span>
+<span id="cb213-18"><a href="pec07.html#cb213-18"></a>    <span class="cf">return</span> (numA);</span>
+<span id="cb213-19"><a href="pec07.html#cb213-19"></a>}</span></code></pre></div>
+<p>En este caso cuando compilamos no obtendremos ningún error, ya que la variable <code>a</code> es una constante fuera de la función <code>suma</code>, pero su valor pasado como parámetro dentro de la función no es una constante.</p>
+</div>
+<div id="paso-por-valor-vs-paso-por-referencia" class="section level2" number="7.5">
+<h2 number="7.5"><span class="header-section-number">7.5</span> Paso por valor vs paso por referencia</h2>
+<p>El clásico <strong>paso por valor</strong> corresponde a los parámetros de tipo <strong>in</strong>, en los que pasamos la variable/valor.</p>
+<p>Por otra parte el <strong>paso por referencia</strong> consiste en pasar como parámetro de tipo <strong>out</strong> o <strong>inout</strong> la dirección de memoria de la variable (puntero).</p>
+</div>
+<div id="ejemplo-invertirpalabra" class="section level2" number="7.6">
+<h2 number="7.6"><span class="header-section-number">7.6</span> Ejemplo: invertirPalabra</h2>
+<p>Imaginemos que tenemos la tupla <code>tPalabra</code> que tiene dos campos:</p>
+<ul>
+<li><code>cadena</code>: contiene el string con el valor de la <code>tPalabra</code></li>
+<li><code>numeroCaracteresCadena</code>: contiene el número de caracteres de la cadena</li>
+</ul>
+<p>Implementamos la acción <code>invertir()</code>, lo hace dos operaciones:</p>
+<ul>
+<li>Invierte (gira) la <code>cadena</code> de <code>tPalabra</code>; por ejemplo, si entramos <em>“Fundamentos”</em> el resultado será <em>“stnemanoF”</em>.</li>
+<li>Calcula el valor de <code>numeroCaracteresCadena</code>; si tenemos como cadena <em>“Fundamentos”</em>, el valor será 9.</li>
+</ul>
+<p>Queremos que por teclado se pida el valor para el campo <code>cadena</code> de dos <code>tPalabra</code>, y en ambas queremos aplicar la acción <code>invertir()</code>. Una posible forma de implementarla sería la siguiente:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb214"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb214-1"><a href="pec07.html#cb214-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb214-2"><a href="pec07.html#cb214-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb214-3"><a href="pec07.html#cb214-3"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb214-4"><a href="pec07.html#cb214-4"></a></span>
+<span id="cb214-5"><a href="pec07.html#cb214-5"></a><span class="pp">#define MAX_CHAR 20+1</span></span>
+<span id="cb214-6"><a href="pec07.html#cb214-6"></a><span class="pp">#define MAX_PALABRAS 2</span></span>
+<span id="cb214-7"><a href="pec07.html#cb214-7"></a></span>
+<span id="cb214-8"><a href="pec07.html#cb214-8"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb214-9"><a href="pec07.html#cb214-9"></a>    <span class="dt">char</span> cadena[MAX_CHAR];</span>
+<span id="cb214-10"><a href="pec07.html#cb214-10"></a>    <span class="dt">int</span> numeroCaracteresCadena;</span>
+<span id="cb214-11"><a href="pec07.html#cb214-11"></a>} tPalabra;</span>
+<span id="cb214-12"><a href="pec07.html#cb214-12"></a></span>
+<span id="cb214-13"><a href="pec07.html#cb214-13"></a><span class="co">/* Predeclaración de la acción.</span></span>
+<span id="cb214-14"><a href="pec07.html#cb214-14"></a><span class="co"> * Esta acción recibe un parámetro inout de tipo tPalabra,</span></span>
+<span id="cb214-15"><a href="pec07.html#cb214-15"></a><span class="co"> * invierte (gira) el campo cadena y calcula el valor</span></span>
+<span id="cb214-16"><a href="pec07.html#cb214-16"></a><span class="co"> * correspondiente para el campo numeroCaractersCadena</span></span>
+<span id="cb214-17"><a href="pec07.html#cb214-17"></a><span class="co"> */</span></span>
+<span id="cb214-18"><a href="pec07.html#cb214-18"></a><span class="dt">void</span> invertir(tPalabra *palabra);</span>
+<span id="cb214-19"><a href="pec07.html#cb214-19"></a></span>
+<span id="cb214-20"><a href="pec07.html#cb214-20"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb214-21"><a href="pec07.html#cb214-21"></a>    <span class="dt">int</span> i = <span class="dv">0</span>;</span>
+<span id="cb214-22"><a href="pec07.html#cb214-22"></a>    </span>
+<span id="cb214-23"><a href="pec07.html#cb214-23"></a>    <span class="co">/* Introduim per teclat un total de MAX_PALABRAS */</span></span>
+<span id="cb214-24"><a href="pec07.html#cb214-24"></a>    <span class="cf">for</span> (i = <span class="dv">0</span>; i &lt; MAX_PALABRAS; i++) {</span>
+<span id="cb214-25"><a href="pec07.html#cb214-25"></a>        tPalabra palabra;</span>
+<span id="cb214-26"><a href="pec07.html#cb214-26"></a>    </span>
+<span id="cb214-27"><a href="pec07.html#cb214-27"></a>        printf(<span class="st">&quot;Introduce una palabra : &quot;</span>);</span>
+<span id="cb214-28"><a href="pec07.html#cb214-28"></a>        scanf(<span class="st">&quot;%s&quot;</span>, palabra.cadena);</span>
+<span id="cb214-29"><a href="pec07.html#cb214-29"></a>    </span>
+<span id="cb214-30"><a href="pec07.html#cb214-30"></a>        invertir(&amp;palabra);</span>
+<span id="cb214-31"><a href="pec07.html#cb214-31"></a>        printf(<span class="st">&quot;La palabra invertida es : %s, de %d letras.</span><span class="sc">\n</span><span class="st">&quot;</span>, palabra.cadena, palabra.numeroCaracteresCadena);</span>
+<span id="cb214-32"><a href="pec07.html#cb214-32"></a>    }</span>
+<span id="cb214-33"><a href="pec07.html#cb214-33"></a>}</span>
+<span id="cb214-34"><a href="pec07.html#cb214-34"></a></span>
+<span id="cb214-35"><a href="pec07.html#cb214-35"></a><span class="co">/* Implementación de la acción */</span></span>
+<span id="cb214-36"><a href="pec07.html#cb214-36"></a><span class="dt">void</span> invertir(tPalabra *palabra) {</span>
+<span id="cb214-37"><a href="pec07.html#cb214-37"></a>    </span>
+<span id="cb214-38"><a href="pec07.html#cb214-38"></a>    <span class="dt">int</span> i;</span>
+<span id="cb214-39"><a href="pec07.html#cb214-39"></a>    tPalabra palabraInvertida;</span>
+<span id="cb214-40"><a href="pec07.html#cb214-40"></a>    <span class="dt">int</span> longitudPalabra = strlen(palabra-&gt;cadena);</span>
+<span id="cb214-41"><a href="pec07.html#cb214-41"></a> </span>
+<span id="cb214-42"><a href="pec07.html#cb214-42"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;longitudPalabra; i++ ) {</span>
+<span id="cb214-43"><a href="pec07.html#cb214-43"></a>        palabraInvertida.cadena[(longitudPalabra-<span class="dv">1</span>)-i] = palabra-&gt;cadena[i];</span>
+<span id="cb214-44"><a href="pec07.html#cb214-44"></a>    }</span>
+<span id="cb214-45"><a href="pec07.html#cb214-45"></a>    </span>
+<span id="cb214-46"><a href="pec07.html#cb214-46"></a>    <span class="co">/* Indicamos el finalizador del string */</span></span>
+<span id="cb214-47"><a href="pec07.html#cb214-47"></a>    palabraInvertida.cadena[longitudPalabra] =<span class="ch">&#39;\0&#39;</span>;</span>
+<span id="cb214-48"><a href="pec07.html#cb214-48"></a>    </span>
+<span id="cb214-49"><a href="pec07.html#cb214-49"></a>    strcpy(palabra-&gt;cadena, palabraInvertida.cadena);</span>
+<span id="cb214-50"><a href="pec07.html#cb214-50"></a>    palabra-&gt;numeroCaracteresCadena = longitudPalabra;</span>
+<span id="cb214-51"><a href="pec07.html#cb214-51"></a>}</span></code></pre></div>
+<p>La acción sólo recibe un parámetro <code>tPalabra</code>, ya que únicamente se ejecuta sobre una <code>tPalabra</code>. Como la queremos ejecutar para cada una de las dos <code>tPalabra</code>, repetimos la llamada dos veces dentro del bucle (una por cada<code>tPalabra</code>).</p>
+</div>
+<div id="ejemplo-ispar" class="section level2" number="7.7">
+<h2 number="7.7"><span class="header-section-number">7.7</span> Ejemplo: isPar</h2>
+<p>Ejemplo de función que devuelve un booleano:</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb215"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb215-1"><a href="pec07.html#cb215-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb215-2"><a href="pec07.html#cb215-2"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb215-3"><a href="pec07.html#cb215-3"></a></span>
+<span id="cb215-4"><a href="pec07.html#cb215-4"></a><span class="co">/* Predeclaración de la función isPar, la cual devuelve un</span></span>
+<span id="cb215-5"><a href="pec07.html#cb215-5"></a><span class="co"> * booleano que indica si el número pasado por parámetro es</span></span>
+<span id="cb215-6"><a href="pec07.html#cb215-6"></a><span class="co"> * par (true) o impar (false).</span></span>
+<span id="cb215-7"><a href="pec07.html#cb215-7"></a><span class="co"> */</span></span>
+<span id="cb215-8"><a href="pec07.html#cb215-8"></a><span class="dt">bool</span> isPar(<span class="dt">int</span> numero);</span>
+<span id="cb215-9"><a href="pec07.html#cb215-9"></a></span>
+<span id="cb215-10"><a href="pec07.html#cb215-10"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb215-11"><a href="pec07.html#cb215-11"></a>    <span class="dt">int</span> numero;</span>
+<span id="cb215-12"><a href="pec07.html#cb215-12"></a>    </span>
+<span id="cb215-13"><a href="pec07.html#cb215-13"></a>    printf(<span class="st">&quot;Teclea un número : &quot;</span>);</span>
+<span id="cb215-14"><a href="pec07.html#cb215-14"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;numero);</span>
+<span id="cb215-15"><a href="pec07.html#cb215-15"></a></span>
+<span id="cb215-16"><a href="pec07.html#cb215-16"></a>    <span class="cf">if</span> (!isPar(numero)) {</span>
+<span id="cb215-17"><a href="pec07.html#cb215-17"></a>        printf(<span class="st">&quot;El número %d es impar.</span><span class="sc">\n</span><span class="st">&quot;</span>, numero);</span>
+<span id="cb215-18"><a href="pec07.html#cb215-18"></a>    } <span class="cf">else</span> {</span>
+<span id="cb215-19"><a href="pec07.html#cb215-19"></a>        printf(<span class="st">&quot;El número %d es par.</span><span class="sc">\n</span><span class="st">&quot;</span>, numero);</span>
+<span id="cb215-20"><a href="pec07.html#cb215-20"></a>    }</span>
+<span id="cb215-21"><a href="pec07.html#cb215-21"></a>}</span>
+<span id="cb215-22"><a href="pec07.html#cb215-22"></a></span>
+<span id="cb215-23"><a href="pec07.html#cb215-23"></a><span class="co">/* Implementación de la función */</span></span>
+<span id="cb215-24"><a href="pec07.html#cb215-24"></a><span class="dt">bool</span> isPar(<span class="dt">int</span> numero) {</span>
+<span id="cb215-25"><a href="pec07.html#cb215-25"></a>    <span class="cf">if</span> (numero % <span class="dv">2</span> == <span class="dv">0</span>) {</span>
+<span id="cb215-26"><a href="pec07.html#cb215-26"></a>        <span class="cf">return</span> true;</span>
+<span id="cb215-27"><a href="pec07.html#cb215-27"></a>    } <span class="cf">else</span> {</span>
+<span id="cb215-28"><a href="pec07.html#cb215-28"></a>        <span class="cf">return</span> false;</span>
+<span id="cb215-29"><a href="pec07.html#cb215-29"></a>    }</span>
+<span id="cb215-30"><a href="pec07.html#cb215-30"></a>}</span></code></pre></div>
+</div>
+<div id="ejemplo-pivotedefensivatiroslibres" class="section level2" number="7.8">
+<h2 number="7.8"><span class="header-section-number">7.8</span> Ejemplo: pivoteDefensivaTirosLibres</h2>
+<p>Se añade al ejemplo <strong>pivoteDefensiva</strong> de la PEC06 un nuevo factor de comparación: en caso de empate de las comparaciones anteriores, escogeremos la que tenga un mejor porcentaje de tiros libres.</p>
+<p>
+<img src="img/c.png" style="float:left; padding:10px" />
+</p>
+<div class="sourceCode" id="cb216"><pre class="sourceCode c"><code class="sourceCode c"><span id="cb216-1"><a href="pec07.html#cb216-1"></a><span class="pp">#include </span><span class="im">&lt;stdio.h&gt;</span></span>
+<span id="cb216-2"><a href="pec07.html#cb216-2"></a><span class="pp">#include </span><span class="im">&lt;string.h&gt;</span></span>
+<span id="cb216-3"><a href="pec07.html#cb216-3"></a><span class="pp">#include </span><span class="im">&lt;stdbool.h&gt;</span></span>
+<span id="cb216-4"><a href="pec07.html#cb216-4"></a></span>
+<span id="cb216-5"><a href="pec07.html#cb216-5"></a><span class="co">/* Recibimos una petición de un equipo femenino de baloncesto,</span></span>
+<span id="cb216-6"><a href="pec07.html#cb216-6"></a><span class="co"> * en la que nos piden un programa que les permita</span></span>
+<span id="cb216-7"><a href="pec07.html#cb216-7"></a><span class="co"> * seleccionar la mejor pivote defensiva entre una</span></span>
+<span id="cb216-8"><a href="pec07.html#cb216-8"></a><span class="co"> * serie de candidatas.</span></span>
+<span id="cb216-9"><a href="pec07.html#cb216-9"></a><span class="co"> * La mejor pivote defensiva es aquella que captura</span></span>
+<span id="cb216-10"><a href="pec07.html#cb216-10"></a><span class="co"> * más rebotes; en caso de empate, se elegirá la que</span></span>
+<span id="cb216-11"><a href="pec07.html#cb216-11"></a><span class="co"> * haga más tapones. En caso de empate nos interesará</span></span>
+<span id="cb216-12"><a href="pec07.html#cb216-12"></a><span class="co"> * escoger la que tenga mejor porcentaje en tiros libres.</span></span>
+<span id="cb216-13"><a href="pec07.html#cb216-13"></a><span class="co"> * Habrá que implementar 3 acciones y 2 funciones:</span></span>
+<span id="cb216-14"><a href="pec07.html#cb216-14"></a><span class="co"> * - acción leerJugadora(j): lee de teclado y</span></span>
+<span id="cb216-15"><a href="pec07.html#cb216-15"></a><span class="co"> *   guarda todos los atributos de la jugadora a la</span></span>
+<span id="cb216-16"><a href="pec07.html#cb216-16"></a><span class="co"> *   en la tupla j.</span></span>
+<span id="cb216-17"><a href="pec07.html#cb216-17"></a><span class="co"> * - acción mostrarJugadora(j): muestra por pantalla</span></span>
+<span id="cb216-18"><a href="pec07.html#cb216-18"></a><span class="co"> *   el valor de los atributos de la tupla j.</span></span>
+<span id="cb216-19"><a href="pec07.html#cb216-19"></a><span class="co"> * - acción copiarJugadoras(j1, j2): copia el valor</span></span>
+<span id="cb216-20"><a href="pec07.html#cb216-20"></a><span class="co"> *   de todos los atributos de j2 hacia j1.</span></span>
+<span id="cb216-21"><a href="pec07.html#cb216-21"></a><span class="co"> * - función compararJugadoras(j1, j2): devuelve -1 en</span></span>
+<span id="cb216-22"><a href="pec07.html#cb216-22"></a><span class="co"> *   caso de que la mejor pivote sea j1, y 1 en caso</span></span>
+<span id="cb216-23"><a href="pec07.html#cb216-23"></a><span class="co"> *   que la mejor sea j2.</span></span>
+<span id="cb216-24"><a href="pec07.html#cb216-24"></a><span class="co"> * - función porcentajeTirosLibres(intentados, anotados):</span></span>
+<span id="cb216-25"><a href="pec07.html#cb216-25"></a><span class="co"> *   devuelve el porcentaje de acierto en tiros libres </span></span>
+<span id="cb216-26"><a href="pec07.html#cb216-26"></a><span class="co"> *   en función de los valores pasados por parámetro.</span></span>
+<span id="cb216-27"><a href="pec07.html#cb216-27"></a><span class="co"> */</span></span>
+<span id="cb216-28"><a href="pec07.html#cb216-28"></a> </span>
+<span id="cb216-29"><a href="pec07.html#cb216-29"></a><span class="pp">#define MAX_NOMBRE 20+1</span></span>
+<span id="cb216-30"><a href="pec07.html#cb216-30"></a><span class="pp">#define MAX_APELLIDO 20+1</span></span>
+<span id="cb216-31"><a href="pec07.html#cb216-31"></a><span class="pp">#define MAX_JUGADORAS 3</span></span>
+<span id="cb216-32"><a href="pec07.html#cb216-32"></a></span>
+<span id="cb216-33"><a href="pec07.html#cb216-33"></a><span class="kw">typedef</span> <span class="kw">struct</span> {</span>
+<span id="cb216-34"><a href="pec07.html#cb216-34"></a>    <span class="dt">char</span> nombre[MAX_NOMBRE];</span>
+<span id="cb216-35"><a href="pec07.html#cb216-35"></a>    <span class="dt">char</span> apellido[MAX_APELLIDO];</span>
+<span id="cb216-36"><a href="pec07.html#cb216-36"></a>    <span class="dt">float</span> rebotes;</span>
+<span id="cb216-37"><a href="pec07.html#cb216-37"></a>    <span class="dt">float</span> tapones;</span>
+<span id="cb216-38"><a href="pec07.html#cb216-38"></a>    <span class="dt">float</span> tirosLibres; <span class="co">/* en porcentaje */</span></span>
+<span id="cb216-39"><a href="pec07.html#cb216-39"></a>} tJugadora;</span>
+<span id="cb216-40"><a href="pec07.html#cb216-40"></a></span>
+<span id="cb216-41"><a href="pec07.html#cb216-41"></a><span class="co">/* Predeclaraciones de funciones/acciones */</span></span>
+<span id="cb216-42"><a href="pec07.html#cb216-42"></a><span class="dt">void</span> leerJugadora(tJugadora *j);</span>
+<span id="cb216-43"><a href="pec07.html#cb216-43"></a><span class="dt">void</span> mostrarJugadora(tJugadora j);</span>
+<span id="cb216-44"><a href="pec07.html#cb216-44"></a><span class="dt">void</span> copiarJugadora(tJugadora *destino, tJugadora origen);</span>
+<span id="cb216-45"><a href="pec07.html#cb216-45"></a><span class="dt">int</span> compararJugadoras(tJugadora j1, tJugadora j2);</span>
+<span id="cb216-46"><a href="pec07.html#cb216-46"></a><span class="dt">float</span> porcentajeTirosLibres(<span class="dt">int</span> intentados, <span class="dt">int</span> anotados);</span>
+<span id="cb216-47"><a href="pec07.html#cb216-47"></a></span>
+<span id="cb216-48"><a href="pec07.html#cb216-48"></a><span class="co">/* Programa principal */</span></span>
+<span id="cb216-49"><a href="pec07.html#cb216-49"></a><span class="dt">int</span> main(<span class="dt">int</span> argc, <span class="dt">char</span> **argv) {</span>
+<span id="cb216-50"><a href="pec07.html#cb216-50"></a>    tJugadora vJugadoras[MAX_JUGADORAS];</span>
+<span id="cb216-51"><a href="pec07.html#cb216-51"></a>    <span class="dt">int</span> i, resultado;</span>
+<span id="cb216-52"><a href="pec07.html#cb216-52"></a></span>
+<span id="cb216-53"><a href="pec07.html#cb216-53"></a>    <span class="co">/* Se crea la tJugadora ficticia</span></span>
+<span id="cb216-54"><a href="pec07.html#cb216-54"></a><span class="co">     * mejorPivote que nos ayudará a encontrar</span></span>
+<span id="cb216-55"><a href="pec07.html#cb216-55"></a><span class="co">     * la mejor opción de entre todas las</span></span>
+<span id="cb216-56"><a href="pec07.html#cb216-56"></a><span class="co">     * candidatas</span></span>
+<span id="cb216-57"><a href="pec07.html#cb216-57"></a><span class="co">     */</span></span>
+<span id="cb216-58"><a href="pec07.html#cb216-58"></a>    tJugadora mejorPivote; </span>
+<span id="cb216-59"><a href="pec07.html#cb216-59"></a>    mejorPivote.rebotes = <span class="dv">0</span>;</span>
+<span id="cb216-60"><a href="pec07.html#cb216-60"></a>    mejorPivote.tapones = <span class="dv">0</span>;</span>
+<span id="cb216-61"><a href="pec07.html#cb216-61"></a>    mejorPivote.tirosLibres = <span class="fl">0.0</span>;</span>
+<span id="cb216-62"><a href="pec07.html#cb216-62"></a></span>
+<span id="cb216-63"><a href="pec07.html#cb216-63"></a>    <span class="co">/* Leemos todas las jugadoras con</span></span>
+<span id="cb216-64"><a href="pec07.html#cb216-64"></a><span class="co">     * la acción leerJugadora(). Esta</span></span>
+<span id="cb216-65"><a href="pec07.html#cb216-65"></a><span class="co">     * acción recibe un parámetro de salida</span></span>
+<span id="cb216-66"><a href="pec07.html#cb216-66"></a><span class="co">     * (out), el cual contendrá la</span></span>
+<span id="cb216-67"><a href="pec07.html#cb216-67"></a><span class="co">     * jugadora leída por teclado. Como</span></span>
+<span id="cb216-68"><a href="pec07.html#cb216-68"></a><span class="co">     * se trata de un parámetro de tipo</span></span>
+<span id="cb216-69"><a href="pec07.html#cb216-69"></a><span class="co">     * out, se realizará un paso por</span></span>
+<span id="cb216-70"><a href="pec07.html#cb216-70"></a><span class="co">     * referencia (= pasaremos un puntero)</span></span>
+<span id="cb216-71"><a href="pec07.html#cb216-71"></a><span class="co">     */</span></span>
+<span id="cb216-72"><a href="pec07.html#cb216-72"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_JUGADORAS; i++) {</span>
+<span id="cb216-73"><a href="pec07.html#cb216-73"></a>        tJugadora jugadora;</span>
+<span id="cb216-74"><a href="pec07.html#cb216-74"></a>        leerJugadora(&amp;jugadora);</span>
+<span id="cb216-75"><a href="pec07.html#cb216-75"></a>        vJugadoras[i] = jugadora;</span>
+<span id="cb216-76"><a href="pec07.html#cb216-76"></a>    }</span>
+<span id="cb216-77"><a href="pec07.html#cb216-77"></a></span>
+<span id="cb216-78"><a href="pec07.html#cb216-78"></a>    <span class="co">/* Mostramos por pantalla cuál</span></span>
+<span id="cb216-79"><a href="pec07.html#cb216-79"></a><span class="co">     * es la mejor jugadora de perfil</span></span>
+<span id="cb216-80"><a href="pec07.html#cb216-80"></a><span class="co">     * pivote defensivo. La idea es ir</span></span>
+<span id="cb216-81"><a href="pec07.html#cb216-81"></a><span class="co">     * recorriendo una a una las jugadoras</span></span>
+<span id="cb216-82"><a href="pec07.html#cb216-82"></a><span class="co">     * del vector y compararlas con mejorPivote:</span></span>
+<span id="cb216-83"><a href="pec07.html#cb216-83"></a><span class="co">     * 1. Si la jugadora del vector es mejor</span></span>
+<span id="cb216-84"><a href="pec07.html#cb216-84"></a><span class="co">     *    que mejorPivote, copiaremos los datos</span></span>
+<span id="cb216-85"><a href="pec07.html#cb216-85"></a><span class="co">     *    de la jugadora hacia mejorPivote.</span></span>
+<span id="cb216-86"><a href="pec07.html#cb216-86"></a><span class="co">     * 2. Si mejorPivote es mejor que la</span></span>
+<span id="cb216-87"><a href="pec07.html#cb216-87"></a><span class="co">     *    jugadora del vector, no haremos nada.</span></span>
+<span id="cb216-88"><a href="pec07.html#cb216-88"></a><span class="co">     * Al finalizar el recorrido de todas</span></span>
+<span id="cb216-89"><a href="pec07.html#cb216-89"></a><span class="co">     * las jugadoras del vector, tendremos que</span></span>
+<span id="cb216-90"><a href="pec07.html#cb216-90"></a><span class="co">     * mejorPivote contendrá la jugadora</span></span>
+<span id="cb216-91"><a href="pec07.html#cb216-91"></a><span class="co">     * que estamos buscando.</span></span>
+<span id="cb216-92"><a href="pec07.html#cb216-92"></a><span class="co">     */</span></span>
+<span id="cb216-93"><a href="pec07.html#cb216-93"></a>    <span class="cf">for</span> (i=<span class="dv">0</span>; i&lt;MAX_JUGADORAS; i++) {</span>
+<span id="cb216-94"><a href="pec07.html#cb216-94"></a>        resultado = compararJugadoras(mejorPivote, vJugadoras[i]);</span>
+<span id="cb216-95"><a href="pec07.html#cb216-95"></a>        <span class="cf">if</span> (resultado == <span class="dv">1</span>) {</span>
+<span id="cb216-96"><a href="pec07.html#cb216-96"></a>            copiarJugadora(&amp;mejorPivote, vJugadoras[i]);</span>
+<span id="cb216-97"><a href="pec07.html#cb216-97"></a>        }</span>
+<span id="cb216-98"><a href="pec07.html#cb216-98"></a>    }</span>
+<span id="cb216-99"><a href="pec07.html#cb216-99"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">Mejor opción como pivote defensiva : &quot;</span>);</span>
+<span id="cb216-100"><a href="pec07.html#cb216-100"></a>    mostrarJugadora(mejorPivote);</span>
+<span id="cb216-101"><a href="pec07.html#cb216-101"></a>    <span class="cf">return</span> <span class="dv">0</span>;</span>
+<span id="cb216-102"><a href="pec07.html#cb216-102"></a>}</span>
+<span id="cb216-103"><a href="pec07.html#cb216-103"></a></span>
+<span id="cb216-104"><a href="pec07.html#cb216-104"></a><span class="co">/* Implementación de les funciones/acciones */</span></span>
+<span id="cb216-105"><a href="pec07.html#cb216-105"></a><span class="dt">void</span> leerJugadora(tJugadora *j) {</span>
+<span id="cb216-106"><a href="pec07.html#cb216-106"></a>    <span class="dt">int</span> intentados;</span>
+<span id="cb216-107"><a href="pec07.html#cb216-107"></a>    <span class="dt">int</span> anotados;</span>
+<span id="cb216-108"><a href="pec07.html#cb216-108"></a>    printf(<span class="st">&quot;Introduce los datos de la nueva jugadora: </span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb216-109"><a href="pec07.html#cb216-109"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Nombre: &quot;</span>);</span>
+<span id="cb216-110"><a href="pec07.html#cb216-110"></a>    scanf(<span class="st">&quot;%s&quot;</span>, j-&gt;nombre);</span>
+<span id="cb216-111"><a href="pec07.html#cb216-111"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Apellido: &quot;</span>);</span>
+<span id="cb216-112"><a href="pec07.html#cb216-112"></a>    scanf(<span class="st">&quot;%s&quot;</span>, j-&gt;apellido);</span>
+<span id="cb216-113"><a href="pec07.html#cb216-113"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">&gt;&gt; Promedios por partido:</span><span class="sc">\n</span><span class="st">&quot;</span>);</span>
+<span id="cb216-114"><a href="pec07.html#cb216-114"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Rebotes: &quot;</span>);</span>
+<span id="cb216-115"><a href="pec07.html#cb216-115"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;j-&gt;rebotes);</span>
+<span id="cb216-116"><a href="pec07.html#cb216-116"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Tapones: &quot;</span>);</span>
+<span id="cb216-117"><a href="pec07.html#cb216-117"></a>    scanf(<span class="st">&quot;%f&quot;</span>, &amp;j-&gt;tapones);</span>
+<span id="cb216-118"><a href="pec07.html#cb216-118"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Tiros libres intentados: &quot;</span>);</span>
+<span id="cb216-119"><a href="pec07.html#cb216-119"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;intentados);</span>
+<span id="cb216-120"><a href="pec07.html#cb216-120"></a>    printf(<span class="st">&quot;</span><span class="sc">\t</span><span class="st">Tiros libres anotados: &quot;</span>);</span>
+<span id="cb216-121"><a href="pec07.html#cb216-121"></a>    scanf(<span class="st">&quot;%d&quot;</span>, &amp;anotados);</span>
+<span id="cb216-122"><a href="pec07.html#cb216-122"></a>    j-&gt;tirosLibres = porcentajeTirosLibres(intentados, anotados);</span>
+<span id="cb216-123"><a href="pec07.html#cb216-123"></a>}</span>
+<span id="cb216-124"><a href="pec07.html#cb216-124"></a></span>
+<span id="cb216-125"><a href="pec07.html#cb216-125"></a><span class="dt">void</span> mostrarJugadora(tJugadora j) {</span>
+<span id="cb216-126"><a href="pec07.html#cb216-126"></a>    printf(<span class="st">&quot;</span><span class="sc">\n</span><span class="st">%s, %s: %.1f rebotes, %.1f tapones, %.1f%% tiros libres </span><span class="sc">\n</span><span class="st">&quot;</span>, j.apellido, j.nombre, j.rebotes, j.tapones, j.tirosLibres);</span>
+<span id="cb216-127"><a href="pec07.html#cb216-127"></a>}</span>
+<span id="cb216-128"><a href="pec07.html#cb216-128"></a></span>
+<span id="cb216-129"><a href="pec07.html#cb216-129"></a><span class="dt">void</span> copiarJugadora(tJugadora *destino, tJugadora origen) {</span>
+<span id="cb216-130"><a href="pec07.html#cb216-130"></a>    <span class="co">/* Recordemos: </span></span>
+<span id="cb216-131"><a href="pec07.html#cb216-131"></a><span class="co">     * - si el parámetro es un puntero, el accesor</span></span>
+<span id="cb216-132"><a href="pec07.html#cb216-132"></a><span class="co">     *   de atributos será &#39;-&gt;&#39;</span></span>
+<span id="cb216-133"><a href="pec07.html#cb216-133"></a><span class="co">     * - si el parámetro és un valor, el accesor</span></span>
+<span id="cb216-134"><a href="pec07.html#cb216-134"></a><span class="co">     *   de atributos será &#39;.&#39;</span></span>
+<span id="cb216-135"><a href="pec07.html#cb216-135"></a><span class="co">     */</span></span>
+<span id="cb216-136"><a href="pec07.html#cb216-136"></a>    strcpy(destino-&gt;nombre, origen.nombre);</span>
+<span id="cb216-137"><a href="pec07.html#cb216-137"></a>    strcpy(destino-&gt;apellido, origen.apellido);</span>
+<span id="cb216-138"><a href="pec07.html#cb216-138"></a>    destino-&gt;rebotes = origen.rebotes;</span>
+<span id="cb216-139"><a href="pec07.html#cb216-139"></a>    destino-&gt;tapones = origen.tapones;</span>
+<span id="cb216-140"><a href="pec07.html#cb216-140"></a>    destino-&gt;tirosLibres = origen.tirosLibres;</span>
+<span id="cb216-141"><a href="pec07.html#cb216-141"></a>}</span>
+<span id="cb216-142"><a href="pec07.html#cb216-142"></a></span>
+<span id="cb216-143"><a href="pec07.html#cb216-143"></a><span class="dt">int</span> compararJugadoras(tJugadora j1, tJugadora j2) {</span>
+<span id="cb216-144"><a href="pec07.html#cb216-144"></a>    <span class="co">/* Estamos buscando una jugadora que</span></span>
+<span id="cb216-145"><a href="pec07.html#cb216-145"></a><span class="co">     * tenga un perfil de pivote defensivo,</span></span>
+<span id="cb216-146"><a href="pec07.html#cb216-146"></a><span class="co">     * Con lo que seleccionaremos:</span></span>
+<span id="cb216-147"><a href="pec07.html#cb216-147"></a><span class="co">     * 1. Aquella que tenga más rebotes por partido</span></span>
+<span id="cb216-148"><a href="pec07.html#cb216-148"></a><span class="co">     * 2. En caso de empate en rebotes, aquella que</span></span>
+<span id="cb216-149"><a href="pec07.html#cb216-149"></a><span class="co">     *    haga más tapones por partido</span></span>
+<span id="cb216-150"><a href="pec07.html#cb216-150"></a><span class="co">     * 3. En caso de empate, la que tenga mejor</span></span>
+<span id="cb216-151"><a href="pec07.html#cb216-151"></a><span class="co">     *    percentaje de tiros libres</span></span>
+<span id="cb216-152"><a href="pec07.html#cb216-152"></a><span class="co">     */</span> </span>
+<span id="cb216-153"><a href="pec07.html#cb216-153"></a>    <span class="cf">if</span> (j1.rebotes &gt; j2.rebotes) {</span>
+<span id="cb216-154"><a href="pec07.html#cb216-154"></a>        <span class="cf">return</span> -<span class="dv">1</span>;</span>
+<span id="cb216-155"><a href="pec07.html#cb216-155"></a>    } <span class="cf">else</span> {</span>
+<span id="cb216-156"><a href="pec07.html#cb216-156"></a>        <span class="cf">if</span> (j1.rebotes &lt; j2.rebotes) {</span>
+<span id="cb216-157"><a href="pec07.html#cb216-157"></a>            <span class="cf">return</span> <span class="dv">1</span>;</span>
+<span id="cb216-158"><a href="pec07.html#cb216-158"></a>        } <span class="cf">else</span> {</span>
+<span id="cb216-159"><a href="pec07.html#cb216-159"></a>            <span class="co">/* En este punto tenemos que</span></span>
+<span id="cb216-160"><a href="pec07.html#cb216-160"></a><span class="co">             * j1.rebotes == j2.rebotes,</span></span>
+<span id="cb216-161"><a href="pec07.html#cb216-161"></a><span class="co">             * con lo que vamos a comparar el siguiente</span></span>
+<span id="cb216-162"><a href="pec07.html#cb216-162"></a><span class="co">             * atributo según la prioridad definida</span></span>
+<span id="cb216-163"><a href="pec07.html#cb216-163"></a><span class="co">             * para la posición de pivote defensiva</span></span>
+<span id="cb216-164"><a href="pec07.html#cb216-164"></a><span class="co">             */</span></span>
+<span id="cb216-165"><a href="pec07.html#cb216-165"></a>            <span class="cf">if</span> (j1.tapones &gt; j2.tapones) {</span>
+<span id="cb216-166"><a href="pec07.html#cb216-166"></a>                <span class="cf">return</span> -<span class="dv">1</span>;</span>
+<span id="cb216-167"><a href="pec07.html#cb216-167"></a>            } <span class="cf">else</span> {</span>
+<span id="cb216-168"><a href="pec07.html#cb216-168"></a>                <span class="cf">if</span> (j1.tapones &lt; j2.tapones) {</span>
+<span id="cb216-169"><a href="pec07.html#cb216-169"></a>                    <span class="cf">return</span> <span class="dv">1</span>;</span>
+<span id="cb216-170"><a href="pec07.html#cb216-170"></a>                } <span class="cf">else</span> {</span>
+<span id="cb216-171"><a href="pec07.html#cb216-171"></a>                    <span class="co">/* Añadimos la variante de valorar</span></span>
+<span id="cb216-172"><a href="pec07.html#cb216-172"></a><span class="co">                     * el porcentaje de acierto en tiros libres</span></span>
+<span id="cb216-173"><a href="pec07.html#cb216-173"></a><span class="co">                     */</span></span>
+<span id="cb216-174"><a href="pec07.html#cb216-174"></a>                    <span class="cf">if</span> (j1.tirosLibres &gt;= j2.tirosLibres) {</span>
+<span id="cb216-175"><a href="pec07.html#cb216-175"></a>                        <span class="cf">return</span> -<span class="dv">1</span>;</span>
+<span id="cb216-176"><a href="pec07.html#cb216-176"></a>                    } <span class="cf">else</span> {</span>
+<span id="cb216-177"><a href="pec07.html#cb216-177"></a>                        <span class="cf">return</span> <span class="dv">1</span>;</span>
+<span id="cb216-178"><a href="pec07.html#cb216-178"></a>                    }</span>
+<span id="cb216-179"><a href="pec07.html#cb216-179"></a>                }</span>
+<span id="cb216-180"><a href="pec07.html#cb216-180"></a>            }</span>
+<span id="cb216-181"><a href="pec07.html#cb216-181"></a>        }</span>
+<span id="cb216-182"><a href="pec07.html#cb216-182"></a>    }</span>
+<span id="cb216-183"><a href="pec07.html#cb216-183"></a>}</span>
+<span id="cb216-184"><a href="pec07.html#cb216-184"></a></span>
+<span id="cb216-185"><a href="pec07.html#cb216-185"></a><span class="dt">float</span> porcentajeTirosLibres(<span class="dt">int</span> intentados, <span class="dt">int</span> anotados) {</span>
+<span id="cb216-186"><a href="pec07.html#cb216-186"></a>    <span class="cf">return</span> ((<span class="dt">float</span>)anotados/intentados)*<span class="fl">100.0</span>;</span>
+<span id="cb216-187"><a href="pec07.html#cb216-187"></a>}</span></code></pre></div>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="pec06.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="pec08.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/07-PEC07.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["FAQ_Laboratorio_FP.pdf", "FAQ_Laboratorio_FP.epub"],
+"toc": {
+"collapse": "section",
+"toc": true,
+"toc_float": true,
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>

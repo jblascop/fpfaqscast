@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>14 Otros | FAQ Laboratorio de Fundamentos de Programación</title>
+  <meta name="description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="generator" content="bookdown 0.14 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="14 Otros | FAQ Laboratorio de Fundamentos de Programación" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="14 Otros | FAQ Laboratorio de Fundamentos de Programación" />
+  
+  <meta name="twitter:description" content="FAQ del Laboratorio de Funamentos de Programación" />
+  
+
+<meta name="author" content="Jordi Blasco Planesas" />
+
+
+<meta name="date" content="2020-06-08" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="vmware-y-codelite.html"/>
+
+<script src="libs/header-attrs-2.1/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-168821881-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-168821881-1');
+</script>
+
+
+<style type="text/css">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./"><img src="./img/uoc.png" width="100"></a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introducción</a></li>
+<li class="chapter" data-level="1" data-path="pec01.html"><a href="pec01.html"><i class="fa fa-check"></i><b>1</b> PEC01</a>
+<ul>
+<li class="chapter" data-level="1.1" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.1</b> Lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.2" data-path="pec01.html"><a href="pec01.html#lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.2</b> Lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.3" data-path="pec01.html"><a href="pec01.html#equivalencias-lenguaje-algorítmico-vs-lenguaje-c"><i class="fa fa-check"></i><b>1.3</b> Equivalencias lenguaje algorítmico vs lenguaje C</a></li>
+<li class="chapter" data-level="1.4" data-path="pec01.html"><a href="pec01.html#impresión-de-valores-incorrecta"><i class="fa fa-check"></i><b>1.4</b> Impresión de valores incorrecta</a></li>
+<li class="chapter" data-level="1.5" data-path="pec01.html"><a href="pec01.html#cómo-definir-un-enumerativo"><i class="fa fa-check"></i><b>1.5</b> Cómo definir un enumerativo</a></li>
+<li class="chapter" data-level="1.6" data-path="pec01.html"><a href="pec01.html#cómo-utilizar-un-enumerativo"><i class="fa fa-check"></i><b>1.6</b> Cómo utilizar un enumerativo</a></li>
+<li class="chapter" data-level="1.7" data-path="pec01.html"><a href="pec01.html#especificador-de-un-enumerativo"><i class="fa fa-check"></i><b>1.7</b> Especificador de un enumerativo</a></li>
+<li class="chapter" data-level="1.8" data-path="pec01.html"><a href="pec01.html#lectura-de-caracteres-en-c"><i class="fa fa-check"></i><b>1.8</b> Lectura de caracteres en C</a></li>
+<li class="chapter" data-level="1.9" data-path="pec01.html"><a href="pec01.html#lectura-de-float-en-c"><i class="fa fa-check"></i><b>1.9</b> Lectura de float en C</a></li>
+<li class="chapter" data-level="1.10" data-path="pec01.html"><a href="pec01.html#frequently-made-mistakes"><i class="fa fa-check"></i><b>1.10</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="1.10.1" data-path="pec01.html"><a href="pec01.html#definición-de-tipos-tipo-booleano"><i class="fa fa-check"></i><b>1.10.1</b> Definición de tipos: tipo booleano</a></li>
+<li class="chapter" data-level="1.10.2" data-path="pec01.html"><a href="pec01.html#estilo-y-formato-ausencia-de-estilo-y-formato-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>1.10.2</b> Estilo y formato: ausencia de estilo y formato en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="1.10.3" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-identificadores-no-permitidos"><i class="fa fa-check"></i><b>1.10.3</b> Declaración de variables: identificadores no permitidos</a></li>
+<li class="chapter" data-level="1.10.4" data-path="pec01.html"><a href="pec01.html#declaración-de-variables-operador-de-declaración"><i class="fa fa-check"></i><b>1.10.4</b> Declaración de variables: operador de declaración</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="pec02.html"><a href="pec02.html"><i class="fa fa-check"></i><b>2</b> PEC02</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="pec02.html"><a href="pec02.html#booleanos-en-c"><i class="fa fa-check"></i><b>2.1</b> Booleanos en C</a></li>
+<li class="chapter" data-level="2.2" data-path="pec02.html"><a href="pec02.html#booleanos-definidos-como-enumerativos"><i class="fa fa-check"></i><b>2.2</b> Booleanos definidos como enumerativos</a></li>
+<li class="chapter" data-level="2.3" data-path="pec02.html"><a href="pec02.html#constantes-define-vs-const"><i class="fa fa-check"></i><b>2.3</b> Constantes: define vs const</a></li>
+<li class="chapter" data-level="2.4" data-path="pec02.html"><a href="pec02.html#cómo-mostrar-el-valor-de-una-constante"><i class="fa fa-check"></i><b>2.4</b> Cómo mostrar el valor de una constante</a></li>
+<li class="chapter" data-level="2.5" data-path="pec02.html"><a href="pec02.html#precisión-en-variables-float"><i class="fa fa-check"></i><b>2.5</b> Precisión en variables float</a></li>
+<li class="chapter" data-level="2.6" data-path="pec02.html"><a href="pec02.html#semántica-de-una-expresión"><i class="fa fa-check"></i><b>2.6</b> Semántica de una expresión</a></li>
+<li class="chapter" data-level="2.7" data-path="pec02.html"><a href="pec02.html#ejemplos-de-expresiones"><i class="fa fa-check"></i><b>2.7</b> Ejemplos de expresiones</a>
+<ul>
+<li class="chapter" data-level="2.7.1" data-path="pec02.html"><a href="pec02.html#ejemplo-1-espar"><i class="fa fa-check"></i><b>2.7.1</b> Ejemplo 1: esPar</a></li>
+<li class="chapter" data-level="2.7.2" data-path="pec02.html"><a href="pec02.html#ejemplo-2-findesemana"><i class="fa fa-check"></i><b>2.7.2</b> Ejemplo 2: finDeSemana</a></li>
+<li class="chapter" data-level="2.7.3" data-path="pec02.html"><a href="pec02.html#ejemplo-3-esvocal"><i class="fa fa-check"></i><b>2.7.3</b> Ejemplo 3: esVocal</a></li>
+<li class="chapter" data-level="2.7.4" data-path="pec02.html"><a href="pec02.html#ejemplo-4-votaciones"><i class="fa fa-check"></i><b>2.7.4</b> Ejemplo 4: votaciones</a></li>
+<li class="chapter" data-level="2.7.5" data-path="pec02.html"><a href="pec02.html#ejemplo-5-gintonicpreparation"><i class="fa fa-check"></i><b>2.7.5</b> Ejemplo 5: ginTonicPreparation</a></li>
+<li class="chapter" data-level="2.7.6" data-path="pec02.html"><a href="pec02.html#ejemplo-6-gintonicfreeml"><i class="fa fa-check"></i><b>2.7.6</b> Ejemplo 6: ginTonicFreeMl</a></li>
+<li class="chapter" data-level="2.7.7" data-path="pec02.html"><a href="pec02.html#ejemplo-7-scoutingbasquet"><i class="fa fa-check"></i><b>2.7.7</b> Ejemplo 7: scoutingBasquet</a></li>
+</ul></li>
+<li class="chapter" data-level="2.8" data-path="pec02.html"><a href="pec02.html#frequently-made-mistakes-1"><i class="fa fa-check"></i><b>2.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="2.8.1" data-path="pec02.html"><a href="pec02.html#interfaz-de-usuario-ausencia-de-textos-informativos"><i class="fa fa-check"></i><b>2.8.1</b> Interfaz de usuario: ausencia de textos informativos</a></li>
+<li class="chapter" data-level="2.8.2" data-path="pec02.html"><a href="pec02.html#caracteres-uso-de-comillas-simples"><i class="fa fa-check"></i><b>2.8.2</b> Caracteres: uso de comillas simples</a></li>
+<li class="chapter" data-level="2.8.3" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-funciones-de-lectura-escritura"><i class="fa fa-check"></i><b>2.8.3</b> Sintaxis propia de C: funciones de lectura / escritura</a></li>
+<li class="chapter" data-level="2.8.4" data-path="pec02.html"><a href="pec02.html#conversión-de-tipos-funciones-inexistentes"><i class="fa fa-check"></i><b>2.8.4</b> Conversión de tipos: funciones inexistentes</a></li>
+<li class="chapter" data-level="2.8.5" data-path="pec02.html"><a href="pec02.html#expresiones-variables-intermedias"><i class="fa fa-check"></i><b>2.8.5</b> Expresiones: variables intermedias</a></li>
+<li class="chapter" data-level="2.8.6" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-bloque-central-de-código"><i class="fa fa-check"></i><b>2.8.6</b> Declaración de variables: declaración mal ubicada (bloque central de código)</a></li>
+<li class="chapter" data-level="2.8.7" data-path="pec02.html"><a href="pec02.html#declaración-de-variables-declaración-mal-ubicada-variables-globales"><i class="fa fa-check"></i><b>2.8.7</b> Declaración de variables: declaración mal ubicada (variables globales)</a></li>
+<li class="chapter" data-level="2.8.8" data-path="pec02.html"><a href="pec02.html#tipo-booleano-valores-numéricos"><i class="fa fa-check"></i><b>2.8.8</b> Tipo booleano: valores numéricos</a></li>
+<li class="chapter" data-level="2.8.9" data-path="pec02.html"><a href="pec02.html#tipo-booleano-cadenas-de-caracteres"><i class="fa fa-check"></i><b>2.8.9</b> Tipo booleano: cadenas de caracteres</a></li>
+<li class="chapter" data-level="2.8.10" data-path="pec02.html"><a href="pec02.html#sintaxis-propia-de-c-operadores"><i class="fa fa-check"></i><b>2.8.10</b> Sintaxis propia de C: operadores</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="pec03.html"><a href="pec03.html"><i class="fa fa-check"></i><b>3</b> PEC03</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="pec03.html"><a href="pec03.html#cómo-declarar-un-vector-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.1</b> Cómo declarar un vector en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.2" data-path="pec03.html"><a href="pec03.html#significado-de-los-argumentos-del-main"><i class="fa fa-check"></i><b>3.2</b> Significado de los argumentos del main</a></li>
+<li class="chapter" data-level="3.3" data-path="pec03.html"><a href="pec03.html#asignar-valores-a-un-vector"><i class="fa fa-check"></i><b>3.3</b> Asignar valores a un vector</a></li>
+<li class="chapter" data-level="3.4" data-path="pec03.html"><a href="pec03.html#stack-smashing-detected"><i class="fa fa-check"></i><b>3.4</b> Stack smashing detected</a></li>
+<li class="chapter" data-level="3.5" data-path="pec03.html"><a href="pec03.html#concatenación-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.5</b> Concatenación en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.6" data-path="pec03.html"><a href="pec03.html#importancia-de-los-tipos-utilizados-en-lenguaje-c"><i class="fa fa-check"></i><b>3.6</b> Importancia de los tipos utilizados en lenguaje C</a></li>
+<li class="chapter" data-level="3.7" data-path="pec03.html"><a href="pec03.html#ejemplo-notafinal"><i class="fa fa-check"></i><b>3.7</b> Ejemplo: notaFinal</a></li>
+<li class="chapter" data-level="3.8" data-path="pec03.html"><a href="pec03.html#frequently-made-mistakes-2"><i class="fa fa-check"></i><b>3.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="3.8.1" data-path="pec03.html"><a href="pec03.html#strings-declaración-como-vectores-de-caracteres-en-lenguaje-algorítmico"><i class="fa fa-check"></i><b>3.8.1</b> Strings: declaración como vectores de caracteres en lenguaje algorítmico</a></li>
+<li class="chapter" data-level="3.8.2" data-path="pec03.html"><a href="pec03.html#sintaxis-propia-de-c-funciones-complejas"><i class="fa fa-check"></i><b>3.8.2</b> Sintaxis propia de C: funciones complejas</a></li>
+<li class="chapter" data-level="3.8.3" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-consecutivos"><i class="fa fa-check"></i><b>3.8.3</b> Estructura alternativa: if s consecutivos</a></li>
+<li class="chapter" data-level="3.8.4" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-if-s-vacíos"><i class="fa fa-check"></i><b>3.8.4</b> Estructura alternativa: if s vacíos</a></li>
+<li class="chapter" data-level="3.8.5" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-i"><i class="fa fa-check"></i><b>3.8.5</b> Estructura alternativa: interrumpir un algoritmo (I)</a></li>
+<li class="chapter" data-level="3.8.6" data-path="pec03.html"><a href="pec03.html#estructura-alternativa-interrumpir-un-algoritmo-ii"><i class="fa fa-check"></i><b>3.8.6</b> Estructura alternativa: interrumpir un algoritmo (II)</a></li>
+<li class="chapter" data-level="3.8.7" data-path="pec03.html"><a href="pec03.html#constantes-y-números-valores-numéricos-al-código-hardcode"><i class="fa fa-check"></i><b>3.8.7</b> Constantes y números: Valores numéricos al código (hardcode)</a></li>
+<li class="chapter" data-level="3.8.8" data-path="pec03.html"><a href="pec03.html#constantes-declaración-de-constantes-mal-ubicada"><i class="fa fa-check"></i><b>3.8.8</b> Constantes: declaración de constantes mal ubicada</a></li>
+<li class="chapter" data-level="3.8.9" data-path="pec03.html"><a href="pec03.html#strings-comparación-directa"><i class="fa fa-check"></i><b>3.8.9</b> Strings: comparación directa</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="pec04.html"><a href="pec04.html"><i class="fa fa-check"></i><b>4</b> PEC04</a>
+<ul>
+<li class="chapter" data-level="4.1" data-path="pec04.html"><a href="pec04.html#como-tratar-elementos-de-un-vector-con-un-bucle"><i class="fa fa-check"></i><b>4.1</b> Como tratar elementos de un vector con un bucle</a></li>
+<li class="chapter" data-level="4.2" data-path="pec04.html"><a href="pec04.html#entrada-continua-de-valores-con-un-bucle"><i class="fa fa-check"></i><b>4.2</b> Entrada continua de valores con un bucle</a></li>
+<li class="chapter" data-level="4.3" data-path="pec04.html"><a href="pec04.html#como-tratar-valores-en-múltiples-vectores"><i class="fa fa-check"></i><b>4.3</b> Como tratar valores en múltiples vectores</a></li>
+<li class="chapter" data-level="4.4" data-path="pec04.html"><a href="pec04.html#definición-chars-vs-strings"><i class="fa fa-check"></i><b>4.4</b> Definición chars vs strings</a></li>
+<li class="chapter" data-level="4.5" data-path="pec04.html"><a href="pec04.html#ejemplo-pesopromedio"><i class="fa fa-check"></i><b>4.5</b> Ejemplo: pesoPromedio</a></li>
+<li class="chapter" data-level="4.6" data-path="pec04.html"><a href="pec04.html#frequently-made-mistakes-3"><i class="fa fa-check"></i><b>4.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="4.6.1" data-path="pec04.html"><a href="pec04.html#estructura-iterativa-for-vs-while"><i class="fa fa-check"></i><b>4.6.1</b> Estructura iterativa: for vs while</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="pec05.html"><a href="pec05.html"><i class="fa fa-check"></i><b>5</b> PEC05</a>
+<ul>
+<li class="chapter" data-level="5.1" data-path="pec05.html"><a href="pec05.html#strcmp"><i class="fa fa-check"></i><b>5.1</b> strcmp()</a></li>
+<li class="chapter" data-level="5.2" data-path="pec05.html"><a href="pec05.html#scanf"><i class="fa fa-check"></i><b>5.2</b> scanf()</a></li>
+<li class="chapter" data-level="5.3" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strcmp"><i class="fa fa-check"></i><b>5.3</b> El finalizador ‘\0’ y strcmp()</a></li>
+<li class="chapter" data-level="5.4" data-path="pec05.html"><a href="pec05.html#el-finalizador-0-y-strlen"><i class="fa fa-check"></i><b>5.4</b> El finalizador ‘\0’ y strlen()</a></li>
+<li class="chapter" data-level="5.5" data-path="pec05.html"><a href="pec05.html#ejemplo-comparacionstrings"><i class="fa fa-check"></i><b>5.5</b> Ejemplo: comparacionStrings</a></li>
+<li class="chapter" data-level="5.6" data-path="pec05.html"><a href="pec05.html#ejemplo-nóminas"><i class="fa fa-check"></i><b>5.6</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="5.7" data-path="pec05.html"><a href="pec05.html#ejemplo-brisca"><i class="fa fa-check"></i><b>5.7</b> Ejemplo: brisca</a></li>
+<li class="chapter" data-level="5.8" data-path="pec05.html"><a href="pec05.html#frequently-made-mistakes-4"><i class="fa fa-check"></i><b>5.8</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="5.8.1" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-de-tuplas-mal-ubicada"><i class="fa fa-check"></i><b>5.8.1</b> Definición de tipo: definición de tuplas mal ubicada</a></li>
+<li class="chapter" data-level="5.8.2" data-path="pec05.html"><a href="pec05.html#definición-de-tipo-definición-mal-ubicada"><i class="fa fa-check"></i><b>5.8.2</b> Definición de tipo: definición mal ubicada</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="pec06.html"><a href="pec06.html"><i class="fa fa-check"></i><b>6</b> PEC06</a>
+<ul>
+<li class="chapter" data-level="6.1" data-path="pec06.html"><a href="pec06.html#diferencias-entre-funciones-y-acciones"><i class="fa fa-check"></i><b>6.1</b> Diferencias entre funciones y acciones</a>
+<ul>
+<li class="chapter" data-level="6.1.1" data-path="pec06.html"><a href="pec06.html#parámetros-de-entrada-in"><i class="fa fa-check"></i><b>6.1.1</b> Parámetros de entrada (in)</a></li>
+<li class="chapter" data-level="6.1.2" data-path="pec06.html"><a href="pec06.html#parámetros-de-salida-out"><i class="fa fa-check"></i><b>6.1.2</b> Parámetros de salida (out)</a></li>
+<li class="chapter" data-level="6.1.3" data-path="pec06.html"><a href="pec06.html#parámetros-de-entradasalida-inout"><i class="fa fa-check"></i><b>6.1.3</b> Parámetros de entrada/salida (inout)</a></li>
+<li class="chapter" data-level="6.1.4" data-path="pec06.html"><a href="pec06.html#tuplas-como-parámetros"><i class="fa fa-check"></i><b>6.1.4</b> Tuplas como parámetros</a></li>
+</ul></li>
+<li class="chapter" data-level="6.2" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-acciones"><i class="fa fa-check"></i><b>6.2</b> Ejemplo: uso de acciones</a></li>
+<li class="chapter" data-level="6.3" data-path="pec06.html"><a href="pec06.html#ejemplo-uso-de-funciones"><i class="fa fa-check"></i><b>6.3</b> Ejemplo: uso de funciones</a></li>
+<li class="chapter" data-level="6.4" data-path="pec06.html"><a href="pec06.html#ejemplo-nóminas-1"><i class="fa fa-check"></i><b>6.4</b> Ejemplo: nóminas</a></li>
+<li class="chapter" data-level="6.5" data-path="pec06.html"><a href="pec06.html#pivoteDefensiva"><i class="fa fa-check"></i><b>6.5</b> Ejemplo: pivoteDefensiva</a>
+<ul>
+<li class="chapter" data-level="6.5.1" data-path="pec06.html"><a href="pec06.html#explicación-sobre-la-acción-copiarjugadora"><i class="fa fa-check"></i><b>6.5.1</b> Explicación sobre la acción copiarJugadora()</a></li>
+</ul></li>
+<li class="chapter" data-level="6.6" data-path="pec06.html"><a href="pec06.html#frequently-made-mistakes-5"><i class="fa fa-check"></i><b>6.6</b> Frequently Made Mistakes</a>
+<ul>
+<li class="chapter" data-level="6.6.1" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-noms-de-paràmetres"><i class="fa fa-check"></i><b>6.6.1</b> Definició d’accions/funcions: noms de paràmetres</a></li>
+<li class="chapter" data-level="6.6.2" data-path="pec06.html"><a href="pec06.html#definició-daccionsfuncions-tipus-de-paràmetres"><i class="fa fa-check"></i><b>6.6.2</b> Definició d’accions/funcions: tipus de paràmetres</a></li>
+<li class="chapter" data-level="6.6.3" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-tipos-de-datos-de-regreso"><i class="fa fa-check"></i><b>6.6.3</b> Definición de funciones: tipos de datos de regreso</a></li>
+<li class="chapter" data-level="6.6.4" data-path="pec06.html"><a href="pec06.html#definición-de-acciones-retorno-de-valor"><i class="fa fa-check"></i><b>6.6.4</b> Definición de acciones: retorno de valor</a></li>
+<li class="chapter" data-level="6.6.5" data-path="pec06.html"><a href="pec06.html#definición-de-accionesfunciones-acciones-abiertas"><i class="fa fa-check"></i><b>6.6.5</b> Definición de acciones/funciones: acciones abiertas</a></li>
+<li class="chapter" data-level="6.6.6" data-path="pec06.html"><a href="pec06.html#llamada-a-funcionesacciones-tipos-de-parámetros"><i class="fa fa-check"></i><b>6.6.6</b> Llamada a funciones/acciones: tipos de parámetros</a></li>
+<li class="chapter" data-level="6.6.7" data-path="pec06.html"><a href="pec06.html#llamada-a-accionesfunciones-palabras-reservadas"><i class="fa fa-check"></i><b>6.6.7</b> Llamada a acciones/funciones: palabras reservadas</a></li>
+<li class="chapter" data-level="6.6.8" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-llamada-vacía"><i class="fa fa-check"></i><b>6.6.8</b> Llamada a funciones: llamada vacía</a></li>
+<li class="chapter" data-level="6.6.9" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-ausencia-de-parámetros"><i class="fa fa-check"></i><b>6.6.9</b> Llamada a funciones: ausencia de parámetros</a></li>
+<li class="chapter" data-level="6.6.10" data-path="pec06.html"><a href="pec06.html#llamada-a-funciones-errores-de-sintaxis-múltiples"><i class="fa fa-check"></i><b>6.6.10</b> Llamada a funciones: errores de sintaxis múltiples</a></li>
+<li class="chapter" data-level="6.6.11" data-path="pec06.html"><a href="pec06.html#definición-de-funciones-funciones-dentro-del-main"><i class="fa fa-check"></i><b>6.6.11</b> Definición de funciones: funciones dentro del main</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="pec07.html"><a href="pec07.html"><i class="fa fa-check"></i><b>7</b> PEC07</a>
+<ul>
+<li class="chapter" data-level="7.1" data-path="pec07.html"><a href="pec07.html#cuándo-utilizar-dentro-de-funcionesacciones"><i class="fa fa-check"></i><b>7.1</b> Cuándo utilizar &amp; dentro de funciones/acciones</a></li>
+<li class="chapter" data-level="7.2" data-path="pec07.html"><a href="pec07.html#ejemplo-cómo-modular-un-programa-con-codelite"><i class="fa fa-check"></i><b>7.2</b> Ejemplo: cómo modular un programa con CodeLite</a>
+<ul>
+<li class="chapter" data-level="7.2.1" data-path="pec07.html"><a href="pec07.html#funcionamiento-por-defecto-de-un-proyecto-a-codelite"><i class="fa fa-check"></i><b>7.2.1</b> Funcionamiento por defecto de un proyecto a CodeLite:</a></li>
+<li class="chapter" data-level="7.2.2" data-path="pec07.html"><a href="pec07.html#ejecutable-dentro-de-bin."><i class="fa fa-check"></i><b>7.2.2</b> Ejecutable dentro de /bin.</a></li>
+<li class="chapter" data-level="7.2.3" data-path="pec07.html"><a href="pec07.html#modularización-del-programa-en-un-archivo-de-cabeceras-y-uno-de-funciones."><i class="fa fa-check"></i><b>7.2.3</b> Modularización del programa en un archivo de cabeceras y uno de funciones.</a></li>
+</ul></li>
+<li class="chapter" data-level="7.3" data-path="pec07.html"><a href="pec07.html#tipo-de-parámetros-en-acciones-y-funciones"><i class="fa fa-check"></i><b>7.3</b> Tipo de parámetros en acciones y funciones</a></li>
+<li class="chapter" data-level="7.4" data-path="pec07.html"><a href="pec07.html#scanf-acción-o-función"><i class="fa fa-check"></i><b>7.4</b> scanf(): acción o función?</a></li>
+<li class="chapter" data-level="7.5" data-path="pec07.html"><a href="pec07.html#paso-por-valor-vs-paso-por-referencia"><i class="fa fa-check"></i><b>7.5</b> Paso por valor vs paso por referencia</a></li>
+<li class="chapter" data-level="7.6" data-path="pec07.html"><a href="pec07.html#ejemplo-invertirpalabra"><i class="fa fa-check"></i><b>7.6</b> Ejemplo: invertirPalabra</a></li>
+<li class="chapter" data-level="7.7" data-path="pec07.html"><a href="pec07.html#ejemplo-ispar"><i class="fa fa-check"></i><b>7.7</b> Ejemplo: isPar</a></li>
+<li class="chapter" data-level="7.8" data-path="pec07.html"><a href="pec07.html#ejemplo-pivotedefensivatiroslibres"><i class="fa fa-check"></i><b>7.8</b> Ejemplo: pivoteDefensivaTirosLibres</a></li>
+</ul></li>
+<li class="chapter" data-level="8" data-path="pec08.html"><a href="pec08.html"><i class="fa fa-check"></i><b>8</b> PEC08</a>
+<ul>
+<li class="chapter" data-level="8.1" data-path="pec08.html"><a href="pec08.html#cómo-inicializar-una-tabla"><i class="fa fa-check"></i><b>8.1</b> Cómo inicializar una tabla</a></li>
+<li class="chapter" data-level="8.2" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota"><i class="fa fa-check"></i><b>8.2</b> Ejemplo: calcularNota</a></li>
+<li class="chapter" data-level="8.3" data-path="pec08.html"><a href="pec08.html#ejemplo-calcularnota-con-introducción-iterativa"><i class="fa fa-check"></i><b>8.3</b> Ejemplo: calcularNota con introducción iterativa</a></li>
+<li class="chapter" data-level="8.4" data-path="pec08.html"><a href="pec08.html#ejemplo-recorrido-vs-búsqueda"><i class="fa fa-check"></i><b>8.4</b> Ejemplo: recorrido vs búsqueda</a></li>
+</ul></li>
+<li class="chapter" data-level="9" data-path="pec09.html"><a href="pec09.html"><i class="fa fa-check"></i><b>9</b> PEC09</a>
+<ul>
+<li class="chapter" data-level="9.1" data-path="pec09.html"><a href="pec09.html#ejemplo-listacartas"><i class="fa fa-check"></i><b>9.1</b> Ejemplo: listaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="10" data-path="pec10.html"><a href="pec10.html"><i class="fa fa-check"></i><b>10</b> PEC10</a></li>
+<li class="chapter" data-level="11" data-path="pr1.html"><a href="pr1.html"><i class="fa fa-check"></i><b>11</b> PR1</a>
+<ul>
+<li class="chapter" data-level="11.1" data-path="pr1.html"><a href="pr1.html#modo-menu-vs-modo-test"><i class="fa fa-check"></i><b>11.1</b> Modo menu vs modo test</a></li>
+<li class="chapter" data-level="11.2" data-path="pr1.html"><a href="pr1.html#ejemplo-tupla-dentro-de-tupla"><i class="fa fa-check"></i><b>11.2</b> Ejemplo: tupla dentro de tupla</a></li>
+<li class="chapter" data-level="11.3" data-path="pr1.html"><a href="pr1.html#desplazamiento-de-elementos-en-un-vector"><i class="fa fa-check"></i><b>11.3</b> Desplazamiento de elementos en un vector</a>
+<ul>
+<li class="chapter" data-level="11.3.1" data-path="pr1.html"><a href="pr1.html#añadir-un-elemento"><i class="fa fa-check"></i><b>11.3.1</b> Añadir un elemento</a></li>
+<li class="chapter" data-level="11.3.2" data-path="pr1.html"><a href="pr1.html#borrar-un-elemento"><i class="fa fa-check"></i><b>11.3.2</b> Borrar un elemento</a></li>
+<li class="chapter" data-level="11.3.3" data-path="pr1.html"><a href="pr1.html#ejemplo-diassemana"><i class="fa fa-check"></i><b>11.3.3</b> Ejemplo: diasSemana</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="12" data-path="pr2.html"><a href="pr2.html"><i class="fa fa-check"></i><b>12</b> PR2</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="pr2.html"><a href="pr2.html#ejemplo-pilacartas"><i class="fa fa-check"></i><b>12.1</b> Ejemplo: pilaCartas</a></li>
+</ul></li>
+<li class="chapter" data-level="13" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html"><i class="fa fa-check"></i><b>13</b> VMWare y CodeLite</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#por-qué-una-máquina-virtual"><i class="fa fa-check"></i><b>13.1</b> ¿Por qué una máquina virtual?</a></li>
+<li class="chapter" data-level="13.2" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#virtualbox-y-requerimientos-de-virtualización"><i class="fa fa-check"></i><b>13.2</b> VirtualBox y requerimientos de virtualización</a></li>
+<li class="chapter" data-level="13.3" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-instalar-las-guest-additions"><i class="fa fa-check"></i><b>13.3</b> Cómo instalar las Guest Additions</a></li>
+<li class="chapter" data-level="13.4" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#primeros-pasos-con-codelite"><i class="fa fa-check"></i><b>13.4</b> Primeros pasos con CodeLite</a></li>
+<li class="chapter" data-level="13.5" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-activar-un-proyecto"><i class="fa fa-check"></i><b>13.5</b> Cómo activar un proyecto</a></li>
+<li class="chapter" data-level="13.6" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cambiar-idioma-del-teclado"><i class="fa fa-check"></i><b>13.6</b> Cambiar idioma del teclado</a></li>
+<li class="chapter" data-level="13.7" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#programa-por-defecto-al-crear-un-proyecto"><i class="fa fa-check"></i><b>13.7</b> Programa por defecto al crear un proyecto</a></li>
+<li class="chapter" data-level="13.8" data-path="vmware-y-codelite.html"><a href="vmware-y-codelite.html#cómo-fijar-el-kernel-de-inicio-con-lubuntu"><i class="fa fa-check"></i><b>13.8</b> Cómo fijar el kernel de inicio con Lubuntu</a></li>
+</ul></li>
+<li class="chapter" data-level="14" data-path="otros.html"><a href="otros.html"><i class="fa fa-check"></i><b>14</b> Otros</a>
+<ul>
+<li class="chapter" data-level="14.1" data-path="otros.html"><a href="otros.html#bibliografía"><i class="fa fa-check"></i><b>14.1</b> Bibliografía</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://www.uoc.edu" target="blank">www.uoc.edu</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">FAQ Laboratorio de Fundamentos de Programación</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="otros" class="section level1" number="14">
+<h1 number="14"><span class="header-section-number">14</span> Otros</h1>
+<div id="bibliografía" class="section level2" number="14.1">
+<h2 number="14.1"><span class="header-section-number">14.1</span> Bibliografía</h2>
+<p>Recursos gratuitos:</p>
+<ul>
+<li><em>C Notes for Professionals book</em>: <a href="https://books.goalkicker.com/CBook/" class="uri">https://books.goalkicker.com/CBook/</a></li>
+<li><em>C Programming</em>: <a href="https://en.wikibooks.org/wiki/C_Programming" class="uri">https://en.wikibooks.org/wiki/C_Programming</a></li>
+<li><em>C Programming Boot Camp</em>: <a href="https://www.gribblelab.org/CBootCamp/" class="uri">https://www.gribblelab.org/CBootCamp/</a></li>
+<li><em>The C Book</em>: <a href="https://publications.gbdirect.co.uk//c_book/" class="uri">https://publications.gbdirect.co.uk//c_book/</a></li>
+<li><em>Programming in C</em>: <a href="http://ee.hawaii.edu/~tep/EE160/Book/PDF/Book.html" class="uri">http://ee.hawaii.edu/~tep/EE160/Book/PDF/Book.html</a></li>
+<li><em>The ANSI C Programming Language</em>: <a href="https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf" class="uri">https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf</a></li>
+</ul>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>PAC: Prueba de Evaluación Continua<a href="pec02.html#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>PR: Práctica<a href="pec02.html#fnref2" class="footnote-back">↩︎</a></p></li>
+<li id="fn3"><p>PS: Prueba de Síntesis<a href="pec02.html#fnref3" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="vmware-y-codelite.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"google": false,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "google", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/14-Otros.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"download": ["FAQ_Laboratorio_FP.pdf", "FAQ_Laboratorio_FP.epub"],
+"toc": {
+"collapse": "section",
+"toc": true,
+"toc_float": true,
+"scroll_highlight": true
+}
+});
+});
+</script>
+
+</body>
+
+</html>
